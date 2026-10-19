@@ -1,0 +1,14 @@
+{
+  "name": "dga-skills-example-motion-story",
+  "private": true,
+  "type": "module",
+  "description": "Creative showcase: scroll storytelling (GSAP + ScrollTrigger) with optional Three.js hero, DGA chrome, RTL/LTR, reduced motion. Dependencies are project-local.",
+  "scripts": { "dev": "vite --host 127.0.0.1 --port 5188 --strictPort", "build": "vite build", "preview": "vite preview --host 127.0.0.1 --port 5188 --strictPort" },
+  "dependencies": {
+    "react": "18.3.1", "react-dom": "18.3.1",
+    "platformscode-new-react": "0.1.45",
+    "gsap": "3.13.0",
+    "three": "0.170.0"
+  },
+  "devDependencies": { "vite": "5.4.21", "@vitejs/plugin-react": "4.3.4", "@playwright/test": "1.64.1", "@axe-core/playwright": "4.10.1" }
+}

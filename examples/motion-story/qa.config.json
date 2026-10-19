@@ -1,0 +1,145 @@
+{
+ "baseURL": "http://127.0.0.1:5188",
+ "skillDir": "../../dga-skills",
+ "out": "qa-reports/motion-story",
+ "readySelector": "dga-nav-header",
+ "settleMs": 1500,
+ "tabStops": 30,
+ "viewports": [
+  1440,
+  1024,
+  768,
+  390
+ ],
+ "dirs": [
+  "rtl",
+  "ltr"
+ ],
+ "cssFiles": [
+  "src/story.css",
+  "src/dga-skills/patterns/patterns.css"
+ ],
+ "pages": [
+  {
+   "id": "story-creative",
+   "url": "/?lang={lang}&mode=dga-creative",
+   "mode": "dga-creative",
+   "template": "(showcase) concept A",
+   "patterns": [
+    "site-header",
+    "story",
+    "site-footer"
+   ],
+   "widgets": [
+    {
+     "id": "skip-story",
+     "type": "button",
+     "selector": ".ms-actions dga-button-v2",
+     "index": 1
+    }
+   ]
+  },
+  {
+   "id": "story-creative-3d",
+   "url": "/?lang={lang}&mode=dga-creative&3d=1",
+   "mode": "dga-creative",
+   "template": "(showcase) concept A + optional 3D",
+   "patterns": [
+    "site-header",
+    "story",
+    "three-hero",
+    "site-footer"
+   ]
+  },
+  {
+   "id": "story-exact",
+   "url": "/?lang={lang}&mode=dga-exact",
+   "mode": "dga-exact",
+   "template": "(showcase) same content, Exact",
+   "patterns": [
+    "site-header",
+    "story",
+    "site-footer"
+   ]
+  }
+ ],
+ "bundle": {
+  "dist": "dist",
+  "budgets": {
+   "jsKB": 350,
+   "cssKB": 60,
+   "totalKB": 600
+  },
+  "note": "three.js is a lazy chunk (only ?3d=1); the main JS includes the vendor floor PKG-BUNDLE-01"
+ },
+ "packageDefects": [
+  {
+   "id": "PKG-FOOTER-02",
+   "match": "dga-footer"
+  },
+  {
+   "id": "PKG-SEARCH-01",
+   "match": "button-name.*dga-search-box"
+  },
+  {
+   "id": "PKG-NAV-01",
+   "match": "^(list|listitem) .*(dga-nav-header-menu|dga-nav-header-link|header-nav__menu)"
+  },
+  {
+   "id": "PKG-ICON-04",
+   "match": "role-img-alt .*dga-icon"
+  },
+  {
+   "id": "PKG-DIGSIG-01",
+   "match": "color-contrast .*digital_link"
+  },
+  {
+   "id": "PKG-BTN-02",
+   "match": "Pressed|button-background-primary-pressed"
+  },
+  {
+   "id": "PKG-BTN-05",
+   "match": "oncolor.*Focused|border-white"
+  },
+  {
+   "id": "PKG-BTN-04",
+   "match": "outline.*border-neutral-primary"
+  },
+  {
+   "id": "PKG-TEXTAREA-01",
+   "match": "^label .*textarea"
+  },
+  {
+   "id": "PKG-ALERT-01",
+   "match": "button-name .*dga-btn--close"
+  },
+  {
+   "id": "PKG-RADIO-01",
+   "match": "dga-radio"
+  },
+  {
+   "id": "PKG-ACCORDION-01",
+   "match": "accordion-lg"
+  },
+  {
+   "id": "PKG-ACCORDION-02",
+   "match": "dga-accordion-item__body"
+  },
+  {
+   "id": "PKG-DD-03",
+   "match": "dropdown.*ArrowDown"
+  },
+  {
+   "id": "PKG-DD-04",
+   "match": "dropdown.*Escape"
+  },
+  {
+   "id": "PKG-FOOTER-02",
+   "match": "zoom|dga-footer"
+  },
+  {
+   "id": "PKG-BUNDLE-01",
+   "match": "bundle .*assets/index-.*\\.js"
+  }
+ ]
+}

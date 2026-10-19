@@ -1,0 +1,5388 @@
+{
+ "package": "@platformscode/core",
+ "version": "0.0.52",
+ "license": "MIT",
+ "dependencies": {
+  "apexcharts": "^4.2.0",
+  "@platformscode/icons": "0.0.11"
+ },
+ "extractedFrom": "dist/types/components.d.ts",
+ "componentCount": 123,
+ "tags": [
+  "dga-accordion",
+  "dga-action-menu",
+  "dga-actions",
+  "dga-apex-chart",
+  "dga-avatar",
+  "dga-avatar-group",
+  "dga-breadcrumbs",
+  "dga-button",
+  "dga-button-leading-icon",
+  "dga-button-v2",
+  "dga-card",
+  "dga-card-actions",
+  "dga-card-content",
+  "dga-card-expandable-content",
+  "dga-card-image",
+  "dga-card-title",
+  "dga-card-v2",
+  "dga-carousel",
+  "dga-carousel-item",
+  "dga-carousel-v2",
+  "dga-chart",
+  "dga-checkbox",
+  "dga-chip",
+  "dga-circle-skeleton",
+  "dga-circular-progress-bar",
+  "dga-codesnippet",
+  "dga-collapse",
+  "dga-content-switcher",
+  "dga-content-switcher-item",
+  "dga-content-switcher-panel",
+  "dga-data-table",
+  "dga-date-cell",
+  "dga-date-field",
+  "dga-datepicker",
+  "dga-digital-signature",
+  "dga-divider",
+  "dga-drawer",
+  "dga-dropdown",
+  "dga-featured-icon",
+  "dga-feedback-icon",
+  "dga-file-upload",
+  "dga-filteration",
+  "dga-flex",
+  "dga-footer",
+  "dga-grid-container",
+  "dga-grid-item",
+  "dga-header",
+  "dga-header-action-btn",
+  "dga-header-menu",
+  "dga-header-mobile-actions",
+  "dga-helper-text",
+  "dga-icon",
+  "dga-inline-alert",
+  "dga-label",
+  "dga-line-skeleton",
+  "dga-linear-progress-bar",
+  "dga-link",
+  "dga-list",
+  "dga-list-item",
+  "dga-list-v2",
+  "dga-loading",
+  "dga-menu",
+  "dga-menu-group",
+  "dga-menu-item",
+  "dga-menu-list",
+  "dga-menu-v2",
+  "dga-metric",
+  "dga-metric-chart",
+  "dga-metric-chart-v2",
+  "dga-metric-v2",
+  "dga-modal",
+  "dga-modal-actions",
+  "dga-modal-body",
+  "dga-modal-header",
+  "dga-modal-title",
+  "dga-modal-v2",
+  "dga-nav-header",
+  "dga-nav-header-actions",
+  "dga-nav-header-link",
+  "dga-nav-header-logos",
+  "dga-nav-header-main",
+  "dga-nav-header-menu",
+  "dga-nav-header-sub-menu",
+  "dga-nav-header-sub-menu-column",
+  "dga-nav-header-sub-menu-link",
+  "dga-notification",
+  "dga-notification-toast",
+  "dga-number-input",
+  "dga-pagination",
+  "dga-prefix",
+  "dga-progress-indicator",
+  "dga-progress-indicator-step",
+  "dga-progress-indicator-step-v3",
+  "dga-progress-indicator-v3",
+  "dga-quote",
+  "dga-radial-stepper",
+  "dga-radio-button",
+  "dga-rating",
+  "dga-rectangle-skeleton",
+  "dga-search-box",
+  "dga-second-nav-header",
+  "dga-second-nav-header-actions",
+  "dga-second-nav-header-content",
+  "dga-second-nav-header-item",
+  "dga-skeleton-component",
+  "dga-slideout-menu",
+  "dga-slideout-menu-actions",
+  "dga-slideout-menu-header",
+  "dga-slideout-menu-items",
+  "dga-slider",
+  "dga-square-skeleton",
+  "dga-status-tag",
+  "dga-structured-list",
+  "dga-suffix",
+  "dga-switch",
+  "dga-table",
+  "dga-table-body",
+  "dga-table-of-content",
+  "dga-tabs",
+  "dga-tag",
+  "dga-text-input",
+  "dga-textarea",
+  "dga-tooltip"
+ ],
+ "notes": [
+  "React wrapper props = these props + events with React names (e.g. onOnClick) via @stencil/react-output-target",
+  "Text is passed through props such as label; components without <slot> ignore children"
+ ],
+ "components": {
+  "DgaAccordion": {
+   "tag": "dga-accordion",
+   "props": {
+    "content": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "defaultExpanded": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "flush": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "iconAlignment": {
+     "type": "'leading' | 'trailing'",
+     "default": "'leading'",
+     "optional": false
+    },
+    "size": {
+     "type": "'lg' | 'md' | 'sm'",
+     "default": "'lg'",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps | string",
+     "default": null,
+     "optional": true
+    },
+    "title": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaActionMenu": {
+   "tag": "dga-action-menu",
+   "props": {
+    "onClose": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": false
+    },
+    "open": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "placement": {
+     "type": "| 'bottom-end' | 'bottom-start' | 'bottom' | 'left-end' | 'left-start' | 'left' | 'right-end' | 'right-start' | 'right' | 'top-end' | 'top-start' | 'top'",
+     "default": "'right'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaActions": {
+   "tag": "dga-actions",
+   "props": {
+    "align": {
+     "type": "'start' | 'center' | 'end' | 'stretch'",
+     "default": "'start'",
+     "optional": false
+    },
+    "direction": {
+     "type": "'row' | 'column'",
+     "default": "'row'",
+     "optional": false
+    },
+    "gap": {
+     "type": "string",
+     "default": "'8px'",
+     "optional": false
+    },
+    "justify": {
+     "type": "'start' | 'center' | 'end' | 'between'",
+     "default": "'start'",
+     "optional": false
+    },
+    "wrap": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaApexChart": {
+   "tag": "dga-apex-chart",
+   "props": {
+    "height": {
+     "type": "ApexChartHeight",
+     "default": null,
+     "optional": true
+    },
+    "options": {
+     "type": "ApexOptions",
+     "default": null,
+     "optional": true
+    },
+    "series": {
+     "type": "ApexOptionsSeries",
+     "default": null,
+     "optional": true
+    },
+    "type": {
+     "type": "ApexChartType",
+     "default": null,
+     "optional": true
+    },
+    "updateOptions": {
+     "type": "(newOptions: ApexOptions, redrawPaths?: boolean, animate?: boolean) => Promise<void>",
+     "default": null,
+     "optional": false
+    },
+    "width": {
+     "type": "ApexChartWidth",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaAvatar": {
+   "tag": "dga-avatar",
+   "props": {
+    "alt": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "border": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "icon": {
+     "type": "Icon",
+     "default": null,
+     "optional": true
+    },
+    "imgUrl": {
+     "type": "string",
+     "default": "'/assets/avatar-img.png'",
+     "optional": true
+    },
+    "size": {
+     "type": "AvatarSize",
+     "default": "32",
+     "optional": true
+    },
+    "square": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "sx": {
+     "type": "SxProps | string",
+     "default": null,
+     "optional": true
+    },
+    "text": {
+     "type": "string",
+     "default": "'AB'",
+     "optional": true
+    },
+    "type": {
+     "type": "AvatarType",
+     "default": "'icon'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaAvatarGroup": {
+   "tag": "dga-avatar-group",
+   "props": {
+    "border": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "max": {
+     "type": "number",
+     "default": null,
+     "optional": true
+    },
+    "size": {
+     "type": "AvatarSize1",
+     "default": "32",
+     "optional": true
+    },
+    "square": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "stacked": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "sx": {
+     "type": "SxProps1 | string",
+     "default": null,
+     "optional": true
+    },
+    "total": {
+     "type": "number",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaBreadcrumbs": {
+   "tag": "dga-breadcrumbs",
+   "props": {
+    "items": {
+     "type": "IBreadcrumbsItem[]",
+     "default": "[]",
+     "optional": false
+    },
+    "max": {
+     "type": "number",
+     "default": "5",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps | string",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {
+    "onBreadcrumbClick": "(event: DgaBreadcrumbsCustomEvent<any>) => void"
+   }
+  },
+  "DgaButton": {
+   "tag": "dga-button",
+   "props": {
+    "btnId": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "disabled": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "iconOnly": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "iconProps": {
+     "type": "{ [key: string]: any }",
+     "default": null,
+     "optional": true
+    },
+    "iconType": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "leadIcon": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "leadIconProps": {
+     "type": "{ [key: string]: any }",
+     "default": null,
+     "optional": true
+    },
+    "leadIconType": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "onColor": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "size": {
+     "type": "ButtonSize",
+     "default": "'md'",
+     "optional": true
+    },
+    "sx": {
+     "type": "SxProps2 | string",
+     "default": null,
+     "optional": true
+    },
+    "trailIcon": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "trailIconProps": {
+     "type": "{ [key: string]: any }",
+     "default": null,
+     "optional": true
+    },
+    "trailIconType": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "type": {
+     "type": "'button' | 'submit' | 'reset'",
+     "default": "'button'",
+     "optional": true
+    },
+    "variant": {
+     "type": "ButtonStyle",
+     "default": "'primary-neutral'",
+     "optional": true
+    }
+   },
+   "events": {
+    "onOnClick": "(event: DgaButtonCustomEvent<MouseEvent>) => void"
+   }
+  },
+  "DgaButtonLeadingIcon": {
+   "tag": "dga-button-leading-icon",
+   "props": {
+    "color": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "name": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "size": {
+     "type": "number",
+     "default": null,
+     "optional": true
+    },
+    "type": {
+     "type": "'rounded' | 'sharp' | 'standard'",
+     "default": "'rounded'",
+     "optional": true
+    },
+    "variant": {
+     "type": "'stroke' | 'solid' | 'duotone' | 'twotone' | 'bulk'",
+     "default": "'bulk'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaButtonV2": {
+   "tag": "dga-button-v2",
+   "props": {
+    "btnId": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "destructive": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "disabled": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "iconOnly": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "leadIcon": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "leadIconProps": {
+     "type": "Icon1",
+     "default": null,
+     "optional": true
+    },
+    "onColor": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "size": {
+     "type": "ButtonSize1",
+     "default": "'md'",
+     "optional": true
+    },
+    "trailIcon": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "trailIconProps": {
+     "type": "Icon1",
+     "default": null,
+     "optional": true
+    },
+    "type": {
+     "type": "'button' | 'submit' | 'reset'",
+     "default": "'button'",
+     "optional": true
+    },
+    "variant": {
+     "type": "ButtonStyle1",
+     "default": "'primary'",
+     "optional": true
+    }
+   },
+   "events": {
+    "onOnClick": "(event: DgaButtonV2CustomEvent<MouseEvent>) => void"
+   }
+  },
+  "DgaCard": {
+   "tag": "dga-card",
+   "props": {
+    "cardTitle": {
+     "type": "string",
+     "default": "'Card Title'",
+     "optional": true
+    },
+    "description": {
+     "type": "string",
+     "default": "'Card content placeholder text goes here'",
+     "optional": true
+    },
+    "disablePrimaryAction": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "disableSecondaryAction": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "effect": {
+     "type": "'with-shadow' | 'no-shadow' | 'stroke'",
+     "default": "'with-shadow'",
+     "optional": true
+    },
+    "featuredIcon": {
+     "type": "Icon2",
+     "default": "{     name: 'checkmark-circle-02',     variant: 'stroke',     type: 'sharp',     size: 24,   }",
+     "optional": true
+    },
+    "image": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "isSelected": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "onCheckboxChange": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onExpandAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onPrimaryAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onSecondaryAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "primaryActionLabel": {
+     "type": "string",
+     "default": "'Primary Action'",
+     "optional": true
+    },
+    "secondaryActionLabel": {
+     "type": "string",
+     "default": "'Secondary Action'",
+     "optional": true
+    },
+    "showDescription": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showFeaturedIcon": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showPrimaryAction": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showSecondaryAction": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showTitle": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "sx": {
+     "type": "SxProps2 | string",
+     "default": null,
+     "optional": true
+    },
+    "type": {
+     "type": "'default' | 'expanded' | 'selectable'",
+     "default": "'default'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaCardActions": {
+   "tag": "dga-card-actions",
+   "props": {
+    "cardTitle": {
+     "type": "string",
+     "default": "'Card Title'",
+     "optional": true
+    },
+    "description": {
+     "type": "string",
+     "default": "'Card content placeholder text goes here'",
+     "optional": true
+    },
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "effect": {
+     "type": "'with-shadow' | 'no-shadow' | 'stroke'",
+     "default": "'with-shadow'",
+     "optional": true
+    },
+    "featuredIcon": {
+     "type": "Icon2",
+     "default": "{     name: 'checkmark-circle-02',     variant: 'stroke',     type: 'sharp',     size: 24   }",
+     "optional": true
+    },
+    "image": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "isSelected": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "onCheckboxChange": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onExpandAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onPrimaryAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onSecondaryAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "primaryActionLabel": {
+     "type": "string",
+     "default": "'Primary Action'",
+     "optional": true
+    },
+    "secondaryActionLabel": {
+     "type": "string",
+     "default": "'Secondary Action'",
+     "optional": true
+    },
+    "showDescription": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showFeaturedIcon": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showPrimaryAction": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showRating": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "showSecondaryAction": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showTitle": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "type": {
+     "type": "'default' | 'expanded' | 'selectable'",
+     "default": "'default'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaCardContent": {
+   "tag": "dga-card-content",
+   "props": {},
+   "events": {}
+  },
+  "DgaCardExpandableContent": {
+   "tag": "dga-card-expandable-content",
+   "props": {},
+   "events": {}
+  },
+  "DgaCardImage": {
+   "tag": "dga-card-image",
+   "props": {
+    "alt": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "featuredIcon": {
+     "type": "Icon2",
+     "default": "{     name: 'checkmark-circle-02',     variant: 'stroke',     type: 'sharp',     size: 24   }",
+     "optional": true
+    },
+    "isSelected": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "onCheckboxChange": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onExpandAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onPrimaryAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onSecondaryAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "primaryActionLabel": {
+     "type": "string",
+     "default": "'Primary Action'",
+     "optional": true
+    },
+    "secondaryActionLabel": {
+     "type": "string",
+     "default": "'Secondary Action'",
+     "optional": true
+    },
+    "showDescription": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showFeaturedIcon": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showPrimaryAction": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showSecondaryAction": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showTitle": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "src": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "type": {
+     "type": "'default' | 'expanded' | 'selectable'",
+     "default": "'default'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaCardTitle": {
+   "tag": "dga-card-title",
+   "props": {
+    "cardTitle": {
+     "type": "string",
+     "default": "'Card Title'",
+     "optional": true
+    },
+    "description": {
+     "type": "string",
+     "default": "'Card content placeholder text goes here'",
+     "optional": true
+    },
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "effect": {
+     "type": "'with-shadow' | 'no-shadow' | 'stroke'",
+     "default": "'with-shadow'",
+     "optional": true
+    },
+    "featuredIcon": {
+     "type": "Icon2",
+     "default": "{     name: 'checkmark-circle-02',     variant: 'stroke',     type: 'sharp',     size: 24   }",
+     "optional": true
+    },
+    "image": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "isSelected": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "onCheckboxChange": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onExpandAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onPrimaryAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onSecondaryAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "primaryActionLabel": {
+     "type": "string",
+     "default": "'Primary Action'",
+     "optional": true
+    },
+    "secondaryActionLabel": {
+     "type": "string",
+     "default": "'Secondary Action'",
+     "optional": true
+    },
+    "showDescription": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showFeaturedIcon": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showPrimaryAction": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showRating": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "showSecondaryAction": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showTitle": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "type": {
+     "type": "'default' | 'expanded' | 'selectable'",
+     "default": "'default'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaCardV2": {
+   "tag": "dga-card-v2",
+   "props": {
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "effect": {
+     "type": "'with-shadow' | 'no-shadow' | 'stroke'",
+     "default": "'with-shadow'",
+     "optional": true
+    },
+    "isSelected": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "maxWidth": {
+     "type": "string",
+     "default": "'100%'",
+     "optional": true
+    },
+    "minWidth": {
+     "type": "string",
+     "default": "'fit-content'",
+     "optional": true
+    },
+    "onCheckboxChange": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "sx": {
+     "type": "SxProps2 | string",
+     "default": null,
+     "optional": true
+    },
+    "type": {
+     "type": "'default' | 'expanded' | 'selectable'",
+     "default": "'default'",
+     "optional": true
+    },
+    "width": {
+     "type": "string",
+     "default": "'360px'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaCarousel": {
+   "tag": "dga-carousel",
+   "props": {
+    "Dir": {
+     "type": "'rtl' | 'ltr'",
+     "default": "'ltr'",
+     "optional": false
+    },
+    "arrows": {
+     "type": "{ variant: 'primary' | 'subtle'; size: 'sm' | 'md' | 'lg'; }",
+     "default": "{     variant: 'primary',     size: 'lg',   }",
+     "optional": false
+    },
+    "arrowsVariant": {
+     "type": "'primary' | 'subtle'",
+     "default": "'primary'",
+     "optional": false
+    },
+    "showDots": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "size": {
+     "type": "'sm' | 'md' | 'lg'",
+     "default": "'lg'",
+     "optional": false
+    },
+    "steps": {
+     "type": "number",
+     "default": "1",
+     "optional": false
+    },
+    "transitionDuration": {
+     "type": "number",
+     "default": "600",
+     "optional": false
+    },
+    "variant": {
+     "type": "'arrows' | 'dots' | 'dots-only'",
+     "default": "'arrows'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaCarouselItem": {
+   "tag": "dga-carousel-item",
+   "props": {},
+   "events": {}
+  },
+  "DgaCarouselV2": {
+   "tag": "dga-carousel-v2",
+   "props": {
+    "Dir": {
+     "type": "'rtl' | 'ltr'",
+     "default": "'rtl'",
+     "optional": false
+    },
+    "arrows": {
+     "type": "{ variant: 'primary' | 'subtle'; size: 'sm' | 'md' | 'lg' }",
+     "default": "{     variant: 'primary',     size: 'lg'   }",
+     "optional": false
+    },
+    "arrowsVariant": {
+     "type": "'primary' | 'subtle'",
+     "default": "'primary'",
+     "optional": false
+    },
+    "showDots": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "size": {
+     "type": "'sm' | 'md' | 'lg'",
+     "default": "'lg'",
+     "optional": false
+    },
+    "steps": {
+     "type": "number",
+     "default": "1",
+     "optional": false
+    },
+    "transitionDuration": {
+     "type": "number",
+     "default": "600",
+     "optional": false
+    },
+    "variant": {
+     "type": "'arrows' | 'dots' | 'dots-only'",
+     "default": "'arrows'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaChart": {
+   "tag": "dga-chart",
+   "props": {
+    "colors": {
+     "type": "ApexOptions['colors']",
+     "default": null,
+     "optional": true
+    },
+    "height": {
+     "type": "ApexChartHeight1",
+     "default": null,
+     "optional": true
+    },
+    "labels": {
+     "type": "ApexOptionsLabels",
+     "default": null,
+     "optional": true
+    },
+    "options": {
+     "type": "ApexOptions",
+     "default": null,
+     "optional": true
+    },
+    "series": {
+     "type": "ApexOptionsSeries1",
+     "default": null,
+     "optional": true
+    },
+    "type": {
+     "type": "ApexChartType1",
+     "default": null,
+     "optional": true
+    },
+    "updateOptions": {
+     "type": "(newOptions: ApexOptions, redrawPaths?: boolean, animate?: boolean) => Promise<void>",
+     "default": null,
+     "optional": false
+    },
+    "width": {
+     "type": "ApexChartWidth1",
+     "default": null,
+     "optional": true
+    },
+    "xaxis": {
+     "type": "ApexOptions['xaxis']",
+     "default": null,
+     "optional": true
+    },
+    "yaxis": {
+     "type": "ApexOptions['yaxis']",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaCheckbox": {
+   "tag": "dga-checkbox",
+   "props": {
+    "Indeterminate": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "alertMessage": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "alertText": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "checked": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "color": {
+     "type": "'brand' | 'neutral'",
+     "default": "'brand'",
+     "optional": true
+    },
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "helperText": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "name": {
+     "type": "string",
+     "default": "guid()",
+     "optional": true
+    },
+    "onChange": {
+     "type": "(event?: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "onInput": {
+     "type": "(event?: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "showBorderOnFocusAndFocusOute": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "size": {
+     "type": "'lg' | 'md' | 'sm'",
+     "default": "'md'",
+     "optional": true
+    },
+    "value": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaChip": {
+   "tag": "dga-chip",
+   "props": {
+    "disabled": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "isSelected": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "leadIcon": {
+     "type": "any",
+     "default": null,
+     "optional": true
+    },
+    "leadIconProps": {
+     "type": "{ [key: string]: any }",
+     "default": null,
+     "optional": true
+    },
+    "onChange": {
+     "type": "(isSelected:boolean)=>void",
+     "default": "()=>{}",
+     "optional": true
+    },
+    "rounded": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "size": {
+     "type": "'lg' | 'md' | 'sm'",
+     "default": "'md'",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps | string",
+     "default": null,
+     "optional": true
+    },
+    "trailIcon": {
+     "type": "any",
+     "default": null,
+     "optional": true
+    },
+    "trailIconProps": {
+     "type": "{ [key: string]: any }",
+     "default": null,
+     "optional": true
+    },
+    "variant": {
+     "type": "'success' | 'neutral' | 'on-color'",
+     "default": "'success'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaCircleSkeleton": {
+   "tag": "dga-circle-skeleton",
+   "props": {
+    "type": {
+     "type": "'1' | '2'",
+     "default": "'1'",
+     "optional": false
+    },
+    "width": {
+     "type": "'24px' | '64px' | '48px' | '80px' | '120px' | '170px' | '240px'",
+     "default": "'80px'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaCircularProgressBar": {
+   "tag": "dga-circular-progress-bar",
+   "props": {
+    "RTL": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "percentage": {
+     "type": "number",
+     "default": "0",
+     "optional": true
+    },
+    "size": {
+     "type": "'200px' | '160px' | '120px' | '80px' | '64px'",
+     "default": "'64px'",
+     "optional": false
+    },
+    "text": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "variant": {
+     "type": "'primary' | 'neutral' | 'success' | 'error'",
+     "default": "'primary'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaCodesnippet": {
+   "tag": "dga-codesnippet",
+   "props": {
+    "showButton": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "showSidebar": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "showTabList": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "snippets": {
+     "type": "{ [key: string]: string }",
+     "default": "{}",
+     "optional": false
+    },
+    "type": {
+     "type": "'multi-line' | 'single'",
+     "default": "'multi-line'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaCollapse": {
+   "tag": "dga-collapse",
+   "props": {
+    "customStyle": {
+     "type": "{ [key: string]: string }",
+     "default": null,
+     "optional": true
+    },
+    "open": {
+     "type": "boolean",
+     "default": null,
+     "optional": false
+    },
+    "transitionDuration": {
+     "type": "string",
+     "default": "'0.3s'",
+     "optional": false
+    },
+    "transitionType": {
+     "type": "string",
+     "default": "'ease-in'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaContentSwitcher": {
+   "tag": "dga-content-switcher",
+   "props": {
+    "items": {
+     "type": "{ label: any; content: any; }[]",
+     "default": "[     {       label: 'Item 1',       content: 'Content 1',     },     {       label: 'Item 2',       content: 'Content 2',     },     {       label: 'Item 3',       content: 'Content 3',     },   ]",
+     "optional": false
+    },
+    "onChange": {
+     "type": "(value: number) => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onColor": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "size": {
+     "type": "'sm' | 'md' | 'lg'",
+     "default": "'md'",
+     "optional": false
+    },
+    "value": {
+     "type": "number",
+     "default": "0",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaContentSwitcherItem": {
+   "tag": "dga-content-switcher-item",
+   "props": {
+    "content": {
+     "type": "any",
+     "default": null,
+     "optional": false
+    },
+    "label": {
+     "type": "any",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaContentSwitcherPanel": {
+   "tag": "dga-content-switcher-panel",
+   "props": {
+    "index": {
+     "type": "number",
+     "default": null,
+     "optional": false
+    },
+    "value": {
+     "type": "number",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaDataTable": {
+   "tag": "dga-data-table",
+   "props": {
+    "alternate": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "cells": {
+     "type": "CellConfig[]",
+     "default": "[     {       propertyName: 'test',       isFilter: false,       isSort: false,       title: 'Test',       type: 'propertyName',       colSpan: 1,     },     {       propertyName: 'test',       isFilter: false,       isSort: false,       title: 'Test',       type: 'propertyName',       colSpan: 1,     },   ]",
+     "optional": false
+    },
+    "columns": {
+     "type": "IColumn[]",
+     "default": null,
+     "optional": false
+    },
+    "contained": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "data": {
+     "type": "any",
+     "default": "[     {       selected: true,     },     {       selected: true,     },   ]",
+     "optional": false
+    },
+    "getSelectedRows": {
+     "type": "any",
+     "default": null,
+     "optional": false
+    },
+    "pressOnFilter": {
+     "type": "any",
+     "default": null,
+     "optional": false
+    },
+    "rowDivider": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "showSelectCheckBox": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaDateCell": {
+   "tag": "dga-date-cell",
+   "props": {
+    "date": {
+     "type": "Date",
+     "default": null,
+     "optional": false
+    },
+    "isCurrentMonth": {
+     "type": "boolean",
+     "default": null,
+     "optional": false
+    },
+    "isFirstRangeChild": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "isLastRangeChild": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "isSelected": {
+     "type": "boolean",
+     "default": null,
+     "optional": false
+    },
+    "isToday": {
+     "type": "boolean",
+     "default": null,
+     "optional": false
+    },
+    "midRange": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "onSelect": {
+     "type": "(date: Date) => void",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaDateField": {
+   "tag": "dga-date-field",
+   "props": {
+    "datepickerOptions": {
+     "type": "DatepickerOptions",
+     "default": null,
+     "optional": false
+    },
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "error": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "fullwidth": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "helperText": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "icon": {
+     "type": "Icon2",
+     "default": null,
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "name": {
+     "type": "string",
+     "default": "guid()",
+     "optional": false
+    },
+    "onChange": {
+     "type": "(date: Date | null) => void",
+     "default": null,
+     "optional": true
+    },
+    "placeholder": {
+     "type": "string",
+     "default": "\"DD/MM/YYYY\"",
+     "optional": true
+    },
+    "readonly": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "required": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "size": {
+     "type": "'md' | 'lg'",
+     "default": "'lg'",
+     "optional": false
+    },
+    "value": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "variant": {
+     "type": "'default' | 'lighter' | 'darker'",
+     "default": "'default'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaDatepicker": {
+   "tag": "dga-datepicker",
+   "props": {
+    "RTL": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "dualMonthView": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "initialDate": {
+     "type": "Date",
+     "default": "new Date()",
+     "optional": true
+    },
+    "inputField": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "onCancel": {
+     "type": "(event?: any) => void",
+     "default": "() => { }",
+     "optional": false
+    },
+    "onSubmit": {
+     "type": "(event?: any) => void",
+     "default": "() => { }",
+     "optional": false
+    },
+    "qickOptions": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "range": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "submitButton": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "value": {
+     "type": "Date",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {
+    "onChange": "(event: DgaDatepickerCustomEvent<Date>) => void"
+   }
+  },
+  "DgaDigitalSignature": {
+   "tag": "dga-digital-signature",
+   "props": {
+    "extension": {
+     "type": "'.gov.sa' | '.edu.sa' | '.med.sa' | '.org.sa' | '.sch.sa' | '.sa'",
+     "default": "'.gov.sa'",
+     "optional": true
+    },
+    "language": {
+     "type": "'ar' | 'en'",
+     "default": "'en'",
+     "optional": true
+    },
+    "linkProps": {
+     "type": "{ variant: 'primary' | 'neutral' | 'on-color'; size: 'sm' | 'md' | 'lg'; label: string; url: string; inline?: boolean; icon?: boolean; iconType?: any; disabled?: boolean; external?: boolean; target?: '_blank' | '_self' | '_parent' | '_top'; }",
+     "default": "{     variant: 'primary',     size: 'md',     label: '20230103200',     url: '#',     target: '_self',     inline: true,   }",
+     "optional": true
+    },
+    "opened": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaDivider": {
+   "tag": "dga-divider",
+   "props": {
+    "color": {
+     "type": "'neutral' | 'alpha-white' | 'white' | 'primary'",
+     "default": "'neutral'",
+     "optional": false
+    },
+    "orientation": {
+     "type": "'horizontal' | 'vertical'",
+     "default": "'horizontal'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaDrawer": {
+   "tag": "dga-drawer",
+   "props": {
+    "anchor": {
+     "type": "'left'|'right'",
+     "default": "'left'",
+     "optional": true
+    },
+    "background": {
+     "type": "'gray' | 'brand'",
+     "default": "'brand'",
+     "optional": true
+    },
+    "border": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "headerLogo": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "open": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "overlay": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "routes": {
+     "type": "IRoute[]",
+     "default": null,
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps1 | string",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaDropdown": {
+   "tag": "dga-dropdown",
+   "props": {
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "error": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "extraClass": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "getSelectedOptions": {
+     "type": "(event: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "id": {
+     "type": "string",
+     "default": "guid()",
+     "optional": false
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "leadingIcon": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "multiSelect": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "onChange": {
+     "type": "(value: string | string[]) => void",
+     "default": null,
+     "optional": true
+    },
+    "optionLabel": {
+     "type": "string",
+     "default": "'name'",
+     "optional": false
+    },
+    "options": {
+     "type": "any[]",
+     "default": "[]",
+     "optional": false
+    },
+    "placeholder": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "readonly": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "size": {
+     "type": "'md' | 'lg'",
+     "default": "'lg'",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps | string",
+     "default": null,
+     "optional": true
+    },
+    "trackBy": {
+     "type": "string",
+     "default": "'value'",
+     "optional": false
+    },
+    "value": {
+     "type": "string | string[]",
+     "default": null,
+     "optional": true
+    },
+    "variant": {
+     "type": "'default' | 'lighter' | 'darker'",
+     "default": "'default'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaFeaturedIcon": {
+   "tag": "dga-featured-icon",
+   "props": {
+    "circle": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "color": {
+     "type": "'brand' | 'gray' | 'error' | 'warning' | 'success' | 'info'",
+     "default": "'brand'",
+     "optional": false
+    },
+    "icon": {
+     "type": "Icon3",
+     "default": null,
+     "optional": false
+    },
+    "size": {
+     "type": "'sm' | 'md' | 'lg' | 'xl'",
+     "default": "'md'",
+     "optional": false
+    },
+    "variant": {
+     "type": "'light' | 'dark' | 'outlined'",
+     "default": "'light'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaFeedbackIcon": {
+   "tag": "dga-feedback-icon",
+   "props": {
+    "size": {
+     "type": "24 | 16",
+     "default": "24",
+     "optional": false
+    },
+    "type": {
+     "type": "IconType",
+     "default": "'neutral-info'",
+     "optional": false
+    },
+    "variant": {
+     "type": "'container' | 'icon-only'",
+     "default": "'container'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaFileUpload": {
+   "tag": "dga-file-upload",
+   "props": {
+    "accept": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "actionName": {
+     "type": "string",
+     "default": "'Browse Files'",
+     "optional": false
+    },
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "emitDeleteFile": {
+     "type": "( file: { name: string; uploadStatus: 'pending' | 'uploading' | 'complete' | 'error'; progress?: number; // from 0 to 100, if uploading errorMessage?: string; }, index: number, ) => void",
+     "default": null,
+     "optional": true
+    },
+    "fileTypesText": {
+     "type": "string",
+     "default": "'Maximum file size allowed is 2MB, supported file formats include .jpg, .png, and .pdf.'",
+     "optional": false
+    },
+    "getUploadedFile": {
+     "type": "( files: { name: string; uploadStatus: 'pending' | 'uploading' | 'complete' | 'error'; progress?: number; // from 0 to 100, if uploading errorMessage?: string; }[], ) => void",
+     "default": null,
+     "optional": true
+    },
+    "id": {
+     "type": "string",
+     "default": "guid()",
+     "optional": false
+    },
+    "maximumFilesSize": {
+     "type": "number",
+     "default": null,
+     "optional": true
+    },
+    "multiple": {
+     "type": "boolean",
+     "default": null,
+     "optional": false
+    },
+    "name": {
+     "type": "string",
+     "default": "guid()",
+     "optional": false
+    },
+    "onChange": {
+     "type": "(event: Event) => void",
+     "default": null,
+     "optional": true
+    },
+    "title": {
+     "type": "string",
+     "default": "'Drag and drop files here to upload'",
+     "optional": false
+    },
+    "uploadFileOverSize": {
+     "type": "() => void",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaFilteration": {
+   "tag": "dga-filteration",
+   "props": {
+    "buttonLabel": {
+     "type": "string",
+     "default": "'Filter'",
+     "optional": false
+    },
+    "filterBlocks": {
+     "type": "FilterBlock[]",
+     "default": "[]",
+     "optional": false
+    },
+    "initvalue": {
+     "type": "{ [key in FilterBlock['type']]?: { blockId: string; options: Omit<FilterItem, 'count'>[] | { min: number; max: number }; }; }",
+     "default": null,
+     "optional": true
+    },
+    "maxBlockHeight": {
+     "type": "number",
+     "default": "200",
+     "optional": false
+    }
+   },
+   "events": {
+    "onOnFilterChange": "(event: DgaFilterationCustomEvent<{ blockId: string; items: FilterItem[] }[]>) => void"
+   }
+  },
+  "DgaFlex": {
+   "tag": "dga-flex",
+   "props": {
+    "align": {
+     "type": "'start' | 'center' | 'end' | 'stretch'",
+     "default": "'start'",
+     "optional": false
+    },
+    "direction": {
+     "type": "'row' | 'column'",
+     "default": "'row'",
+     "optional": false
+    },
+    "justify": {
+     "type": "'start' | 'center' | 'end' | 'between'",
+     "default": "'start'",
+     "optional": false
+    },
+    "spacing": {
+     "type": "number",
+     "default": "0",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps2 | string",
+     "default": null,
+     "optional": true
+    },
+    "wrap": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaFooter": {
+   "tag": "dga-footer",
+   "props": {
+    "NavLinks": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "accessibilityLinks": {
+     "type": "{ title?: string; target: string; icon: Icon2 }[]",
+     "default": "[]",
+     "optional": false
+    },
+    "accessibilityTitle": {
+     "type": "string",
+     "default": "'Accessibility Tools'",
+     "optional": false
+    },
+    "background": {
+     "type": "'DarkGreen' | 'Light'",
+     "default": null,
+     "optional": true
+    },
+    "basicLinks": {
+     "type": "{ name: string; target: string }[]",
+     "default": "[]",
+     "optional": false
+    },
+    "bottomImages": {
+     "type": "string[]",
+     "default": "[]",
+     "optional": false
+    },
+    "copyright": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "extraLinks": {
+     "type": "{ name: string; target: string }[]",
+     "default": "[]",
+     "optional": false
+    },
+    "groupLinks": {
+     "type": "{ title: string; links: { name: string; target: string }[] }[]",
+     "default": "[]",
+     "optional": false
+    },
+    "mainDescription": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "mainImage": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "mainLink": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "mainLinkTilte": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "mainTitle": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "socialMediaLinks": {
+     "type": "{ title?: string; target: string; icon: Icon2 }[]",
+     "default": "[]",
+     "optional": false
+    },
+    "socialMediaTitle": {
+     "type": "string",
+     "default": "'Social Media'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaGridContainer": {
+   "tag": "dga-grid-container",
+   "props": {
+    "columnGap": {
+     "type": "FlexibleGap",
+     "default": null,
+     "optional": false
+    },
+    "disableGutters": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "fluid": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "gap": {
+     "type": "FlexibleGap",
+     "default": null,
+     "optional": false
+    },
+    "rowGap": {
+     "type": "FlexibleGap",
+     "default": null,
+     "optional": false
+    },
+    "spacing": {
+     "type": "GridSpacing",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaGridItem": {
+   "tag": "dga-grid-item",
+   "props": {
+    "alignSelf": {
+     "type": "GridAlignment",
+     "default": null,
+     "optional": false
+    },
+    "grow": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "lg": {
+     "type": "GridSize",
+     "default": null,
+     "optional": false
+    },
+    "md": {
+     "type": "GridSize",
+     "default": null,
+     "optional": false
+    },
+    "order": {
+     "type": "number",
+     "default": null,
+     "optional": false
+    },
+    "orderLg": {
+     "type": "number",
+     "default": null,
+     "optional": false
+    },
+    "orderMd": {
+     "type": "number",
+     "default": null,
+     "optional": false
+    },
+    "orderSm": {
+     "type": "number",
+     "default": null,
+     "optional": false
+    },
+    "orderXl": {
+     "type": "number",
+     "default": null,
+     "optional": false
+    },
+    "orderXs": {
+     "type": "number",
+     "default": null,
+     "optional": false
+    },
+    "shrink": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "sm": {
+     "type": "GridSize",
+     "default": null,
+     "optional": false
+    },
+    "xl": {
+     "type": "GridSize",
+     "default": null,
+     "optional": false
+    },
+    "xs": {
+     "type": "GridSize",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaHeader": {
+   "tag": "dga-header",
+   "props": {
+    "config": {
+     "type": "IHeaderConfig",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaHeaderActionBtn": {
+   "tag": "dga-header-action-btn",
+   "props": {
+    "active": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "extraClasses": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "icon": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "onClick": {
+     "type": "() => void",
+     "default": null,
+     "optional": false
+    },
+    "subMenuBackground": {
+     "type": "'brand' | 'white'",
+     "default": "'white'",
+     "optional": false
+    },
+    "subMenuFullWidth": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaHeaderMenu": {
+   "tag": "dga-header-menu",
+   "props": {
+    "actions": {
+     "type": "Action[]",
+     "default": "[]",
+     "optional": true
+    },
+    "icon": {
+     "type": "string",
+     "default": "'more-horizontal-circle-01'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaHeaderMobileActions": {
+   "tag": "dga-header-mobile-actions",
+   "props": {
+    "actions": {
+     "type": "Action1[]",
+     "default": "[]",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaHelperText": {
+   "tag": "dga-helper-text",
+   "props": {
+    "error": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "helperText": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "helperTextIcon": {
+     "type": "Icon2",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaIcon": {
+   "tag": "dga-icon",
+   "props": {
+    "color": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "flipRtl": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "icon": {
+     "type": "any",
+     "default": null,
+     "optional": true
+    },
+    "lazy": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "name": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "sanitize": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "size": {
+     "type": "string | number",
+     "default": "24",
+     "optional": true
+    },
+    "src": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "type": {
+     "type": "'rounded' | 'sharp' | 'standard'",
+     "default": "\"rounded\"",
+     "optional": true
+    },
+    "variant": {
+     "type": "IconVariant",
+     "default": "\"stroke\"",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaInlineAlert": {
+   "tag": "dga-inline-alert",
+   "props": {
+    "buttonsList": {
+     "type": "{ id?: string; label: string; onClick: (event?: any) => void",
+     "default": "[]",
+     "optional": false
+    },
+    "exraClasses": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "title": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "colored": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "helperText": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "isCloseButton": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "isactionButtons": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "leadText": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "onClose": {
+     "type": "(event: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "type": {
+     "type": "'neutral' | 'info' | 'error' | 'success' | 'warning'",
+     "default": "'neutral'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaLabel": {
+   "tag": "dga-label",
+   "props": {
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "label": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "required": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "size": {
+     "type": "'md' | 'lg'",
+     "default": "'md'",
+     "optional": false
+    },
+    "variant": {
+     "type": "'default' | 'semibold'",
+     "default": "'default'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaLineSkeleton": {
+   "tag": "dga-line-skeleton",
+   "props": {
+    "size": {
+     "type": "'lg' | 'sm'",
+     "default": "'lg'",
+     "optional": false
+    },
+    "type": {
+     "type": "'1' | '2'",
+     "default": "'1'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaLinearProgressBar": {
+   "tag": "dga-linear-progress-bar",
+   "props": {
+    "RTL": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "error": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "helperText": {
+     "type": "string",
+     "default": "'Help Text'",
+     "optional": false
+    },
+    "label": {
+     "type": "string",
+     "default": "'label'",
+     "optional": false
+    },
+    "percentage": {
+     "type": "number",
+     "default": "0",
+     "optional": false
+    },
+    "progressStyle": {
+     "type": "'primary' | 'neutral' | 'error'",
+     "default": "'neutral'",
+     "optional": false
+    },
+    "showHelperText": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "showLabel": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "size": {
+     "type": "'small' | 'medium' | 'large'",
+     "default": "'small'",
+     "optional": false
+    },
+    "success": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaLink": {
+   "tag": "dga-link",
+   "props": {
+    "disabled": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "external": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "extraClass": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "icon": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "iconType": {
+     "type": "any",
+     "default": null,
+     "optional": true
+    },
+    "inline": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": "\"\"",
+     "optional": false
+    },
+    "preventScrollReset": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "size": {
+     "type": "'sm' | 'md' | 'lg'",
+     "default": "\"md\"",
+     "optional": false
+    },
+    "state": {
+     "type": "{}",
+     "default": "{}",
+     "optional": true
+    },
+    "target": {
+     "type": "'_blank' | '_self' | '_parent' | '_top'",
+     "default": "'_self'",
+     "optional": true
+    },
+    "url": {
+     "type": "string",
+     "default": "\"\"",
+     "optional": false
+    },
+    "variant": {
+     "type": "'primary' | 'neutral' | 'on-color'",
+     "default": "'primary'",
+     "optional": false
+    }
+   },
+   "events": {
+    "onNdsBlur": "(event: DgaLinkCustomEvent<void>) => void",
+    "onNdsClick": "(event: DgaLinkCustomEvent<MouseEvent>) => void",
+    "onNdsFocus": "(event: DgaLinkCustomEvent<void>) => void",
+    "onOnClick": "(event: DgaLinkCustomEvent<MouseEvent>) => void"
+   }
+  },
+  "DgaList": {
+   "tag": "dga-list",
+   "props": {
+    "color": {
+     "type": "'primary' | 'neutral' | 'on-color'",
+     "default": "'primary'",
+     "optional": false
+    },
+    "items": {
+     "type": "string[]",
+     "default": "[]",
+     "optional": false
+    },
+    "title": {
+     "type": "string",
+     "default": "\"\"",
+     "optional": false
+    },
+    "type": {
+     "type": "'ordered' | 'unordered' | 'with-icon'",
+     "default": "'unordered'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaListItem": {
+   "tag": "dga-list-item",
+   "props": {
+    "icon": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "itemLetter": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "itemNumber": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "itemText": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "level": {
+     "type": "ListItemProps['level']",
+     "default": null,
+     "optional": false
+    },
+    "type": {
+     "type": "ListItemProps['type']",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaListV2": {
+   "tag": "dga-list-v2",
+   "props": {
+    "color": {
+     "type": "'primary' | 'neutral' | 'on-color'",
+     "default": "'primary'",
+     "optional": false
+    },
+    "items": {
+     "type": "ListItem[]",
+     "default": "[]",
+     "optional": false
+    },
+    "title": {
+     "type": "string",
+     "default": "\"\"",
+     "optional": false
+    },
+    "type": {
+     "type": "'ordered' | 'unordered' | 'with-icon'",
+     "default": "'unordered'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaLoading": {
+   "tag": "dga-loading",
+   "props": {
+    "extraClass": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "size": {
+     "type": "LoadingSize",
+     "default": "'md'",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps2 | string",
+     "default": null,
+     "optional": true
+    },
+    "variant": {
+     "type": "LoadingStyle",
+     "default": "'neutral'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaMenu": {
+   "tag": "dga-menu",
+   "props": {
+    "anchorEl": {
+     "type": "HTMLElement | null",
+     "default": "null",
+     "optional": false
+    },
+    "onClose": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": false
+    },
+    "open": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaMenuGroup": {
+   "tag": "dga-menu-group",
+   "props": {
+    "groupLabel": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaMenuItem": {
+   "tag": "dga-menu-item",
+   "props": {
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "hasLeadIcon": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "hasTrailElement": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "selected": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    }
+   },
+   "events": {
+    "onOnClick": "(event: DgaMenuItemCustomEvent<MouseEvent>) => void"
+   }
+  },
+  "DgaMenuList": {
+   "tag": "dga-menu-list",
+   "props": {},
+   "events": {}
+  },
+  "DgaMenuV2": {
+   "tag": "dga-menu-v2",
+   "props": {
+    "anchorEl": {
+     "type": "HTMLElement | null",
+     "default": "null",
+     "optional": false
+    },
+    "anchorOrigin": {
+     "type": "{ vertical: 'top' | 'bottom'; horizontal: 'left' | 'right' }",
+     "default": "{     vertical: 'bottom',     horizontal: 'left',   }",
+     "optional": false
+    },
+    "onClose": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": false
+    },
+    "open": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "transformOrigin": {
+     "type": "{ vertical: number; horizontal: number }",
+     "default": "{ vertical: 0, horizontal: 0 }",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaMetric": {
+   "tag": "dga-metric",
+   "props": {
+    "Style": {
+     "type": "'small-chart' | 'large-chart'",
+     "default": "'small-chart'",
+     "optional": true
+    },
+    "changeProps": {
+     "type": "{ type: '01' | '02'; trend: 'positive' | 'negative'; }",
+     "default": "{     type: '01',     trend: 'positive',   }",
+     "optional": true
+    },
+    "chartProps": {
+     "type": "IChartProps",
+     "default": null,
+     "optional": true
+    },
+    "featuredIcon": {
+     "type": "HTMLElement | any",
+     "default": "(<dga-icon name=\"trade-up\" variant=\"stroke\" size={24} />)",
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "onExpandAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onPrimaryAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onSecondaryAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "percentage": {
+     "type": "string",
+     "default": "'0%'",
+     "optional": false
+    },
+    "showActions": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showChart": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showFeaturedIcon": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showInfo": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showMoreButton": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showSecondaryAction": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "trend": {
+     "type": "ITrend",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaMetricChart": {
+   "tag": "dga-metric-chart",
+   "props": {
+    "data": {
+     "type": "number[]",
+     "default": "[]",
+     "optional": false
+    },
+    "showMarker": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "size": {
+     "type": "'sm' | 'lg'",
+     "default": "'lg'",
+     "optional": true
+    },
+    "trend": {
+     "type": "'positive' | 'negative'",
+     "default": "'positive'",
+     "optional": false
+    },
+    "type": {
+     "type": "'realistic' | 'wavy' | 'straight' | 'layers'",
+     "default": "'realistic'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaMetricChartV2": {
+   "tag": "dga-metric-chart-v2",
+   "props": {
+    "data": {
+     "type": "DataPoint[]",
+     "default": "[]",
+     "optional": false
+    },
+    "fillColor": {
+     "type": "string",
+     "default": "'#079455'",
+     "optional": false
+    },
+    "height": {
+     "type": "number",
+     "default": "66",
+     "optional": false
+    },
+    "markerPosition": {
+     "type": "MarkerPosition",
+     "default": null,
+     "optional": true
+    },
+    "showMarker": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "strokeColor": {
+     "type": "string",
+     "default": "'#067647'",
+     "optional": false
+    },
+    "strokeWidth": {
+     "type": "number",
+     "default": "2",
+     "optional": false
+    },
+    "width": {
+     "type": "number",
+     "default": "130",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaMetricV2": {
+   "tag": "dga-metric-v2",
+   "props": {
+    "Style": {
+     "type": "'small-chart' | 'large-chart'",
+     "default": "'small-chart'",
+     "optional": true
+    },
+    "changeProps": {
+     "type": "{ type: '01' | '02'; trend: 'positive' | 'negative'; }",
+     "default": "{     type: '01',     trend: 'positive',   }",
+     "optional": true
+    },
+    "chartProps": {
+     "type": "IChartProps1",
+     "default": null,
+     "optional": true
+    },
+    "featuredIcon": {
+     "type": "HTMLElement | any",
+     "default": "(<dga-icon name=\"trade-up\" variant=\"stroke\" size={24} />)",
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "onExpandAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onPrimaryAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "onSecondaryAction": {
+     "type": "() => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "percentage": {
+     "type": "string",
+     "default": "'0%'",
+     "optional": false
+    },
+    "showActions": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showChart": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showFeaturedIcon": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showInfo": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showMoreButton": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showSecondaryAction": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "trend": {
+     "type": "ITrend1",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaModal": {
+   "tag": "dga-modal",
+   "props": {
+    "actionFillContainer": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "actionStack": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "alignmentCenter": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "buttonsList": {
+     "type": "Array<{ id?: string; label: string; onClick: (event?: any) => void; extraClass?: string; title?: string; }>",
+     "default": "[]",
+     "optional": true
+    },
+    "closeButton": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "featuredIconProps": {
+     "type": "{ size: 'sm' | 'md' | 'lg' | 'xl'; color: 'brand' | 'gray' | 'error' | 'warning' | 'success' | 'info'; variant: 'light' | 'dark' | 'outlined'; circle?: boolean; icon: Icon2; }",
+     "default": null,
+     "optional": true
+    },
+    "modalTitle": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "name": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "onClose": {
+     "type": "(event: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "open": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "position": {
+     "type": "'start' | 'end' | 'center'",
+     "default": "'center'",
+     "optional": true
+    },
+    "secondBtnPosition": {
+     "type": "'left' | 'right'",
+     "default": "'left'",
+     "optional": true
+    },
+    "staticModal": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaModalActions": {
+   "tag": "dga-modal-actions",
+   "props": {
+    "actionFillContainer": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "actionStack": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "alignmentCenter": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "buttonsList": {
+     "type": "Array<{ id?: string; label: string; onClick: (event?: any) => void; extraClass?: string; title?: string; }>",
+     "default": "[]",
+     "optional": true
+    },
+    "closeButton": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "featuredIconCircle": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "featuredIconColor": {
+     "type": "'brand' | 'gray' | 'error' | 'warning' | 'success' | 'info'",
+     "default": null,
+     "optional": true
+    },
+    "featuredIconSize": {
+     "type": "'xl' | 'lg' | 'md' | 'sm'",
+     "default": null,
+     "optional": true
+    },
+    "featuredIconStyle": {
+     "type": "\"light\" | \"outlined\" | \"dark\"",
+     "default": "'light'",
+     "optional": true
+    },
+    "featuredIconType": {
+     "type": "'InformationCircle' | 'AlertCircle'",
+     "default": "'InformationCircle'",
+     "optional": true
+    },
+    "modalTitle": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "name": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "onClose": {
+     "type": "(event: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "open": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "position": {
+     "type": "'start' | 'end' | 'center'",
+     "default": "'center'",
+     "optional": true
+    },
+    "secondBtnPosition": {
+     "type": "'left' | 'right'",
+     "default": "'left'",
+     "optional": true
+    },
+    "staticModal": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaModalBody": {
+   "tag": "dga-modal-body",
+   "props": {},
+   "events": {}
+  },
+  "DgaModalHeader": {
+   "tag": "dga-modal-header",
+   "props": {
+    "actionFillContainer": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "actionStack": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "alignmentCenter": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "buttonsList": {
+     "type": "Array<{ id?: string; label: string; onClick: (event?: any) => void; extraClass?: string; title?: string; }>",
+     "default": "[]",
+     "optional": true
+    },
+    "featuredIconCircle": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "featuredIconColor": {
+     "type": "'brand' | 'gray' | 'error' | 'warning' | 'success' | 'info'",
+     "default": null,
+     "optional": true
+    },
+    "featuredIconSize": {
+     "type": "'xl' | 'lg' | 'md' | 'sm'",
+     "default": null,
+     "optional": true
+    },
+    "featuredIconStyle": {
+     "type": "'light' | 'outlined' | 'dark'",
+     "default": "'light'",
+     "optional": true
+    },
+    "featuredIconType": {
+     "type": "'InformationCircle' | 'AlertCircle'",
+     "default": "'InformationCircle'",
+     "optional": true
+    },
+    "modalTitle": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "name": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "onClose": {
+     "type": "(event: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "open": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "position": {
+     "type": "'start' | 'end' | 'center'",
+     "default": "'center'",
+     "optional": true
+    },
+    "secondBtnPosition": {
+     "type": "'left' | 'right'",
+     "default": "'left'",
+     "optional": true
+    },
+    "showCloseButton": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "staticModal": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaModalTitle": {
+   "tag": "dga-modal-title",
+   "props": {},
+   "events": {}
+  },
+  "DgaModalV2": {
+   "tag": "dga-modal-v2",
+   "props": {
+    "actionFillContainer": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "actionStack": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "alignmentCenter": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "buttonsList": {
+     "type": "Array<{ id?: string; label: string; onClick: (event?: any) => void; extraClass?: string; title?: string; }>",
+     "default": "[]",
+     "optional": true
+    },
+    "featuredIconCircle": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "featuredIconColor": {
+     "type": "'brand' | 'gray' | 'error' | 'warning' | 'success' | 'info'",
+     "default": null,
+     "optional": true
+    },
+    "featuredIconSize": {
+     "type": "'xl' | 'lg' | 'md' | 'sm'",
+     "default": null,
+     "optional": true
+    },
+    "featuredIconStyle": {
+     "type": "'light' | 'outlined' | 'dark'",
+     "default": "'light'",
+     "optional": true
+    },
+    "featuredIconType": {
+     "type": "'InformationCircle' | 'AlertCircle'",
+     "default": "'InformationCircle'",
+     "optional": true
+    },
+    "modalTitle": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "name": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "onClose": {
+     "type": "(event: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "open": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "position": {
+     "type": "'start' | 'end' | 'center'",
+     "default": "'center'",
+     "optional": true
+    },
+    "secondBtnPosition": {
+     "type": "'left' | 'right'",
+     "default": "'left'",
+     "optional": true
+    },
+    "showCloseButton": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "staticModal": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaNavHeader": {
+   "tag": "dga-nav-header",
+   "props": {
+    "divider": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "fullWidth": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "sticky": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaNavHeaderActions": {
+   "tag": "dga-nav-header-actions",
+   "props": {},
+   "events": {}
+  },
+  "DgaNavHeaderLink": {
+   "tag": "dga-nav-header-link",
+   "props": {
+    "active": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "icon": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "iconProps": {
+     "type": "{ size?: number; color?: string; variant?: 'stroke' | 'solid' | 'duotone' | 'twotone' | 'bulk'; type?: 'rounded' | 'sharp' | 'standard'; }",
+     "default": "{     type: 'rounded',     variant: 'stroke',   }",
+     "optional": false
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "subMenuBackground": {
+     "type": "'brand' | 'white'",
+     "default": "'white'",
+     "optional": false
+    },
+    "subMenuFullWidth": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    }
+   },
+   "events": {
+    "onLinkClicked": "(event: DgaNavHeaderLinkCustomEvent<void>) => void"
+   }
+  },
+  "DgaNavHeaderLogos": {
+   "tag": "dga-nav-header-logos",
+   "props": {
+    "govAlt": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "govLink": {
+     "type": "string",
+     "default": "'#'",
+     "optional": false
+    },
+    "govSrc": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "logoAlt": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "logoLink": {
+     "type": "string",
+     "default": "'#'",
+     "optional": false
+    },
+    "logoSrc": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaNavHeaderMain": {
+   "tag": "dga-nav-header-main",
+   "props": {
+    "collapsed": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    }
+   },
+   "events": {
+    "onToggleCollapsed": "(event: DgaNavHeaderMainCustomEvent<boolean>) => void"
+   }
+  },
+  "DgaNavHeaderMenu": {
+   "tag": "dga-nav-header-menu",
+   "props": {},
+   "events": {}
+  },
+  "DgaNavHeaderSubMenu": {
+   "tag": "dga-nav-header-sub-menu",
+   "props": {
+    "active": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "background": {
+     "type": "'brand' | 'white'",
+     "default": "'white'",
+     "optional": true
+    },
+    "subMenuFullWidth": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaNavHeaderSubMenuColumn": {
+   "tag": "dga-nav-header-sub-menu-column",
+   "props": {
+    "label": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaNavHeaderSubMenuLink": {
+   "tag": "dga-nav-header-sub-menu-link",
+   "props": {
+    "background": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "helperText": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "icon": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "link": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "linkStyle": {
+     "type": "number",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaNotification": {
+   "tag": "dga-notification",
+   "props": {
+    "content": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "dismissable": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "dismmissed": {
+     "type": "() => void",
+     "default": null,
+     "optional": true
+    },
+    "icon": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "leadText": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "link": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "navigateTo": {
+     "type": "(link?: string) => void",
+     "default": null,
+     "optional": true
+    },
+    "setNavigateTo": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "sx": {
+     "type": "SxProps2 | string",
+     "default": null,
+     "optional": true
+    },
+    "textLink": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "variant": {
+     "type": "'critical' | 'warning' | 'success' | 'info' | 'neutral'",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaNotificationToast": {
+   "tag": "dga-notification-toast",
+   "props": {
+    "action": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "buttonsList": {
+     "type": "{ id?: string; label: string; onClick: (event?: any) => void",
+     "default": "[]",
+     "optional": true
+    },
+    "extraClasses": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "title": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "closeButton": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "hPostion": {
+     "type": "'left' | 'right'",
+     "default": "'right'",
+     "optional": true
+    },
+    "hasHelperText": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "helperText": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "leadText": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "onClose": {
+     "type": "(event: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "open": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "type": {
+     "type": "'error' | 'warning' | 'success' | 'info' | 'neutral'",
+     "default": "'neutral'",
+     "optional": true
+    },
+    "vPostion": {
+     "type": "'top' | 'bottom'",
+     "default": "'top'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaNumberInput": {
+   "tag": "dga-number-input",
+   "props": {
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "error": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "fullwidth": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "helperText": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "helperTextIcon": {
+     "type": "Icon2",
+     "default": null,
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "name": {
+     "type": "string",
+     "default": "guid()",
+     "optional": false
+    },
+    "onBlur": {
+     "type": "(event?: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "onChange": {
+     "type": "(event?: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "onInput": {
+     "type": "(event?: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "placeholder": {
+     "type": "string",
+     "default": "'0000'",
+     "optional": true
+    },
+    "readonly": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "required": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "size": {
+     "type": "'md' | 'lg'",
+     "default": "'lg'",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps | string",
+     "default": null,
+     "optional": true
+    },
+    "value": {
+     "type": "number",
+     "default": "0",
+     "optional": false
+    },
+    "variant": {
+     "type": "'default' | 'lighter' | 'darker'",
+     "default": "'default'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaPagination": {
+   "tag": "dga-pagination",
+   "props": {
+    "currentPage": {
+     "type": "number",
+     "default": "1",
+     "optional": false
+    },
+    "onChange": {
+     "type": "(value: number) => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "siblingCount": {
+     "type": "number",
+     "default": "1",
+     "optional": true
+    },
+    "size": {
+     "type": "'small' | 'medium' | 'large'",
+     "default": "'large'",
+     "optional": true
+    },
+    "sx": {
+     "type": "SxProps1 | string",
+     "default": null,
+     "optional": true
+    },
+    "totalPageCount": {
+     "type": "number",
+     "default": "10",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaPrefix": {
+   "tag": "dga-prefix",
+   "props": {
+    "icon": {
+     "type": "Icon1",
+     "default": null,
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "options": {
+     "type": "Option[]",
+     "default": null,
+     "optional": true
+    },
+    "type": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "variant": {
+     "type": "'solid' | 'subtle'",
+     "default": "'solid'",
+     "optional": false
+    }
+   },
+   "events": {
+    "onOnSelect": "(event: DgaPrefixCustomEvent<string>) => void"
+   }
+  },
+  "DgaProgressIndicator": {
+   "tag": "dga-progress-indicator",
+   "props": {
+    "activeStep": {
+     "type": "number",
+     "default": "1",
+     "optional": true
+    },
+    "alignment": {
+     "type": "'horizontal' | 'vertical'",
+     "default": "'horizontal'",
+     "optional": true
+    },
+    "progressKey": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {
+    "onStepChange": "(event: DgaProgressIndicatorCustomEvent<{step: number, progressKey: string}>) => void"
+   }
+  },
+  "DgaProgressIndicatorStep": {
+   "tag": "dga-progress-indicator-step",
+   "props": {
+    "currentStep": {
+     "type": "number",
+     "default": "1",
+     "optional": false
+    },
+    "description": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "labelStyle": {
+     "type": "'dot' | 'circle'",
+     "default": "'circle'",
+     "optional": false
+    },
+    "nextStep": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "showStepDescription": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "showStepName": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "title": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaProgressIndicatorStepV3": {
+   "tag": "dga-progress-indicator-step-v3",
+   "props": {
+    "activeStep": {
+     "type": "number",
+     "default": "0",
+     "optional": false
+    },
+    "currentStep": {
+     "type": "number",
+     "default": "1",
+     "optional": false
+    },
+    "description": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "labelStyle": {
+     "type": "'dot' | 'circle'",
+     "default": "'circle'",
+     "optional": false
+    },
+    "nextStep": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "showStepDescription": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "showStepName": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "title": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaProgressIndicatorV3": {
+   "tag": "dga-progress-indicator-v3",
+   "props": {
+    "activeStep": {
+     "type": "number",
+     "default": "1",
+     "optional": true
+    },
+    "alignment": {
+     "type": "'horizontal' | 'vertical'",
+     "default": "'horizontal'",
+     "optional": true
+    }
+   },
+   "events": {
+    "onStepChange": "(event: DgaProgressIndicatorV3CustomEvent<number>) => void"
+   }
+  },
+  "DgaQuote": {
+   "tag": "dga-quote",
+   "props": {
+    "authorDescription": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "authorName": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "avatarSrc": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "quoteDescription": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "quoteTitle": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "showAuthorDetails": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showAvatar": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "showQuoteDescription": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "showQuoteTitle": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "size": {
+     "type": "'sm' | 'lg'",
+     "default": "'sm'",
+     "optional": true
+    },
+    "sx": {
+     "type": "SxProps1 | string",
+     "default": null,
+     "optional": true
+    },
+    "whiteBackground": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaRadialStepper": {
+   "tag": "dga-radial-stepper",
+   "props": {
+    "RTL": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "activeStep": {
+     "type": "number",
+     "default": "1",
+     "optional": false
+    },
+    "showStepDescription": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "showStepName": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "showText": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "size": {
+     "type": "'120px' | '80px' | '64px' | '48px' | '40px'",
+     "default": "'64px'",
+     "optional": false
+    },
+    "steps": {
+     "type": "Step[]",
+     "default": "[]",
+     "optional": false
+    },
+    "variant": {
+     "type": "'primary' | 'neutral' | 'on-color'",
+     "default": "'primary'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaRadioButton": {
+   "tag": "dga-radio-button",
+   "props": {
+    "alertMessage": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "alertText": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "checked": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "color": {
+     "type": "'neutral' | 'brand'",
+     "default": "'brand'",
+     "optional": false
+    },
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "hasHelperText": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "helperText": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "id": {
+     "type": "string",
+     "default": "guid()",
+     "optional": false
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "name": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "onChange": {
+     "type": "(event: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "onInput": {
+     "type": "(event: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "sx": {
+     "type": "SxProps3",
+     "default": "{}",
+     "optional": true
+    },
+    "value": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaRating": {
+   "tag": "dga-rating",
+   "props": {
+    "direction": {
+     "type": "'ltr' | 'rtl'",
+     "default": "'ltr'",
+     "optional": true
+    },
+    "max": {
+     "type": "number",
+     "default": "5",
+     "optional": true
+    },
+    "onChange": {
+     "type": "(value: number) => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "readOnly": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "size": {
+     "type": "'sm' | 'md' | 'lg'",
+     "default": "'md'",
+     "optional": true
+    },
+    "value": {
+     "type": "number",
+     "default": "-1",
+     "optional": true
+    },
+    "variant": {
+     "type": "'default' | 'brand'",
+     "default": "'default'",
+     "optional": true
+    }
+   },
+   "events": {
+    "onRatingChange": "(event: DgaRatingCustomEvent<number>) => void"
+   }
+  },
+  "DgaRectangleSkeleton": {
+   "tag": "dga-rectangle-skeleton",
+   "props": {
+    "size": {
+     "type": "'lg' | 'sm' | 'md'",
+     "default": "'lg'",
+     "optional": false
+    },
+    "type": {
+     "type": "'1' | '2'",
+     "default": "'1'",
+     "optional": false
+    },
+    "width": {
+     "type": "'long' | 'short'",
+     "default": "'long'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaSearchBox": {
+   "tag": "dga-search-box",
+   "props": {
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "error": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "fullwidth": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "icon": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "name": {
+     "type": "string",
+     "default": "guid()",
+     "optional": false
+    },
+    "onInput": {
+     "type": "(event?: Event) => void",
+     "default": "() => {}",
+     "optional": true
+    },
+    "placeholder": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "readonly": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "showTrailingIcon": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "size": {
+     "type": "'md' | 'lg'",
+     "default": "'md'",
+     "optional": false
+    },
+    "speechLang": {
+     "type": "'en' | 'ar'",
+     "default": "'en'",
+     "optional": false
+    },
+    "value": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "variant": {
+     "type": "'default' | 'lighter' | 'darker'",
+     "default": "'default'",
+     "optional": false
+    }
+   },
+   "events": {
+    "onOnBlur": "(event: DgaSearchBoxCustomEvent<any>) => void",
+    "onOnChange": "(event: DgaSearchBoxCustomEvent<any>) => void"
+   }
+  },
+  "DgaSecondNavHeader": {
+   "tag": "dga-second-nav-header",
+   "props": {
+    "hideActions": {
+     "type": "boolean",
+     "default": null,
+     "optional": false
+    },
+    "hideContent": {
+     "type": "boolean",
+     "default": null,
+     "optional": false
+    },
+    "hideDivider": {
+     "type": "boolean",
+     "default": null,
+     "optional": false
+    },
+    "variant": {
+     "type": "'primary' | 'gray'",
+     "default": "'primary'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaSecondNavHeaderActions": {
+   "tag": "dga-second-nav-header-actions",
+   "props": {},
+   "events": {}
+  },
+  "DgaSecondNavHeaderContent": {
+   "tag": "dga-second-nav-header-content",
+   "props": {},
+   "events": {}
+  },
+  "DgaSecondNavHeaderItem": {
+   "tag": "dga-second-nav-header-item",
+   "props": {
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaSkeletonComponent": {
+   "tag": "dga-skeleton-component",
+   "props": {
+    "type": {
+     "type": "| 'chart and content' | 'image content and button' | 'image profile content' | 'image button and text' | 'icon and list'",
+     "default": "'chart and content'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaSlideoutMenu": {
+   "tag": "dga-slideout-menu",
+   "props": {
+    "anchor": {
+     "type": "'left'|'right'",
+     "default": "'right'",
+     "optional": true
+    },
+    "backgroundColor": {
+     "type": "'gray' | 'white'",
+     "default": "'gray'",
+     "optional": true
+    },
+    "onClose": {
+     "type": "() => void",
+     "default": null,
+     "optional": true
+    },
+    "open": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "scrollbar": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaSlideoutMenuActions": {
+   "tag": "dga-slideout-menu-actions",
+   "props": {},
+   "events": {}
+  },
+  "DgaSlideoutMenuHeader": {
+   "tag": "dga-slideout-menu-header",
+   "props": {
+    "description": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "title": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaSlideoutMenuItems": {
+   "tag": "dga-slideout-menu-items",
+   "props": {
+    "description": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "title": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaSlider": {
+   "tag": "dga-slider",
+   "props": {
+    "helperText": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "initialMax": {
+     "type": "number",
+     "default": null,
+     "optional": false
+    },
+    "initialMin": {
+     "type": "number",
+     "default": null,
+     "optional": false
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "max": {
+     "type": "number",
+     "default": "100",
+     "optional": false
+    },
+    "min": {
+     "type": "number",
+     "default": "0",
+     "optional": false
+    },
+    "onChange": {
+     "type": "(props: { min: number; max: number }) => void",
+     "default": null,
+     "optional": true
+    },
+    "range": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "showHelperText": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "showLabel": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "size": {
+     "type": "'small' | 'medium'",
+     "default": "'small'",
+     "optional": false
+    },
+    "step": {
+     "type": "number",
+     "default": "1",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps1 | string | undefined",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaSquareSkeleton": {
+   "tag": "dga-square-skeleton",
+   "props": {
+    "type": {
+     "type": "'1' | '2'",
+     "default": "'1'",
+     "optional": false
+    },
+    "width": {
+     "type": "'24px' | '64px' | '48px' | '80px' | '120px' | '170px' | '240px'",
+     "default": "'80px'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaStatusTag": {
+   "tag": "dga-status-tag",
+   "props": {
+    "RTL": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "color": {
+     "type": "'neutral' | 'green' | 'blue' | 'yellow' | 'red'",
+     "default": null,
+     "optional": false
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "size": {
+     "type": "'lg' | 'md' | 'sm'",
+     "default": "'md'",
+     "optional": false
+    },
+    "status": {
+     "type": "'inverted' | 'subtle' | 'ghost'",
+     "default": "'inverted'",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps2 | string",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaStructuredList": {
+   "tag": "dga-structured-list",
+   "props": {
+    "alternate": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "cells": {
+     "type": "Array<{ title: string; propertyName: string; type: 'element' | 'propertyName'; El?: any; elProperties?: string[]; colSpan?: number; customAttribute?: { key: string; value: string; }; sort?: 'up' | 'down' | 'none'; isSort?: boolean; isFilter?: boolean; }>",
+     "default": "[]",
+     "optional": false
+    },
+    "colDivider": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "compact": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "contained": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "data": {
+     "type": "any[]",
+     "default": "[]",
+     "optional": false
+    },
+    "getSelectedRows": {
+     "type": "(event?: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "rowDivider": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "selectable": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps | string",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaSuffix": {
+   "tag": "dga-suffix",
+   "props": {
+    "icon": {
+     "type": "any",
+     "default": null,
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "options": {
+     "type": "Option1[]",
+     "default": null,
+     "optional": true
+    },
+    "type": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    },
+    "variant": {
+     "type": "string",
+     "default": null,
+     "optional": false
+    }
+   },
+   "events": {
+    "onOnSelect": "(event: DgaSuffixCustomEvent<string>) => void"
+   }
+  },
+  "DgaSwitch": {
+   "tag": "dga-switch",
+   "props": {
+    "alertMessage": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "alertText": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "checked": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "color": {
+     "type": "string",
+     "default": "'brand'",
+     "optional": false
+    },
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "hasHelperText": {
+     "type": "boolean",
+     "default": null,
+     "optional": true
+    },
+    "helperText": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "id": {
+     "type": "string",
+     "default": "this.generateGuid()",
+     "optional": false
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "name": {
+     "type": "string",
+     "default": "this.generateGuid()",
+     "optional": false
+    },
+    "onChange": {
+     "type": "(event?: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "onInput": {
+     "type": "(event?: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "sx": {
+     "type": "SxProps1 | string | undefined",
+     "default": null,
+     "optional": true
+    },
+    "value": {
+     "type": "boolean | any",
+     "default": "true",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaTable": {
+   "tag": "dga-table",
+   "props": {
+    "alternate": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "cells": {
+     "type": "{ title: string; isSort: boolean; isFilter: boolean; sort?: 'up' | 'down'; propertyName: string; type: 'element' | 'propertyName'; El?: HTMLElement; elProperties?: string[]; colSpan?: number; // elProperties: { [key: string]: any }; }[]",
+     "default": "[     {       propertyName: 'test',       isFilter: false,       isSort: false,       title: 'Test',       type: 'propertyName',       colSpan: 1,     },     {       propertyName: 'test',       isFilter: false,       isSort: false,       title: 'Test',       type: 'propertyName',       colSpan: 1,     },   ]",
+     "optional": false
+    },
+    "contained": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "data": {
+     "type": "{[key:string]: any}[]",
+     "default": "[     {       selected: true,     },     {       selected: true,     },   ]",
+     "optional": false
+    },
+    "getSelectedRows": {
+     "type": "any",
+     "default": null,
+     "optional": false
+    },
+    "pressOnFilter": {
+     "type": "any",
+     "default": null,
+     "optional": false
+    },
+    "rowDivider": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "showSelectCheckBox": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaTableBody": {
+   "tag": "dga-table-body",
+   "props": {
+    "alternate": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "cells": {
+     "type": "{ title: string; isSort: boolean; isFilter: boolean; sort?: 'up' | 'down'; propertyName: string; type: 'element' | 'propertyName'; El?: HTMLElement; elProperties?: string[]; colSpan?: number; // elProperties: { [key: string]: any }; }[]",
+     "default": "[     {       propertyName: 'test',       isFilter: false,       isSort: false,       title: 'Test',       type: 'propertyName',       colSpan: 1,     },     {       propertyName: 'test',       isFilter: false,       isSort: false,       title: 'Test',       type: 'propertyName',       colSpan: 1,     },   ]",
+     "optional": false
+    },
+    "contained": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "data": {
+     "type": "{ selected: boolean; }[]",
+     "default": "[     {       selected: true,     },     {       selected: true,     },   ]",
+     "optional": false
+    },
+    "getSelectedRows": {
+     "type": "any",
+     "default": null,
+     "optional": false
+    },
+    "pressOnFilter": {
+     "type": "any",
+     "default": null,
+     "optional": false
+    },
+    "rowDivider": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "showSelectCheckBox": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaTableOfContent": {
+   "tag": "dga-table-of-content",
+   "props": {
+    "defaultActiveId": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "rtl": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "sections": {
+     "type": "TabType[]",
+     "default": "[]",
+     "optional": false
+    },
+    "subTitle": {
+     "type": "string",
+     "default": "'sub'",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps1 | string | undefined",
+     "default": null,
+     "optional": true
+    },
+    "tocTitle": {
+     "type": "string",
+     "default": "'main'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaTabs": {
+   "tag": "dga-tabs",
+   "props": {
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "divider": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "external": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "extraClass": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "flush": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "orientation": {
+     "type": "'horizontal' | 'vertical'",
+     "default": "'horizontal'",
+     "optional": false
+    },
+    "size": {
+     "type": "'sm' | 'md' | 'lg'",
+     "default": "'md'",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps | string",
+     "default": null,
+     "optional": true
+    },
+    "tabsList": {
+     "type": "ITab[]",
+     "default": "[]",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaTag": {
+   "tag": "dga-tag",
+   "props": {
+    "iconOnly": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "leadIcon": {
+     "type": "Icon1",
+     "default": null,
+     "optional": true
+    },
+    "outlined": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "rounded": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "size": {
+     "type": "'lg' | 'md' | 'sm'",
+     "default": "'md'",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps2 | string",
+     "default": null,
+     "optional": true
+    },
+    "trailIcon": {
+     "type": "Icon1",
+     "default": null,
+     "optional": true
+    },
+    "variant": {
+     "type": "'neutral' | 'success' | 'info' | 'warning' | 'error' | 'on-color'",
+     "default": "'success'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaTextInput": {
+   "tag": "dga-text-input",
+   "props": {
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "error": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "feedbackIcon": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "feedbackIconRing": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "feedbackIconType": {
+     "type": "'success' | 'error' | 'warning'",
+     "default": "'success'",
+     "optional": false
+    },
+    "fullwidth": {
+     "type": "boolean",
+     "default": "true",
+     "optional": false
+    },
+    "helperText": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "helperTextIcon": {
+     "type": "Icon2",
+     "default": null,
+     "optional": true
+    },
+    "icon": {
+     "type": "Icon2",
+     "default": null,
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "name": {
+     "type": "string",
+     "default": "guid()",
+     "optional": false
+    },
+    "onBlur": {
+     "type": "(event?: Event) => void",
+     "default": null,
+     "optional": true
+    },
+    "onChange": {
+     "type": "(event?: Event) => void",
+     "default": null,
+     "optional": true
+    },
+    "onInput": {
+     "type": "(event?: Event) => void",
+     "default": null,
+     "optional": true
+    },
+    "placeholder": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "readonly": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "required": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "size": {
+     "type": "'md' | 'lg'",
+     "default": "'lg'",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps | string",
+     "default": null,
+     "optional": true
+    },
+    "type": {
+     "type": "'text' | 'number' | 'password'",
+     "default": "'text'",
+     "optional": false
+    },
+    "value": {
+     "type": "string",
+     "default": "''",
+     "optional": false
+    },
+    "variant": {
+     "type": "'default' | 'lighter' | 'darker'",
+     "default": "'default'",
+     "optional": false
+    }
+   },
+   "events": {}
+  },
+  "DgaTextarea": {
+   "tag": "dga-textarea",
+   "props": {
+    "cols": {
+     "type": "number",
+     "default": "50",
+     "optional": true
+    },
+    "disabled": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "error": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "feedbackIcon": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "feedbackIconRing": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "feedbackIconType": {
+     "type": "'success' | 'error' | 'warning'",
+     "default": "'success'",
+     "optional": true
+    },
+    "fullwidth": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "label": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "name": {
+     "type": "string",
+     "default": "guid()",
+     "optional": true
+    },
+    "onChange": {
+     "type": "(event?: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "onInput": {
+     "type": "(event?: any) => void",
+     "default": null,
+     "optional": true
+    },
+    "placeholder": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "readonly": {
+     "type": "boolean",
+     "default": "false",
+     "optional": true
+    },
+    "resize": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "rows": {
+     "type": "number",
+     "default": "4",
+     "optional": true
+    },
+    "scrollbar": {
+     "type": "boolean",
+     "default": "true",
+     "optional": true
+    },
+    "sx": {
+     "type": "SxProps | string",
+     "default": null,
+     "optional": true
+    },
+    "value": {
+     "type": "string",
+     "default": "''",
+     "optional": true
+    },
+    "variant": {
+     "type": "'default' | 'lighter' | 'darker'",
+     "default": "'default'",
+     "optional": true
+    }
+   },
+   "events": {}
+  },
+  "DgaTooltip": {
+   "tag": "dga-tooltip",
+   "props": {
+    "beakAlignment": {
+     "type": "BeakAlignment",
+     "default": "'center'",
+     "optional": false
+    },
+    "beakPlacement": {
+     "type": "BeakPlacement",
+     "default": "'none'",
+     "optional": false
+    },
+    "direction": {
+     "type": "Direction",
+     "default": "'top'",
+     "optional": false
+    },
+    "feedbackIcon": {
+     "type": "FeedbackIcon",
+     "default": null,
+     "optional": false
+    },
+    "helperText": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    },
+    "icon": {
+     "type": "boolean",
+     "default": "false",
+     "optional": false
+    },
+    "sx": {
+     "type": "SxProps1 | string | undefined",
+     "default": null,
+     "optional": true
+    },
+    "theme": {
+     "type": "Theme",
+     "default": "'light'",
+     "optional": false
+    },
+    "tooltipTitle": {
+     "type": "string",
+     "default": null,
+     "optional": true
+    }
+   },
+   "events": {}
+  }
+ }
+}

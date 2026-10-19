@@ -1,0 +1,4178 @@
+# Saudi National Day Template — DGA template
+
+> Source: DGA Platforms Code page template (Figma Community, figma.com/@sdga). Status: **EXTRACTED-FROM-FIGMA** (design source; not a production certification).
+
+## Page: National Day Template  | قالب اليوم الوطني
+
+### Text on this page (verbatim, in order found)
+
+> كيف تتحقق؟
+
+> موقع حكومي مسجل لدى هيئة الحكومة الرقمية
+
+> تسجيل الدخول
+
+> English
+
+> البحث
+
+> تبويب 7
+
+> تبويب 6
+
+> تبويب 5
+
+> تبويب 4
+
+> تبويب 3
+
+> تبويب 2
+
+> تبويب 1
+
+> شعار المنصة
+
+> اليوم الوطني السعودي
+
+> نحتفي بمسيرةٍ من العز والفخر لوطننا
+
+> قسم من نحن
+
+> هنا يمكنك إضافة وصف مختصر حول الغرض من البوابة متبوعًا بزر الحث على اتخاذ إجراء وصورة أو رسم توضيحي على الجانب الأيسر.
+
+> 1.5M
+
+> شخص
+
+> SWAP WITH CONTENT COMPONENT استبدل هذا العنصر بأي عنصر آخر
+
+> Label
+
+> 12 reviews
+
+> Action
+
+> عرض الكل
+
+> قسم الخدمات
+
+> عنوان البطاقة
+
+> نص إضافي لمحتوى البطاقة
+
+> وسم
+
+> 12 تقيم
+
+> اجراء
+
+> اجراء ثانوي
+
+> قسم الاخبار والمقالات
+
+> هنا يمكنك إضافة وصف مختصر حول الغرض من البوابة.
+
+> عنوان بطاقة الأخبار في سطرين
+
+> هنا يمكنك تضمين وصف موجز للعنوان في أربعة أسطر. هنا يمكنك تضمين وصف موجز للعنوان في أربعة أسطر.
+
+> قراءة المزيد
+
+> قسم الشركاء
+
+> تاريخ آخر تعديل: 04/12/2025 - 4:13 م بتوقيت السعودية
+
+> تابعنا على
+
+> أدوات الاتاحة والوصول
+
+> عنوان مجموعة
+
+> رابط الجزء السفلي
+
+> الاتصال والدعم
+
+> مركز العملاء
+
+> تواصل معنا
+
+> شارك معنا
+
+> تقديم شكوى
+
+> الإبلاغ عن الفساد
+
+> روابط مهمة
+
+> بوابة الخدمة الوطنية
+
+> البيانات الحكومية المفتوحة
+
+> الاستراتيجية الوطنية للبيانات والذكاء الاصطناعي
+
+> بوابة البيانات المفتوحة
+
+> بوابة المشاركة الإلكترونية
+
+> ملخص
+
+> حول [اسم البوابة]
+
+> الخصوصية وشروط الاستخدام
+
+> كيفية استخدام [اسم البوابة]
+
+> الأخبار والأحداث
+
+> إحصائيات اتفاقية مستوى الخدمة
+
+> تطبيق الجوال
+
+> RSS
+
+> خريطة الموقع
+
+> جميع الحقوق محفوظة لهيئة الحكومة الرقمية © 2024
+
+> تم تطويره وصيانته بواسطة [أدخل اسم الجهة]
+
+> تاريخ آخر تعديل: 04/12/2020
+
+> عِزّنا برؤيتنا
+
+> الحلم من القيم الملهمة في الثقافة السعودية، فهو يعكس تطلعات أبناء الوطن نحو مستقبلٍ طموح ومزدهر، ويقوم على الإيمان بتحويل الأفكار والطموحات إلى واقع من خلال العمل الجاد والتخطيط المستمر، وهو ما تجسده مسيرة التنمية في المملكة ورؤية السعودية 2030. وقد عبّر صاحب السمو الملكي الأمير محمد بن سلمان بن عبدالعزيز آل سعود، ولي العهد رئيس مجلس الوزراء، عن هذا الحلم الكبير بقوله في منتدى الاستثمار عام 2018: ”لا أريد أن أفارق الحياة قبل أن أرى الشرق الأوسط في مقدمة مصافّ العالم، وأعتقد أن هذا الهدف سيتحقق مئة بالمئة“، في إشارة إلى عمق الرؤية والإصرار على تحقيق مستقبل أكثر تقدماً وازدهاراً.
+
+> عِزّنا بكرمنا
+
+> الكرم من القيم الأساسية في ثقافتنا، ويعد من أبرز سمات الهوية السعودية، ويتجاوز مجرد حسن الضيافة، ليشمل حفاوة الاستقبال والمبادرة بالمساعدة. يعد الكرم رمزًا للأصالة والانتماء، ويربى عليه السعوديون منذ الصغر، مما يجعله جزءًا طبيعيًا من الحياة اليومية والعلاقات الاجتماعية.
+
+> عِزّنا بهمّتنا
+
+> الهمة من أبرز الصفات التي تميز الشخصية السعودية، فهي الدافع الذي يحرك الطموح ويقود نحو الإنجاز. وقد أصبحت الهمة جزءًا من ثقافتنا الوطنية، نستمدها من إيماننا بقدراتنا وثقتنا بمستقبلنا. ولخّص صاحب السمو الملكي الأمير محمد بن سلمان بن عبدالعزيز آل سعود، ولي العهد رئيس مجلس الوزراء، هذه الروح بقوله: ”همة السعوديين مثل جبل طويق، ولن تنكسر إلا إذا انهد هذا الجبل وتساوى بالأرض“. وتعكس هذه المقولة ما يتحلى به أبناء الوطن من عزيمة وإصرار ومثابرة، جعلت من الهمة نهجًا يقود المملكة نحو تحقيق مستهدفاتها وصناعة مستقبل أكثر ازدهاراً.
+
+> عِزّنا بشجاعتنا
+
+> لأن الشجاعة في سلمنا وعرفنا قيمة أصيلة، نفزع بلا تردد وننجد من استنجدنا، وهي صفة متجذرة فينا منذ القدم وامتدادًا عبر تاريخ هذه البلاد العظيمة، حيث كان أبناء الوطن دائمًا سندًا وعونًا لكل محتاج. وتجسّد المواقف الوطنية المشرفة هذه القيمة في أبهى صورها، حيث تُعد الفزعات السعودية والمواقف المشهودة لأبناء الوطن خير برهان على عمق هذه الصفة وأصالتها، بما يعكس قوة التلاحم بين القيادة والشعب، ويؤكد أن الشجاعة ليست موقفًا عابرًا، بل سلوك راسخ يعبّر عن هوية المجتمع السعودي وقيمه الممتدة عبر أجيال.
+
+> عِزّنا بأصالتنا
+
+> الأصالة في المجتمع السعودي تعكس ارتباط الناس بجذورهم وتاريخهم، واعتزازهم بإرثهم. فهي تظهر في التمسك بالعادات والتقاليد، واستمرار القيم التي تتوارثها الأجيال، والمحافظة على الهوية الثقافية التي تميز المجتمع السعودي عبر مختلف العصور. كما تتجلى الأصالة في تفاصيل الحياة اليومية، وفي الفخر بالموروث الوطني، والحرص على نقله للأجيال القادمة، بما يعكس عمق الانتماء وصدق الارتباط بالأرض والتاريخ، لتبقى الأصالة قيمةً حاضرة تُجسّد هوية الوطن وتميزه.
+
+> عِزّنا بجودنا
+
+> يعد الجود من أسمى الصفات التي تتجلى في الهوية السعودية الأصيلة، وقد ورثها السعوديون أبًا عن جد، فهي ليست مجرد جود في المال، بل جود في الوقت، والجهد، والمواقف، الجود في الثقافة السعودية يعني أن تبذل من قلبك قبل يدك، أن تفتح دارك قبل أن تسأل، وأن تفرح بالعطاء. هو طبع متأصل، تراه في الدلة التي لا تبرد، والباب الذي لا يغلق، والمبخرة التي لا تنطفئ.
+
+> www.design.dga.gov.sa
+
+> Home pages | Saudi National Day Theme
+
+> Resources
+
+> Guide to Components in Figma ->
+
+> Figma Tutorial: Components - The Basics ->
+
+> Additional resource (add link) ->
+
+> Option 1
+
+> Description text dolor sit incididunt, adipisicing tempor, tempor labore dolore magna aliqua.
+
+> Contribution: Hero Sections designed by Fahad BinDakhil | Saudi Icons designed by Norah Alotaibi Winners of DGA National Day Contribution Competition
+
+> HTML templates
+
+> Download HTML template here
+
+> Hero section
+
+> Footer
+
+> Option 2
+
+> Option 3
+
+> Option 4
+
+> برؤيتنا
+
+> عِزّنا
+
+> رؤية السعودية 2030، التي أطلقها ولي العهد الأمير محمد بن سلمان، تهدف لبناء مستقبل مزدهر ومستدام. تؤمن الرؤية بقدرتنا على التحول والتقدم وصناعة مستقبل أفضل لوطننا مع الحفاظ على هويتنا وقيمنا، مما يعكس وعيًا عميقًا وطموحًا لصناعة الغد.
+
+> Platform Logo
+
+> رؤية السعودية 2030 التي أطلقها ولي العهد تهدف لبناء مستقبل مزدهر ومستدام يعكس طموحنا وهويتنا.
+
+> إجراء ثانوي
+
+> هنا يمكنك تضمين وصف موجز للعنوان في أربعة أسطر. هنا يمكنك تضمين وصف موجز للعنوان في أربعة أسطر. هنا يمكنك تضمين وصف موجز للعنوان في أربعة أسطر. هنا يمكنك تضمين وصف موجز للعنوان في أربعة أسطر.
+
+> Read More
+
+> تاريخ آخر تعديل: 04/12/2026 - 4:13 م بتوقيت السعودية
+
+> جميع الحقوق محفوظة لهيئة الحكومة الرقمية © 2026
+
+> تاريخ آخر تعديل: 04/12/2026
+
+> بجودنا
+
+> الجود من أسمى الصفات في الهوية السعودية، ورثها السعوديون أبًا عن جد. الجود ليس فقط في المال، بل في الوقت والجهد والمواقف. في الثقافة السعودية، الجود يعني العطاء من القلب، وفتح الدار قبل السؤال، والفرح بالعطاء. هو طبع متأصل يظهر في الدلة التي لا تبرد، والباب المفتوح، والمبخرة التي لا تنطفئ.
+
+> بكرمنا
+
+> الكرم من القيم الأساسية في ثقافتنا، ويعد من أبرز سمات الهوية السعودية، ويتجاوز مجرد حسن الضيافة، ليشمل حفاوة الاستقبال والمبادرة بالمساعدة. يعد الكرم رمزًا للأصالة والانتماء، ویربى عليه السعوديون منذ الصغر، مما يجعله جزءًا طبيعيًا من الحياة اليومية والعلاقات الاجتماعية.
+
+> بهمّتن ا
+
+> الهمة من أبرز الصفات التي تميز الشخصية السعودية، فهي الدافع الذي يحرك الطموح ويقود نحو الإنجاز. وقد أصبحت الهمة جزءًا من ثقافتنا الوطنية، نستمدها من إيماننا بقدراتنا وثقتنا بمستقبلنا.
+
+> بشجاعتنا
+
+> لأن الشجاعة في سلمنا وعرفنا قيمة أصيلة، نفزع بلا تردد وننجد من استنجدنا، وهي صفة متجذرة فينا منذ القدم وامتدادًا عبر تاريخ هذه البلاد العظيمة، حيث كان أبناء الوطن دائمًا سندًا وعونًا لكل محتاج.
+
+> بأصالتن ا
+
+> الأصالة في المجتمع السعودي تعكس ارتباط الناس بجذورهم وتاريخهم، واعتزازهم بإرثهم. فهي تظهر في التمسك بالعادات والتقاليد، واستمرار القيم التي تتوارثها الأجيال.
+
+> الجود صفة سامية في الهوية السعودية، ورثها السعوديون. تعني العطاء من القلب وفتح الدار.
+
+> الكرم جزء من هويتنا السعودية يظهر في الضيافة والمساعدة.
+
+> الهمة من أبرز الصفات التي تميز الشخصية السعودية، فهي الدافع الذي يحرك الطموح ويقود نحو الإنجاز.
+
+> بشجاع تنا نا
+
+> الشجاعة في دمنا، نلبي النداء فورًا، ونساند المحتاجين، وهي صفة عريقة في تاريخ وطننا العظيم.
+
+> ب أصالتنا
+
+> الأصالة في المجتمع السعودي تعكس ارتباط الناس بجذورهم واعتزازهم بإرثهم.
+
+> Saudi National Day - Mobile
+
+### Frame structure (depth 3)
+
+- `Home Page - Desktop AR` [FRAM] — 1440×3097 · lay=V/CENTER/CENTER · pad=0 0 0 0 · gap=0 · fill=Background/background-white=#ffffff
+  - `Digital Stamp` [INST] ⟶ **Digital Stamp / RTL=Yes, Opened=no, Device=Desktop** — 1440×32 · lay=H/MAX/CENTER · pad=0 32 0 32 · gap=10 · fill=Background/background-neutral-100=#f3f4f6
+    - `Content` [FRAM] — 380×20 · lay=H/MIN/CENTER · pad=0 0 0 0 · gap=10
+      - `Link` [INST] ⟶ **Link / RTL=True, State=Default, Style=Primary, Size=Small, Inline=False** — 86×20 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=4
+      - `موقع حكومي مسجل لدى هيئة الحكومة الرقمية` [TEXT] — 254×20 · fill=Text/text-default=#161616 · font=mixed · fs=14 · txt="موقع حكومي مسجل لدى هيئة الحكو"
+      - `Country Flags` [INST] ⟶ **Country Flags / Flags=Saudi Arabia, Size=Medium, Shape=Square** — 20×14 · fill=#ffffff
+  - `Nav Header` [FRAM] — 1440×72 · lay=V/CENTER/CENTER · pad=0 32 0 32 · gap=0 · fill=Background/background-menu=#ffffff
+    - `Header Content` [FRAM] — 1376×72 · lay=H/SPACE_BETWEEN/CENTER · pad=0 0 0 0 · gap=16
+      - `Actions` [FRAM] — 368×72 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=0
+      - `Logo & Menu Items` [FRAM] — 1008×72 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=16
+    - `Divider` [RECT] — 1440×1 · fill=Colors/Neutral/300=#d2d6db
+  - `Hero Section` [FRAM] — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=Background/background-SA-Flag=#074d31
+    - `Background` [FRAM] — 1440×491
+      - `Pattern` [FRAM] — 1440×491 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Layer` [RECT] — 1440×491 · fill=GRADIENT_LINEAR(#074d31@0.00,#074d3100@1.00)
+    - `Hero Section` [FRAM] — 1280×126 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=32
+      - `Content` [FRAM] — 823×126 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+    - `Carousel` [INST] ⟶ **Carousel / Style=Dots Only** — 1280×20 · lay=V/MAX/CENTER · pad=0 0 0 0 · gap=24
+      - `Controls` [FRAM] — 1280×20 · lay=H/SPACE_BETWEEN/CENTER · pad=0 0 0 0 · gap=24
+  - `About Us Section` [FRAM] — 1440×402 · lay=V/CENTER/CENTER · pad=40 80 40 80 · gap=32 · fill=Background/background-white=#ffffff
+    - `Section` [FRAM] — 1280×322 · lay=V/CENTER/CENTER · pad=0 0 0 0 · gap=32
+      - `Content` [FRAM] — 1280×86 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `Cards` [FRAM] — 992×204 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=32
+  - `Services Section` [FRAM] — 1440×560 · lay=H/CENTER/CENTER · pad=40 80 40 80 · gap=32 · fill=Background/background-neutral-50=#f9fafb
+    - `Section` [FRAM] — 1280×480 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=32
+      - `Content` [FRAM] — 1280×112 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=24
+      - `Carousel` [INST] ⟶ **Carousel / Style=Dots** — 1280×336 · lay=V/MIN/CENTER · pad=0 24 0 24 · gap=24
+  - `Articles and News Section` [FRAM] — 1440×654 · lay=H/CENTER/CENTER · pad=40 80 40 80 · gap=32
+    - `Section` [FRAM] — 1280×574 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=32
+      - `Content` [FRAM] — 1280×88 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `Cards` [FRAM] — 1280×454 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=16
+  - `Partner Section` [FRAM] — 1440×250 · lay=H/CENTER/CENTER · pad=40 80 40 80 · gap=32
+    - `Section` [FRAM] — 1280×170 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=32
+      - `Frame 50` [FRAM] — 1280×38 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=8
+      - `Partners` [FRAM] — 1280×100 · lay=H/SPACE_BETWEEN/CENTER · pad=0 0 0 0 · gap=16
+  - `Feedback Section` [FRAM] — 1440×52 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Last Modified` [FRAM] — 1440×52 · lay=H/MIN/CENTER · pad=16 80 16 80 · gap=8 · fill=Background/background-white=#ffffff
+      - `تاريخ آخر تعديل: 04/12/2025 - 4:13 م بتوقيت السعودية` [TEXT] — 1280×20 · fill=Text/text-default=#161616 · font=mixed · fs=14 · txt="تاريخ آخر تعديل: 04/12/2025 - "
+  - `Footer` [FRAM] — 1440×584 · lay=V/MIN/CENTER · pad=0 0 0 0 · gap=-114
+    - `Footer` [INST] ⟶ **Footer / RTL=True, Background Color=Dark green, Breakpoint=600+** — 1440×584 · lay=H/CENTER/MIN · pad=0 32 80 32 · gap=0 · fill=Background/background-SA-Flag=#074d31
+      - `Content` [FRAM] — 1280×504 · lay=V/MIN/MAX · pad=40 0 24 0 · gap=48
+    - `Frame 105` [FRAM] — 86×1440 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 103` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 104` [FRAM] — 86×99 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 105` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 106` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 107` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 108` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 109` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 110` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 111` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 112` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 113` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 114` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+  - *Prototype reactions:* ON_HOVER INSTANT ×72; ON_HOVER SMART_ANIMATE 300ms EASE_OUT ×12; ON_CLICK SMART_ANIMATE 300ms EASE_OUT ×1
+- `Hero Section` [FRAM] — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=Background/background-SA-Flag=#074d31
+  - `Background` [FRAM] — 1440×491
+    - `Pattern` [FRAM] — 1440×491 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 127` [FRAM] — 110×1440 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 129` [FRAM] — 110×1440 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 126` [FRAM] — 110×1440 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 122` [FRAM] — 110×1440 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 128` [FRAM] — 110×1440 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Layer` [RECT] — 1440×491 · fill=GRADIENT_LINEAR(#074d31@0.00,#074d3100@1.00)
+  - `Hero Section` [FRAM] — 1280×126 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=32
+    - `Content` [FRAM] — 823×126 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `اليوم الوطني السعودي` [TEXT] — 823×72 · fill=Text/text-oncolor-primary=#ffffff · font=mixed · fs=60 · txt="اليوم الوطني السعودي"
+      - `نحتفي بمسيرةٍ من العز والفخر لوطننا` [TEXT] — 823×30 · fill=Text/text-oncolor-primary=#ffffff · font=mixed · fs=20 · txt="نحتفي بمسيرةٍ من العز والفخر ل"
+  - `Carousel` [INST] ⟶ **Carousel / Style=Dots Only** — 1280×20 · lay=V/MAX/CENTER · pad=0 0 0 0 · gap=24
+    - `Controls` [FRAM] — 1280×20 · lay=H/SPACE_BETWEEN/CENTER · pad=0 0 0 0 · gap=24
+      - `Controls Container` [FRAM] — 96×20 · lay=H/MIN/MIN · pad=4 12 4 12 · gap=8 · r=9999
+- `Hero Section` [FRAM] — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=#7c5d21
+  - `Vision-Framed_Photo` [FRAM] — 491×491 · fill=Complementary/Vision=#7c5d21
+    - `Vector` [VECT] — 491×491 · fill=Complementary/Exceptional_Giving=#6565e0
+    - `Frame 139` [FRAM] — 46×46 · fill=Complementary/Vision=#7c5d21
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#56390b
+      - `Vector` [VECT] — 3×3 · fill=#684912
+    - `Frame 138` [FRAM] — 46×46 · fill=Complementary/Vision=#7c5d21
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#56390b
+      - `Vector` [VECT] — 3×3 · fill=#684912
+    - `Frame 120` [FRAM] — 46×46 · fill=Complementary/Vision=#7c5d21
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#56390b
+      - `Vector` [VECT] — 3×3 · fill=#684912
+    - `Frame 140` [FRAM] — 46×46 · fill=Complementary/Vision=#7c5d21
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#684912
+      - `Vector` [VECT] — 3×3 · fill=#56390b
+      - `Vector` [VECT] — 3×3 · fill=#684912
+    - `Rectangle 6206` [RECT] — 369×369 · fill=IMAGE:FILL
+    - `National day logo (Vertical)` [FRAM] — 114×52
+      - `Vector` [VECT] — 113×32 · fill=#031b20
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+    - `Frame 135` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=-0.5 · fill=Complementary/Vision=#7c5d21
+      - `Frame 102` [FRAM] — 46×41 · fill=Complementary/Vision=#7c5d21
+      - `Frame 103` [FRAM] — 46×41 · fill=Complementary/Vision=#7c5d21
+      - `Frame 104` [FRAM] — 46×41 · fill=Complementary/Vision=#7c5d21
+      - `Frame 105` [FRAM] — 46×41 · fill=Complementary/Vision=#7c5d21
+      - `Frame 106` [FRAM] — 46×41 · fill=Complementary/Vision=#7c5d21
+      - `Frame 107` [FRAM] — 46×41 · fill=Complementary/Vision=#7c5d21
+      - `Frame 108` [FRAM] — 46×41 · fill=Complementary/Vision=#7c5d21
+      - `Frame 109` [FRAM] — 46×41 · fill=Complementary/Vision=#7c5d21
+      - `Frame 110` [FRAM] — 46×41 · fill=Complementary/Vision=#7c5d21
+      - `Frame 111` [FRAM] — 46×41 · fill=Complementary/Vision=#7c5d21
+    - `Frame 136` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=-0.5 · fill=Complementary/Vision=#7c5d21
+- `Hero Section` [FRAM] — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=#0050af
+  - `Generosity-Framed_Photo` [FRAM] — 491×491 · fill=Complementary/Generousity=#0050af
+    - `Vector` [VECT] — 491×491 · fill=Complementary/Exceptional_Giving=#6565e0
+    - `Frame 115` [FRAM] — 46×46 · fill=Complementary/Generousity=#0050af
+      - `Vector` [VECT] — 3×3 · fill=#00398c
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00398c
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00398c
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 14×15 · fill=#00398c
+      - `Vector` [VECT] — 23×25 · fill=#00a1e0
+      - `Vector` [VECT] — 14×15 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+    - `Frame 114` [FRAM] — 46×46 · fill=Complementary/Generousity=#0050af
+      - `Vector` [VECT] — 3×3 · fill=#00398c
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00398c
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00398c
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 14×15 · fill=#00398c
+      - `Vector` [VECT] — 23×25 · fill=#00a1e0
+      - `Vector` [VECT] — 14×15 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+    - `Frame 112` [FRAM] — 46×46 · fill=Complementary/Generousity=#0050af
+      - `Vector` [VECT] — 3×3 · fill=#00398c
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00398c
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00398c
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 14×15 · fill=#00398c
+      - `Vector` [VECT] — 23×25 · fill=#00a1e0
+      - `Vector` [VECT] — 14×15 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+    - `Frame 113` [FRAM] — 46×46 · fill=Complementary/Generousity=#0050af
+      - `Vector` [VECT] — 3×3 · fill=#00398c
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00398c
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00398c
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 14×15 · fill=#00398c
+      - `Vector` [VECT] — 23×25 · fill=#00a1e0
+      - `Vector` [VECT] — 14×15 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+      - `Vector` [VECT] — 5×5 · fill=#00398c
+      - `Vector` [VECT] — 3×3 · fill=#00a1e0
+    - `Frame 105` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2.0798497200012207 · fill=Complementary/Generousity=#0050af
+      - `Frame 102` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 103` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 104` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 105` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 106` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 107` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 108` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 109` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 110` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 111` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+    - `Frame 104` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2.0798497200012207 · fill=Complementary/Generousity=#0050af
+      - `Frame 102` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 103` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 104` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 105` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 106` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 107` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 108` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 109` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 110` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 111` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+    - `Frame 106` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2.0798497200012207 · fill=Complementary/Generousity=#0050af
+      - `Frame 102` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 103` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 104` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 105` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 106` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 107` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 108` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 109` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 110` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 111` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+    - `Frame 107` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2.0798497200012207 · fill=Complementary/Generousity=#0050af
+      - `Frame 102` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 103` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 104` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 105` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 106` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 107` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 108` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 109` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 110` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+      - `Frame 111` [FRAM] — 46×35 · fill=Complementary/Generousity=#0050af
+    - `Rectangle 6206` [RECT] — 369×369 · fill=IMAGE:FILL
+    - `National day logo (Vertical)` [FRAM] — 114×52
+      - `Vector` [VECT] — 113×32 · fill=#031b20
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+- `Hero Section` [FRAM] — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=#971a4d
+  - `Determination-Framed_Photo` [FRAM] — 491×491 · fill=Complementary/Determination=#971a4d
+    - `Vector` [VECT] — 491×491 · fill=Complementary/Exceptional_Giving=#6565e0
+    - `Frame 127` [FRAM] — 46×46 · fill=Complementary/Determination=#971a4d
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+    - `Frame 126` [FRAM] — 46×46 · fill=Complementary/Determination=#971a4d
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+    - `Frame 114` [FRAM] — 46×46 · fill=Complementary/Determination=#971a4d
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+    - `Frame 128` [FRAM] — 46×46 · fill=Complementary/Determination=#971a4d
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+      - `Vector` [VECT] — 3×3 · fill=#d13981
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#84063f
+      - `Vector` [VECT] — 3×3 · fill=#b12864
+    - `Frame 124` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · fill=Complementary/Generousity=#0050af
+      - `Frame 102` [FRAM] — 46×216 · fill=Complementary/Determination=#971a4d
+      - `Frame 103` [FRAM] — 46×153 · fill=Complementary/Determination=#971a4d
+    - `Frame 115` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · fill=Complementary/Generousity=#0050af
+      - `Frame 102` [FRAM] — 46×216 · fill=Complementary/Determination=#971a4d
+      - `Frame 103` [FRAM] — 46×153 · fill=Complementary/Determination=#971a4d
+    - `Frame 125` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · fill=Complementary/Generousity=#0050af
+      - `Frame 102` [FRAM] — 46×216 · fill=Complementary/Determination=#971a4d
+      - `Frame 103` [FRAM] — 46×153 · fill=Complementary/Determination=#971a4d
+    - `Frame 123` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · fill=Complementary/Generousity=#0050af
+      - `Frame 102` [FRAM] — 46×216 · fill=Complementary/Determination=#971a4d
+      - `Frame 103` [FRAM] — 46×153 · fill=Complementary/Determination=#971a4d
+    - `Rectangle 6206` [RECT] — 369×369 · fill=IMAGE:FILL
+    - `National day logo (Vertical)` [FRAM] — 114×52
+      - `Vector` [VECT] — 113×32 · fill=#031b20
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+- `Hero Section` [FRAM] — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=#607c4f
+  - `Courage-Framed_Photo` [FRAM] — 491×491 · fill=Complementary/Courage=#607c4f
+    - `Vector` [VECT] — 491×491 · fill=Complementary/Exceptional_Giving=#6565e0
+    - `Frame 133` [FRAM] — 46×46 · fill=Complementary/Courage=#607c4f
+      - `Vector` [VECT] — 20×14 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 10×17 · fill=#405930
+      - `Vector` [VECT] — 14×2 · fill=#405930
+      - `Vector` [VECT] — 10×13 · fill=#789765
+      - `Vector` [VECT] — 20×14 · fill=#405930
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 10×17 · fill=#405930
+      - `Vector` [VECT] — 14×2 · fill=#405930
+      - `Vector` [VECT] — 10×13 · fill=#789765
+    - `Frame 132` [FRAM] — 46×46 · fill=Complementary/Courage=#607c4f
+      - `Vector` [VECT] — 20×14 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 10×17 · fill=#405930
+      - `Vector` [VECT] — 14×2 · fill=#405930
+      - `Vector` [VECT] — 10×13 · fill=#789765
+      - `Vector` [VECT] — 20×14 · fill=#405930
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 10×17 · fill=#405930
+      - `Vector` [VECT] — 14×2 · fill=#405930
+      - `Vector` [VECT] — 10×13 · fill=#789765
+    - `Frame 116` [FRAM] — 46×46 · fill=Complementary/Courage=#607c4f
+      - `Vector` [VECT] — 20×14 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 10×17 · fill=#405930
+      - `Vector` [VECT] — 14×2 · fill=#405930
+      - `Vector` [VECT] — 10×13 · fill=#789765
+      - `Vector` [VECT] — 20×14 · fill=#405930
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 10×17 · fill=#405930
+      - `Vector` [VECT] — 14×2 · fill=#405930
+      - `Vector` [VECT] — 10×13 · fill=#789765
+    - `Frame 134` [FRAM] — 46×46 · fill=Complementary/Courage=#607c4f
+      - `Vector` [VECT] — 20×14 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 8×7 · fill=#405930
+      - `Vector` [VECT] — 8×7 · fill=#789765
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 10×17 · fill=#405930
+      - `Vector` [VECT] — 14×2 · fill=#405930
+      - `Vector` [VECT] — 10×13 · fill=#789765
+      - `Vector` [VECT] — 20×14 · fill=#405930
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 3×3 · fill=#405930
+      - `Vector` [VECT] — 10×17 · fill=#405930
+      - `Vector` [VECT] — 14×2 · fill=#405930
+      - `Vector` [VECT] — 10×13 · fill=#789765
+    - `Frame 129` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2.0798497200012207 · fill=Complementary/Courage=#607c4f
+      - `Frame 102` [FRAM] — 46×81 · fill=Complementary/Courage=#607c4f
+      - `Frame 103` [FRAM] — 46×48 · fill=Complementary/Courage=#607c4f
+      - `Frame 118` [FRAM] — 46×103 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2 · fill=Complementary/Courage=#607c4f
+      - `Frame 105` [FRAM] — 46×48 · fill=Complementary/Courage=#607c4f
+      - `Frame 106` [FRAM] — 46×81 · fill=Complementary/Courage=#607c4f
+    - `Frame 117` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2.0798497200012207 · fill=Complementary/Courage=#607c4f
+      - `Frame 102` [FRAM] — 46×81 · fill=Complementary/Courage=#607c4f
+      - `Frame 103` [FRAM] — 46×48 · fill=Complementary/Courage=#607c4f
+      - `Frame 118` [FRAM] — 46×103 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2 · fill=Complementary/Courage=#607c4f
+      - `Frame 105` [FRAM] — 46×48 · fill=Complementary/Courage=#607c4f
+      - `Frame 106` [FRAM] — 46×81 · fill=Complementary/Courage=#607c4f
+    - `Frame 130` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2.0798497200012207 · fill=Complementary/Courage=#607c4f
+      - `Frame 102` [FRAM] — 46×81 · fill=Complementary/Courage=#607c4f
+      - `Frame 103` [FRAM] — 46×48 · fill=Complementary/Courage=#607c4f
+      - `Frame 118` [FRAM] — 46×103 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2 · fill=Complementary/Courage=#607c4f
+      - `Frame 105` [FRAM] — 46×48 · fill=Complementary/Courage=#607c4f
+      - `Frame 106` [FRAM] — 46×81 · fill=Complementary/Courage=#607c4f
+    - `Frame 131` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2.0798497200012207 · fill=Complementary/Courage=#607c4f
+      - `Frame 102` [FRAM] — 46×81 · fill=Complementary/Courage=#607c4f
+      - `Frame 103` [FRAM] — 46×48 · fill=Complementary/Courage=#607c4f
+      - `Frame 118` [FRAM] — 46×103 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2 · fill=Complementary/Courage=#607c4f
+      - `Frame 105` [FRAM] — 46×48 · fill=Complementary/Courage=#607c4f
+      - `Frame 106` [FRAM] — 46×81 · fill=Complementary/Courage=#607c4f
+    - `Rectangle 6206` [RECT] — 369×369 · fill=IMAGE:FILL
+    - `National day logo (Vertical)` [FRAM] — 114×52
+      - `Vector` [VECT] — 113×32 · fill=#031b20
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+  - `Hero Section` [FRAM] — 1280×246 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=32
+    - `Content` [FRAM] — 793×246 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `عِزّنا بشجاعتنا` [TEXT] — 793×72 · fill=Text/text-oncolor-primary=#ffffff · font=mixed · fs=60 · txt="عِزّنا بشجاعتنا"
+      - `لأن الشجاعة في سلمنا وعرفنا قيمة أصيلة، نفزع بلا تردد وننجد من استنجدنا، وهي صفة متجذرة فينا منذ القدم وامتدادًا عبر تاريخ هذه البلاد العظيمة، حيث كان أبناء الوطن دائمًا سندًا وعونًا لكل محتاج. وتجسّد المواقف الوطنية المشرفة هذه القيمة في أبهى صورها، حيث تُعد الفزعات السعودية والمواقف المشهودة لأبناء الوطن خير برهان على عمق هذه الصفة وأصالتها، بما يعكس قوة التلاحم بين القيادة والشعب، ويؤكد أن الشجاعة ليست موقفًا عابرًا، بل سلوك راسخ يعبّر عن هوية المجتمع السعودي وقيمه الممتدة عبر أجيال.` [TEXT] — 793×150 · fill=Text/text-oncolor-primary=#ffffff · font=mixed · fs=20 · txt="لأن الشجاعة في سلمنا وعرفنا قي"
+  - `Carousel` [INST] ⟶ **Carousel / Style=Dots Only** — 1280×20 · lay=V/MAX/CENTER · pad=0 0 0 0 · gap=24
+    - `Controls` [FRAM] — 1280×20 · lay=H/SPACE_BETWEEN/CENTER · pad=0 0 0 0 · gap=24
+      - `Controls Container` [FRAM] — 96×20 · lay=H/MIN/MIN · pad=4 12 4 12 · gap=8 · r=9999
+- `Hero Section` [FRAM] — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=#00a02d
+  - `Authenticity-Framed_Photo` [FRAM] — 491×491 · fill=Complementary/Authenticity=#5aba1c
+    - `Vector` [VECT] — 491×491 · fill=Complementary/Exceptional_Giving=#6565e0
+    - `Frame 118` [FRAM] — 46×46 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 46×46 · fill=#00a02d
+    - `Frame 117` [FRAM] — 46×46 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 46×46 · fill=#00a02d
+    - `Frame 116` [FRAM] — 46×46 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 46×46 · fill=#00a02d
+    - `Frame 119` [FRAM] — 46×46 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 3×3 · fill=#00a02d
+      - `Vector` [VECT] — 46×46 · fill=#00a02d
+    - `Frame 122` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2.0798497200012207 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 103` [FRAM] — 46×86 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 104` [FRAM] — 46×53 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 105` [FRAM] — 46×86 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 106` [FRAM] — 46×50 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 107` [FRAM] — 46×86 · fill=Complementary/Authenticity=#5aba1c
+    - `Frame 121` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2.0798497200012207 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 103` [FRAM] — 46×86 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 104` [FRAM] — 46×53 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 105` [FRAM] — 46×86 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 106` [FRAM] — 46×50 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 107` [FRAM] — 46×86 · fill=Complementary/Authenticity=#5aba1c
+    - `Frame 120` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2.0798497200012207 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 103` [FRAM] — 46×86 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 104` [FRAM] — 46×53 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 105` [FRAM] — 46×86 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 106` [FRAM] — 46×50 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 107` [FRAM] — 46×86 · fill=Complementary/Authenticity=#5aba1c
+    - `Frame 105` [FRAM] — 46×369 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=2.0798497200012207 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 103` [FRAM] — 46×86 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 104` [FRAM] — 46×53 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 105` [FRAM] — 46×86 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 106` [FRAM] — 46×50 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 107` [FRAM] — 46×86 · fill=Complementary/Authenticity=#5aba1c
+    - `Rectangle 6206` [RECT] — 369×369 · fill=IMAGE:FILL
+    - `National day logo (Vertical)` [FRAM] — 114×52
+      - `Vector` [VECT] — 113×32 · fill=#031b20
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00894a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+      - `Vector` [VECT] — 3×3 · fill=#00343a
+  - `Hero Section` [FRAM] — 1280×216 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=32
+    - `Content` [FRAM] — 787×216 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `عِزّنا بأصالتنا` [TEXT] — 787×72 · fill=Text/text-oncolor-primary=#ffffff · font=mixed · fs=60 · txt="عِزّنا بأصالتنا"
+      - `الأصالة في المجتمع السعودي تعكس ارتباط الناس بجذورهم وتاريخهم، واعتزازهم بإرثهم. فهي تظهر في التمسك بالعادات والتقاليد، واستمرار القيم التي تتوارثها الأجيال، والمحافظة على الهوية الثقافية التي تميز المجتمع السعودي عبر مختلف العصور. كما تتجلى الأصالة في تفاصيل الحياة اليومية، وفي الفخر بالموروث الوطني، والحرص على نقله للأجيال القادمة، بما يعكس عمق الانتماء وصدق الارتباط بالأرض والتاريخ، لتبقى الأصالة قيمةً حاضرة تُجسّد هوية الوطن وتميزه.` [TEXT] — 787×150 · fill=Text/text-oncolor-primary=#ffffff · font=mixed · fs=20 · txt="الأصالة في المجتمع السعودي تعك"
+  - `Carousel` [INST] ⟶ **Carousel / Style=Dots Only** — 1280×20 · lay=V/MAX/CENTER · pad=0 0 0 0 · gap=24
+    - `Controls` [FRAM] — 1280×20 · lay=H/SPACE_BETWEEN/CENTER · pad=0 0 0 0 · gap=24
+      - `Controls Container` [FRAM] — 96×20 · lay=H/MIN/MIN · pad=4 12 4 12 · gap=8 · r=9999
+- `Hero Section` [FRAM] — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=#6565e0
+  - `Exceptional_Giving-Framed_Photo` [FRAM] — 491×491 · fill=Complementary/Exceptional_Giving=#6565e0
+    - `Vector` [VECT] — 491×491 · fill=Complementary/Exceptional_Giving=#6565e0
+    - `Frame 121` [FRAM] — 46×46 · fill=Complementary/Exceptional_Giving=#6565e0
+      - `Vector` [VECT] — 2×3 · fill=#8f94f9
+      - `Vector` [VECT] — 7×8 · fill=#8f94f9
+      - `Vector` [VECT] — 11×18 · fill=#3333bc
+      - `Vector` [VECT] — 16×9 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 8×8 · fill=#8f94f9
+      - `Vector` [VECT] — 19×9 · fill=#3333bc
+      - `Vector` [VECT] — 11×18 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 8×8 · fill=#8f94f9
+      - `Vector` [VECT] — 11×17 · fill=#3333bc
+      - `Vector` [VECT] — 19×11 · fill=#3333bc
+      - `Vector` [VECT] — 2×3 · fill=#8f94f9
+      - `Vector` [VECT] — 7×8 · fill=#8f94f9
+      - `Vector` [VECT] — 16×11 · fill=#3333bc
+      - `Vector` [VECT] — 11×17 · fill=#3333bc
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×2 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+      - `Vector` [VECT] — 2×6 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+      - `Vector` [VECT] — 2×6 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+    - `Frame 120` [FRAM] — 46×46 · fill=Complementary/Exceptional_Giving=#6565e0
+      - `Vector` [VECT] — 2×3 · fill=#8f94f9
+      - `Vector` [VECT] — 7×8 · fill=#8f94f9
+      - `Vector` [VECT] — 11×18 · fill=#3333bc
+      - `Vector` [VECT] — 16×9 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 8×8 · fill=#8f94f9
+      - `Vector` [VECT] — 19×9 · fill=#3333bc
+      - `Vector` [VECT] — 11×18 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 8×8 · fill=#8f94f9
+      - `Vector` [VECT] — 11×17 · fill=#3333bc
+      - `Vector` [VECT] — 19×11 · fill=#3333bc
+      - `Vector` [VECT] — 2×3 · fill=#8f94f9
+      - `Vector` [VECT] — 7×8 · fill=#8f94f9
+      - `Vector` [VECT] — 16×11 · fill=#3333bc
+      - `Vector` [VECT] — 11×17 · fill=#3333bc
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×2 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+      - `Vector` [VECT] — 2×6 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+      - `Vector` [VECT] — 2×6 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+    - `Frame 119` [FRAM] — 46×46 · fill=Complementary/Exceptional_Giving=#6565e0
+      - `Vector` [VECT] — 2×3 · fill=#8f94f9
+      - `Vector` [VECT] — 7×8 · fill=#8f94f9
+      - `Vector` [VECT] — 11×18 · fill=#3333bc
+      - `Vector` [VECT] — 16×9 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 8×8 · fill=#8f94f9
+      - `Vector` [VECT] — 19×9 · fill=#3333bc
+      - `Vector` [VECT] — 11×18 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 8×8 · fill=#8f94f9
+      - `Vector` [VECT] — 11×17 · fill=#3333bc
+      - `Vector` [VECT] — 19×11 · fill=#3333bc
+      - `Vector` [VECT] — 2×3 · fill=#8f94f9
+      - `Vector` [VECT] — 7×8 · fill=#8f94f9
+      - `Vector` [VECT] — 16×11 · fill=#3333bc
+      - `Vector` [VECT] — 11×17 · fill=#3333bc
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×2 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+      - `Vector` [VECT] — 2×6 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+      - `Vector` [VECT] — 2×6 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+    - `Frame 122` [FRAM] — 46×46 · fill=Complementary/Exceptional_Giving=#6565e0
+      - `Vector` [VECT] — 2×3 · fill=#8f94f9
+      - `Vector` [VECT] — 7×8 · fill=#8f94f9
+      - `Vector` [VECT] — 11×18 · fill=#3333bc
+      - `Vector` [VECT] — 16×9 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 8×8 · fill=#8f94f9
+      - `Vector` [VECT] — 19×9 · fill=#3333bc
+      - `Vector` [VECT] — 11×18 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 8×8 · fill=#8f94f9
+      - `Vector` [VECT] — 11×17 · fill=#3333bc
+      - `Vector` [VECT] — 19×11 · fill=#3333bc
+      - `Vector` [VECT] — 2×3 · fill=#8f94f9
+      - `Vector` [VECT] — 7×8 · fill=#8f94f9
+      - `Vector` [VECT] — 16×11 · fill=#3333bc
+      - `Vector` [VECT] — 11×17 · fill=#3333bc
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×2 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 5×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+      - `Vector` [VECT] — 2×6 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+      - `Vector` [VECT] — 2×6 · fill=#8f94f9
+      - `Vector` [VECT] — 3×6 · fill=#8f94f9
+    - `EG Pattern` [FRAM] — 46×369 · fill=Complementary/Exceptional_Giving=#6565e0
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+    - `EG Pattern` [FRAM] — 46×369 · fill=Complementary/Exceptional_Giving=#6565e0
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+    - `EG Pattern` [FRAM] — 46×369 · fill=Complementary/Exceptional_Giving=#6565e0
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#8f94f9
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+      - `Vector` [VECT] — 3×3 · fill=#3333bc
+- `Hero Section` [FRAM] — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=Global/background-inverse-disabled=#f3f4f6
+  - `Background` [FRAM] — 1583×539
+    - `Frame 26` [FRAM] — 1294×539
+      - `Frame 17` [FRAM] — 1294×539
+    - `Layer` [RECT] — 1440×491 · fill=GRADIENT_LINEAR(#f3f4f6@0.23,#ffffffba@1.00)
+  - `Frame 41` [FRAM] — 421×363 · lay=H/CENTER/MAX/wrap · pad=0 0 0 0 · gap=0
+    - `Frame 66` [FRAM] — 421×182 · lay=H/MIN/MAX · pad=0 0 0 0 · gap=0
+      - `Group` [GROU] — 120×120
+      - `Group` [GROU] — 182×182
+      - `Group` [GROU] — 120×120
+    - `Frame 67` [FRAM] — 421×182 · lay=H/CENTER/MIN · pad=0 0 0 0 · gap=0
+      - `Group` [GROU] — 120×120
+      - `Group` [GROU] — 182×182
+      - `Group` [GROU] — 120×120
+  - `Hero Section` [FRAM] — 1280×126 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=32
+    - `Content` [FRAM] — 636×126 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `اليوم الوطني السعودي` [TEXT] — 636×72 · fill=Text/text-default=#161616 · font=mixed · fs=60 · txt="اليوم الوطني السعودي"
+      - `نحتفي بمسيرةٍ من العز والفخر لوطننا` [TEXT] — 636×30 · fill=Text/text-default=#161616 · font=mixed · fs=20 · txt="نحتفي بمسيرةٍ من العز والفخر ل"
+  - `Carousel` [INST] ⟶ **Carousel / Style=Dots Only** — 1280×20 · lay=V/MAX/CENTER · pad=0 0 0 0 · gap=24
+    - `Controls` [FRAM] — 1280×20 · lay=H/SPACE_BETWEEN/CENTER · pad=0 0 0 0 · gap=24
+      - `Controls Container` [FRAM] — 96×20 · lay=H/MIN/MIN · pad=4 12 4 12 · gap=8 · r=9999
+- `Hero Section` [FRAM] — 1440×491 · lay=V/MAX/MAX · pad=40 80 40 80 · gap=32 · fill=Global/background-inverse-disabled=#f3f4f6
+  - `Background` [FRAM] — 1583×539
+    - `Frame 26` [FRAM] — 1294×539
+      - `Frame 17` [FRAM] — 1294×539
+    - `Layer` [RECT] — 1440×491 · fill=GRADIENT_LINEAR(#f3f4f6@0.23,#ffffffba@1.00)
+  - `Frame 25` [FRAM] — 545×363 · lay=H/MAX/MIN/wrap · pad=0 0 0 0 · gap=0
+    - `Group` [GROU] — 182×182
+      - `Group` [GROU] — 182×182
+      - `Group` [GROU] — 110×114
+      - `Group` [GROU] — 110×109
+    - `Group` [GROU] — 182×182
+      - `Vector` [VECT] — 182×182 · fill=#00894a
+      - `Vector` [VECT] — 179×179 · fill=#00343a
+      - `Group` [GROU] — 171×171
+      - `Group` [GROU] — 114×92
+      - `Vector` [VECT] — 114×77 · fill=#00343a
+      - `Group` [GROU] — 114×75
+      - `Vector` [VECT] — 6×4 · fill=#b12864
+      - `Vector` [VECT] — 3×24 · fill=#b12864
+      - `Vector` [VECT] — 2×4 · fill=#b12864
+      - `Vector` [VECT] — 9×33 · fill=#b12864
+      - `Vector` [VECT] — 22×26 · fill=#b12864
+      - `Vector` [VECT] — 12×18 · fill=#b12864
+    - `Group` [GROU] — 182×182
+      - `Group` [GROU] — 182×182
+      - `Group` [GROU] — 102×114
+      - `Vector` [VECT] — 27×25 · fill=#0050af
+      - `Vector` [VECT] — 114×2 · fill=#00a1e0
+      - `Vector` [VECT] — 6×6 · fill=#00343a
+    - `Group` [GROU] — 182×182
+      - `Group` [GROU] — 182×182
+      - `Group` [GROU] — 103×109
+    - `Group` [GROU] — 182×182
+      - `Vector` [VECT] — 182×182 · fill=#00894a
+      - `Vector` [VECT] — 179×179 · fill=#00343a
+      - `Vector` [VECT] — 114×51 · fill=#6565e0
+      - `Group` [GROU] — 53×10
+      - `Vector` [VECT] — 81×20 · fill=#6565e0
+      - `Vector` [VECT] — 6×12 · fill=#00894a
+      - `Group` [GROU] — 26×104
+      - `Group` [GROU] — 26×104
+      - `Vector` [VECT] — 6×12 · fill=#00894a
+      - `Vector` [VECT] — 16×8 · fill=#00894a
+      - `Vector` [VECT] — 12×6 · fill=#3333bc
+      - `Vector` [VECT] — 12×6 · fill=#3333bc
+      - `Vector` [VECT] — 8×4 · fill=#3333bc
+      - `Vector` [VECT] — 8×4 · fill=#3333bc
+      - `Vector` [VECT] — 4×2 · fill=#3333bc
+      - `Vector` [VECT] — 4×2 · fill=#3333bc
+      - `Group` [GROU] — 73×14
+      - `Vector` [VECT] — 8×4 · fill=#00894a
+      - `Vector` [VECT] — 8×4 · fill=#00894a
+      - `Vector` [VECT] — 8×4 · fill=#00894a
+      - `Vector` [VECT] — 8×4 · fill=#00894a
+      - `Vector` [VECT] — 8×4 · fill=#00894a
+      - `Vector` [VECT] — 8×4 · fill=#00894a
+      - `Vector` [VECT] — 8×4 · fill=#00894a
+      - `Vector` [VECT] — 8×4 · fill=#00894a
+      - `Vector` [VECT] — 8×4 · fill=#00894a
+      - `Vector` [VECT] — 8×4 · fill=#00894a
+      - `Group` [GROU] — 171×171
+      - `Group` [GROU] — 49×6
+      - `Vector` [VECT] — 53×10 · fill=#00894a
+      - `Vector` [VECT] — 53×10 · fill=#6565e0
+      - `Vector` [VECT] — 53×12 · fill=#6565e0
+      - `Group` [GROU] — 73×10
+      - `Group` [GROU] — 171×171
+    - `Group` [GROU] — 182×182
+      - `Group` [GROU] — 182×182
+      - `Group` [GROU] — 113×113
+  - `Hero Section` [FRAM] — 1280×126 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=32
+    - `Content` [FRAM] — 636×126 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `اليوم الوطني السعودي` [TEXT] — 636×72 · fill=Text/text-default=#161616 · font=mixed · fs=60 · txt="اليوم الوطني السعودي"
+      - `نحتفي بمسيرةٍ من العز والفخر لوطننا` [TEXT] — 636×30 · fill=Text/text-default=#161616 · font=mixed · fs=20 · txt="نحتفي بمسيرةٍ من العز والفخر ل"
+  - `Carousel` [INST] ⟶ **Carousel / Style=Dots Only** — 1280×20 · lay=V/MAX/CENTER · pad=0 0 0 0 · gap=24
+    - `Controls` [FRAM] — 1280×20 · lay=H/SPACE_BETWEEN/CENTER · pad=0 0 0 0 · gap=24
+      - `Controls Container` [FRAM] — 96×20 · lay=H/MIN/MIN · pad=4 12 4 12 · gap=8 · r=9999
+- `Design system header` [INST] ⟶ **Design system header / Color=Dark** — 6993×346 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · r=24 · fill=Background/background-SA-Flag=#074d31
+  - `Content` [FRAM] — 6993×346 · lay=V/MIN/MIN · pad=48 80 64 80 · gap=64
+    - `Header` [FRAM] — 6833×80 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=24
+      - `_Logomark` [INST] ⟶ **_Logomark / Logo=DGA** — 56×80 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 3` [FRAM] — 210×30 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=8
+    - `Heading and resources` [FRAM] — 6833×90 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Heading and supporting text` [FRAM] — 1024×90 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=20
+      - `Resources` [FRAM] — 1216×118 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=16
+- `Design system header` [INST] ⟶ **Design system header / Color=Dark** — 1440×346 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · r=24 · fill=Background/background-SA-Flag=#074d31
+  - `Content` [FRAM] — 1440×346 · lay=V/MIN/MIN · pad=48 80 64 80 · gap=64
+    - `Header` [FRAM] — 1280×80 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=24
+      - `_Logomark` [INST] ⟶ **_Logomark / Logo=DGA** — 56×80 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 3` [FRAM] — 210×30 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=8
+    - `Heading and resources` [FRAM] — 1280×90 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Heading and supporting text` [FRAM] — 1024×90 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=20
+      - `Resources` [FRAM] — 1216×118 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=16
+- `.` [FRAM] — 2920×168 · lay=V/MIN/MIN · pad=0 32 0 32 · gap=0 · r=24 · fill=Background/background-body=#f9fafb
+  - `Content` [FRAM] — 2856×168 · lay=V/MIN/MIN · pad=24 80 24 24 · gap=64
+    - `Heading and resources` [FRAM] — 2752×120 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Heading and supporting text` [FRAM] — 1024×120 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=20
+      - `Resources` [FRAM] — 1216×118 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=16
+- `.` [FRAM] — 1440×168 · lay=V/MIN/MIN · pad=24 32 24 32 · gap=32 · r=24 · fill=Background/background-body=#f9fafb
+  - `Heading and resources` [FRAM] — 1376×32 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Heading and supporting text` [FRAM] — 1024×32 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=20
+      - `Heading` [TEXT] — 177×32 · fill=Text/text-primary-paragraph=#384250 · font=mixed · fs=24 · txt="HTML templates"
+      - `Supporting text` [TEXT] — 1024×32 · fill=Text/text-oncolor-primary=#ffffff · font=mixed · fs=24 · txt="Description text dolor sit inc"
+    - `Resources` [FRAM] — 1216×118 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=16
+      - `Frame 1` [FRAM] — 399×118 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=16
+  - `Button` [INST] ⟶ **Button / RTL=False, Size=Large, State=Default, Style=Primary, Destructive=no, Icon only=False, On-color=False** — 259×40 · lay=H/CENTER/CENTER · pad=0 16 0 16 · gap=4 · r=4 · fill=Button/button-background-primary-default=#1b8354
+    - `Leading Icon` [INST] ⟶ **arrow-right-02 / Style=Stroke, Type=Rounded** — 24×24
+      - `elements` [GROU] — 12×18
+    - `Text wrapper` [FRAM] — 227×24 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=0
+      - `Text` [TEXT] — 227×24 · fill=Text/text-oncolor-primary=#ffffff · font=mixed · fs=16 · txt="Download HTML template here"
+    - `Trailing icon` [INST] ⟶ **add-circle / Style=Stroke, Type=Rounded** — 24×24
+      - `elements` [GROU] — 22×22
+- `Design system header` [INST] ⟶ **Design system header / Color=Dark** — 6180×346 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · r=24 · fill=Background/background-SA-Flag=#074d31
+  - `Content` [FRAM] — 6180×346 · lay=V/MIN/MIN · pad=48 80 64 80 · gap=64
+    - `Header` [FRAM] — 6020×80 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=24
+      - `_Logomark` [INST] ⟶ **_Logomark / Logo=DGA** — 56×80 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 3` [FRAM] — 210×30 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=8
+    - `Heading and resources` [FRAM] — 6020×90 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Heading and supporting text` [FRAM] — 1024×90 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=20
+      - `Resources` [FRAM] — 1216×118 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=16
+- `Design system header` [INST] ⟶ **Design system header / Color=Dark** — 4600×346 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · r=24 · fill=Background/background-SA-Flag=#074d31
+  - `Content` [FRAM] — 4600×346 · lay=V/MIN/MIN · pad=48 80 64 80 · gap=64
+    - `Header` [FRAM] — 4440×80 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=24
+      - `_Logomark` [INST] ⟶ **_Logomark / Logo=DGA** — 56×80 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 3` [FRAM] — 210×30 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=8
+    - `Heading and resources` [FRAM] — 4440×90 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Heading and supporting text` [FRAM] — 1024×90 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=20
+      - `Resources` [FRAM] — 1216×118 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=16
+- `Design system header` [INST] ⟶ **Design system header / Color=Dark** — 1440×346 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · r=24 · fill=Background/background-SA-Flag=#074d31
+  - `Content` [FRAM] — 1440×346 · lay=V/MIN/MIN · pad=48 80 64 80 · gap=64
+    - `Header` [FRAM] — 1280×80 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=24
+      - `_Logomark` [INST] ⟶ **_Logomark / Logo=DGA** — 56×80 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 3` [FRAM] — 210×30 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=8
+    - `Heading and resources` [FRAM] — 1280×90 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Heading and supporting text` [FRAM] — 1024×90 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=20
+      - `Resources` [FRAM] — 1216×118 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=16
+- `Design system header` [INST] ⟶ **Design system header / Color=Dark** — 1440×346 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · r=24 · fill=Background/background-SA-Flag=#074d31
+  - `Content` [FRAM] — 1440×346 · lay=V/MIN/MIN · pad=48 80 64 80 · gap=64
+    - `Header` [FRAM] — 1280×80 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=24
+      - `_Logomark` [INST] ⟶ **_Logomark / Logo=DGA** — 56×80 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 3` [FRAM] — 210×30 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=8
+    - `Heading and resources` [FRAM] — 1280×90 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Heading and supporting text` [FRAM] — 1024×90 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=20
+      - `Resources` [FRAM] — 1216×118 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=16
+- `Design system header` [INST] ⟶ **Design system header / Color=Dark** — 1440×346 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · r=24 · fill=Background/background-SA-Flag=#074d31
+  - `Content` [FRAM] — 1440×346 · lay=V/MIN/MIN · pad=48 80 64 80 · gap=64
+    - `Header` [FRAM] — 1280×80 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=24
+      - `_Logomark` [INST] ⟶ **_Logomark / Logo=DGA** — 56×80 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 3` [FRAM] — 210×30 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=8
+    - `Heading and resources` [FRAM] — 1280×90 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Heading and supporting text` [FRAM] — 1024×90 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=20
+      - `Resources` [FRAM] — 1216×118 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=16
+- `Footer` [FRAM] — 1440×584 · lay=V/MIN/CENTER · pad=0 0 0 0 · gap=-114
+  - `Frame 105` [FRAM] — 86×1440 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Frame 103` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 86×160 · fill=#00a02d
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+    - `Frame 104` [FRAM] — 86×99 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+    - `Frame 105` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 86×160 · fill=#00a02d
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+    - `Frame 106` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+    - `Frame 107` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 86×160 · fill=#00a02d
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+    - `Frame 108` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+    - `Frame 109` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 86×160 · fill=#00a02d
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+  - *Prototype reactions:* ON_HOVER INSTANT ×40
+- `Footer` [FRAM] — 1440×664 · lay=V/MIN/CENTER · pad=0 0 0 0 · gap=-114
+  - `Frame 106` [FRAM] — 86×1440 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Frame 103` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 86×160 · fill=#00a02d
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+    - `Frame 104` [FRAM] — 86×99 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+    - `Frame 105` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 86×160 · fill=#00a02d
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+    - `Frame 106` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+    - `Frame 107` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 86×160 · fill=#00a02d
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+    - `Frame 108` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+    - `Frame 109` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 86×160 · fill=#00a02d
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+  - *Prototype reactions:* ON_HOVER INSTANT ×40
+- `Footer` [FRAM] — 1440×584 · lay=V/MIN/CENTER · pad=0 0 0 0 · gap=-114
+  - `Footer` [INST] ⟶ **Footer / RTL=True, Background Color=Dark green, Breakpoint=600+** — 1440×584 · lay=H/CENTER/MIN · pad=0 32 80 32 · gap=0 · fill=Background/background-SA-Flag=#074d31
+    - `Content` [FRAM] — 1280×504 · lay=V/MIN/MAX · pad=40 0 24 0 · gap=48
+      - `Nav links` [FRAM] — 1280×232 · lay=H/MAX/MIN/wrap · pad=16 0 40 0 · gap=24
+      - `Legal` [FRAM] — 1280×160 · lay=H/MAX/CENTER · pad=16 0 16 0 · gap=24
+  - `Frame 105` [FRAM] — 86×1440 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Frame 103` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 86×160 · fill=#00a02d
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+    - `Frame 104` [FRAM] — 86×99 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+    - `Frame 105` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 86×160 · fill=#00a02d
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+    - `Frame 106` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+    - `Frame 107` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 86×160 · fill=#00a02d
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+      - `Vector` [VECT] — 6×6 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 6×12 · fill=#94dd07
+      - `Vector` [VECT] — 3×3 · fill=#94dd07
+    - `Frame 108` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#94dd07
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 12×12 · fill=#00a02d
+      - `Vector` [VECT] — 25×12 · fill=#00a02d
+  - *Prototype reactions:* ON_HOVER INSTANT ×40
+- `Home Page - Desktop AR` [FRAM] — 1440×3193 · lay=V/CENTER/CENTER · pad=0 0 0 0 · gap=0 · fill=Background/background-white=#ffffff
+  - `Digital Stamp` [INST] ⟶ **Digital Stamp / RTL=Yes, Opened=no, Device=Desktop** — 1440×32 · lay=H/MAX/CENTER · pad=0 32 0 32 · gap=10 · fill=Background/background-neutral-100=#f3f4f6
+    - `Content` [FRAM] — 380×20 · lay=H/MIN/CENTER · pad=0 0 0 0 · gap=10
+      - `Link` [INST] ⟶ **Link / RTL=True, State=Default, Style=Primary, Size=Small, Inline=False** — 86×20 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=4
+      - `موقع حكومي مسجل لدى هيئة الحكومة الرقمية` [TEXT] — 254×20 · fill=Text/text-default=#161616 · font=mixed · fs=14 · txt="موقع حكومي مسجل لدى هيئة الحكو"
+      - `Country Flags` [INST] ⟶ **Country Flags / Flags=Saudi Arabia, Size=Medium, Shape=Square** — 20×14 · fill=#ffffff
+  - `Nav Header` [FRAM] — 1440×72 · lay=V/CENTER/CENTER · pad=0 32 0 32 · gap=0 · fill=Background/background-menu=#ffffff
+    - `Header Content` [FRAM] — 1376×72 · lay=H/SPACE_BETWEEN/CENTER · pad=0 0 0 0 · gap=16
+      - `Actions` [FRAM] — 368×72 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=0
+      - `Logo & Menu Items` [FRAM] — 1008×72 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=16
+    - `Divider` [RECT] — 1440×1 · fill=Colors/Neutral/300=#d2d6db
+  - `Hero Section V2` [INST] ⟶ **Hero Section V2 / Property 1=Vision** — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=GRADIENT_LINEAR(#211501@0.00,#7c5d21@1.00)
+    - `Background` [FRAM] — 1583×539
+      - `Layer` [RECT] — 1440×491 · fill=GRADIENT_LINEAR(#e8c589@0.00,#e8c589@0.01,#e7c488@0.02,#e6c387@0.02,#e5c286@0.03,#e4c185@0.04,#e3c185@0.05,#e3c084@0.05,#e2bf83@0.06,#e1be82@0.07,#e0bd81@0.08,#dfbc80@0.09,#debc80@0.09,#ddbb7f@0.10,#ddba7e@0.11,#dcb97d@0.12,#dbb87c@0.13,#dab87c@0.13,#d9b77b@0.14,#d8b67a@0.15,#d8b579@0.16,#d7b478@0.16,#d6b478@0.17,#d5b377@0.18,#d4b276@0.19,#d3b175@0.20,#d2b074@0.20,#d2af73@0.21,#d1af73@0.22,#d0ae72@0.23,#cfad71@0.23,#ceac70@0.24,#cdab6f@0.25,#cdab6f@0.26,#ccaa6e@0.27,#cba96d@0.27,#caa86c@0.28,#c9a76b@0.29,#c8a76b@0.30,#c8a66a@0.30,#c7a569@0.31,#c6a468@0.32,#c5a367@0.33,#c4a266@0.34,#c3a266@0.34,#c2a165@0.35,#c2a064@0.36,#c19f63@0.37,#c09e62@0.38,#bf9e62@0.38,#be9d61@0.39,#bd9c60@0.40,#bd9b5f@0.41,#bc9a5e@0.41,#bb9a5e@0.42,#ba995d@0.43,#b9985c@0.44,#b8975b@0.45,#b7965a@0.45,#b79559@0.46,#b69559@0.47,#b59458@0.48,#b49357@0.48,#b39256@0.49,#b29155@0.50,#b29155@0.51,#b19054@0.52,#b08f53@0.52,#af8e52@0.53,#ae8d51@0.54,#ad8d51@0.55,#ad8c50@0.55,#ac8b4f@0.56,#ab8a4e@0.57,#aa894d@0.58,#a9884c@0.59,#a8884c@0.59,#a7874b@0.60,#a7864a@0.61,#a68549@0.62,#a58448@0.63,#a48448@0.63,#a38347@0.64,#a28246@0.65,#a28145@0.66,#a18044@0.66,#a08044@0.67,#9f7f43@0.68,#9e7e42@0.69,#9d7d41@0.70,#9c7c40@0.70,#9c7b3f@0.71,#9b7b3f@0.72,#9a7a3e@0.73,#99793d@0.73,#98783c@0.74,#97773b@0.75,#97773b@0.76,#96763a@0.77,#957539@0.77,#947438@0.78,#937337@0.79,#927337@0.80,#927236@0.80,#917135@0.81,#907034@0.82,#8f6f33@0.83,#8e6e32@0.84,#8d6e32@0.84,#8c6d31@0.85,#8c6c30@0.86,#8b6b2f@0.87,#8a6a2e@0.88,#896a2e@0.88,#88692d@0.89,#87682c@0.90,#87672b@0.91,#86662a@0.91,#85662a@0.92,#846529@0.93,#836428@0.94,#826327@0.95,#816226@0.95,#816125@0.96,#806125@0.97,#7f6024@0.98,#7e5f23@0.98,#7d5e22@0.99,#7c5d21@1.00)
+      - `Pattern` [FRAM] — 1511×539
+    - `Hero Section` [FRAM] — 1280×328 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=32
+      - `National day logo (Vertical)` [FRAM] — 175×80
+      - `Content` [FRAM] — 604×216 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+    - `Asset Deck` [FRAM] — 720×491 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=0
+      - `Heritage Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+      - `Support Asset 2` [RECT] — 491×491 · fill=IMAGE:CROP
+      - `Ambition Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+      - `Generosity Asset 1` [RECT] — 491×491 · fill=IMAGE:CROP
+      - `Kindness Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+      - `Vision Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Frame 96` [FRAM] — 1280×40 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=10
+      - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Left, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Controls Container` [FRAM] — 136×20 · lay=H/MIN/MIN · pad=4 12 4 12 · gap=8 · r=9999
+      - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Right, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+  - `About Us Section` [FRAM] — 1440×426 · lay=V/CENTER/CENTER · pad=40 80 64 80 · gap=32 · fill=Background/background-white=#ffffff
+    - `Section` [FRAM] — 1280×322 · lay=V/CENTER/CENTER · pad=0 0 0 0 · gap=32
+      - `Content` [FRAM] — 1280×86 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `Cards` [FRAM] — 992×204 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=32
+  - `Services Section` [FRAM] — 1440×584 · lay=H/CENTER/CENTER · pad=40 80 64 80 · gap=32 · fill=Background/background-neutral-50=#f9fafb
+    - `Section` [FRAM] — 1280×480 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=32
+      - `Content` [FRAM] — 1280×112 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=24
+      - `Carousel` [INST] ⟶ **Carousel / Style=Dots** — 1280×336 · lay=V/MIN/CENTER · pad=0 24 0 24 · gap=24
+  - `Articles and News Section` [FRAM] — 1440×678 · lay=H/CENTER/CENTER · pad=40 80 64 80 · gap=32 · fill=Background/background-white=#ffffff
+    - `Section` [FRAM] — 1280×574 · lay=V/MIN/CENTER · pad=0 0 0 0 · gap=32
+      - `Content` [FRAM] — 1280×88 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `Cards` [FRAM] — 1280×454 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=16
+  - `Partner Section` [FRAM] — 1440×274 · lay=H/CENTER/CENTER · pad=40 80 64 80 · gap=32 · fill=Background/background-white=#ffffff
+    - `Section` [FRAM] — 1280×170 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=32
+      - `قسم الشركاء` [TEXT] — 1280×38 · fill=Text/text-default=#161616 · font=mixed · fs=30 · txt="قسم الشركاء"
+      - `Partners` [FRAM] — 1280×100 · lay=H/SPACE_BETWEEN/CENTER · pad=0 0 0 0 · gap=16
+  - `Feedback Section` [FRAM] — 1440×52 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Last Modified` [FRAM] — 1440×52 · lay=H/MIN/CENTER · pad=16 80 16 80 · gap=8 · fill=Background/background-white=#ffffff
+      - `تاريخ آخر تعديل: 04/12/2025 - 4:13 م بتوقيت السعودية` [TEXT] — 1280×20 · fill=Text/text-default=#161616 · font=mixed · fs=14 · txt="تاريخ آخر تعديل: 04/12/2025 - "
+  - `Footer` [FRAM] — 1440×584 · lay=V/MIN/CENTER · pad=0 0 0 0 · gap=-114
+    - `Frame 105` [FRAM] — 86×1440 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 103` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 104` [FRAM] — 86×99 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 105` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 106` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 107` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 108` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 109` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 110` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 111` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 112` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 113` [FRAM] — 86×161 · fill=Complementary/Authenticity=#5aba1c
+      - `Frame 114` [FRAM] — 86×93 · fill=Complementary/Authenticity=#5aba1c
+    - `Footer` [INST] ⟶ **Footer / RTL=True, Background Color=Dark green, Breakpoint=600+** — 1440×584 · lay=H/CENTER/MIN · pad=80 32 0 32 · gap=0 · fill=Background/background-SA-Flag=#074d31
+      - `Content` [FRAM] — 1280×504 · lay=V/MIN/MAX · pad=40 0 24 0 · gap=48
+  - *Prototype reactions:* ON_HOVER INSTANT ×74; ON_HOVER SMART_ANIMATE 300ms EASE_OUT ×12; ON_CLICK SMART_ANIMATE 300ms EASE_OUT ×3; ON_PRESS INSTANT ×2; ON_KEY_DOWN(keys 13) INSTANT ×2; AFTER_TIMEOUT(7000ms) SMART_ANIMATE 300ms EASE_OUT ×1
+- `Home Page - AR` [FRAM] — 430×993 · lay=V/MIN/CENTER · pad=0 0 0 0 · gap=0 · fill=Background/background-white=#ffffff
+  - `Digital Stamp` [INST] ⟶ **Digital Stamp / RTL=Yes, Opened=no, Device=Mobile** — 430×60 · lay=H/MAX/CENTER · pad=6 16 6 16 · gap=0 · fill=Background/background-neutral-100=#f3f4f6
+    - `Content` [FRAM] — 398×48 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=8
+      - `Content` [FRAM] — 398×20 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=8
+      - `Link` [INST] ⟶ **Link / RTL=True, State=Default, Style=Primary, Size=Small, Inline=False** — 86×20 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=4
+  - `Nav Header` [INST] ⟶ **Nav Header / RTL=True, Breakpoint=<600, Full-width=False** — 430×72 · lay=V/CENTER/CENTER · pad=0 16 0 16 · gap=0 · fill=Background/background-menu=#ffffff
+    - `Header Content` [FRAM] — 398×72 · lay=H/SPACE_BETWEEN/CENTER · pad=0 0 0 0 · gap=16
+      - `Actions` [FRAM] — 144×72 · lay=H/MIN/CENTER · pad=0 0 0 0 · gap=0
+      - `Logo & Menu Items` [FRAM] — 254×58 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=16
+      - `Nav Menu` [FRAM] — 144×72 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=0
+    - `Divider` [RECT] — 430×1 · fill=Colors/Neutral/300=#d2d6db
+  - `Mobile Hero Section V2` [INST] ⟶ **Mobile Hero Section V2 / Property 1=Variant3** — 430×649 · lay=V/MIN/CENTER · pad=14 0 0 0 · gap=0 · fill=GRADIENT_LINEAR(#211501@0.00,#7c5d21@1.00)
+    - `National day logo (Vertical)` [FRAM] — 145×67
+      - `Vector` [VECT] — 145×40 · fill=#031b20
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+    - `Asset Deck` [FRAM] — 430×359
+      - `Heritage Asset 1` [RECT] — 239×239 · fill=IMAGE:FILL
+      - `Support Asset 2` [RECT] — 239×239 · fill=IMAGE:CROP
+      - `Ambition Asset 1` [RECT] — 239×239 · fill=IMAGE:FILL
+      - `Generosity Asset 1` [RECT] — 239×239 · fill=IMAGE:CROP
+      - `Kindness Asset 1` [RECT] — 239×239 · fill=IMAGE:FILL
+      - `Vision Asset 1` [RECT] — 324×324 · fill=IMAGE:FILL
+    - `Mobile-Banner` [FRAM] — 430×209 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · fill=#7c5d21
+      - `Frame 47` [FRAM] — 430×86 · lay=H/MIN/CENTER · pad=0 0 0 0 · gap=0
+      - `Content` [FRAM] — 430×209 · lay=V/MIN/CENTER · pad=16 16 16 16 · gap=26 · fill=GRADIENT_LINEAR(#5f4617@0.38,#61481a@0.58,#61481a00@0.84)
+  - `About Us Section` [FRAM] — 430×662 · lay=V/CENTER/CENTER · pad=40 16 40 16 · gap=32 · fill=Background/background-white=#ffffff
+    - `Section` [FRAM] — 398×582 · lay=V/CENTER/CENTER · pad=0 0 0 0 · gap=32
+      - `Content` [FRAM] — 398×110 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `Cards` [FRAM] — 398×440 · lay=H/CENTER/CENTER/wrap · pad=0 0 0 0 · gap=32
+  - `Services Section` [FRAM] — 430×552 · lay=H/CENTER/CENTER · pad=40 16 40 16 · gap=32 · fill=Background/background-neutral-50=#f9fafb
+    - `Section` [FRAM] — 398×472 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=32
+      - `Content` [FRAM] — 398×104 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=24
+      - `Carousel` [INST] ⟶ **Carousel / Style=Dots** — 398×336 · lay=V/MIN/CENTER · pad=0 24 0 24 · gap=24
+  - `Articles and News Section` [FRAM] — 430×760 · lay=H/CENTER/CENTER · pad=40 16 40 16 · gap=32
+    - `Section` [FRAM] — 398×680 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=32
+      - `Content` [FRAM] — 398×86 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `Carousel` [INST] ⟶ **Carousel / Style=Dots** — 398×562 · lay=V/MIN/CENTER · pad=0 24 0 24 · gap=24
+  - `Partner Section` [FRAM] — 430×250 · lay=H/CENTER/CENTER · pad=40 16 40 16 · gap=32
+    - `Section` [FRAM] — 398×170 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=32
+      - `قسم الشركاء` [TEXT] — 398×38 · fill=Text/text-default=#161616 · font=mixed · fs=30 · txt="قسم الشركاء"
+      - `Partners` [FRAM] — 398×100 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=16
+  - `Feedback Section` [FRAM] — 430×52 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Last Modified` [FRAM] — 430×52 · lay=H/MIN/CENTER · pad=16 16 16 16 · gap=8 · fill=Background/background-white=#ffffff
+      - `تاريخ آخر تعديل: 04/12/2026 - 4:13 م بتوقيت السعودية` [TEXT] — 398×20 · fill=Text/text-default=#161616 · font=mixed · fs=14 · txt="تاريخ آخر تعديل: 04/12/2026 - "
+  - `Footer` [INST] ⟶ **Footer / RTL=True, Background Color=Dark green, Breakpoint=<600** — 430×1062 · lay=H/CENTER/MIN · pad=0 32 0 32 · gap=0 · fill=Background/background-SA-Flag=#074d31
+    - `Content` [FRAM] — 366×1062 · lay=V/MIN/MAX · pad=40 0 24 0 · gap=40
+      - `Nav links` [FRAM] — 366×596 · lay=H/MAX/MIN/wrap · pad=16 0 16 0 · gap=24
+      - `Footer group` [FRAM] — 366×72 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=32
+      - `Legal` [FRAM] — 366×250 · lay=V/MIN/MAX · pad=16 0 16 0 · gap=40
+  - *Prototype reactions:* ON_HOVER INSTANT ×62; ON_HOVER SMART_ANIMATE 300ms EASE_OUT ×12; ON_CLICK SMART_ANIMATE 300ms EASE_OUT ×1; AFTER_TIMEOUT(7000ms) SMART_ANIMATE 300ms EASE_OUT ×1; ON_DRAG SMART_ANIMATE 1250ms SLOW ×1; ON_CLICK INSTANT ×1
+- `Hero Section V2` [INST] ⟶ **Hero Section V2 / Property 1=Vision** — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=GRADIENT_LINEAR(#211501@0.00,#7c5d21@1.00)
+  - `Background` [FRAM] — 1583×539
+    - `Layer` [RECT] — 1440×491 · fill=GRADIENT_LINEAR(#e8c589@0.00,#e8c589@0.01,#e7c488@0.02,#e6c387@0.02,#e5c286@0.03,#e4c185@0.04,#e3c185@0.05,#e3c084@0.05,#e2bf83@0.06,#e1be82@0.07,#e0bd81@0.08,#dfbc80@0.09,#debc80@0.09,#ddbb7f@0.10,#ddba7e@0.11,#dcb97d@0.12,#dbb87c@0.13,#dab87c@0.13,#d9b77b@0.14,#d8b67a@0.15,#d8b579@0.16,#d7b478@0.16,#d6b478@0.17,#d5b377@0.18,#d4b276@0.19,#d3b175@0.20,#d2b074@0.20,#d2af73@0.21,#d1af73@0.22,#d0ae72@0.23,#cfad71@0.23,#ceac70@0.24,#cdab6f@0.25,#cdab6f@0.26,#ccaa6e@0.27,#cba96d@0.27,#caa86c@0.28,#c9a76b@0.29,#c8a76b@0.30,#c8a66a@0.30,#c7a569@0.31,#c6a468@0.32,#c5a367@0.33,#c4a266@0.34,#c3a266@0.34,#c2a165@0.35,#c2a064@0.36,#c19f63@0.37,#c09e62@0.38,#bf9e62@0.38,#be9d61@0.39,#bd9c60@0.40,#bd9b5f@0.41,#bc9a5e@0.41,#bb9a5e@0.42,#ba995d@0.43,#b9985c@0.44,#b8975b@0.45,#b7965a@0.45,#b79559@0.46,#b69559@0.47,#b59458@0.48,#b49357@0.48,#b39256@0.49,#b29155@0.50,#b29155@0.51,#b19054@0.52,#b08f53@0.52,#af8e52@0.53,#ae8d51@0.54,#ad8d51@0.55,#ad8c50@0.55,#ac8b4f@0.56,#ab8a4e@0.57,#aa894d@0.58,#a9884c@0.59,#a8884c@0.59,#a7874b@0.60,#a7864a@0.61,#a68549@0.62,#a58448@0.63,#a48448@0.63,#a38347@0.64,#a28246@0.65,#a28145@0.66,#a18044@0.66,#a08044@0.67,#9f7f43@0.68,#9e7e42@0.69,#9d7d41@0.70,#9c7c40@0.70,#9c7b3f@0.71,#9b7b3f@0.72,#9a7a3e@0.73,#99793d@0.73,#98783c@0.74,#97773b@0.75,#97773b@0.76,#96763a@0.77,#957539@0.77,#947438@0.78,#937337@0.79,#927337@0.80,#927236@0.80,#917135@0.81,#907034@0.82,#8f6f33@0.83,#8e6e32@0.84,#8d6e32@0.84,#8c6d31@0.85,#8c6c30@0.86,#8b6b2f@0.87,#8a6a2e@0.88,#896a2e@0.88,#88692d@0.89,#87682c@0.90,#87672b@0.91,#86662a@0.91,#85662a@0.92,#846529@0.93,#836428@0.94,#826327@0.95,#816226@0.95,#816125@0.96,#806125@0.97,#7f6024@0.98,#7e5f23@0.98,#7d5e22@0.99,#7c5d21@1.00)
+    - `Pattern` [FRAM] — 1511×539
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+      - `Vector` [VECT] — 44×75 · fill=#937135
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+      - `Vector` [VECT] — 44×25 · fill=#937135
+      - `Vector` [VECT] — 15×25 · fill=#937135
+      - `Vector` [VECT] — 30×63 · fill=#937135
+      - `Vector` [VECT] — 15×25 · fill=#937135
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+      - `Vector` [VECT] — 44×75 · fill=#937135
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+      - `Vector` [VECT] — 44×25 · fill=#937135
+      - `Vector` [VECT] — 15×25 · fill=#937135
+      - `Vector` [VECT] — 30×63 · fill=#937135
+      - `Vector` [VECT] — 15×25 · fill=#937135
+      - `Vector` [VECT] — 118×180 · fill=#937135
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+      - `Vector` [VECT] — 44×75 · fill=#937135
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+      - `Vector` [VECT] — 44×63 · fill=#937135
+      - `Vector` [VECT] — 15×25 · fill=#937135
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+      - `Vector` [VECT] — 44×75 · fill=#937135
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+      - `Vector` [VECT] — 44×63 · fill=#937135
+      - `Vector` [VECT] — 15×25 · fill=#937135
+      - `Vector` [VECT] — 118×180 · fill=#937135
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+      - `Vector` [VECT] — 44×75 · fill=#937135
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+      - `Vector` [VECT] — 44×63 · fill=#937135
+      - `Vector` [VECT] — 15×25 · fill=#937135
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+      - `Vector` [VECT] — 44×75 · fill=#937135
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+      - `Vector` [VECT] — 44×63 · fill=#937135
+      - `Vector` [VECT] — 15×25 · fill=#937135
+      - `Vector` [VECT] — 118×180 · fill=#937135
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+      - `Vector` [VECT] — 44×75 · fill=#937135
+      - `Vector` [VECT] — 44×75 · fill=#56390b
+  - `Hero Section` [FRAM] — 1280×328 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=32
+    - `National day logo (Vertical)` [FRAM] — 175×80
+      - `Vector` [VECT] — 174×49 · fill=#031b20
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 4×5 · fill=#00894a
+      - `Vector` [VECT] — 4×5 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+    - `Content` [FRAM] — 604×216 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `Frame 94` [FRAM] — 604×72 · lay=H/MAX/MIN · pad=0 0 0 0 · gap=8
+      - `(برؤيتنا) Description V2` [INST] ⟶ **(برؤيتنا) Description V2 / Property 1=show** — 604×120 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10
+  - `Asset Deck` [FRAM] — 720×491 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=0
+    - `Heritage Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Support Asset 2` [RECT] — 491×491 · fill=IMAGE:CROP
+    - `Ambition Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Generosity Asset 1` [RECT] — 491×491 · fill=IMAGE:CROP
+    - `Kindness Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Vision Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+  - `Frame 96` [FRAM] — 1280×40 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=10
+    - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Left, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Cricle` [FRAM] — 40×40 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10 · r=999 · fill=Button/button-background-primary-default=#1b8354
+    - `Controls Container` [FRAM] — 136×20 · lay=H/MIN/MIN · pad=4 12 4 12 · gap=8 · r=9999
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=True, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Right, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Cricle` [FRAM] — 40×40 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10 · r=999 · fill=Button/button-background-primary-default=#1b8354
+  - *Prototype reactions:* ON_HOVER INSTANT ×2; ON_PRESS INSTANT ×2; ON_KEY_DOWN(keys 13) INSTANT ×2; ON_CLICK SMART_ANIMATE 300ms EASE_OUT ×2; AFTER_TIMEOUT(7000ms) SMART_ANIMATE 300ms EASE_OUT ×1
+- `Hero Section V2` [INST] ⟶ **Hero Section V2 / Property 1=Kindness** — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=GRADIENT_LINEAR(#312d6e@0.00,#6565e0@1.00)
+  - `Background` [FRAM] — 1583×539
+    - `Layer` [RECT] — 1440×491 · fill=GRADIENT_LINEAR(#e2dcf9@0.00,#e2dcf9@0.01,#e1dbf9@0.02,#e0daf9@0.02,#dfd9f8@0.03,#ded8f8@0.04,#ddd7f8@0.05,#dcd6f8@0.05,#dbd5f8@0.06,#dad4f7@0.07,#d9d3f7@0.08,#d8d2f7@0.09,#d7d1f7@0.09,#d6d0f7@0.10,#d5cff6@0.11,#d4cff6@0.12,#d3cef6@0.13,#d2cdf6@0.13,#d1ccf6@0.14,#d0cbf5@0.15,#cfcaf5@0.16,#cec9f5@0.16,#cdc8f5@0.17,#ccc7f5@0.18,#cbc6f4@0.19,#cac5f4@0.20,#c9c4f4@0.20,#c8c3f4@0.21,#c7c2f4@0.22,#c6c1f3@0.23,#c5c1f3@0.23,#c4c0f3@0.24,#c3bff3@0.25,#c2bef3@0.26,#c1bdf2@0.27,#c0bcf2@0.27,#bfbbf2@0.28,#bebaf2@0.29,#bdb9f2@0.30,#bcb8f1@0.30,#bbb7f1@0.31,#bab6f1@0.32,#b9b5f1@0.33,#b8b4f1@0.34,#b8b4f1@0.34,#b7b3f0@0.35,#b6b2f0@0.36,#b5b1f0@0.37,#b4b0f0@0.38,#b3aff0@0.38,#b2aeef@0.39,#b1adef@0.40,#b0acef@0.41,#afabef@0.41,#aeaaef@0.42,#ada9ee@0.43,#aca8ee@0.44,#aba7ee@0.45,#aaa7ee@0.45,#a9a6ee@0.46,#a8a5ed@0.47,#a7a4ed@0.48,#a6a3ed@0.48,#a5a2ed@0.49,#a4a1ed@0.50,#a3a0ec@0.51,#a29fec@0.52,#a19eec@0.52,#a09dec@0.53,#9f9cec@0.54,#9e9beb@0.55,#9d9aeb@0.55,#9c9aeb@0.56,#9b99eb@0.57,#9a98eb@0.58,#9997ea@0.59,#9896ea@0.59,#9795ea@0.60,#9694ea@0.61,#9593ea@0.62,#9492e9@0.63,#9391e9@0.63,#9290e9@0.64,#918fe9@0.65,#908ee9@0.66,#8f8de8@0.66,#8e8de8@0.67,#8e8ce8@0.68,#8d8be8@0.69,#8c8ae8@0.70,#8b89e8@0.70,#8a88e7@0.71,#8987e7@0.72,#8886e7@0.73,#8785e7@0.73,#8684e7@0.74,#8583e6@0.75,#8482e6@0.76,#8381e6@0.77,#8280e6@0.77,#817fe6@0.78,#807fe5@0.79,#7f7ee5@0.80,#7e7de5@0.80,#7d7ce5@0.81,#7c7be5@0.82,#7b7ae4@0.83,#7a79e4@0.84,#7978e4@0.84,#7877e4@0.85,#7776e4@0.86,#7675e3@0.87,#7574e3@0.88,#7473e3@0.88,#7372e3@0.89,#7272e3@0.90,#7171e2@0.91,#7070e2@0.91,#6f6fe2@0.92,#6e6ee2@0.93,#6d6de2@0.94,#6c6ce1@0.95,#6b6be1@0.95,#6a6ae1@0.96,#6969e1@0.97,#6868e1@0.98,#6767e0@0.98,#6666e0@0.99,#6565e0@1.00)
+    - `Pattern` [FRAM] — 1511×539
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+      - `Vector` [VECT] — 44×75 · fill=#3333bc
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+      - `Vector` [VECT] — 44×25 · fill=#3333bc
+      - `Vector` [VECT] — 15×25 · fill=#3333bc
+      - `Vector` [VECT] — 30×63 · fill=#3333bc
+      - `Vector` [VECT] — 15×25 · fill=#3333bc
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+      - `Vector` [VECT] — 44×75 · fill=#3333bc
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+      - `Vector` [VECT] — 44×25 · fill=#3333bc
+      - `Vector` [VECT] — 15×25 · fill=#3333bc
+      - `Vector` [VECT] — 30×63 · fill=#3333bc
+      - `Vector` [VECT] — 15×25 · fill=#3333bc
+      - `Vector` [VECT] — 118×180 · fill=#3333bc
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+      - `Vector` [VECT] — 44×75 · fill=#3333bc
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+      - `Vector` [VECT] — 44×63 · fill=#3333bc
+      - `Vector` [VECT] — 15×25 · fill=#3333bc
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+      - `Vector` [VECT] — 44×75 · fill=#3333bc
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+      - `Vector` [VECT] — 44×63 · fill=#3333bc
+      - `Vector` [VECT] — 15×25 · fill=#3333bc
+      - `Vector` [VECT] — 118×180 · fill=#3333bc
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+      - `Vector` [VECT] — 44×75 · fill=#3333bc
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+      - `Vector` [VECT] — 44×63 · fill=#3333bc
+      - `Vector` [VECT] — 15×25 · fill=#3333bc
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+      - `Vector` [VECT] — 44×75 · fill=#3333bc
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+      - `Vector` [VECT] — 44×63 · fill=#3333bc
+      - `Vector` [VECT] — 15×25 · fill=#3333bc
+      - `Vector` [VECT] — 118×180 · fill=#3333bc
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+      - `Vector` [VECT] — 44×75 · fill=#3333bc
+      - `Vector` [VECT] — 44×75 · fill=#8f94f9
+  - `Hero Section` [FRAM] — 1280×328 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=32
+    - `National day logo (Vertical)` [FRAM] — 175×80
+      - `Vector` [VECT] — 174×49 · fill=#031b20
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 4×5 · fill=#00894a
+      - `Vector` [VECT] — 4×5 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+    - `Content` [FRAM] — 604×216 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `Frame 94` [FRAM] — 604×72 · lay=H/MAX/MIN · pad=0 0 0 0 · gap=8
+      - `(بجودنا) Description V2` [INST] ⟶ **(بجودنا) Description V2 / Property 1=show** — 604×120 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10
+  - `Asset Deck` [FRAM] — 720×491 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=0
+    - `Vision Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Heritage Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Support Asset 2` [RECT] — 491×491 · fill=IMAGE:CROP
+    - `Ambition Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Generosity Asset 1` [RECT] — 491×491 · fill=IMAGE:CROP
+    - `Kindness Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+  - `Frame 96` [FRAM] — 1280×40 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=10
+    - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Left, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Cricle` [FRAM] — 40×40 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10 · r=999 · fill=Button/button-background-primary-default=#1b8354
+    - `Controls Container` [FRAM] — 136×20 · lay=H/MIN/MIN · pad=4 12 4 12 · gap=8 · r=9999
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=True, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Right, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Cricle` [FRAM] — 40×40 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10 · r=999 · fill=Button/button-background-primary-default=#1b8354
+  - *Prototype reactions:* ON_HOVER INSTANT ×2; ON_PRESS INSTANT ×2; ON_KEY_DOWN(keys 13) INSTANT ×2; ON_CLICK SMART_ANIMATE 300ms EASE_OUT ×2
+- `Hero Section V2` [INST] ⟶ **Hero Section V2 / Property 1=Generousity** — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=GRADIENT_LINEAR(#011d3a@0.00,#0050af@1.00)
+  - `Background` [FRAM] — 1583×539
+    - `Layer` [RECT] — 1440×491 · fill=GRADIENT_LINEAR(#4da6ff@0.00,#4da6ff@0.01,#4ca5fe@0.02,#4ba4fd@0.02,#4ba4fd@0.03,#4aa3fc@0.04,#4aa2fc@0.05,#49a2fb@0.05,#48a1fa@0.06,#48a0fa@0.07,#47a0f9@0.08,#479ff8@0.09,#469ef8@0.09,#459ef7@0.10,#459df7@0.11,#449cf6@0.12,#449cf5@0.13,#439bf5@0.13,#429af4@0.14,#429af3@0.15,#4199f3@0.16,#4198f2@0.16,#4098f2@0.17,#3f97f1@0.18,#3f96f0@0.19,#3e96f0@0.20,#3e95ef@0.20,#3d94ee@0.21,#3c94ee@0.22,#3c93ed@0.23,#3b92ed@0.23,#3b92ec@0.24,#3a91eb@0.25,#3990eb@0.26,#398fea@0.27,#388fe9@0.27,#388ee9@0.28,#378de8@0.29,#368de8@0.30,#368ce7@0.30,#358be6@0.31,#358be6@0.32,#348ae5@0.33,#3389e4@0.34,#3389e4@0.34,#3288e3@0.35,#3287e3@0.36,#3187e2@0.37,#3086e1@0.38,#3085e1@0.38,#2f85e0@0.39,#2f84df@0.40,#2e83df@0.41,#2d83de@0.41,#2d82de@0.42,#2c81dd@0.43,#2c81dc@0.44,#2b80dc@0.45,#2a7fdb@0.45,#2a7fda@0.46,#297eda@0.47,#297dd9@0.48,#287dd9@0.48,#277cd8@0.49,#277bd7@0.50,#267bd7@0.51,#267ad6@0.52,#2579d5@0.52,#2479d5@0.53,#2478d4@0.54,#2377d4@0.55,#2377d3@0.55,#2276d2@0.56,#2175d2@0.57,#2175d1@0.58,#2074d0@0.59,#2073d0@0.59,#1f73cf@0.60,#1e72cf@0.61,#1e71ce@0.62,#1d71cd@0.63,#1d70cd@0.63,#1c6fcc@0.64,#1b6fcb@0.65,#1b6ecb@0.66,#1a6dca@0.66,#1a6dca@0.67,#196cc9@0.68,#186bc8@0.69,#186bc8@0.70,#176ac7@0.70,#1769c6@0.71,#1669c6@0.72,#1568c5@0.73,#1567c5@0.73,#1467c4@0.74,#1466c3@0.75,#1365c3@0.76,#1264c2@0.77,#1264c1@0.77,#1163c1@0.78,#1162c0@0.79,#1062c0@0.80,#0f61bf@0.80,#0f60be@0.81,#0e60be@0.82,#0e5fbd@0.83,#0d5ebc@0.84,#0c5ebc@0.84,#0c5dbb@0.85,#0b5cbb@0.86,#0b5cba@0.87,#0a5bb9@0.88,#095ab9@0.88,#095ab8@0.89,#0859b7@0.90,#0858b7@0.91,#0758b6@0.91,#0657b6@0.92,#0656b5@0.93,#0556b4@0.94,#0555b4@0.95,#0454b3@0.95,#0354b2@0.96,#0353b2@0.97,#0252b1@0.98,#0252b1@0.98,#0151b0@0.99,#0050af@1.00)
+    - `Pattern` [FRAM] — 1529×539
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+      - `Vector` [VECT] — 45×75 · fill=#00a1e0
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+      - `Vector` [VECT] — 45×25 · fill=#00a1e0
+      - `Vector` [VECT] — 15×25 · fill=#00a1e0
+      - `Vector` [VECT] — 30×63 · fill=#00a1e0
+      - `Vector` [VECT] — 15×25 · fill=#00a1e0
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+      - `Vector` [VECT] — 45×75 · fill=#00a1e0
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+      - `Vector` [VECT] — 45×25 · fill=#00a1e0
+      - `Vector` [VECT] — 15×25 · fill=#00a1e0
+      - `Vector` [VECT] — 30×63 · fill=#00a1e0
+      - `Vector` [VECT] — 15×25 · fill=#00a1e0
+      - `Vector` [VECT] — 120×180 · fill=#00a1e0
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+      - `Vector` [VECT] — 45×75 · fill=#00a1e0
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+      - `Vector` [VECT] — 45×63 · fill=#00a1e0
+      - `Vector` [VECT] — 15×25 · fill=#00a1e0
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+      - `Vector` [VECT] — 45×75 · fill=#00a1e0
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+      - `Vector` [VECT] — 45×63 · fill=#00a1e0
+      - `Vector` [VECT] — 15×25 · fill=#00a1e0
+      - `Vector` [VECT] — 120×180 · fill=#00a1e0
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+      - `Vector` [VECT] — 45×75 · fill=#00a1e0
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+      - `Vector` [VECT] — 45×63 · fill=#00a1e0
+      - `Vector` [VECT] — 15×25 · fill=#00a1e0
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+      - `Vector` [VECT] — 45×75 · fill=#00a1e0
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+      - `Vector` [VECT] — 45×63 · fill=#00a1e0
+      - `Vector` [VECT] — 15×25 · fill=#00a1e0
+      - `Vector` [VECT] — 120×180 · fill=#00a1e0
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+      - `Vector` [VECT] — 45×75 · fill=#00a1e0
+      - `Vector` [VECT] — 45×75 · fill=#00398c
+  - `Hero Section` [FRAM] — 1280×328 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=32
+    - `National day logo (Vertical)` [FRAM] — 175×80
+      - `Vector` [VECT] — 174×49 · fill=#031b20
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 4×5 · fill=#00894a
+      - `Vector` [VECT] — 4×5 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+    - `Content` [FRAM] — 604×216 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `Frame 94` [FRAM] — 604×72 · lay=H/MAX/MIN · pad=0 0 0 0 · gap=8
+      - `(بكرمنا) Description V2` [INST] ⟶ **(بكرمنا) Description V2 / Property 1=show** — 604×120 · lay=H/CENTER/MIN · pad=0 0 0 0 · gap=10
+  - `Asset Deck` [FRAM] — 720×491 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=0
+    - `Vision Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Kindness Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Heritage Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Support Asset 2` [RECT] — 491×491 · fill=IMAGE:CROP
+    - `Ambition Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Generosity Asset 1` [RECT] — 491×491 · fill=IMAGE:CROP
+  - `Frame 96` [FRAM] — 1280×40 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=10
+    - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Left, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Cricle` [FRAM] — 40×40 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10 · r=999 · fill=Button/button-background-primary-default=#1b8354
+    - `Controls Container` [FRAM] — 136×20 · lay=H/MIN/MIN · pad=4 12 4 12 · gap=8 · r=9999
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=True, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Right, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Cricle` [FRAM] — 40×40 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10 · r=999 · fill=Button/button-background-primary-default=#1b8354
+  - *Prototype reactions:* ON_HOVER INSTANT ×2; ON_PRESS INSTANT ×2; ON_KEY_DOWN(keys 13) INSTANT ×2; ON_CLICK SMART_ANIMATE 300ms EASE_OUT ×2
+- `Hero Section V2` [INST] ⟶ **Hero Section V2 / Property 1=Variant4** — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=GRADIENT_LINEAR(#340117@0.00,#971a4d@1.00)
+  - `Background` [FRAM] — 1583×539
+    - `Layer` [RECT] — 1440×491 · fill=GRADIENT_LINEAR(#ff55a2@0.00,#ff55a2@0.01,#fe54a1@0.02,#fd54a0@0.02,#fc53a0@0.03,#fb539f@0.04,#fb529e@0.05,#fa529e@0.05,#f9529d@0.06,#f8519c@0.07,#f7519c@0.08,#f6509b@0.09,#f6509a@0.09,#f54f9a@0.10,#f44f99@0.11,#f34e98@0.12,#f24e98@0.13,#f24d97@0.13,#f14d96@0.14,#f04c96@0.15,#ef4c95@0.16,#ee4c94@0.16,#ee4b94@0.17,#ed4b93@0.18,#ec4a92@0.19,#eb4a92@0.20,#ea4991@0.20,#e94990@0.21,#e94890@0.22,#e8488f@0.23,#e7478e@0.23,#e6478e@0.24,#e5468d@0.25,#e5468c@0.26,#e4468c@0.27,#e3458b@0.27,#e2458a@0.28,#e1448a@0.29,#e14489@0.30,#e04388@0.30,#df4388@0.31,#de4287@0.32,#dd4286@0.33,#dc4186@0.34,#dc4185@0.34,#db4084@0.35,#da4084@0.36,#d94083@0.37,#d83f82@0.38,#d83f82@0.38,#d73e81@0.39,#d63e80@0.40,#d53d80@0.41,#d43d7f@0.41,#d43c7e@0.42,#d33c7e@0.43,#d23b7d@0.44,#d13b7c@0.45,#d03a7c@0.45,#cf3a7b@0.46,#cf3a7a@0.47,#ce397a@0.48,#cd3979@0.48,#cc3878@0.49,#cb3878@0.50,#cb3777@0.51,#ca3777@0.52,#c93676@0.52,#c83675@0.53,#c73575@0.54,#c73574@0.55,#c63573@0.55,#c53473@0.56,#c43472@0.57,#c33371@0.58,#c23371@0.59,#c23270@0.59,#c1326f@0.60,#c0316f@0.61,#bf316e@0.62,#be306d@0.63,#be306d@0.63,#bd2f6c@0.64,#bc2f6b@0.65,#bb2f6b@0.66,#ba2e6a@0.66,#ba2e69@0.67,#b92d69@0.68,#b82d68@0.69,#b72c67@0.70,#b62c67@0.70,#b52b66@0.71,#b52b65@0.72,#b42a65@0.73,#b32a64@0.73,#b22963@0.74,#b12963@0.75,#b12962@0.76,#b02861@0.77,#af2861@0.77,#ae2760@0.78,#ad275f@0.79,#ad265f@0.80,#ac265e@0.80,#ab255d@0.81,#aa255d@0.82,#a9245c@0.83,#a8245b@0.84,#a8235b@0.84,#a7235a@0.85,#a62359@0.86,#a52259@0.87,#a42258@0.88,#a42157@0.88,#a32157@0.89,#a22056@0.90,#a12055@0.91,#a01f55@0.91,#a01f54@0.92,#9f1e53@0.93,#9e1e53@0.94,#9d1d52@0.95,#9c1d51@0.95,#9b1d51@0.96,#9b1c50@0.97,#9a1c4f@0.98,#991b4f@0.98,#981b4e@0.99,#971a4d@1.00)
+    - `Pattern` [FRAM] — 1511×539
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+      - `Vector` [VECT] — 44×75 · fill=#c73478
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+      - `Vector` [VECT] — 44×25 · fill=#c73478
+      - `Vector` [VECT] — 15×25 · fill=#c73478
+      - `Vector` [VECT] — 30×63 · fill=#c73478
+      - `Vector` [VECT] — 15×25 · fill=#c73478
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+      - `Vector` [VECT] — 44×75 · fill=#c73478
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+      - `Vector` [VECT] — 44×25 · fill=#c73478
+      - `Vector` [VECT] — 15×25 · fill=#c73478
+      - `Vector` [VECT] — 30×63 · fill=#c73478
+      - `Vector` [VECT] — 15×25 · fill=#c73478
+      - `Vector` [VECT] — 118×180 · fill=#c73478
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+      - `Vector` [VECT] — 44×75 · fill=#c73478
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+      - `Vector` [VECT] — 44×63 · fill=#c73478
+      - `Vector` [VECT] — 15×25 · fill=#c73478
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+      - `Vector` [VECT] — 44×75 · fill=#c73478
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+      - `Vector` [VECT] — 44×63 · fill=#c73478
+      - `Vector` [VECT] — 15×25 · fill=#c73478
+      - `Vector` [VECT] — 118×180 · fill=#c73478
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+      - `Vector` [VECT] — 44×75 · fill=#c73478
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+      - `Vector` [VECT] — 44×63 · fill=#c73478
+      - `Vector` [VECT] — 15×25 · fill=#c73478
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+      - `Vector` [VECT] — 44×75 · fill=#c73478
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+      - `Vector` [VECT] — 44×63 · fill=#c73478
+      - `Vector` [VECT] — 15×25 · fill=#c73478
+      - `Vector` [VECT] — 118×180 · fill=#c73478
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+      - `Vector` [VECT] — 44×75 · fill=#c73478
+      - `Vector` [VECT] — 44×75 · fill=#84063f
+  - `Hero Section` [FRAM] — 1280×328 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=32
+    - `National day logo (Vertical)` [FRAM] — 175×80
+      - `Vector` [VECT] — 174×49 · fill=#031b20
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 4×5 · fill=#00894a
+      - `Vector` [VECT] — 4×5 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+    - `Content` [FRAM] — 604×216 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `Frame 94` [FRAM] — 604×72 · lay=H/MAX/MIN · pad=0 0 0 0 · gap=8
+      - `(بطموحنا) Description V2` [INST] ⟶ **(بطموحنا) Description V2 / Property 1=show** — 604×120 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10
+  - `Asset Deck` [FRAM] — 720×491 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=0
+    - `Generosity Asset 1` [RECT] — 491×491 · fill=IMAGE:CROP
+    - `Vision Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Kindness Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Heritage Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Support Asset 2` [RECT] — 491×491 · fill=IMAGE:CROP
+    - `Ambition Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+  - `Frame 96` [FRAM] — 1280×40 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=10
+    - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Left, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Cricle` [FRAM] — 40×40 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10 · r=999 · fill=Button/button-background-primary-default=#1b8354
+    - `Controls Container` [FRAM] — 136×20 · lay=H/MIN/MIN · pad=4 12 4 12 · gap=8 · r=9999
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=True, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Right, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Cricle` [FRAM] — 40×40 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10 · r=999 · fill=Button/button-background-primary-default=#1b8354
+  - *Prototype reactions:* ON_HOVER INSTANT ×2; ON_PRESS INSTANT ×2; ON_KEY_DOWN(keys 13) INSTANT ×2; ON_CLICK SMART_ANIMATE 300ms EASE_OUT ×2; AFTER_TIMEOUT(225ms) INSTANT ×1
+- `Hero Section V2` [INST] ⟶ **Hero Section V2 / Property 1=Variant5** — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=GRADIENT_LINEAR(#1b2613@0.00,#607c4f@1.00)
+  - `Background` [FRAM] — 1583×539
+    - `Layer` [RECT] — 1440×491 · fill=GRADIENT_LINEAR(#cfe5c1@0.00,#cfe5c1@0.01,#cee4c0@0.02,#cde3bf@0.02,#cce2be@0.03,#cbe1bd@0.04,#cae0bc@0.05,#c9e0bb@0.05,#c8dfba@0.06,#c8deb9@0.07,#c7ddb9@0.08,#c6dcb8@0.09,#c5dcb7@0.09,#c4dbb6@0.10,#c3dab5@0.11,#c2d9b4@0.12,#c2d8b3@0.13,#c1d7b2@0.13,#c0d7b1@0.14,#bfd6b1@0.15,#bed5b0@0.16,#bdd4af@0.16,#bcd3ae@0.17,#bbd3ad@0.18,#bbd2ac@0.19,#bad1ab@0.20,#b9d0aa@0.20,#b8cfa9@0.21,#b7cea9@0.22,#b6cea8@0.23,#b5cda7@0.23,#b5cca6@0.24,#b4cba5@0.25,#b3caa4@0.26,#b2caa3@0.27,#b1c9a2@0.27,#b0c8a1@0.28,#afc7a0@0.29,#aec6a0@0.30,#aec59f@0.30,#adc59e@0.31,#acc49d@0.32,#abc39c@0.33,#aac29b@0.34,#a9c19a@0.34,#a8c099@0.35,#a8c098@0.36,#a7bf98@0.37,#a6be97@0.38,#a5bd96@0.38,#a4bc95@0.39,#a3bc94@0.40,#a2bb93@0.41,#a1ba92@0.41,#a1b991@0.42,#a0b890@0.43,#9fb790@0.44,#9eb78f@0.45,#9db68e@0.45,#9cb58d@0.46,#9bb48c@0.47,#9bb38b@0.48,#9ab38a@0.48,#99b289@0.49,#98b188@0.50,#97b088@0.51,#96af87@0.52,#95ae86@0.52,#94ae85@0.53,#94ad84@0.54,#93ac83@0.55,#92ab82@0.55,#91aa81@0.56,#90aa80@0.57,#8fa980@0.58,#8ea87f@0.59,#8ea77e@0.59,#8da67d@0.60,#8ca57c@0.61,#8ba57b@0.62,#8aa47a@0.63,#89a379@0.63,#88a278@0.64,#87a178@0.65,#87a077@0.66,#86a076@0.66,#859f75@0.67,#849e74@0.68,#839d73@0.69,#829c72@0.70,#819c71@0.70,#819b70@0.71,#809a70@0.72,#7f996f@0.73,#7e986e@0.73,#7d976d@0.74,#7c976c@0.75,#7b966b@0.76,#7a956a@0.77,#7a9469@0.77,#799368@0.78,#789367@0.79,#779267@0.80,#769166@0.80,#759065@0.81,#748f64@0.82,#748e63@0.83,#738e62@0.84,#728d61@0.84,#718c60@0.85,#708b5f@0.86,#6f8a5f@0.87,#6e8a5e@0.88,#6d895d@0.88,#6d885c@0.89,#6c875b@0.90,#6b865a@0.91,#6a8559@0.91,#698558@0.92,#688457@0.93,#678357@0.94,#678256@0.95,#668155@0.95,#658154@0.96,#648053@0.97,#637f52@0.98,#627e51@0.98,#617d50@0.99,#607c4f@1.00)
+    - `Pattern` [FRAM] — 1511×539
+      - `Vector` [VECT] — 44×75 · fill=#789765
+      - `Vector` [VECT] — 44×75 · fill=#405930
+      - `Vector` [VECT] — 44×75 · fill=#789765
+      - `Vector` [VECT] — 44×25 · fill=#405930
+      - `Vector` [VECT] — 15×25 · fill=#405930
+      - `Vector` [VECT] — 30×63 · fill=#405930
+      - `Vector` [VECT] — 15×25 · fill=#405930
+      - `Vector` [VECT] — 44×75 · fill=#789765
+      - `Vector` [VECT] — 44×75 · fill=#405930
+      - `Vector` [VECT] — 44×75 · fill=#789765
+      - `Vector` [VECT] — 44×25 · fill=#405930
+      - `Vector` [VECT] — 15×25 · fill=#405930
+      - `Vector` [VECT] — 30×63 · fill=#405930
+      - `Vector` [VECT] — 15×25 · fill=#405930
+      - `Vector` [VECT] — 118×180 · fill=#405930
+      - `Vector` [VECT] — 44×75 · fill=#789765
+      - `Vector` [VECT] — 44×75 · fill=#405930
+      - `Vector` [VECT] — 44×75 · fill=#789765
+      - `Vector` [VECT] — 44×63 · fill=#405930
+      - `Vector` [VECT] — 15×25 · fill=#405930
+      - `Vector` [VECT] — 44×75 · fill=#789765
+      - `Vector` [VECT] — 44×75 · fill=#405930
+      - `Vector` [VECT] — 44×75 · fill=#789765
+      - `Vector` [VECT] — 44×63 · fill=#405930
+      - `Vector` [VECT] — 15×25 · fill=#405930
+      - `Vector` [VECT] — 118×180 · fill=#405930
+      - `Vector` [VECT] — 44×75 · fill=#789765
+      - `Vector` [VECT] — 44×75 · fill=#405930
+      - `Vector` [VECT] — 44×75 · fill=#789765
+      - `Vector` [VECT] — 44×63 · fill=#405930
+      - `Vector` [VECT] — 15×25 · fill=#405930
+      - `Vector` [VECT] — 44×75 · fill=#789765
+      - `Vector` [VECT] — 44×75 · fill=#405930
+      - `Vector` [VECT] — 44×75 · fill=#789765
+      - `Vector` [VECT] — 44×63 · fill=#405930
+      - `Vector` [VECT] — 15×25 · fill=#405930
+      - `Vector` [VECT] — 118×180 · fill=#405930
+      - `Vector` [VECT] — 44×75 · fill=#789765
+      - `Vector` [VECT] — 44×75 · fill=#405930
+      - `Vector` [VECT] — 44×75 · fill=#789765
+  - `Hero Section` [FRAM] — 1280×328 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=32
+    - `National day logo (Vertical)` [FRAM] — 175×80
+      - `Vector` [VECT] — 174×49 · fill=#031b20
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 4×5 · fill=#00894a
+      - `Vector` [VECT] — 4×5 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+    - `Content` [FRAM] — 604×216 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `Frame 94` [FRAM] — 604×72 · lay=H/MAX/MIN · pad=0 0 0 0 · gap=8
+      - `(بفزعتنا) Description V2` [INST] ⟶ **(بفزعتنا) Description V2 / Property 1=show** — 604×120 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10
+  - `Asset Deck` [FRAM] — 720×491 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=0
+    - `Ambition Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Generosity Asset 1` [RECT] — 491×491 · fill=IMAGE:CROP
+    - `Vision Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Kindness Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Heritage Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Support Asset 2` [RECT] — 491×491 · fill=IMAGE:CROP
+  - `Frame 96` [FRAM] — 1280×40 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=10
+    - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Left, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Cricle` [FRAM] — 40×40 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10 · r=999 · fill=Button/button-background-primary-default=#1b8354
+    - `Controls Container` [FRAM] — 136×20 · lay=H/MIN/MIN · pad=4 12 4 12 · gap=8 · r=9999
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=True, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Right, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Cricle` [FRAM] — 40×40 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10 · r=999 · fill=Button/button-background-primary-default=#1b8354
+  - *Prototype reactions:* ON_HOVER INSTANT ×2; ON_PRESS INSTANT ×2; ON_KEY_DOWN(keys 13) INSTANT ×2; ON_CLICK SMART_ANIMATE 300ms EASE_OUT ×2
+- `Hero Section V2` [INST] ⟶ **Hero Section V2 / Property 1=Variant6** — 1440×491 · lay=V/MAX/CENTER · pad=40 80 40 80 · gap=32 · fill=GRADIENT_LINEAR(#01572b@0.00,#5aba1c@1.00)
+  - `Background` [FRAM] — 1583×539
+    - `Layer` [RECT] — 1440×491 · fill=GRADIENT_LINEAR(#00894a@0.00,#00894a@0.02,#008a49@0.03,#018b48@0.05,#018c47@0.06,#018d46@0.08,#018e45@0.09,#018f44@0.11,#029043@0.13,#029142@0.14,#029241@0.16,#029340@0.17,#03943f@0.19,#03953e@0.20,#03963d@0.22,#03973c@0.23,#03983b@0.25,#04993b@0.27,#049a3a@0.28,#049b39@0.30,#049c38@0.31,#049d37@0.33,#059d36@0.34,#059e35@0.36,#059f34@0.38,#05a033@0.39,#06a132@0.41,#06a231@0.42,#06a330@0.44,#06a42f@0.45,#06a52e@0.47,#07a62d@0.48,#07a72c@0.50,#07a82c@0.52,#07a92b@0.53,#08aa2a@0.55,#08ab29@0.56,#08ac28@0.58,#08ad27@0.59,#08ae26@0.61,#09af25@0.63,#09b024@0.64,#09b123@0.66,#09b222@0.67,#0ab221@0.69,#0ab320@0.70,#0ab41f@0.72,#0ab51e@0.73,#0ab61d@0.75,#0bb71d@0.77,#0bb81c@0.78,#0bb91b@0.80,#0bba1a@0.81,#0bbb19@0.83,#0cbc18@0.84,#0cbd17@0.86,#0cbe16@0.88,#0cbf15@0.89,#0dc014@0.91,#0dc113@0.92,#0dc212@0.94,#0dc311@0.95,#0dc410@0.97,#0ec50f@0.98,#0ec60e@1.00)
+    - `Pattern` [FRAM] — 1511×539
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+      - `Vector` [VECT] — 44×75 · fill=#94dd07
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+      - `Vector` [VECT] — 44×25 · fill=#94dd07
+      - `Vector` [VECT] — 15×25 · fill=#94dd07
+      - `Vector` [VECT] — 30×63 · fill=#94dd07
+      - `Vector` [VECT] — 15×25 · fill=#94dd07
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+      - `Vector` [VECT] — 44×75 · fill=#94dd07
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+      - `Vector` [VECT] — 44×25 · fill=#94dd07
+      - `Vector` [VECT] — 15×25 · fill=#94dd07
+      - `Vector` [VECT] — 30×63 · fill=#94dd07
+      - `Vector` [VECT] — 15×25 · fill=#94dd07
+      - `Vector` [VECT] — 118×180 · fill=#94dd07
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+      - `Vector` [VECT] — 44×75 · fill=#94dd07
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+      - `Vector` [VECT] — 44×63 · fill=#94dd07
+      - `Vector` [VECT] — 15×25 · fill=#94dd07
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+      - `Vector` [VECT] — 44×75 · fill=#94dd07
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+      - `Vector` [VECT] — 44×63 · fill=#94dd07
+      - `Vector` [VECT] — 15×25 · fill=#94dd07
+      - `Vector` [VECT] — 118×180 · fill=#94dd07
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+      - `Vector` [VECT] — 44×75 · fill=#94dd07
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+      - `Vector` [VECT] — 44×63 · fill=#94dd07
+      - `Vector` [VECT] — 15×25 · fill=#94dd07
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+      - `Vector` [VECT] — 44×75 · fill=#94dd07
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+      - `Vector` [VECT] — 44×63 · fill=#94dd07
+      - `Vector` [VECT] — 15×25 · fill=#94dd07
+      - `Vector` [VECT] — 118×180 · fill=#94dd07
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+      - `Vector` [VECT] — 44×75 · fill=#94dd07
+      - `Vector` [VECT] — 44×75 · fill=#00a02d
+  - `Hero Section` [FRAM] — 1280×328 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=32
+    - `National day logo (Vertical)` [FRAM] — 175×80
+      - `Vector` [VECT] — 174×49 · fill=#031b20
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 5×5 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 4×5 · fill=#00894a
+      - `Vector` [VECT] — 4×5 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 5×4 · fill=#00894a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 4×4 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+      - `Vector` [VECT] — 5×5 · fill=#00343a
+      - `Vector` [VECT] — 4×5 · fill=#00343a
+      - `Vector` [VECT] — 5×4 · fill=#00343a
+    - `Content` [FRAM] — 604×216 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=24
+      - `Frame 94` [FRAM] — 604×72 · lay=H/MAX/MIN · pad=0 0 0 0 · gap=8
+      - `(بأصالتنا) Description V2` [INST] ⟶ **(بأصالتنا) Description V2 / Property 1=show** — 604×120 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10
+  - `Asset Deck` [FRAM] — 720×491 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=0
+    - `Support Asset 2` [RECT] — 491×491 · fill=IMAGE:CROP
+    - `Ambition Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Generosity Asset 1` [RECT] — 491×491 · fill=IMAGE:CROP
+    - `Vision Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Kindness Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+    - `Heritage Asset 1` [RECT] — 491×491 · fill=IMAGE:FILL
+  - `Frame 96` [FRAM] — 1280×40 · lay=H/MAX/CENTER · pad=0 0 0 0 · gap=10
+    - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Left, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Cricle` [FRAM] — 40×40 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10 · r=999 · fill=Button/button-background-primary-default=#1b8354
+    - `Controls Container` [FRAM] — 136×20 · lay=H/MIN/MIN · pad=4 12 4 12 · gap=8 · r=9999
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=True, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Carousel Controls` [INST] ⟶ **Carousel Controls / Selected=False, Size=Mideum** — 12×12 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+    - `Carousel Arrows` [INST] ⟶ **Carousel Arrows / Direction=Right, State=Default, Style=Primary, Size=Medium, Icon only=False** — 40×40 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Cricle` [FRAM] — 40×40 · lay=H/CENTER/CENTER · pad=0 0 0 0 · gap=10 · r=999 · fill=Button/button-background-primary-default=#1b8354
+  - *Prototype reactions:* ON_HOVER INSTANT ×2; ON_PRESS INSTANT ×2; ON_KEY_DOWN(keys 13) INSTANT ×2; ON_CLICK SMART_ANIMATE 300ms EASE_OUT ×2; AFTER_TIMEOUT(225ms) INSTANT ×1
+
+### Component instances used on this page (count)
+
+_RatingStar ×300, Link ×266, link-04 ×261, Leading Icon ×211, Carousel Controls ×206, Button ×200, Tag ×180, Lead icon ×180, Trail icon ×180, Trailing icon ×132, Featured icon ×60, Rating ×60, Social icon ×60, Logo Placeholder ×57, Card ×45, _Swap Placeholder ×40, Header Menu Item ×28, Chevron ×28, checkmark-circle-02 ×24, Carousel ×23, Swap Placeholder ×20, arrow-right-02-round ×20, Carousel Arrows ×18, arrow-left-01 ×13, arrow-right-01 ×13, Mobile Hero Section V2 ×10, Type Writer (برؤيتنا) V2 ×9, Footer ×8, Design system header ×8, _Logomark ×8, National day logo ×7, Hero Section V2 ×7, Digital Stamp ×5, arrow-down-01 ×5, Country Flags ×5, (برؤيتنا) Description - Mobile V2 ×5, Header Action 3 ×4, Header Action 2 ×4, Header Action 1 ×4, _Header Logo ×4, _Logo Placeholder ×4, dallah-cup-01 ×4, mubkhara-02 ×4, nakhlah ×4, saudi-arabia-map-02 ×4, hegra ×4, al-masmak-palace-03 ×4, khuzama ×4, dallah-02 ×4, (برؤيتنا) Description V2 ×4, Type Writer (بجودنا) V2 ×2, Type Writer (بكرمنا) V2 ×2, Type Writer (بهمّتنا) V2 ×2, Type Writer (بشجاعتنا) V2 ×2, Type Writer (بأصالتنا) V2 ×2, Nav Header ×1, Header Menu ×1, menu-01 ×1, user-group ×1, add-01 ×1
+
+## Page: Components & Patterns
+
+### Text on this page (verbatim, in order found)
+
+> www.design.dga.gov.sa
+
+> Components
+
+> Description text dolor sit incididunt, adipisicing tempor, tempor labore dolore magna aliqua.
+
+> Resources
+
+> Guide to Components in Figma ->
+
+> Figma Tutorial: Components - The Basics ->
+
+> Additional resource (add link) ->
+
+> Patterns
+
+### Local component sets (21)
+
+- **Hero Section V2** (6 variants) {"Property 1": ["Generousity", "Vision", "Kindness", "Variant4", "Variant5", "Variant6"]}
+- **Type Writer (برؤيتنا) V2** (8 variants) {"Property 1": ["7", "8", "1", "2", "3", "4", "5", "6"]}
+- **Type Writer (بجودنا) V2** (7 variants) {"Property 1": ["6", "7", "1", "2", "3", "4", "5"]}
+- **Type Writer (بكرمنا) V2** (7 variants) {"Property 1": ["6", "7", "1", "2", "3", "4", "5"]}
+- **Type Writer (بهمّتنا) V2** (7 variants) {"Property 1": ["6", "7", "1", "2", "3", "4", "5"]}
+- **Type Writer (بشجاعتنا) V2** (9 variants) {"Property 1": ["7", "5", "8", "9", "1", "2", "3", "4", "6"]}
+- **Type Writer (بأصالتنا) V2** (9 variants) {"Property 1": ["8", "9", "7", "1", "2", "3", "4", "5", "6"]}
+- **(برؤيتنا) Description V2** (2 variants) {"Property 1": ["Default", "show"]}
+- **(برؤيتنا) Description - Mobile V2** (2 variants) {"Property 1": ["Default", "show"]}
+- **(بجودنا) Description V2** (2 variants) {"Property 1": ["Default", "show"]}
+- **(بجودنا) Description - Mobile V2** (2 variants) {"Property 1": ["Default", "show"]}
+- **(بكرمنا) Description V2** (2 variants) {"Property 1": ["Default", "show"]}
+- **(بكرمنا) Description - Mobile V2** (2 variants) {"Property 1": ["Default", "show"]}
+- **(بطموحنا) Description V2** (2 variants) {"Property 1": ["Default", "show"]}
+- **(بطموحنا) Description - Mobile V2** (2 variants) {"Property 1": ["Default", "show"]}
+- **(بفزعتنا) Description V2** (2 variants) {"Property 1": ["Default", "show"]}
+- **(بفزعتنا) Description - Mobile V2** (2 variants) {"Property 1": ["Default", "show"]}
+- **(بأصالتنا) Description V2** (2 variants) {"Property 1": ["Default", "show"]}
+- **(بأصالتنا) Description - Mobile V2** (2 variants) {"Property 1": ["Default", "show"]}
+- **Mobile Hero Section V2** (6 variants) {"Property 1": ["Default", "DefaultDefault", "Variant3", "Variant4", "Variant5", "Variant6"]}
+- **National day logo** (1 variants) 
+
+### Frame structure (depth 3)
+
+- `Design system header` [INST] ⟶ **Design system header / Color=Dark** — 4895×346 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · r=24 · fill=Background/background-SA-Flag=#074d31
+  - `Content` [FRAM] — 4895×346 · lay=V/MIN/MIN · pad=48 80 64 80 · gap=64
+    - `Header` [FRAM] — 4735×80 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=24
+      - `_Logomark` [INST] ⟶ **_Logomark / Logo=DGA** — 56×80 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 3` [FRAM] — 210×30 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=8
+    - `Heading and resources` [FRAM] — 4735×90 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Heading and supporting text` [FRAM] — 1024×90 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=20
+      - `Resources` [FRAM] — 1216×118 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=16
+- `Design system header` [INST] ⟶ **Design system header / Color=Dark** — 3051×346 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=0 · r=24 · fill=Background/background-SA-Flag=#074d31
+  - `Content` [FRAM] — 3051×346 · lay=V/MIN/MIN · pad=48 80 64 80 · gap=64
+    - `Header` [FRAM] — 2891×80 · lay=H/SPACE_BETWEEN/MIN · pad=0 0 0 0 · gap=24
+      - `_Logomark` [INST] ⟶ **_Logomark / Logo=DGA** — 56×80 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Frame 3` [FRAM] — 210×30 · lay=V/CENTER/MAX · pad=0 0 0 0 · gap=8
+    - `Heading and resources` [FRAM] — 2891×90 · lay=H/MIN/MIN · pad=0 0 0 0 · gap=0
+      - `Heading and supporting text` [FRAM] — 1024×90 · lay=V/MIN/MIN · pad=0 0 0 0 · gap=20
+      - `Resources` [FRAM] — 1216×118 · lay=V/MIN/MAX · pad=0 0 0 0 · gap=16
+- `snd pattren-14 2` [FRAM] — 1440×28
+  - `Group` [GROU] — 1393×28
+    - `Vector` [VECT] — 7×7 · fill=#015c39
+    - `Group` [GROU] — 220×28
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+    - `Group` [GROU] — 220×28
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+    - `Group` [GROU] — 220×28
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+    - `Group` [GROU] — 246×28
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+    - `Group` [GROU] — 220×28
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+    - `Group` [GROU] — 220×28
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#6c6948
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+      - `Vector` [VECT] — 4×4 · fill=#015c39
+- `snd pattren-15 2` [FRAM] — 1440×28
+  - `Group` [GROU] — 696×28
+    - `Vector` [VECT] — 16×16 · fill=#00484c
+    - `Vector` [VECT] — 27×28 · fill=#00894a
+    - `Vector` [VECT] — 16×16 · fill=#00484c
+    - `Vector` [VECT] — 27×28 · fill=#00894a
+    - `Vector` [VECT] — 16×16 · fill=#00484c
+    - `Vector` [VECT] — 27×28 · fill=#00894a
+    - `Vector` [VECT] — 16×16 · fill=#00484c
+    - `Vector` [VECT] — 27×28 · fill=#00894a
+    - `Vector` [VECT] — 16×16 · fill=#00484c
+    - `Vector` [VECT] — 16×16 · fill=#00484c
+    - `Vector` [VECT] — 27×28 · fill=#00894a
+    - `Vector` [VECT] — 27×28 · fill=#00894a
+  - `Group` [GROU] — 696×28
+    - `Vector` [VECT] — 16×16 · fill=#00484c
+    - `Vector` [VECT] — 27×28 · fill=#00894a
+    - `Vector` [VECT] — 16×16 · fill=#00484c
+    - `Vector` [VECT] — 27×28 · fill=#00894a
+    - `Vector` [VECT] — 16×16 · fill=#00484c
+    - `Vector` [VECT] — 27×28 · fill=#00894a
+    - `Vector` [VECT] — 16×16 · fill=#00484c
+    - `Vector` [VECT] — 27×28 · fill=#00894a
+    - `Vector` [VECT] — 16×16 · fill=#00484c
+    - `Vector` [VECT] — 16×16 · fill=#00484c
+    - `Vector` [VECT] — 27×28 · fill=#00894a
+    - `Vector` [VECT] — 27×28 · fill=#00894a
+- `snd pattren-16 2` [FRAM] — 1440×28
+  - `Group` [GROU] — 716×26
+    - `Vector` [VECT] — 27×26 · fill=#0059aa
+    - `Vector` [VECT] — 27×26 · fill=#0059aa
+    - `Vector` [VECT] — 27×26 · fill=#008dd3
+    - `Vector` [VECT] — 27×26 · fill=#008dd3
+    - `Vector` [VECT] — 27×26 · fill=#0059aa
+    - `Vector` [VECT] — 27×26 · fill=#008dd3
+    - `Vector` [VECT] — 27×26 · fill=#0059aa
+    - `Vector` [VECT] — 27×26 · fill=#008dd3
+    - `Vector` [VECT] — 27×26 · fill=#0059aa
+    - `Vector` [VECT] — 27×26 · fill=#008dd3
+  - `Group` [GROU] — 716×26
+    - `Vector` [VECT] — 27×26 · fill=#0059aa
+    - `Vector` [VECT] — 27×26 · fill=#008dd3
+    - `Vector` [VECT] — 27×26 · fill=#0059aa
+    - `Vector` [VECT] — 27×26 · fill=#008dd3
+    - `Vector` [VECT] — 27×26 · fill=#0059aa
+    - `Vector` [VECT] — 27×26 · fill=#008dd3
+    - `Vector` [VECT] — 27×26 · fill=#0059aa
+    - `Vector` [VECT] — 27×26 · fill=#008dd3
+    - `Vector` [VECT] — 27×26 · fill=#0059aa
+    - `Vector` [VECT] — 27×26 · fill=#008dd3
+- `snd pattren-17 2` [FRAM] — 1440×28
+  - `Group` [GROU] — 114×27
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+  - `Group` [GROU] — 205×27
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+  - `Group` [GROU] — 205×27
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+  - `Group` [GROU] — 205×27
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+  - `Group` [GROU] — 205×27
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+  - `Group` [GROU] — 205×27
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#008dd3
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+    - `Vector` [VECT] — 2×2 · fill=#00396d
+- `snd pattren-18 2` [FRAM] — 1440×28
+  - `Group` [GROU] — 292×28
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#00396d
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 292×2 · fill=#84063f
+    - `Vector` [VECT] — 292×2 · fill=#84063f
+  - `Group` [GROU] — 292×28
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#00396d
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 292×2 · fill=#84063f
+    - `Vector` [VECT] — 292×2 · fill=#84063f
+  - `Group` [GROU] — 292×28
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#00396d
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 292×2 · fill=#84063f
+    - `Vector` [VECT] — 292×2 · fill=#84063f
+  - `Group` [GROU] — 292×28
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#00396d
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 292×2 · fill=#84063f
+    - `Vector` [VECT] — 292×2 · fill=#84063f
+  - `Group` [GROU] — 292×28
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#00396d
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 15×15 · fill=#b12963
+    - `Vector` [VECT] — 15×15 · fill=#84063f
+    - `Vector` [VECT] — 292×2 · fill=#84063f
+    - `Vector` [VECT] — 292×2 · fill=#84063f
+- `SND Patterns` [FRAM] — 491×490
+  - `Vector` [VECT] — 491×490 · fill=#00894a
+  - `Vector` [VECT] — 484×483 · fill=#00343a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#0050af
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#0050af
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#0050af
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#0050af
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#0050af
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#0050af
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#0050af
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#00894a
+  - `Vector` [VECT] — 6×5 · fill=#0050af
+- `SND Patterns` [FRAM] — 491×490
+  - `Vector` [VECT] — 491×491 · fill=#00894a
+  - `Vector` [VECT] — 484×484 · fill=#00343a
+  - `Vector` [VECT] — 10×22 · fill=#00894a
+  - `Vector` [VECT] — 1×1 · fill=#5f4b20
+  - `Vector` [VECT] — 33×32 · fill=#896d35
+  - `Vector` [VECT] — 28×46 · fill=#5f4b20
+  - `Vector` [VECT] — 10×22 · fill=#00894a
+  - `Vector` [VECT] — 33×52 · fill=#5f4b20
+  - `Vector` [VECT] — 1×1 · fill=#5f4b20
+  - `Vector` [VECT] — 33×32 · fill=#896d35
+  - `Vector` [VECT] — 28×46 · fill=#5f4b20
+  - `Vector` [VECT] — 14×16 · fill=#896d35
+  - `Vector` [VECT] — 14×16 · fill=#896d35
+  - `Vector` [VECT] — 14×16 · fill=#896d35
+  - `Vector` [VECT] — 14×16 · fill=#896d35
+  - `Vector` [VECT] — 10×22 · fill=#00894a
+  - `Vector` [VECT] — 1×1 · fill=#5f4b20
+  - `Vector` [VECT] — 33×32 · fill=#896d35
+  - `Vector` [VECT] — 28×46 · fill=#5f4b20
+  - `Vector` [VECT] — 10×22 · fill=#00894a
+  - `Vector` [VECT] — 33×52 · fill=#5f4b20
+  - `Vector` [VECT] — 1×1 · fill=#5f4b20
+  - `Vector` [VECT] — 33×32 · fill=#896d35
+  - `Vector` [VECT] — 28×46 · fill=#5f4b20
+  - `Vector` [VECT] — 14×16 · fill=#896d35
+  - `Vector` [VECT] — 14×16 · fill=#896d35
+  - `Vector` [VECT] — 14×16 · fill=#896d35
+  - `Vector` [VECT] — 14×16 · fill=#896d35
+  - `Vector` [VECT] — 10×22 · fill=#00894a
+  - `Vector` [VECT] — 1×1 · fill=#5f4b20
+  - `Vector` [VECT] — 33×32 · fill=#896d35
+  - `Vector` [VECT] — 28×46 · fill=#5f4b20
+  - `Vector` [VECT] — 10×22 · fill=#00894a
+  - `Vector` [VECT] — 33×52 · fill=#5f4b20
+  - `Vector` [VECT] — 1×1 · fill=#5f4b20
+  - `Vector` [VECT] — 33×32 · fill=#896d35
+  - `Vector` [VECT] — 28×46 · fill=#5f4b20
+  - `Vector` [VECT] — 14×16 · fill=#896d35
+  - `Vector` [VECT] — 14×16 · fill=#896d35
+  - `Vector` [VECT] — 14×16 · fill=#896d35
+- `SND Patterns` [FRAM] — 491×490
+  - `Vector` [VECT] — 491×490 · fill=#00894a
+  - `Vector` [VECT] — 484×483 · fill=#00343a
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#dd7a9f
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#dd7a9f
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#dd7a9f
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#dd7a9f
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#dd7a9f
+  - `Vector` [VECT] — 4×4 · fill=#dd7a9f
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#b12864
+  - `Vector` [VECT] — 4×4 · fill=#b12864
+  - `Vector` [VECT] — 4×4 · fill=#dd7a9f
+  - `Vector` [VECT] — 4×4 · fill=#b12864
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+  - `Vector` [VECT] — 4×4 · fill=#971a4d
+- `SND Patterns` [FRAM] — 491×490
+  - `Vector` [VECT] — 491×490 · fill=#007344
+  - `Vector` [VECT] — 484×483 · fill=#002f35
+  - `Vector` [VECT] — 29×19 · fill=#789765
+  - `Vector` [VECT] — 11×10 · fill=#405930
+  - `Vector` [VECT] — 11×10 · fill=#007344
+  - `Vector` [VECT] — 11×10 · fill=#007344
+  - `Vector` [VECT] — 11×10 · fill=#405930
+  - `Vector` [VECT] — 11×10 · fill=#007344
+  - `Vector` [VECT] — 11×10 · fill=#405930
+  - `Vector` [VECT] — 11×10 · fill=#007344
+  - `Vector` [VECT] — 11×10 · fill=#007344
+  - `Vector` [VECT] — 11×10 · fill=#405930
+  - `Vector` [VECT] — 11×10 · fill=#007344
+  - `Vector` [VECT] — 4×4 · fill=#789765
+  - `Vector` [VECT] — 4×4 · fill=#789765
+  - `Vector` [VECT] — 15×24 · fill=#405930
+  - `Vector` [VECT] — 20×3 · fill=#405930
+  - `Vector` [VECT] — 15×18 · fill=#007344
+  - `Vector` [VECT] — 29×19 · fill=#789765
+  - `Vector` [VECT] — 4×4 · fill=#789765
+  - `Vector` [VECT] — 4×4 · fill=#789765
+  - `Vector` [VECT] — 15×24 · fill=#405930
+  - `Vector` [VECT] — 20×3 · fill=#405930
+  - `Vector` [VECT] — 15×18 · fill=#007344
+  - `Vector` [VECT] — 19×29 · fill=#789765
+  - `Vector` [VECT] — 10×11 · fill=#405930
+  - `Vector` [VECT] — 10×11 · fill=#007344
+  - `Vector` [VECT] — 10×11 · fill=#007344
+  - `Vector` [VECT] — 10×11 · fill=#405930
+  - `Vector` [VECT] — 10×11 · fill=#007344
+  - `Vector` [VECT] — 10×11 · fill=#405930
+  - `Vector` [VECT] — 10×11 · fill=#007344
+  - `Vector` [VECT] — 10×11 · fill=#007344
+  - `Vector` [VECT] — 10×11 · fill=#405930
+  - `Vector` [VECT] — 10×11 · fill=#007344
+  - `Vector` [VECT] — 4×4 · fill=#789765
+  - `Vector` [VECT] — 4×4 · fill=#789765
+  - `Vector` [VECT] — 24×15 · fill=#405930
+  - `Vector` [VECT] — 3×20 · fill=#405930
+  - `Vector` [VECT] — 19×15 · fill=#007344
+- `SND Patterns` [FRAM] — 491×490
+  - `Vector` [VECT] — 491×490 · fill=#00894a
+  - `Vector` [VECT] — 484×483 · fill=#00343a
+  - `Vector` [VECT] — 308×137 · fill=#6565e0
+  - `Vector` [VECT] — 143×27 · fill=#6565e0
+  - `Vector` [VECT] — 0×0 · fill=#6565e0
+  - `Vector` [VECT] — 220×55 · fill=#6565e0
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×16 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#00894a
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+  - `Vector` [VECT] — 17×33 · fill=#3333bc
+- `SND Patterns` [FRAM] — 493×490
+  - `Vector` [VECT] — 493×490 · fill=#00894a
+  - `Vector` [VECT] — 484×481 · fill=#00343a
+  - `Vector` [VECT] — 66×122 · fill=#00894a
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 2×2 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 2×2 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 2×2 · fill=#5aba1c
+  - `Vector` [VECT] — 5×5 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+  - `Vector` [VECT] — 5×9 · fill=#5aba1c
+- `snd pattren` [FRAM] — 1440×595
+  - `Vector` [VECT] — 27×27 · fill=#005baf
+  - `Vector` [VECT] — 4×4 · fill=#008b43
+  - `Vector` [VECT] — 4×4 · fill=#008b43
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#008b43
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#008b43
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#008b43
+  - `Vector` [VECT] — 4×4 · fill=#614f99
+  - `Vector` [VECT] — 4×4 · fill=#008b43
+  - `Vector` [VECT] — 4×4 · fill=#008b43
+  - `Vector` [VECT] — 4×4 · fill=#008b43
+  - `Vector` [VECT] — 4×4 · fill=#008b43
+  - `Vector` [VECT] — 4×4 · fill=#008b43
+  - `Vector` [VECT] — 4×4 · fill=#008b43
+  - `Vector` [VECT] — 4×4 · fill=#008b43
+  - `Vector` [VECT] — 4×4 · fill=#008b43
+  - `Vector` [VECT] — 5×5 · fill=#8a003c
+  - `Vector` [VECT] — 5×5 · fill=#008b43
+  - `Vector` [VECT] — 5×5 · fill=#008b43
+  - `Vector` [VECT] — 5×5 · fill=#8a003c
+  - `Vector` [VECT] — 5×5 · fill=#8a003c
+  - `Vector` [VECT] — 5×5 · fill=#8a003c
+  - `Vector` [VECT] — 5×5 · fill=#8a003c
+  - `Vector` [VECT] — 5×5 · fill=#8a003c
+  - `Vector` [VECT] — 5×5 · fill=#008b43
+  - `Vector` [VECT] — 5×5 · fill=#8a003c
+
+### Component instances used on this page (count)
+
+Social icon ×12, Design system header ×2, _Logomark ×2
+
+## Page: Thumbnail
+
+### Text on this page (verbatim, in order found)
+
+> كود المنصات
+
+> قالب اليوم الوطني
+
+> نظام التصميم الوطني الموحد (كود المنصات)
+
+> القوالب
+
+### Component instances used on this page (count)
+
+Trail icon ×1, National day logo ×1
+
+## Library components referenced (from instance main components)
+
+**Carousel Controls** ×88, **Logo Placeholder** ×31, **Card** ×27, **Featured icon** ×18, **Button** ×16, **Header Menu Item** ×14, **Carousel** ×14, **Carousel Arrows** ×14, **Swap Placeholder** ×12, **arrow-left-01** ×10, **arrow-right-01** ×10, **Design system header** ×9, **_Logomark** ×9, **Hero Section V2** ×7, **Header Action** ×6, **_Swap Placeholder** ×6, **Footer** ×6, **Digital Stamp** ×3, **Link** ×3, **arrow-down-01** ×3, **Country Flags** ×3, **National day logo** ×3, **user** ×2, **translation** ×2, **search-01** ×2, **_Header Logo** ×2, **Type Writer (برؤيتنا) V2** ×2, **(برؤيتنا) Description V2** ×2, **arrow-right-02** ×1, **add-circle** ×1, **Nav Header** ×1, **Header Menu** ×1, **Mobile Hero Section V2** ×1, **News Card** ×1, **Ai Logo** ×1, **Type Writer (بجودنا) V2** ×1, **(بجودنا) Description V2** ×1, **Type Writer (بكرمنا) V2** ×1, **(بكرمنا) Description V2** ×1, **Type Writer (بهمّتنا) V2** ×1, **(بطموحنا) Description V2** ×1, **Type Writer (بشجاعتنا) V2** ×1, **(بفزعتنا) Description V2** ×1, **Type Writer (بأصالتنا) V2** ×1, **(بأصالتنا) Description V2** ×1

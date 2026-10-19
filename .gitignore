@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.next/
+.angular/
+.vite/
+__pycache__/
+*.pyc
+release-out/
+qa-reports/
+.DS_Store

@@ -1,0 +1,280 @@
+/* Ahmed Skills — pattern styles. Every colour/space/radius/shadow is a DGA token exposed by @platformscode/core core.css
+   (the same values as references/dga-live/foundations/dga-tokens.css). The ONLY non-DGA values are the [AHMED HOUSE]
+   block at the end, declared as --ahmed-* and used by Enhanced/Creative compositions only. */
+
+/* ---------- page shell / grid (DGA Foundations: container 1280, 12/6/4 columns, gutters 32/32/16, margins 32/32/16) ---------- */
+.ah-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; color: inherit; background: transparent; } /* colour/background reset: a visually-hidden native <button> must not bring UA colours into the token lint */
+.ah-page { background: var(--background-body); color: var(--text-default); font-family: "IBM Plex Sans Arabic", system-ui, sans-serif; min-height: 100vh; display: flex; flex-direction: column; }
+.ah-page > main { flex: 1; }
+.ah-container { width: 100%; max-width: calc(1280px + 2 * var(--spacing-8)); margin-inline: auto; padding-inline: var(--spacing-8); box-sizing: border-box; }   /* content 1280 (Figma 1440 frame, 80 side padding) */
+.ah-section { padding-block: var(--spacing-10); }
+.ah-section--neutral { background: var(--background-neutral-50); }
+.ah-section--white { background: var(--background-white); }
+.ah-section--brand-25 { background: var(--ah-site-brand-subtle, var(--background-primary-25)); }
+.ah-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: var(--spacing-8); }
+.ah-grid > * { min-width: 0; }
+.ah-col-3 { grid-column: span 3; } .ah-col-4 { grid-column: span 4; } .ah-col-6 { grid-column: span 6; } .ah-col-8 { grid-column: span 8; } .ah-col-12 { grid-column: span 12; }
+.ah-stack { display: flex; flex-direction: column; gap: var(--spacing-4); }
+.ah-row { display: flex; flex-wrap: wrap; gap: var(--spacing-3); align-items: center; }
+.ah-prose { max-width: 720px; }                      /* Foundations: paragraph max-width 720 */
+.ah-muted { color: var(--text-primary-paragraph); }   /* neutral-700 paragraph ink; (--text-secondary is the gold brand accent in the package) */
+.ah-skip { position: absolute; inset-inline-start: var(--spacing-4); top: -100px; background: var(--background-white); color: var(--text-default); padding: var(--spacing-2) var(--spacing-4); border-radius: var(--radius-sm); z-index: 100; }
+.ah-skip:focus { top: var(--spacing-2); outline: 2px solid var(--border-black); }
+
+/* Tablet ≤1023 / mobile ≤767 are [AHMED HOUSE] switch points (Figma defines modes, not px) */
+@media (max-width: 1023px) { .ah-container { padding-inline: var(--spacing-8); } .ah-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); } .ah-col-3, .ah-col-4 { grid-column: span 3; } .ah-col-6, .ah-col-8 { grid-column: span 6; } }
+@media (max-width: 767px)  { .ah-container { padding-inline: var(--spacing-4); } .ah-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--spacing-4); } .ah-col-3, .ah-col-4, .ah-col-6, .ah-col-8 { grid-column: span 4; } .ah-section { padding-block: var(--spacing-8); } }
+
+/* ---------- typography (Foundations text styles: Display/Text scale, IBM Plex Sans Arabic, no tracking on Arabic) ---------- */
+.ah-display-lg { font-size: 48px; line-height: 60px; font-weight: 600; margin: 0; }
+.ah-display-md { font-size: 36px; line-height: 44px; font-weight: 600; margin: 0; }
+.ah-display-sm { font-size: 30px; line-height: 38px; font-weight: 600; margin: 0; }
+.ah-display-xs { font-size: 24px; line-height: 32px; font-weight: 600; margin: 0; }
+.ah-text-xl { font-size: 20px; line-height: 30px; margin: 0; }
+.ah-text-lg { font-size: 18px; line-height: 28px; margin: 0; }
+.ah-text-md { font-size: 16px; line-height: 24px; margin: 0; }
+.ah-text-sm { font-size: 14px; line-height: 20px; margin: 0; }
+[dir="ltr"] .ah-display-lg, [dir="ltr"] .ah-display-md { letter-spacing: -0.02em; }   /* −2% Display tracking is Latin-only */
+@media (max-width: 767px) { .ah-display-lg { font-size: 36px; line-height: 44px; } .ah-display-md { font-size: 30px; line-height: 38px; } }
+
+/* ---------- header / navigation ---------- */
+.ah-header { position: relative; z-index: 20; background: var(--background-menu); }
+.ah-header--sticky { position: sticky; top: 0; }
+
+/* ---------- section heading (Figma "Section Template": title + description + optional link) ---------- */
+.ah-heading { display: flex; flex-direction: column; gap: var(--spacing-6); margin-bottom: var(--spacing-8); }   /* Figma Content: V gap 24 */
+.ah-heading__row { display: flex; justify-content: space-between; align-items: center; gap: var(--spacing-8); }   /* Title row: H CENTER gap 32 — title + action button */
+.ah-heading__title { font-weight: 700; color: var(--text-default); }                                               /* Display sm 30/38 bold, text-default */
+.ah-heading__desc { margin: 0; max-width: 720px; color: var(--text-default); }                                     /* Text md 16/24 */
+.ah-heading__text { display: flex; flex-direction: column; gap: var(--spacing-2); }
+.ah-heading h1, .ah-heading h2, .ah-heading h3, .ah-page h1, .ah-page h2, .ah-page h3 { color: var(--text-display); }
+.ah-heading--center { flex-direction: column; align-items: center; text-align: center; }
+@media (max-width: 767px) { .ah-heading__row { align-items: flex-start; } }
+
+/* Site theme (lib/site/site-config.js › theme.brandColors, applied on .ah-page by applySiteTheme / PageShell): --ah-site-brand-strong ·
+   --ah-site-brand · --ah-site-brand-subtle · --ah-site-accent-border. Each falls back to the DGA token of the templates. */
+/* ---------- hero (Figma Home hero: V/MAX/CENTER, pad 40 80, gap 32, gradient primary-800 → primary-600) ---------- */
+.ah-hero { color: var(--text-oncolor-primary); background: linear-gradient(90deg, var(--ah-site-brand-strong, var(--colors-primary-sa-flag-800)), var(--ah-site-brand, var(--colors-primary-sa-flag-600-primary))); }
+[dir="rtl"] .ah-hero { background: linear-gradient(270deg, var(--ah-site-brand-strong, var(--colors-primary-sa-flag-800)), var(--ah-site-brand, var(--colors-primary-sa-flag-600-primary))); }
+.ah-hero__inner { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--spacing-8); padding-block: var(--spacing-10); min-height: 320px; align-content: center; }
+.ah-hero__title { color: inherit; }
+.ah-hero__title--xl { font-size: 60px; line-height: 72px; font-weight: 700; margin: 0; }   /* Figma Home hero title fs 60 (Display xl desktop) */
+@media (max-width: 767px) { .ah-hero__title--xl { font-size: 36px; line-height: 44px; } }
+.ah-hero--slides .ah-hero__inner { min-height: 411px; padding-block: var(--spacing-10); }   /* hero band 491 incl. 40px padding */
+.ah-hero--slides .ah-hero__slide { gap: var(--spacing-8); color: var(--text-oncolor-primary); }   /* slides are slotted into dga-carousel: set the on-color ink explicitly */
+.ah-hero--slides .ah-hero__title { color: var(--text-oncolor-primary); }
+.ah-hero--slides.ah-hero--light .ah-hero__slide, .ah-hero--slides.ah-hero--light .ah-hero__title { color: var(--text-display); }
+.ah-hero--slides .ah-hero__lead { font-size: 20px; line-height: 30px; color: var(--text-oncolor-primary); max-width: 624px; }   /* Figma: lead white, 624 wide */
+.ah-hero__lead { color: var(--text-oncolor-primary); max-width: 720px; }   /* Figma hero lead: text-oncolor-primary (white) */
+.ah-hero__actions { display: flex; flex-wrap: wrap; gap: var(--spacing-3); }
+.ah-hero--light, [dir] .ah-hero.ah-hero--light { color: var(--text-default); background: var(--ah-site-brand-subtle, var(--background-primary-25)); }   /* inner templates: light primary-25 band (beats the RTL gradient rule) */
+.ah-hero:not(.ah-hero--light) .ah-hero__title, .ah-page .ah-hero:not(.ah-hero--light) h1 { color: var(--text-oncolor-primary); }   /* gradient band: white title (was overridden by .ah-page h1) */
+.ah-hero--light .ah-hero__title, .ah-page .ah-hero--light h1 { color: var(--text-default); }                                       /* Figma inner hero title: text-default #161616 */
+.ah-hero--light .ah-hero__lead { color: var(--text-primary-paragraph); }
+/* Enhanced: two columns with media (image supplied by the project; never decorative stock) */
+.ah-hero--split .ah-hero__inner { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); align-items: center; }
+.ah-hero__media { border-radius: var(--radius-lg); overflow: hidden; background: var(--background-neutral-100); aspect-ratio: 4 / 3; min-height: 0; }
+.ah-hero__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+@media (max-width: 1023px) { .ah-hero--split .ah-hero__inner { grid-template-columns: 1fr; } }
+
+/* ---------- cards & grids ---------- */
+.ah-cards { display: grid; gap: var(--spacing-8); grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.ah-cards--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--spacing-4); }   /* Figma News: 3 × 416, gap 16 */
+@media (max-width: 1023px) { .ah-cards--3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.ah-cards > li { min-width: 0; list-style: none; display: flex; }
+.ah-cards dga-card, .ah-cards dga-card-v2 { display: block; width: 100%; min-width: 0; }   /* host-level only: the package host shrink-wraps (PKG-CARD-02); Figma Card = fill width */
+@media (max-width: 767px) { .ah-cards { grid-template-columns: 1fr; gap: var(--spacing-4); } }
+
+/* ---------- statistics — DGA template figures (default; Figma home-page › About us Section › Cards: H/MAX/CENTER gap 32;
+   Card 224 · pad 16 (spacing-xl) · gap 24 (card-lg-gap) · radius-lg · background-card, no stroke/shadow; Content V gap 8).
+   Number: Display xl 48/60 regular, primary-sa-flag-800 (#14573a) and label Text md, text-display — measured from the owner's
+   rendering of the template (text styles below the Content frame were not captured by the extraction → REVIEW REQUIRED). ---------- */
+.ah-stats-t { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--spacing-8); }
+.ah-stat-t { width: 224px; box-sizing: border-box; padding: var(--spacing-4); border-radius: var(--radius-lg); background: var(--background-white); display: flex; flex-direction: column; align-items: center; gap: var(--spacing-6); text-align: center; }
+.ah-stat-t__content { display: flex; flex-direction: column; align-items: center; gap: var(--spacing-2); }
+.ah-stat-t__value { font-size: 48px; line-height: 60px; font-weight: 400; color: var(--colors-primary-sa-flag-800); font-variant-numeric: tabular-nums; direction: ltr; unicode-bidi: isolate; }
+.ah-stat-t__label { font-size: 16px; line-height: 24px; color: var(--text-display); }
+.ah-stats-t__source { flex-basis: 100%; text-align: center; margin: 0; }
+@media (max-width: 767px) { .ah-stats-t { gap: var(--spacing-4); } .ah-stat-t { width: calc(50% - var(--spacing-2)); } .ah-stat-t__value { font-size: 36px; line-height: 44px; } }
+
+/* ---------- statistics, dashboard variant="metric" (Exact: DgaMetric grid; Enhanced/Creative: house stat tiles) ---------- */
+.ah-stats { display: grid; gap: var(--spacing-6); grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr)); }   /* dga-metric has min-width 360 (package) */
+
+/* ---------- forms & filters ---------- */
+.ah-form { display: grid; gap: var(--spacing-6); grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.ah-form > .ah-span-2 { grid-column: span 2; }
+.ah-form__actions { display: flex; gap: var(--spacing-3); justify-content: flex-start; grid-column: span 2; padding-top: var(--spacing-2); }
+.ah-fieldset { border: 1px solid var(--border-neutral-secondary); border-radius: var(--radius-md); padding: var(--spacing-6); margin: 0; display: grid; gap: var(--spacing-4); }
+.ah-fieldset > legend { padding-inline: var(--spacing-2); font-weight: 600; }
+.ah-filters { display: flex; flex-wrap: wrap; gap: var(--spacing-4); align-items: flex-end; padding: var(--spacing-4); border: 1px solid var(--border-neutral-secondary); border-radius: var(--radius-md); background: var(--background-white); }
+.ah-filters > * { flex: 1 1 220px; min-width: 0; }
+.ah-filters__chips { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: var(--spacing-2); }
+.ah-form-panel { background: var(--background-white); border: 1px solid var(--border-neutral-secondary); border-radius: var(--radius-lg); padding: var(--spacing-8); }
+@media (max-width: 767px) { .ah-form { grid-template-columns: 1fr; } .ah-form > .ah-span-2, .ah-form__actions { grid-column: span 1; } .ah-form-panel { padding: var(--spacing-4); } }
+
+/* ---------- footer & feedback ---------- */
+/* PKG-FOOTER-01: dga-footer :host is width:fit-content in core 0.0.52 → consumer must stretch it (host-level style, not shadow DOM) */
+.ah-footer > dga-footer { width: 100%; }
+.ah-feedback { border-top: 2px solid var(--ah-site-accent-border, var(--border-primary)); background: var(--background-white); }   /* Figma: stroke border-primary 2px top */
+.ah-feedback__inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--spacing-4); padding-block: var(--spacing-6); }   /* pad 24/80, gap 16 */
+.ah-feedback__ask { display: flex; flex-wrap: wrap; align-items: center; gap: var(--spacing-6); }   /* question + actions gap 24 */
+.ah-feedback__ask p, .ah-feedback__stats { margin: 0; color: var(--text-default); }
+
+/* ---------- motion: Enhanced/Creative reveal (house) — INSTANT under reduced motion ---------- */
+.ah-reveal { opacity: 0; transform: translateY(12px); transition: opacity 300ms ease-out, transform 300ms ease-out; }
+.ah-reveal.is-in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .ah-reveal { opacity: 1; transform: none; transition: none; } }
+
+/* ========== [AHMED HOUSE] tokens — not DGA. Used only by Enhanced/Creative compositions. Listed by QA gate N4. ========== */
+:root {
+  --ahmed-hero-overlay: linear-gradient(180deg, rgba(7, 77, 49, 0.10), rgba(7, 77, 49, 0.72));   /* over project photography; based on SA-Flag green */
+  --ahmed-stat-accent: var(--colors-primary-sa-flag-600-primary);                               /* token alias */
+  --ahmed-display-xl: 60px;                                                                        /* Creative numerals (Display xl exists in Foundations scale) */
+}
+.ah-stat { background: var(--background-white); border: 1px solid var(--border-neutral-secondary); border-radius: var(--radius-lg); padding: var(--spacing-6); display: grid; gap: var(--spacing-2); border-inline-start: 4px solid var(--ahmed-stat-accent); }
+.ah-stat__value { font-size: 36px; line-height: 44px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.ah-stat__label { color: var(--text-primary-paragraph); }
+.ah-hero--creative { position: relative; isolation: isolate; color: var(--text-oncolor-primary); background: var(--colors-primary-sa-flag-900); }
+.ah-hero--creative .ah-hero__bg { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; }
+.ah-hero--creative::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--ahmed-hero-overlay); }
+.ah-hero--creative .ah-hero__inner { min-height: 520px; grid-template-columns: minmax(0, 8fr) minmax(0, 4fr); align-items: end; }
+.ah-hero--creative .ah-hero__title { font-size: var(--ahmed-display-xl); line-height: 1.15; }
+.ah-hero--creative .ah-hero__figures { display: grid; gap: var(--spacing-4); }
+.ah-hero--creative .ah-figure { border-inline-start: 2px solid var(--border-white-40); padding-inline-start: var(--spacing-4); }
+.ah-figure__num { font-size: 36px; line-height: 44px; font-weight: 600; }
+@media (max-width: 1023px) { .ah-hero--creative .ah-hero__inner { grid-template-columns: 1fr; min-height: 420px; } .ah-hero--creative .ah-hero__title { font-size: 40px; } }
+
+/* ---------- Home template blocks (Figma "Home Page - Desktop AR") ---------- */
+.ah-svc-carousel { width: 100%; }
+.ah-svc-card { display: flex; flex-direction: column; align-items: flex-start; gap: var(--spacing-6); text-align: start; }   /* Card content: gap 24 (card-v2 supplies pad 16, stroke, r16) */
+.ah-svc-page { box-sizing: border-box; width: var(--ah-carousel-w, 1280px); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--spacing-4); padding-inline: var(--spacing-6); align-items: stretch; }   /* slide = row of cards, gap 16, carousel pad 0 24 */
+.ah-svc-page > dga-card-v2 { display: block; min-width: 0; width: 100%; }   /* card-v2 :host is a fixed 360 px (PKG-CARDV2-01) — fill the grid cell */
+.ah-svc-carousel, .ah-hero--slides .ah-hero__inner { --ah-carousel-w: min(1280px, calc(100vw - 2 * var(--spacing-8))); }
+.ah-hero--slides .ah-hero__slide { box-sizing: border-box; width: var(--ah-carousel-w); }
+@media (max-width: 1023px) { .ah-svc-page { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 767px) { .ah-svc-carousel, .ah-hero--slides .ah-hero__inner { --ah-carousel-w: calc(100vw - 2 * var(--spacing-4)); } .ah-svc-page { grid-template-columns: 1fr; padding-inline: 0; } }
+.ah-svc-card__content { display: flex; flex-direction: column; gap: var(--spacing-2); }
+.ah-svc-card__title { font-size: 18px; line-height: 28px; font-weight: 700; margin: 0; color: var(--text-display); }   /* Text lg/Bold */
+.ah-svc-card__desc { font-size: 16px; line-height: 24px; margin: 0; color: var(--text-display); }                      /* Text md/Regular */
+.ah-svc-card__tags { display: flex; flex-wrap: wrap; gap: var(--spacing-2); }                                           /* Tags gap 8 (spacing-md) */
+.ah-svc-card__actions { display: flex; flex-wrap: wrap; gap: var(--spacing-4); }
+.ah-svc-card__image { display: block; width: 100%; aspect-ratio: 325 / 250; object-fit: cover; border-radius: var(--radius-md); }   /* Figma Card Image 325×250 r8 */
+.ah-svc-card__rating { display: flex; align-items: center; gap: var(--spacing-1); }                                        /* Actions gap 16 */
+.ah-partners { display: flex; flex-direction: column; gap: var(--spacing-8); }                                          /* Section V gap 32 */
+.ah-partners__row { display: flex; align-items: center; justify-content: space-between; gap: var(--spacing-4); }        /* Partners H SPACE_BETWEEN gap 16 */
+.ah-partners__list { display: flex; gap: var(--spacing-4); list-style: none; margin: 0; padding: 0; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; flex: 1; justify-content: space-between; }
+.ah-partners__list::-webkit-scrollbar { display: none; }
+.ah-partner { flex: 0 0 98px; scroll-snap-align: start; }
+.ah-partner__link { box-sizing: border-box; width: 98px; height: 100px; padding: var(--spacing-4); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--spacing-1);
+  background: var(--background-white); border: 1px solid var(--border-neutral-primary); border-radius: var(--radius-lg); color: var(--text-primary-paragraph); text-decoration: none; }   /* Card 98×100 · stroke neutral-primary · r16 · pad 16 */
+.ah-partner__link:focus-visible { outline: 2px solid var(--border-black); outline-offset: 2px; }
+.ah-partner__link img { max-width: 100%; max-height: 44px; object-fit: contain; }
+.ah-partner__placeholder { width: 32px; height: 32px; border-radius: var(--radius-sm); background: var(--background-neutral-100); }
+.ah-partner__name { font-size: 10px; line-height: 14px; text-align: center; }
+.ah-last-modified { background: var(--background-white); }
+.ah-last-modified p { margin: 0; padding-block: var(--spacing-4); color: var(--text-default); }   /* Last Modified: pad 16/80 · Text sm 14 */
+@media (max-width: 767px) { .ah-partners__row { gap: var(--spacing-2); } }
+
+/* Header actions between 601 and 1279 px [AHMED HOUSE — Figma defines 1440 and 430 only]: logo + menu + 3 actions do not fit, so only
+   the last action («تسجيل الدخول») stays; ≤600 px the package replaces actions with its own overflow menu (PKG-NAV-02). Host-level only. */
+/* Nav Header layout — Figma "Header Content" = SPACE_BETWEEN [Logo & Menu Items (gap 16)] … [Actions]; live DGA-aligned portals do the same.
+   dga-nav-header-main stretches the logos and actions slots to equal widths to centre the menu, which leaves a wide gap between the logo
+   and the menu (PKG-NAV-04). Light-DOM host rules: logo hugs its image, the menu follows it, the actions go to the far end. */
+.ah-header dga-nav-header-logos { width: auto; flex: 0 0 auto; }
+.ah-header dga-nav-header-menu { width: auto; flex: 0 1 auto; min-width: 0; }
+.ah-header dga-nav-header-actions { width: auto; flex: 0 0 auto; margin-inline-start: auto; }
+@media (min-width: 601px) and (max-width: 1279px) { .ah-header dga-nav-header-actions > dga-nav-header-link:not(:last-child) { display: none; } }
+
+/* PKG-FOOTER-02: dga-footer content has a 434px minimum width → on narrow screens the footer scrolls inside its own band instead of the whole page (host-level only). */
+@media (max-width: 480px) { .ah-footer { max-width: 100%; overflow-x: auto; } }
+html.ah-grayscale { filter: grayscale(1); }   /* Second Nav Header "view" tool (lib/core/page-tools.js) */
+
+/* ---------- Service page — Figma "Service Page Template", frame Service Page - AR (patterns/service-page.md) ---------- */
+/* Service section: pad 40/80, H gap 32; a primary-25 "Background" band (298 from the top of the frame = 154 px into this section) */
+.ah-svc-detail { padding-block: var(--spacing-10); background: linear-gradient(var(--ah-site-brand-subtle, var(--background-primary-25)) 0 154px, var(--background-white) 154px); }
+.ah-svc-detail__grid { display: grid; grid-template-columns: minmax(0, 832fr) minmax(0, 416fr); gap: var(--spacing-8); align-items: start; }
+.ah-svc-detail__main { display: flex; flex-direction: column; gap: var(--spacing-16); min-width: 0; }      /* Service: V gap 64 */
+.ah-svc-detail__desc { display: flex; flex-direction: column; gap: var(--spacing-4); }                          /* Description: V gap 16 */
+.ah-svc-detail__head { display: flex; align-items: flex-end; justify-content: space-between; gap: var(--spacing-8); }   /* Content: H MAX gap 32 */
+.ah-svc-detail__title { display: flex; flex-direction: column; gap: var(--spacing-2); min-width: 0; }          /* Title: breadcrumb + H1, gap 8 */
+.ah-svc-detail__title h1 { font-weight: 700; color: var(--text-default); }                                      /* Display sm/Bold 30/38 */
+.ah-svc-detail__text { margin: 0; max-width: 720px; color: var(--text-default); }                               /* Text md 16/24, 720 */
+.ah-svc-detail__info { display: flex; flex-direction: column; gap: var(--spacing-6); }                          /* Info: V gap 24 */
+.ah-svc-tabs { display: flex; flex-direction: column; gap: var(--spacing-6); min-width: 0; }
+.ah-svc-tabs dga-tabs { display: block; max-width: 100%; }
+.ah-svc-tabs .dga-tabs-list { overflow-x: auto; scrollbar-width: thin; }   /* dga-tabs never wraps or scrolls; long labels overflow small screens (PKG-TABS-02) */
+.ah-svc-tabs__panel { display: flex; flex-direction: column; gap: var(--spacing-6); }
+.ah-icon-link { display: inline-flex; align-items: center; gap: var(--spacing-2); color: var(--link-primary); align-self: flex-start; }   /* Link Medium: icon 20 + text, gap 8 */
+.ah-video { position: relative; display: grid; place-items: center; aspect-ratio: 832 / 344; border-radius: var(--radius-lg); background: var(--background-neutral-50) center / cover no-repeat; }
+.ah-video__play { all: unset; cursor: pointer; border-radius: 9999px; display: inline-flex; }
+.ah-video__play:focus-visible { outline: 2px solid var(--border-black); outline-offset: 4px; }
+.ah-steps { display: block; }
+.ah-steps dga-list-item > li { height: auto; min-height: 24px; }   /* dga-list-item fixes the row at 24 px, so wrapped steps overlap (PKG-LIST-01); Figma lets long steps take 2 lines (h 48) */
+
+/* Service Card — 416, pad 40, radius 16, stroke border-background-neutral (#d2d6db), white, V gap 24 */
+.ah-svc-info { box-sizing: border-box; display: flex; flex-direction: column; gap: var(--spacing-6); padding: var(--spacing-10); border: 1px solid var(--border-neutral-primary); border-radius: var(--radius-lg); background: var(--background-white); }
+.ah-svc-info__group { display: flex; flex-direction: column; gap: var(--spacing-4); margin: 0; }                /* rows gap 16 */
+.ah-svc-info__row { display: flex; align-items: flex-start; gap: var(--spacing-2); color: var(--text-default); } /* icon 24 + text, gap 8 */
+.ah-svc-info__text { display: flex; flex-direction: column; gap: var(--spacing-1); min-width: 0; }             /* label / value gap 4 */
+.ah-svc-info__text dt, .ah-svc-info__label { margin: 0; font-size: 16px; line-height: 24px; font-weight: 600; color: var(--text-default); }   /* REVIEW REQUIRED: style below extraction depth */
+.ah-svc-info__text dd, .ah-svc-info__value { margin: 0; font-size: 16px; line-height: 24px; color: var(--text-primary-paragraph); }
+.ah-svc-info__contact { color: inherit; text-decoration: none; }
+.ah-svc-info__contact:hover { text-decoration: underline; }
+.ah-svc-info__payments { display: flex; flex-wrap: wrap; gap: var(--spacing-2); list-style: none; margin: 0; padding: 0; }
+.ah-pay-method { display: inline-flex; align-items: center; justify-content: center; min-width: 46px; height: 32px; padding-inline: var(--spacing-2); border: 1px solid var(--border-neutral-secondary); border-radius: 6px; font-size: 12px; font-weight: 600; color: var(--text-default); background: var(--background-white); }   /* Payment method icon slot (brand marks are not bundled) */
+.ah-pay-method img { height: 20px; }
+.ah-svc-info__apps { display: flex; flex-direction: column; gap: var(--spacing-2); }
+.ah-svc-info__apps-title { margin: 0; font-size: 18px; line-height: 28px; font-weight: 700; color: var(--text-display); }   /* Text lg/Bold */
+.ah-store-list { display: flex; flex-wrap: wrap; gap: var(--spacing-3); list-style: none; margin: 0; padding: 0; direction: ltr; }      /* wrap, gap 12; Figma keeps the store order App Store · Google Play · AppGallery left→right */
+[dir='rtl'] .ah-store-list { justify-content: flex-end; }
+.ah-store { box-sizing: border-box; display: inline-flex; flex-direction: column; justify-content: center; width: 120px; height: 40px; padding-inline: 10px; border: 1px solid var(--colors-neutral-400); border-radius: 6px; background: var(--colors-base-black); color: var(--text-oncolor-primary); text-decoration: none; direction: ltr; text-align: left; }   /* Store download button 120×40 r6, Type=Dark — Figma #000 / #a6a6a6 are store-badge colours; mapped to the nearest DGA tokens (base-black, neutral-400). Real projects use the official badge images (badge prop). */
+.ah-store__small { font-size: 8px; line-height: 10px; }
+.ah-store__name { font-size: 15px; line-height: 18px; font-weight: 600; }
+.ah-store img { width: 100%; height: 100%; object-fit: contain; }
+.ah-store:focus-visible { outline: 2px solid var(--border-black); outline-offset: 2px; }
+
+/* Related services & comments */
+.ah-stack-6 { display: flex; flex-direction: column; gap: var(--spacing-6); }
+.ah-stack-6 > .ah-heading { margin-bottom: 0; }
+.ah-comments-card { display: block; width: 100%; }   /* Card Stroke 1280 (card-v2 host is a fixed 360 px — PKG-CARDV2-01) */
+
+/* Rating strip — Figma Rating (Section Template - Desktop): white, 2px top border-primary, pad 24/80, body gap 16 */
+.ah-rating-strip { border-top: 2px solid var(--ah-site-accent-border, var(--border-primary)); background: var(--background-white); }
+.ah-rating-strip__inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--spacing-4); padding-block: var(--spacing-6); }
+.ah-rating-strip__content { display: flex; flex-wrap: wrap; align-items: center; gap: var(--spacing-6); }
+.ah-rating-strip__content p { margin: 0; font-size: 16px; line-height: 24px; color: var(--text-default); }
+.ah-rating-strip__stars { display: flex; align-items: center; gap: var(--spacing-2); }
+.ah-rating-strip__count { color: var(--text-primary-paragraph); }
+
+@media (max-width: 1023px) {
+  .ah-svc-detail__grid { grid-template-columns: minmax(0, 1fr); }
+  .ah-svc-detail { background: linear-gradient(var(--ah-site-brand-subtle, var(--background-primary-25)) 0 120px, var(--background-white) 120px); }
+}
+@media (max-width: 767px) {
+  .ah-svc-detail__head { flex-direction: column; align-items: flex-start; gap: var(--spacing-4); }
+  .ah-svc-detail__main { gap: var(--spacing-10); }
+  .ah-svc-info { padding: var(--spacing-10) var(--spacing-4); }   /* Figma mobile Service Card: pad 40/16 */
+}
+/* Figma mobile templates (430) have no Second Nav Header; dga-second-nav-header does not wrap or collapse (PKG-NAV-03) */
+@media (max-width: 599px) { .ah-header dga-second-nav-header { display: none; } }
+
+/* ---------- Services catalogue — Figma "Search Page Template" grid variant (patterns/services-page.md) ---------- */
+.ah-services-search { padding-block: var(--spacing-10); }                                                      /* Search: pad 40/80 */
+.ah-services-search__form { display: flex; align-items: flex-end; gap: var(--spacing-4); margin: 0; }          /* H MAX gap 16 */
+.ah-services-search__box { flex: 1 1 auto; min-width: 0; }
+
+.ah-services-body { padding-block: var(--spacing-10); }                                                        /* Body: pad 40/80 */
+.ah-services-body__content { display: flex; flex-direction: column; align-items: center; gap: var(--spacing-8); }   /* V CENTER gap 32 */
+.ah-services-details { align-self: stretch; display: flex; align-items: flex-start; justify-content: space-between; gap: var(--spacing-4); flex-wrap: wrap; }
+.ah-services-details__result { display: flex; flex-direction: column; gap: var(--spacing-2); min-width: 0; }   /* title + count, gap 8 */
+.ah-services-details__result h1 { font-weight: 700; color: var(--text-default); }
+.ah-services-details__count { margin: 0; color: var(--text-secondary-paragraph); }
+.ah-services-details__tools { display: flex; align-items: flex-start; gap: var(--spacing-4); }
+.ah-services-grid { align-self: stretch; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--spacing-6); list-style: none; margin: 0; padding: 0; }   /* 3 × 411, gap 24 */
+.ah-services-grid > li { display: flex; }
+.ah-services-grid > li > dga-card-v2 { display: block; width: 100%; min-width: 0; }
+@media (max-width: 1023px) { .ah-services-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 767px) { .ah-services-grid { grid-template-columns: minmax(0, 1fr); gap: var(--spacing-4); } .ah-services-search__form { flex-wrap: wrap; } }
+.ah-filter-menu { position: relative; }
+.ah-filter-menu__panel { position: absolute; inset-inline-end: 0; top: calc(100% + var(--spacing-2)); z-index: 20; box-sizing: border-box; width: min(320px, calc(100vw - 2 * var(--spacing-4))); display: flex; flex-direction: column; gap: var(--spacing-4); padding: var(--spacing-4); border: 1px solid var(--border-neutral-primary); border-radius: var(--radius-md); background: var(--background-white); box-shadow: var(--shadow-lg); }
+.ah-filter-menu__actions { display: flex; gap: var(--spacing-2); flex-wrap: wrap; }

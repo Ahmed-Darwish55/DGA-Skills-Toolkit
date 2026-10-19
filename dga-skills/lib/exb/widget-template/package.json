@@ -1,0 +1,6 @@
+{
+  "name": "dga-skills-demo",
+  "private": true,
+  "description": "Widget-level dependencies (installed into the ExB client by npm ci in client/). Versions = the ones validated by DGA Skills Toolkit.",
+  "dependencies": { "@platformscode/core": "0.0.52", "@platformscode/icons": "0.0.11", "@hugeicons/core-free-icons": "4.3.5" }
+}

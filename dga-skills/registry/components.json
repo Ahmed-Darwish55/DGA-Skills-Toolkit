@@ -1,0 +1,7102 @@
+{
+ "schema_version": "1.1",
+ "generated": "2026-10-17",
+ "status_meaning": "extracted-from-figma = values read programmatically from the official DGA Figma files; NOT a certification of any coded library",
+ "state_spelling_normalisation": {
+  "Focsed": "Focused",
+  "Foucsed": "Focused",
+  "Focus": "Focused",
+  "Hover": "Hovered",
+  "Upcomming": "Upcoming",
+  "Opened": "Open"
+ },
+ "components": [
+  {
+   "name": "Accordion",
+   "kind": "component-set",
+   "page": "Accordions",
+   "platform": "web",
+   "figmaNode": "1147:60874",
+   "spec": "references/dga-live/web/accordions.md",
+   "data": "references/dga-live/data/web/accordions.json",
+   "variants": 240,
+   "variantsExported": 240,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Large",
+     "Medium",
+     "Small"
+    ],
+    "Icon alignment": [
+     "Leading",
+     "Trailing"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ],
+    "Expanded": [
+     "False",
+     "True"
+    ],
+    "Flush": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Title EN": "TEXT=Accordion Title",
+    "Title AR": "TEXT=عنوان الأكورديون"
+   },
+   "motionRules": 168,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Accordion list",
+   "kind": "component-set",
+   "page": "Accordions",
+   "platform": "web",
+   "figmaNode": "1188:65307",
+   "spec": "references/dga-live/web/accordions.md",
+   "data": "references/dga-live/data/web/accordions.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 10,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Avatar",
+   "kind": "component-set",
+   "page": "Avatar",
+   "platform": "web",
+   "figmaNode": "5699:53529",
+   "spec": "references/dga-live/web/avatar.md",
+   "data": "references/dga-live/data/web/avatar.json",
+   "variants": 42,
+   "variantsExported": 42,
+   "variantAxes": {
+    "Type": [
+     "Image",
+     "Initials",
+     "Icon"
+    ],
+    "Square": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "24px",
+     "32px",
+     "40px",
+     "48px",
+     "64px",
+     "80px",
+     "120px"
+    ]
+   },
+   "otherProps": {
+    "Border": "BOOLEAN=false",
+    "Text EN": "TEXT=AB",
+    "🔁 Swap Icon": "INSTANCE_SWAP=13758:241877"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Avatar Group",
+   "kind": "component-set",
+   "page": "Avatar",
+   "platform": "web",
+   "figmaNode": "5699:53727",
+   "spec": "references/dga-live/web/avatar.md",
+   "data": "references/dga-live/data/web/avatar.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "Stacked": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Breadcrumb Item",
+   "kind": "component-set",
+   "page": "Breadcrumb",
+   "platform": "web",
+   "figmaNode": "5698:2585",
+   "spec": "references/dga-live/web/breadcrumb.md",
+   "data": "references/dga-live/data/web/breadcrumb.json",
+   "variants": 10,
+   "variantsExported": 10,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Type": [
+     "Root",
+     "Current",
+     "Middle",
+     "Middle-overflow",
+     "Middle-overflow open"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Breadcrumb",
+   "kind": "component-set",
+   "page": "Breadcrumb",
+   "platform": "web",
+   "figmaNode": "5698:2597",
+   "spec": "references/dga-live/web/breadcrumb.md",
+   "data": "references/dga-live/data/web/breadcrumb.json",
+   "variants": 10,
+   "variantsExported": 10,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Levels": [
+     "2",
+     "3",
+     "4",
+     "5",
+     ">5"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 28,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Button",
+   "kind": "component-set",
+   "page": "Buttons",
+   "platform": "web",
+   "figmaNode": "407:510376",
+   "spec": "references/dga-live/web/buttons.md",
+   "data": "references/dga-live/data/web/buttons.json",
+   "variants": 1344,
+   "variantsExported": 1344,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Large",
+     "Medium",
+     "Small"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Selected",
+     "Focused",
+     "Disabled"
+    ],
+    "Style": [
+     "Primary",
+     "Neutral",
+     "Secondary-Solid",
+     "Secondary-Outline",
+     "Subtle",
+     "Transparent"
+    ],
+    "Destructive": [
+     "no",
+     "yes"
+    ],
+    "Icon only": [
+     "False",
+     "True"
+    ],
+    "On-color": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Trail icon": "BOOLEAN=false",
+    "Text EN": "TEXT=Button",
+    "Text AR": "TEXT=إجراء",
+    "Lead Icon": "BOOLEAN=true",
+    "🔁 Swap Trail Icon": "INSTANCE_SWAP=13758:238512",
+    "🔁 Swap Lead Icon": "INSTANCE_SWAP=13758:241700"
+   },
+   "motionRules": 528,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Button-menu",
+   "kind": "component-set",
+   "page": "Buttons",
+   "platform": "web",
+   "figmaNode": "411:4377",
+   "spec": "references/dga-live/web/buttons.md",
+   "data": "references/dga-live/data/web/buttons.json",
+   "variants": 432,
+   "variantsExported": 432,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Large",
+     "Medium",
+     "Small"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Selected",
+     "Focused",
+     "Disabled"
+    ],
+    "Style": [
+     "Primary",
+     "Neutral",
+     "Secondary-Solid",
+     "Secondary-Outline",
+     "Subtle",
+     "Transparent"
+    ],
+    "Icon only": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "🔁 Swap Lead icon": "INSTANCE_SWAP=13758:241591",
+    "Lead icon": "BOOLEAN=false",
+    "Text EN": "TEXT=Button",
+    "Text AR": "TEXT=إجراء"
+   },
+   "motionRules": 144,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Button-Close",
+   "kind": "component-set",
+   "page": "Buttons",
+   "platform": "web",
+   "figmaNode": "2763:420129",
+   "spec": "references/dga-live/web/buttons.md",
+   "data": "references/dga-live/data/web/buttons.json",
+   "variants": 32,
+   "variantsExported": 32,
+   "variantAxes": {
+    "Size": [
+     "Small",
+     "Medium",
+     "Large",
+     "x Small"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused"
+    ],
+    "On-color": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 16,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Card",
+   "kind": "component-set",
+   "page": "Card",
+   "platform": "web",
+   "figmaNode": "30195:10358",
+   "spec": "references/dga-live/web/card.md",
+   "data": "references/dga-live/data/web/card.json",
+   "variants": 102,
+   "variantsExported": 102,
+   "variantAxes": {
+    "RTL": [
+     "no",
+     "yes"
+    ],
+    "Type": [
+     "Default",
+     "Expandable",
+     "Selectable"
+    ],
+    "State": [
+     "Default",
+     "Hover",
+     "Focused",
+     "Disabled"
+    ],
+    "Effect": [
+     "With Sahdow",
+     "No Shadow",
+     "Stroke"
+    ],
+    "Expanded": [
+     "False",
+     "True"
+    ],
+    "Selected": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Secondary Action": "BOOLEAN=true",
+    "Show Tags": "BOOLEAN=false",
+    "Show Rating": "BOOLEAN=false",
+    "Description AR": "TEXT=نص إضافي لمحتوى البطاقة",
+    "Title AR": "TEXT=عنوان البطاقة",
+    "Featured icon": "BOOLEAN=true",
+    "Show Title": "BOOLEAN=true",
+    "Title EN": "TEXT=Card Title",
+    "Primary Action": "BOOLEAN=true",
+    "Show Description ": "BOOLEAN=true",
+    "🔁 Swap Icon": "INSTANCE_SWAP=31864:190028",
+    "Image": "BOOLEAN=false",
+    "Custom Component": "BOOLEAN=false",
+    "Description EN": "TEXT=Card content placeholder text ",
+    "🔁 Content Swap": "INSTANCE_SWAP=30150:55097"
+   },
+   "motionRules": 246,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Carousel",
+   "kind": "component-set",
+   "page": "Carousel",
+   "platform": "web",
+   "figmaNode": "17242:4306",
+   "spec": "references/dga-live/web/carousel.md",
+   "data": "references/dga-live/data/web/carousel.json",
+   "variants": 3,
+   "variantsExported": 3,
+   "variantAxes": {
+    "Style": [
+     "Arrows",
+     "Dots",
+     "Dots Only"
+    ]
+   },
+   "otherProps": {
+    "🔁 Content Swap": "INSTANCE_SWAP=30150:55097"
+   },
+   "motionRules": 6,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Carousel Controls",
+   "kind": "component-set",
+   "page": "Carousel",
+   "platform": "web",
+   "figmaNode": "17241:281",
+   "spec": "references/dga-live/web/carousel.md",
+   "data": "references/dga-live/data/web/carousel.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "Selected": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Large",
+     "Mideum",
+     "Small"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Carousel Arrows",
+   "kind": "component-set",
+   "page": "Carousel",
+   "platform": "web",
+   "figmaNode": "17241:286",
+   "spec": "references/dga-live/web/carousel.md",
+   "data": "references/dga-live/data/web/carousel.json",
+   "variants": 60,
+   "variantsExported": 60,
+   "variantAxes": {
+    "Direction": [
+     "Right",
+     "Left"
+    ],
+    "State": [
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Disabled",
+     "Default"
+    ],
+    "Style": [
+     "Primary",
+     "Subtle"
+    ],
+    "Size": [
+     "Large",
+     "Medium",
+     "Small"
+    ],
+    "Icon only": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 36,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Y-axis line",
+   "kind": "component-set",
+   "page": "Charts",
+   "platform": "web",
+   "figmaNode": "20302:3916",
+   "spec": "references/dga-live/web/charts.md",
+   "data": "references/dga-live/data/web/charts.json",
+   "variants": 3,
+   "variantsExported": 3,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Label": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Y-axis",
+   "kind": "component-set",
+   "page": "Charts",
+   "platform": "web",
+   "figmaNode": "20302:3972",
+   "spec": "references/dga-live/web/charts.md",
+   "data": "references/dga-live/data/web/charts.json",
+   "variants": 3,
+   "variantsExported": 3,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Label": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Pie Chart",
+   "kind": "component-set",
+   "page": "Charts",
+   "platform": "web",
+   "figmaNode": "20335:723",
+   "spec": "references/dga-live/web/charts.md",
+   "data": "references/dga-live/data/web/charts.json",
+   "variants": 48,
+   "variantsExported": 48,
+   "variantAxes": {
+    "RTL": [
+     "No",
+     "Yes"
+    ],
+    "Pie Chart": [
+     "Series 1",
+     "Series 2",
+     "Series3",
+     "Series 4",
+     "Series 5",
+     "Series 6"
+    ],
+    "Hole": [
+     "False",
+     "True"
+    ],
+    "Style Color": [
+     "Brand",
+     "Color"
+    ]
+   },
+   "otherProps": {
+    "Show Data": "BOOLEAN=true"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Line Chart",
+   "kind": "component-set",
+   "page": "Charts",
+   "platform": "web",
+   "figmaNode": "20368:860",
+   "spec": "references/dga-live/web/charts.md",
+   "data": "references/dga-live/data/web/charts.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "Style": [
+     "Line Gradual",
+     "Line Wavy"
+    ]
+   },
+   "otherProps": {
+    "Show Series 2": "BOOLEAN=true",
+    "Show Series 3": "BOOLEAN=true"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Legend",
+   "kind": "component-set",
+   "page": "Charts",
+   "platform": "web",
+   "figmaNode": "20374:1893",
+   "spec": "references/dga-live/web/charts.md",
+   "data": "references/dga-live/data/web/charts.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "No",
+     "Yes"
+    ]
+   },
+   "otherProps": {
+    "Show Series 1": "BOOLEAN=true",
+    "Show Series 2": "BOOLEAN=true",
+    "Show Series 3": "BOOLEAN=true",
+    "Show Series 4": "BOOLEAN=true",
+    "Show Series 5": "BOOLEAN=true",
+    "Show Series 6": "BOOLEAN=true"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Mark",
+   "kind": "component-set",
+   "page": "Charts",
+   "platform": "web",
+   "figmaNode": "20375:2298",
+   "spec": "references/dga-live/web/charts.md",
+   "data": "references/dga-live/data/web/charts.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "Square": [
+     "No",
+     "Yes"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_X-axis label",
+   "kind": "component-set",
+   "page": "Charts",
+   "platform": "web",
+   "figmaNode": "20451:4912",
+   "spec": "references/dga-live/web/charts.md",
+   "data": "references/dga-live/data/web/charts.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Text EN": "TEXT=Month",
+    "Text AR": "TEXT=الشهر"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Y-axis label",
+   "kind": "component-set",
+   "page": "Charts",
+   "platform": "web",
+   "figmaNode": "20451:4915",
+   "spec": "references/dga-live/web/charts.md",
+   "data": "references/dga-live/data/web/charts.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Text AR": "TEXT=المستخدمين النشطين",
+    "Text EN": "BOOLEAN=true"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Line Chart",
+   "kind": "component-set",
+   "page": "Charts",
+   "platform": "web",
+   "figmaNode": "20470:1259",
+   "spec": "references/dga-live/web/charts.md",
+   "data": "references/dga-live/data/web/charts.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Show _X-axis label": "BOOLEAN=true",
+    "Show _Y-axis label": "BOOLEAN=true",
+    "Show _Legend": "BOOLEAN=true",
+    "Show Content": "BOOLEAN=true"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Bar Chart",
+   "kind": "component-set",
+   "page": "Charts",
+   "platform": "web",
+   "figmaNode": "20470:1382",
+   "spec": "references/dga-live/web/charts.md",
+   "data": "references/dga-live/data/web/charts.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Show _Legend": "BOOLEAN=true",
+    "Show _X-axis label": "BOOLEAN=true",
+    "Show _Y-axis label": "BOOLEAN=true"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Bar Chart",
+   "kind": "component-set",
+   "page": "Charts",
+   "platform": "web",
+   "figmaNode": "20466:5037",
+   "spec": "references/dga-live/web/charts.md",
+   "data": "references/dga-live/data/web/charts.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Show Series 3": "BOOLEAN=true",
+    "Show Series 2": "BOOLEAN=true"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_X-axis",
+   "kind": "component-set",
+   "page": "Charts",
+   "platform": "web",
+   "figmaNode": "20473:6563",
+   "spec": "references/dga-live/web/charts.md",
+   "data": "references/dga-live/data/web/charts.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "Left",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Text EN": "BOOLEAN=true",
+    "Text AR": "BOOLEAN=true"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Checkbox",
+   "kind": "component-set",
+   "page": "Checkbox",
+   "platform": "web",
+   "figmaNode": "30186:53826",
+   "spec": "references/dga-live/web/checkbox.md",
+   "data": "references/dga-live/data/web/checkbox.json",
+   "variants": 108,
+   "variantsExported": 108,
+   "variantAxes": {
+    "Checked": [
+     "True",
+     "False"
+    ],
+    "Indeterminate": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ],
+    "Size": [
+     "Medium",
+     "Small",
+     "x Small"
+    ],
+    "Style": [
+     "Primary",
+     "Neutral"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 54,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_CheckboxBase1",
+   "kind": "component-set",
+   "page": "Checkbox",
+   "platform": "web",
+   "figmaNode": "30186:54097",
+   "spec": "references/dga-live/web/checkbox.md",
+   "data": "references/dga-live/data/web/checkbox.json",
+   "variants": 3,
+   "variantsExported": 3,
+   "variantAxes": {
+    "Status": [
+     "Unchecked",
+     "Checked",
+     "Indeterminate"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Checkbox Label",
+   "kind": "component-set",
+   "page": "Checkbox",
+   "platform": "web",
+   "figmaNode": "30186:54105",
+   "spec": "references/dga-live/web/checkbox.md",
+   "data": "references/dga-live/data/web/checkbox.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Helper Text": "BOOLEAN=true",
+    "Alert message": "BOOLEAN=true",
+    "Label EN": "TEXT=Checkbox Label",
+    "Helper Text EN": "TEXT=When a selection needs a furth",
+    "Alert Message EN": "TEXT=Error/Warning message",
+    "Label AR": "TEXT=عنوان اختيار متعدد",
+    "Helper Text AR": "TEXT=يكتب المحتوى الإضافي هنا في حا",
+    "Alert Message AR": "TEXT=رسالة خطأ أو تحذير",
+    "Hitbox focus ring": "BOOLEAN=false"
+   },
+   "motionRules": 2,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Chip",
+   "kind": "component-set",
+   "page": "Chip",
+   "platform": "web",
+   "figmaNode": "17276:24471",
+   "spec": "references/dga-live/web/chip.md",
+   "data": "references/dga-live/data/web/chip.json",
+   "variants": 288,
+   "variantsExported": 288,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Selected",
+     "Focused",
+     "Disabled"
+    ],
+    "Style": [
+     "Primary",
+     "Neutral"
+    ],
+    "Size": [
+     "Large",
+     "Medium",
+     "Small"
+    ],
+    "Rounded": [
+     "True",
+     "False"
+    ],
+    "On-color": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Text EN": "TEXT=Item",
+    "🔁 Swap Lead Icon": "INSTANCE_SWAP=13758:242431",
+    "🔁 Swap Trail Icon": "INSTANCE_SWAP=13758:242431",
+    "Show Lead Icon": "BOOLEAN=false",
+    "Show Trail Icon": "BOOLEAN=false",
+    "Text AR": "TEXT=اختيار"
+   },
+   "motionRules": 192,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Code Snippet",
+   "kind": "component-set",
+   "page": "Code Snippet",
+   "platform": "web",
+   "figmaNode": "18632:730",
+   "spec": "references/dga-live/web/code-snippet.md",
+   "data": "references/dga-live/data/web/code-snippet.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "Type": [
+     "Multi-Line",
+     "Single-Line"
+    ]
+   },
+   "otherProps": {
+    "Show Sidebar": "BOOLEAN=true",
+    "Show Tab List": "BOOLEAN=true",
+    "Show Button": "BOOLEAN=true"
+   },
+   "motionRules": 8,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Content Switcher Item",
+   "kind": "component-set",
+   "page": "Content Switcher",
+   "platform": "web",
+   "figmaNode": "8421:70930",
+   "spec": "references/dga-live/web/content-switcher.md",
+   "data": "references/dga-live/data/web/content-switcher.json",
+   "variants": 144,
+   "variantsExported": 144,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Item Type": [
+     "Last",
+     "Mid",
+     "First"
+    ],
+    "State": [
+     "Normal",
+     "Hovered",
+     "Selected",
+     "Focused"
+    ],
+    "OnColor": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Small",
+     "Medium",
+     "Large"
+    ]
+   },
+   "otherProps": {
+    "Text En": "TEXT=Item",
+    "Text AR": "TEXT=عنصر"
+   },
+   "motionRules": 72,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Content Switcher",
+   "kind": "component-set",
+   "page": "Content Switcher",
+   "platform": "web",
+   "figmaNode": "8421:71014",
+   "spec": "references/dga-live/web/content-switcher.md",
+   "data": "references/dga-live/data/web/content-switcher.json",
+   "variants": 12,
+   "variantsExported": 12,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "OnColor": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Small",
+     "Medium",
+     "Large"
+    ]
+   },
+   "otherProps": {
+    "3rd Item": "BOOLEAN=true",
+    "2nd item": "BOOLEAN=true"
+   },
+   "motionRules": 36,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Date cell",
+   "kind": "component-set",
+   "page": "Date Picker",
+   "platform": "web",
+   "figmaNode": "30150:10275",
+   "spec": "references/dga-live/web/date-picker.md",
+   "data": "references/dga-live/data/web/date-picker.json",
+   "variants": 41,
+   "variantsExported": 41,
+   "variantAxes": {
+    "Selected": [
+     "False",
+     "True"
+    ],
+    "Today": [
+     "False",
+     "True"
+    ],
+    "Nex/Prev": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ],
+    "Null": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Range-left": "BOOLEAN=false",
+    "Range-right": "BOOLEAN=false",
+    "Extra-left": "BOOLEAN=false",
+    "Extra-right": "BOOLEAN=false",
+    "Mid-Range": "BOOLEAN=false",
+    "Date": "TEXT=21",
+    "Secondary Date": "TEXT=1/9",
+    "2ndry Date": "BOOLEAN=false"
+   },
+   "motionRules": 8,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Date Picker",
+   "kind": "component-set",
+   "page": "Date Picker",
+   "platform": "web",
+   "figmaNode": "30150:10582",
+   "spec": "references/dga-live/web/date-picker.md",
+   "data": "references/dga-live/data/web/date-picker.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Range": [
+     "True",
+     "False"
+    ],
+    "Picker": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Quick options": "BOOLEAN=false",
+    "Submit button": "BOOLEAN=false",
+    "Dual-month view": "BOOLEAN=false",
+    "Input field": "BOOLEAN=false",
+    "Show hint": "BOOLEAN=true"
+   },
+   "motionRules": 478,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Date field",
+   "kind": "component-set",
+   "page": "Date Picker",
+   "platform": "web",
+   "figmaNode": "30150:11261",
+   "spec": "references/dga-live/web/date-picker.md",
+   "data": "references/dga-live/data/web/date-picker.json",
+   "variants": 144,
+   "variantsExported": 144,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ],
+    "Filled": [
+     "False",
+     "True"
+    ],
+    "Error": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Large"
+    ],
+    "Style": [
+     "Default",
+     "Filled Darker",
+     "Filled Lighter"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=false",
+    "Prefix": "BOOLEAN=false",
+    "Suffix": "BOOLEAN=false",
+    "Text": "TEXT=DD/MM/YY",
+    "Text AR": "TEXT=يوم/شهر/سنة",
+    "Show Helper Text": "BOOLEAN=false",
+    "Helper text AR": "TEXT=نص مساعد",
+    "🔁 Icon Swap": "INSTANCE_SWAP=31864:189863",
+    "Helper Text Eng": "TEXT=Help Text"
+   },
+   "motionRules": 96,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Year Dropdown",
+   "kind": "component-set",
+   "page": "Date Picker",
+   "platform": "web",
+   "figmaNode": "30150:12966",
+   "spec": "references/dga-live/web/date-picker.md",
+   "data": "references/dga-live/data/web/date-picker.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 54,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Digital Stamp",
+   "kind": "component-set",
+   "page": "Digital Stamp",
+   "platform": "web",
+   "figmaNode": "17504:520",
+   "spec": "references/dga-live/web/digital-stamp.md",
+   "data": "references/dga-live/data/web/digital-stamp.json",
+   "variants": 8,
+   "variantsExported": 8,
+   "variantAxes": {
+    "RTL": [
+     "Yes",
+     "No"
+    ],
+    "Opened": [
+     "yes",
+     "no"
+    ],
+    "Device": [
+     "Mobile",
+     "Desktop"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 20,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Extension",
+   "kind": "component-set",
+   "page": "Digital Stamp",
+   "platform": "web",
+   "figmaNode": "25079:5361",
+   "spec": "references/dga-live/web/digital-stamp.md",
+   "data": "references/dga-live/data/web/digital-stamp.json",
+   "variants": 24,
+   "variantsExported": 24,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Extension": [
+     "gov.sa",
+     "edu.sa",
+     "med.sa",
+     "org.sa",
+     "sch.sa",
+     ".sa"
+    ],
+    "Device": [
+     "Mobile",
+     "Desktop"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Divider",
+   "kind": "component-set",
+   "page": "Divider",
+   "platform": "web",
+   "figmaNode": "18697:19412",
+   "spec": "references/dga-live/web/divider.md",
+   "data": "references/dga-live/data/web/divider.json",
+   "variants": 8,
+   "variantsExported": 8,
+   "variantAxes": {
+    "Color": [
+     "Neutral",
+     "Alpha-white",
+     "White",
+     "Primary"
+    ],
+    "Line Type": [
+     "Horizontal",
+     "Vertical"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Dropdown List Item",
+   "kind": "component-set",
+   "page": "Dropdown Input",
+   "platform": "web",
+   "figmaNode": "3262:27949",
+   "spec": "references/dga-live/web/dropdown-input.md",
+   "data": "references/dga-live/data/web/dropdown-input.json",
+   "variants": 22,
+   "variantsExported": 22,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ],
+    "Type": [
+     "Single Select",
+     "Multi Select",
+     "Group label"
+    ]
+   },
+   "otherProps": {
+    "Selected": "BOOLEAN=true",
+    "Text EN": "TEXT=Option",
+    "Divider": "BOOLEAN=false",
+    "Text AR": "TEXT=إختيار"
+   },
+   "motionRules": 16,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Dropdown Input",
+   "kind": "component-set",
+   "page": "Dropdown Input",
+   "platform": "web",
+   "figmaNode": "3534:49934",
+   "spec": "references/dga-live/web/dropdown-input.md",
+   "data": "references/dga-live/data/web/dropdown-input.json",
+   "variants": 288,
+   "variantsExported": 288,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Large",
+     "Medium"
+    ],
+    "Filled": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ],
+    "Error": [
+     "False",
+     "True"
+    ],
+    "Style": [
+     "Default",
+     "Filled lighter",
+     "Filled darker"
+    ]
+   },
+   "otherProps": {
+    "Scroll Bar": "BOOLEAN=false",
+    "Multi-section": "BOOLEAN=false",
+    "Icon": "BOOLEAN=false",
+    "Clear": "BOOLEAN=false",
+    "Type Cursor": "BOOLEAN=false",
+    "Show label": "BOOLEAN=true",
+    "Leading icon": "INSTANCE_SWAP=13682:115875",
+    "Helper Text AR": "TEXT=نص مساعد",
+    "Show Helper text": "BOOLEAN=false",
+    "🔁 Swap Icon": "INSTANCE_SWAP=31864:189865",
+    "Helper Text Eng": "TEXT=Help Text"
+   },
+   "motionRules": 960,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Drop Zone",
+   "kind": "component-set",
+   "page": "File upload",
+   "platform": "web",
+   "figmaNode": "30146:36921",
+   "spec": "references/dga-live/web/file-upload.md",
+   "data": "references/dga-live/data/web/file-upload.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "State": [
+     "Default",
+     "Drag+hover",
+     "Disabled"
+    ],
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Button": "BOOLEAN=true",
+    "Show Helper Text": "BOOLEAN=true",
+    "Helper Text ": "TEXT=Maximum file size allowed is 2",
+    "Helper Text": "TEXT=الحد الأقصى لحجم الملف المسموح"
+   },
+   "motionRules": 2,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_File",
+   "kind": "component-set",
+   "page": "File upload",
+   "platform": "web",
+   "figmaNode": "30146:36958",
+   "spec": "references/dga-live/web/file-upload.md",
+   "data": "references/dga-live/data/web/file-upload.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "State": [
+     "Uploaded",
+     "Loading",
+     "Error"
+    ],
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "File Name EN": "TEXT=File-name.csv",
+    "Error Message EN": "TEXT=Here goes the helper text.",
+    "Error Message AR": "TEXT=تكتب هنا رسالة المساعدة.",
+    "File Name AR": "TEXT=اسم الملف.csv"
+   },
+   "motionRules": 8,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "File Upload / Multiple",
+   "kind": "component-set",
+   "page": "File upload",
+   "platform": "web",
+   "figmaNode": "30146:37007",
+   "spec": "references/dga-live/web/file-upload.md",
+   "data": "references/dga-live/data/web/file-upload.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "no",
+     "yes"
+    ]
+   },
+   "otherProps": {
+    "File 2": "BOOLEAN=false",
+    "File 3": "BOOLEAN=false",
+    "Uploaded": "BOOLEAN=true"
+   },
+   "motionRules": 10,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "File Upload / Single",
+   "kind": "component-set",
+   "page": "File upload",
+   "platform": "web",
+   "figmaNode": "30146:37020",
+   "spec": "references/dga-live/web/file-upload.md",
+   "data": "references/dga-live/data/web/file-upload.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Disabled",
+     "Uploaded"
+    ]
+   },
+   "otherProps": {
+    "Show Helper Text": "BOOLEAN=true",
+    "Helper Text EN": "TEXT=Maximum file size allowed is 2",
+    "Helper Text AR": "TEXT=الحد الأقصى لحجم الملف المسموح"
+   },
+   "motionRules": 4,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Filtration list",
+   "kind": "component-set",
+   "page": "Filtration",
+   "platform": "web",
+   "figmaNode": "30150:36417",
+   "spec": "references/dga-live/web/filtration.md",
+   "data": "references/dga-live/data/web/filtration.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Overlay": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Rating text based ": "BOOLEAN=true",
+    "Range-Text": "BOOLEAN=true",
+    "Single-select ": "BOOLEAN=true",
+    "Radio Button ": "BOOLEAN=true",
+    "Date": "BOOLEAN=true",
+    "Multi-chips ": "BOOLEAN=true",
+    " Multi-Checkbox": "BOOLEAN=true",
+    "Range-Slider ": "BOOLEAN=true",
+    "Scroll bar": "BOOLEAN=true",
+    "Custom Contnet": "BOOLEAN=true",
+    "Apply Filters": "BOOLEAN=true"
+   },
+   "motionRules": 147,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Multi Select Checkbox Filter",
+   "kind": "component-set",
+   "page": "Filtration",
+   "platform": "web",
+   "figmaNode": "30150:36646",
+   "spec": "references/dga-live/web/filtration.md",
+   "data": "references/dga-live/data/web/filtration.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "more options": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 34,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Filtration",
+   "kind": "component-set",
+   "page": "Filtration",
+   "platform": "web",
+   "figmaNode": "30150:36683",
+   "spec": "references/dga-live/web/filtration.md",
+   "data": "references/dga-live/data/web/filtration.json",
+   "variants": 20,
+   "variantsExported": 20,
+   "variantAxes": {
+    "RTL": [
+     "Yes",
+     "No"
+    ],
+    "Open": [
+     "Yes",
+     "No"
+    ],
+    "Result": [
+     "Yes",
+     "No"
+    ],
+    "Placement": [
+     "Center",
+     "Right",
+     "Left"
+    ]
+   },
+   "otherProps": {
+    "Show Results": "BOOLEAN=true"
+   },
+   "motionRules": 850,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Text Range",
+   "kind": "component-set",
+   "page": "Filtration",
+   "platform": "web",
+   "figmaNode": "30150:36844",
+   "spec": "references/dga-live/web/filtration.md",
+   "data": "references/dga-live/data/web/filtration.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Floating Button",
+   "kind": "component-set",
+   "page": "Floating Button",
+   "platform": "web",
+   "figmaNode": "19488:124656",
+   "spec": "references/dga-live/web/floating-button.md",
+   "data": "references/dga-live/data/web/floating-button.json",
+   "variants": 288,
+   "variantsExported": 288,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Selected",
+     "Disabled",
+     "Foucsed",
+     "Hovered"
+    ],
+    "Style": [
+     "Primary-Brand",
+     "Primary- Neutral",
+     "Secondary-Solid"
+    ],
+    "Icon only": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Large",
+     "Small"
+    ],
+    "On color": [
+     "Yes",
+     "No"
+    ]
+   },
+   "otherProps": {
+    "🔁 Lead Icon": "INSTANCE_SWAP=19478:124492",
+    "Text AR": "TEXT=إجراء",
+    "Text EN": "TEXT=Button"
+   },
+   "motionRules": 96,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Inline Alert",
+   "kind": "component-set",
+   "page": "Inline Alert",
+   "platform": "web",
+   "figmaNode": "1730:46048",
+   "spec": "references/dga-live/web/inline-alert.md",
+   "data": "references/dga-live/data/web/inline-alert.json",
+   "variants": 40,
+   "variantsExported": 40,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Type": [
+     "Neutral",
+     "Info",
+     "Destructive",
+     "Warning",
+     "Success"
+    ],
+    "Background Color": [
+     "White",
+     "Color"
+    ],
+    "Mobile": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Actions": "BOOLEAN=true",
+    "Helper text": "BOOLEAN=true",
+    "Close Button": "BOOLEAN=true",
+    "Lead Text EN": "TEXT=Notification/Alert message tit",
+    "Helper Text EN": "TEXT=When a Notification/Alert need",
+    "Lead Text AR": "TEXT=عنوان رسالة الاشعار أو التنبيه",
+    "Helper Text AR": "TEXT=يكتب المحتوى الإضافي هنا في حا",
+    "Secondary Action": "BOOLEAN=true"
+   },
+   "motionRules": 120,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Link",
+   "kind": "component-set",
+   "page": "Link",
+   "platform": "web",
+   "figmaNode": "2508:25804",
+   "spec": "references/dga-live/web/link.md",
+   "data": "references/dga-live/data/web/link.json",
+   "variants": 144,
+   "variantsExported": 144,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Visited",
+     "Disabled"
+    ],
+    "Style": [
+     "Primary",
+     "Neutral",
+     "On-color"
+    ],
+    "Size": [
+     "Medium",
+     "Small"
+    ],
+    "Inline": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Link Text EN": "TEXT=Link",
+    "Link Text AR": "TEXT=رابط",
+    "Icon": "BOOLEAN=false",
+    "🔁 Swap Icon": "INSTANCE_SWAP=13758:242381"
+   },
+   "motionRules": 48,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "List",
+   "kind": "component-set",
+   "page": "List",
+   "platform": "web",
+   "figmaNode": "7850:3506",
+   "spec": "references/dga-live/web/list.md",
+   "data": "references/dga-live/data/web/list.json",
+   "variants": 18,
+   "variantsExported": 18,
+   "variantAxes": {
+    "RTL": [
+     "yes",
+     "no"
+    ],
+    "Style": [
+     "Primary",
+     "Neutral",
+     "On-color"
+    ],
+    "Type": [
+     "Ordered List",
+     "Unordered",
+     "With Icon"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "List item",
+   "kind": "component-set",
+   "page": "List",
+   "platform": "web",
+   "figmaNode": "7850:3463",
+   "spec": "references/dga-live/web/list.md",
+   "data": "references/dga-live/data/web/list.json",
+   "variants": 36,
+   "variantsExported": 36,
+   "variantAxes": {
+    "RTL": [
+     "no",
+     "yes"
+    ],
+    "Type": [
+     "Ordered",
+     "Unordered",
+     "With Icon"
+    ],
+    "Level": [
+     "One",
+     "Two"
+    ],
+    "Style": [
+     "Primary",
+     "Neutral",
+     "On-Color"
+    ]
+   },
+   "otherProps": {
+    "Item text - EN": "TEXT=List item",
+    "Item Number": "TEXT=1-",
+    "Item Letter - EN": "TEXT=a-",
+    "Item Letter - AR": "TEXT=أ-",
+    "Item text - AR": "TEXT=عنصر قائمة",
+    "Icon": "INSTANCE_SWAP=13758:241927"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Loading",
+   "kind": "component-set",
+   "page": "Loading",
+   "platform": "web",
+   "figmaNode": "5698:11136",
+   "spec": "references/dga-live/web/loading.md",
+   "data": "references/dga-live/data/web/loading.json",
+   "variants": 84,
+   "variantsExported": 84,
+   "variantAxes": {
+    "Size": [
+     "xx Small",
+     "x Small",
+     "Small",
+     "Medium",
+     "Large",
+     "x Large",
+     "xx Large"
+    ],
+    "Style": [
+     "Primary",
+     "Neutral",
+     "On-Color"
+    ],
+    "Indicator": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 84,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Menu list item",
+   "kind": "component-set",
+   "page": "Menu",
+   "platform": "web",
+   "figmaNode": "30195:21865",
+   "spec": "references/dga-live/web/menu.md",
+   "data": "references/dga-live/data/web/menu.json",
+   "variants": 72,
+   "variantsExported": 72,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Trail element": [
+     "None",
+     "Text",
+     "Button",
+     "Tag",
+     "Switch",
+     "Icon"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Disabled",
+     "Selected"
+    ]
+   },
+   "otherProps": {
+    "Lead Icon": "BOOLEAN=true",
+    "🔁 Swap Lead icon": "INSTANCE_SWAP=13758:242480",
+    "Show Trail Text": "BOOLEAN=true",
+    "Label EN": "TEXT=Item Label",
+    "Trail Text": "TEXT=+99",
+    "🔁 Swap Trail Icon": "INSTANCE_SWAP=13758:242505",
+    "Label AR": "TEXT=نص العنصر"
+   },
+   "motionRules": 68,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Menu",
+   "kind": "component-set",
+   "page": "Menu",
+   "platform": "web",
+   "figmaNode": "30195:22214",
+   "spec": "references/dga-live/web/menu.md",
+   "data": "references/dga-live/data/web/menu.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 28,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Small Chart",
+   "kind": "component-set",
+   "page": "Metric",
+   "platform": "web",
+   "figmaNode": "19007:6117",
+   "spec": "references/dga-live/web/metric.md",
+   "data": "references/dga-live/data/web/metric.json",
+   "variants": 8,
+   "variantsExported": 8,
+   "variantAxes": {
+    "Type": [
+     "Realistic",
+     "Wavy",
+     "Straight",
+     "Layers"
+    ],
+    "Trend": [
+     "Positive",
+     "Negative"
+    ]
+   },
+   "otherProps": {
+    "Show Marker": "BOOLEAN=true"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Large Chart",
+   "kind": "component-set",
+   "page": "Metric",
+   "platform": "web",
+   "figmaNode": "23257:4729",
+   "spec": "references/dga-live/web/metric.md",
+   "data": "references/dga-live/data/web/metric.json",
+   "variants": 8,
+   "variantsExported": 8,
+   "variantAxes": {
+    "Type": [
+     "Realistic",
+     "Wavy",
+     "Straight",
+     "Layers"
+    ],
+    "Trend": [
+     "Positive",
+     "Negative"
+    ]
+   },
+   "otherProps": {
+    "Show Marker": "BOOLEAN=true"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Change",
+   "kind": "component-set",
+   "page": "Metric",
+   "platform": "web",
+   "figmaNode": "19007:6182",
+   "spec": "references/dga-live/web/metric.md",
+   "data": "references/dga-live/data/web/metric.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "Type": [
+     "01",
+     "02"
+    ],
+    "Trend": [
+     "Positive",
+     "Negative"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Metric",
+   "kind": "component-set",
+   "page": "Metric",
+   "platform": "web",
+   "figmaNode": "19332:693",
+   "spec": "references/dga-live/web/metric.md",
+   "data": "references/dga-live/data/web/metric.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Style": [
+     "Small Chart",
+     "Large Chart"
+    ]
+   },
+   "otherProps": {
+    "Swap Featured Icon": "INSTANCE_SWAP=31864:190026",
+    "Show Featured icon": "BOOLEAN=true",
+    "Percentage": "TEXT=50%",
+    "Show Text": "BOOLEAN=true",
+    "Show Actions": "BOOLEAN=true",
+    "Show Secondary Action": "BOOLEAN=true",
+    "Show Chart": "BOOLEAN=true",
+    "Show More Button": "BOOLEAN=true",
+    "Label EN": "TEXT=24h Views",
+    "Label AR": "TEXT=المشاهدات خلال 24س",
+    "Show _Change": "BOOLEAN=true",
+    "Show Info": "BOOLEAN=true",
+    "Text AR": "TEXT=مقارنة بالشهر الماضي",
+    "Text EN": "TEXT=vs last month"
+   },
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Modal",
+   "kind": "component-set",
+   "page": "Modals",
+   "platform": "web",
+   "figmaNode": "30150:55001",
+   "spec": "references/dga-live/web/modals.md",
+   "data": "references/dga-live/data/web/modals.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Mobile": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 16,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Modal Header",
+   "kind": "component-set",
+   "page": "Modals",
+   "platform": "web",
+   "figmaNode": "30150:55018",
+   "spec": "references/dga-live/web/modals.md",
+   "data": "references/dga-live/data/web/modals.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Center Align": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Title EN": "TEXT=Title goes here",
+    "Title AR": "TEXT=عنوان الرسالة يُكتب هنا",
+    "Close Button": "BOOLEAN=true",
+    "Show Featured Icon": "BOOLEAN=true"
+   },
+   "motionRules": 4,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Modal Actions",
+   "kind": "component-set",
+   "page": "Modals",
+   "platform": "web",
+   "figmaNode": "30150:55043",
+   "spec": "references/dga-live/web/modals.md",
+   "data": "references/dga-live/data/web/modals.json",
+   "variants": 8,
+   "variantsExported": 8,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Fill Container": [
+     "False",
+     "True"
+    ],
+    "Stack": [
+     "False",
+     "True"
+    ],
+    "Center Align": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Secondary Action": "BOOLEAN=true",
+    "Tertiary Action": "BOOLEAN=true"
+   },
+   "motionRules": 24,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Modal Body",
+   "kind": "component-set",
+   "page": "Modals",
+   "platform": "web",
+   "figmaNode": "30150:55083",
+   "spec": "references/dga-live/web/modals.md",
+   "data": "references/dga-live/data/web/modals.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Center Align": [
+     "False",
+     "True"
+    ],
+    "Content": [
+     "Text",
+     "Placeholder"
+    ]
+   },
+   "otherProps": {
+    "🔁 Content Swap": "INSTANCE_SWAP=30150:55097",
+    "Text EN": "TEXT=When a Modal needs a further d",
+    "Text AR": "TEXT=يُكتب المحتوى الاضافي هنا في ح"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Swap Placeholder",
+   "kind": "component-set",
+   "page": "Modals",
+   "platform": "web",
+   "figmaNode": "30150:55096",
+   "spec": "references/dga-live/web/modals.md",
+   "data": "references/dga-live/data/web/modals.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "Size": [
+     "Default",
+     "Small"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Notification Toast",
+   "kind": "component-set",
+   "page": "Notification Toast",
+   "platform": "web",
+   "figmaNode": "8680:37527",
+   "spec": "references/dga-live/web/notification-toast.md",
+   "data": "references/dga-live/data/web/notification-toast.json",
+   "variants": 20,
+   "variantsExported": 20,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Type": [
+     "Neutral",
+     "Info",
+     "Critical/Error",
+     "Warning",
+     "Success"
+    ],
+    "Mobile": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Actions": "BOOLEAN=true",
+    "Helper Text": "BOOLEAN=true",
+    "Close Button": "BOOLEAN=true",
+    "Lead Text EN": "TEXT=Notification/Alert message tit",
+    "Helper Text EN": "TEXT=When a Notification/Alert need",
+    "Lead Text AR": "TEXT=عنوان رسالة الاشعار أو التنبيه",
+    "Helper Text AR": "TEXT=يكتب المحتوى الإضافي هنا في حا",
+    "Secondary Action": "BOOLEAN=true"
+   },
+   "motionRules": 60,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Notification",
+   "kind": "component-set",
+   "page": "Notification",
+   "platform": "web",
+   "figmaNode": "30150:56889",
+   "spec": "references/dga-live/web/notification.md",
+   "data": "references/dga-live/data/web/notification.json",
+   "variants": 10,
+   "variantsExported": 10,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Style": [
+     "Neutral",
+     "Critical",
+     "Warning",
+     "Success",
+     "Info"
+    ]
+   },
+   "otherProps": {
+    "Lead Text": "BOOLEAN=true",
+    "Link": "BOOLEAN=false",
+    "Dismissible": "BOOLEAN=true",
+    "Icon": "BOOLEAN=true",
+    "Button": "BOOLEAN=false",
+    "Helper Text EN": "TEXT=This is a very important banne",
+    "Lead Text EN": "TEXT=Important:",
+    "Lead Text AR": "TEXT=مهم:",
+    "Helper Text AR": "TEXT=هذه رسالة تنبيهية مهمة للغاية "
+   },
+   "motionRules": 30,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Input Prefix-Suffix",
+   "kind": "component-set",
+   "page": "Number Input",
+   "platform": "web",
+   "figmaNode": "30150:60916",
+   "spec": "references/dga-live/web/number-input.md",
+   "data": "references/dga-live/data/web/number-input.json",
+   "variants": 48,
+   "variantsExported": 48,
+   "variantAxes": {
+    "Type": [
+     "Plus",
+     "Minus"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Selected",
+     "Focused",
+     "Disabled"
+    ],
+    "Style": [
+     "Solid",
+     "Subtle"
+    ],
+    "Size": [
+     "Large",
+     "Medium"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 16,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Number Input",
+   "kind": "component-set",
+   "page": "Number Input",
+   "platform": "web",
+   "figmaNode": "30150:61013",
+   "spec": "references/dga-live/web/number-input.md",
+   "data": "references/dga-live/data/web/number-input.json",
+   "variants": 288,
+   "variantsExported": 288,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ],
+    "Filled": [
+     "False",
+     "True"
+    ],
+    "Error": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Large",
+     "Medium"
+    ],
+    "Style": [
+     "Default",
+     "Filled lighter",
+     "Filled darker"
+    ]
+   },
+   "otherProps": {
+    "🔁 Swap Helper Icon": "INSTANCE_SWAP=31864:189863",
+    "Prefix": "BOOLEAN=true",
+    "Suffix": "BOOLEAN=true",
+    "Text": "TEXT=00000",
+    "Show label": "BOOLEAN=true",
+    "Show Helper Text": "BOOLEAN=false",
+    "Helper Text Eng": "TEXT=Help Text",
+    "Helper text AR": "TEXT=نص مساعد"
+   },
+   "motionRules": 688,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Pagination",
+   "kind": "component-set",
+   "page": "Pagination",
+   "platform": "web",
+   "figmaNode": "7936:8133",
+   "spec": "references/dga-live/web/pagination.md",
+   "data": "references/dga-live/data/web/pagination.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Small",
+     "Meduim",
+     "Large"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 42,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_PaginationItem",
+   "kind": "component-set",
+   "page": "Pagination",
+   "platform": "web",
+   "figmaNode": "7936:16660",
+   "spec": "references/dga-live/web/pagination.md",
+   "data": "references/dga-live/data/web/pagination.json",
+   "variants": 24,
+   "variantsExported": 24,
+   "variantAxes": {
+    "State": [
+     "Default",
+     "Hovered",
+     "Current Page",
+     "Focsed",
+     "Opened"
+    ],
+    "Size": [
+     "Small",
+     "Meduim",
+     "Large"
+    ],
+    "Overflow": [
+     "No",
+     "Yes"
+    ]
+   },
+   "otherProps": {
+    "Number": "TEXT=1"
+   },
+   "motionRules": 48,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Circular Progress Bar",
+   "kind": "component-set",
+   "page": "Progress Bar",
+   "platform": "web",
+   "figmaNode": "17732:3370",
+   "spec": "references/dga-live/web/progress-bar.md",
+   "data": "references/dga-live/data/web/progress-bar.json",
+   "variants": 40,
+   "variantsExported": 40,
+   "variantAxes": {
+    "RTL": [
+     "No",
+     "Yes"
+    ],
+    "Size": [
+     "200px",
+     "160px",
+     "120px",
+     "80px",
+     "64px"
+    ],
+    "Style": [
+     "Primary",
+     "Neutral",
+     "Success",
+     "Error"
+    ]
+   },
+   "otherProps": {
+    "Text EN": "TEXT=Active users ",
+    "Percentage": "TEXT=50%",
+    "Show Text": "BOOLEAN=true",
+    "Text AR": "TEXT=مستخدم نشط"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Progress Bar",
+   "kind": "component-set",
+   "page": "Progress Bar",
+   "platform": "web",
+   "figmaNode": "17686:3283",
+   "spec": "references/dga-live/web/progress-bar.md",
+   "data": "references/dga-live/data/web/progress-bar.json",
+   "variants": 48,
+   "variantsExported": 48,
+   "variantAxes": {
+    "RTL": [
+     "No",
+     "Yes"
+    ],
+    "Size": [
+     "Small",
+     "Medium",
+     "Large"
+    ],
+    "Style": [
+     "Primary",
+     "Neutral"
+    ],
+    "Percentage": [
+     "20%",
+     "50%",
+     "100% - Success",
+     "0% - Error"
+    ],
+    "Error": [
+     "Yes",
+     "No"
+    ],
+    "Success": [
+     "Yes",
+     "No"
+    ]
+   },
+   "otherProps": {
+    "Helper Text": "BOOLEAN=true",
+    "Show label": "BOOLEAN=true"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_StepperBase",
+   "kind": "component-set",
+   "page": "Progress indicator",
+   "platform": "web",
+   "figmaNode": "30150:68301",
+   "spec": "references/dga-live/web/progress-indicator.md",
+   "data": "references/dga-live/data/web/progress-indicator.json",
+   "variants": 16,
+   "variantsExported": 16,
+   "variantAxes": {
+    "Status": [
+     "Current",
+     "Upcomming",
+     "Completed"
+    ],
+    "Hover": [
+     "no",
+     "yes"
+    ],
+    "Focused": [
+     "no",
+     "yes"
+    ],
+    "Style": [
+     "Cricles",
+     "dot"
+    ]
+   },
+   "otherProps": {
+    "Step Number": "TEXT=1"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Progress Indicator",
+   "kind": "component-set",
+   "page": "Progress indicator",
+   "platform": "web",
+   "figmaNode": "30150:68350",
+   "spec": "references/dga-live/web/progress-indicator.md",
+   "data": "references/dga-live/data/web/progress-indicator.json",
+   "variants": 40,
+   "variantsExported": 40,
+   "variantAxes": {
+    "RTL": [
+     "no",
+     "yes"
+    ],
+    "Alignment": [
+     "Horizontal",
+     "Vertical"
+    ],
+    "State": [
+     "Current",
+     "Completed",
+     "Upcomming"
+    ],
+    "Hover": [
+     "no",
+     "yes"
+    ],
+    "Focused": [
+     "no",
+     "yes"
+    ]
+   },
+   "otherProps": {
+    "Next Step": "BOOLEAN=true",
+    "Show Step Name": "BOOLEAN=true",
+    "Show Description": "BOOLEAN=true",
+    "Step Name AR": "TEXT=الخطوة الأولى",
+    "Step Name EN": "TEXT=Step One",
+    "Step Description Eng": "TEXT=this is step description",
+    "Step description AR": "TEXT=وصف الخطوة"
+   },
+   "motionRules": 18,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Quote",
+   "kind": "component-set",
+   "page": "Quote",
+   "platform": "web",
+   "figmaNode": "30150:69027",
+   "spec": "references/dga-live/web/quote.md",
+   "data": "references/dga-live/data/web/quote.json",
+   "variants": 8,
+   "variantsExported": 8,
+   "variantAxes": {
+    "RTL": [
+     "No",
+     "Yes"
+    ],
+    "Size": [
+     "Small",
+     "Large"
+    ],
+    "White Background": [
+     "No",
+     "Yes"
+    ]
+   },
+   "otherProps": {
+    "Quote Title AR": "TEXT=عنوان الاقتباس",
+    "Quote Description AR": "TEXT=تُوضع هنا عبارة الاقتباس لتسلي",
+    "Author Name AR": "TEXT=اسم المؤلف",
+    "Author Title AR": "TEXT=نبذة أو وصف",
+    "Show Quote Title": "BOOLEAN=true",
+    "Show Description": "BOOLEAN=true",
+    "Show Author Details": "BOOLEAN=true",
+    "Show Avatar": "BOOLEAN=false",
+    "Quote Title EN": "TEXT=Title of quote",
+    "Author Name EN": "TEXT=Author's name",
+    "Author Title EN": "TEXT=brief or description.",
+    "Quote Description EN": "TEXT=The quote is placed here to hi"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Radial Stepper",
+   "kind": "component-set",
+   "page": "Radial Stepper",
+   "platform": "web",
+   "figmaNode": "19896:813",
+   "spec": "references/dga-live/web/radial-stepper.md",
+   "data": "references/dga-live/data/web/radial-stepper.json",
+   "variants": 30,
+   "variantsExported": 30,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "120px",
+     "40px",
+     "48px",
+     "64px",
+     "80px"
+    ],
+    "Style": [
+     "Primary",
+     "Neutral"
+    ],
+    "On-Color": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Show Step Name": "BOOLEAN=true",
+    "Show Description": "BOOLEAN=true",
+    "Step Description EN": "TEXT=this is step description",
+    "Step Description AR": "TEXT=وصف الخطوة",
+    "Step Name EN": "TEXT=Step One",
+    "Step Name AR": "TEXT=الخطوة الأولى",
+    "Show Pre Step": "BOOLEAN=false",
+    "Show Next Step": "BOOLEAN=true",
+    "Pre Step Name EN": "TEXT=Previous:",
+    "Next Step Name EN": "TEXT=Next:",
+    "Pre Step Name AR": "TEXT=السابق:",
+    "Next Step Name AR": "TEXT=التالي:"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Circular Stepper",
+   "kind": "component-set",
+   "page": "Radial Stepper",
+   "platform": "web",
+   "figmaNode": "19902:6822",
+   "spec": "references/dga-live/web/radial-stepper.md",
+   "data": "references/dga-live/data/web/radial-stepper.json",
+   "variants": 120,
+   "variantsExported": 120,
+   "variantAxes": {
+    "RTL": [
+     "No",
+     "Yes"
+    ],
+    "Style": [
+     "Primary",
+     "Neutral",
+     "On-Color"
+    ],
+    "Indicator": [
+     "1 of 4",
+     "2 of 4",
+     "3 of 4",
+     "4 of 4"
+    ],
+    "Size": [
+     "40px",
+     "48px",
+     "64px",
+     "80px",
+     "120px"
+    ]
+   },
+   "otherProps": {
+    " Text Step 4 EN": "TEXT=4 of 4",
+    "Show Text": "BOOLEAN=true",
+    "Text Step 1 EN": "TEXT=1 of 4",
+    "Text Step 2 EN": "TEXT=2 of 4",
+    "Text Step 3 EN": "TEXT=3 of 4",
+    "Text Step 1 AR": "TEXT=1 من 4",
+    "Text Step 2 AR": "TEXT=2 من 4",
+    "Text Step 3 AR": "TEXT=3 من 4",
+    "Text Step 4 AR": "TEXT=4 من 4"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_RadioBase",
+   "kind": "component-set",
+   "page": "Radio",
+   "platform": "web",
+   "figmaNode": "30195:23381",
+   "spec": "references/dga-live/web/radio.md",
+   "data": "references/dga-live/data/web/radio.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "Selected": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Radio",
+   "kind": "component-set",
+   "page": "Radio",
+   "platform": "web",
+   "figmaNode": "30195:23385",
+   "spec": "references/dga-live/web/radio.md",
+   "data": "references/dga-live/data/web/radio.json",
+   "variants": 24,
+   "variantsExported": 24,
+   "variantAxes": {
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ],
+    "Style": [
+     "Primary",
+     "Neutral"
+    ],
+    "Selected": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Radio Label",
+   "kind": "component-set",
+   "page": "Radio",
+   "platform": "web",
+   "figmaNode": "30195:23490",
+   "spec": "references/dga-live/web/radio.md",
+   "data": "references/dga-live/data/web/radio.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Helper Text": "BOOLEAN=true",
+    "Alert Message": "BOOLEAN=true",
+    "Label EN": "TEXT=Radio Label",
+    "Helper Text EN": "TEXT=When a selection needs a furth",
+    "Alert Message EN": "TEXT=Error/Warning message",
+    "Label AR": "TEXT=عنوان اختيار مفرد ",
+    "Helper Text AR": "TEXT=يكتب المحتوى الإضافي هنا في حا",
+    "Alert Message AR": "TEXT=رسالة خطأ أو تحذير",
+    "Hitbox Focus Ring": "BOOLEAN=false"
+   },
+   "motionRules": 2,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_RatingStar",
+   "kind": "component-set",
+   "page": "Rating",
+   "platform": "web",
+   "figmaNode": "30150:69453",
+   "spec": "references/dga-live/web/rating.md",
+   "data": "references/dga-live/data/web/rating.json",
+   "variants": 24,
+   "variantsExported": 24,
+   "variantAxes": {
+    "Size": [
+     "Large",
+     "Medium",
+     "Small"
+    ],
+    "State": [
+     "Normal",
+     "Pressed",
+     "Selected",
+     "Half"
+    ],
+    "Style": [
+     "Default",
+     "Brand"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Rating",
+   "kind": "component-set",
+   "page": "Rating",
+   "platform": "web",
+   "figmaNode": "30150:69520",
+   "spec": "references/dga-live/web/rating.md",
+   "data": "references/dga-live/data/web/rating.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "Size": [
+     "Large",
+     "Meduim",
+     "Small"
+    ],
+    "Brand": [
+     "yes",
+     "No"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 6,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Search Box",
+   "kind": "component-set",
+   "page": "Search Box",
+   "platform": "web",
+   "figmaNode": "30150:90990",
+   "spec": "references/dga-live/web/search-box.md",
+   "data": "references/dga-live/data/web/search-box.json",
+   "variants": 144,
+   "variantsExported": 144,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ],
+    "Filled": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Medium",
+     "Large"
+    ],
+    "Style": [
+     "Default",
+     "Filled lighter",
+     "Filled darker"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=true",
+    "🔁 Swap Helper Icon": "INSTANCE_SWAP=31864:189863",
+    "Text ENG": "TEXT=Search",
+    "Text AR": "TEXT=بحث",
+    "Show label": "BOOLEAN=true",
+    "Show Helper Text": "BOOLEAN=true",
+    "Helper Text Eng": "TEXT=Help Text",
+    "Helper text AR": "TEXT=نص مساعد",
+    "Show Trailing Icon": "BOOLEAN=true"
+   },
+   "motionRules": 252,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Trailing Icon",
+   "kind": "component-set",
+   "page": "Search Box",
+   "platform": "web",
+   "figmaNode": "30150:92875",
+   "spec": "references/dga-live/web/search-box.md",
+   "data": "references/dga-live/data/web/search-box.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "Open": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Swap Icon": "INSTANCE_SWAP=18738:4762"
+   },
+   "motionRules": 1,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Skeleton Circle ",
+   "kind": "component-set",
+   "page": "Skeleton",
+   "platform": "web",
+   "figmaNode": "22440:37888",
+   "spec": "references/dga-live/web/skeleton.md",
+   "data": "references/dga-live/data/web/skeleton.json",
+   "variants": 14,
+   "variantsExported": 14,
+   "variantAxes": {
+    "Size": [
+     "24px",
+     "48px",
+     "64px",
+     "80px",
+     "120px",
+     "240px",
+     "170px"
+    ],
+    "Animation State": [
+     "End",
+     "Start"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 14,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Skeleton Square",
+   "kind": "component-set",
+   "page": "Skeleton",
+   "platform": "web",
+   "figmaNode": "26157:5677",
+   "spec": "references/dga-live/web/skeleton.md",
+   "data": "references/dga-live/data/web/skeleton.json",
+   "variants": 14,
+   "variantsExported": 14,
+   "variantAxes": {
+    "Size": [
+     "120px",
+     "80px",
+     "64px",
+     "48px",
+     "24px",
+     "282px-Card",
+     "240px"
+    ],
+    "Animation State": [
+     "Start",
+     "End"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 14,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Skeleton Component ",
+   "kind": "component-set",
+   "page": "Skeleton",
+   "platform": "web",
+   "figmaNode": "23711:197",
+   "spec": "references/dga-live/web/skeleton.md",
+   "data": "references/dga-live/data/web/skeleton.json",
+   "variants": 5,
+   "variantsExported": 5,
+   "variantAxes": {
+    "Type": [
+     "Image Button and Text",
+     "Icon and List",
+     "Image Content and Button",
+     "Chart and Content",
+     "Image Profile Content and Button"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 23,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Skeleton Rectangle",
+   "kind": "component-set",
+   "page": "Skeleton",
+   "platform": "web",
+   "figmaNode": "26177:5824",
+   "spec": "references/dga-live/web/skeleton.md",
+   "data": "references/dga-live/data/web/skeleton.json",
+   "variants": 12,
+   "variantsExported": 12,
+   "variantAxes": {
+    "Size": [
+     "Small",
+     "Medium",
+     "Large"
+    ],
+    "Width": [
+     "Long",
+     "Short"
+    ],
+    "Animation State": [
+     "Start",
+     "End"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Skeleton Line",
+   "kind": "component-set",
+   "page": "Skeleton",
+   "platform": "web",
+   "figmaNode": "26177:5941",
+   "spec": "references/dga-live/web/skeleton.md",
+   "data": "references/dga-live/data/web/skeleton.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "Size": [
+     "Large",
+     "Small"
+    ],
+    "Animated State": [
+     "Start",
+     "End"
+    ],
+    "Line or Paragraph": [
+     "Line"
+    ]
+   },
+   "otherProps": {
+    "Show Second line": "BOOLEAN=true",
+    "Show Third line": "BOOLEAN=true"
+   },
+   "motionRules": 4,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Skeleton Square",
+   "kind": "component-set",
+   "page": "Skeleton",
+   "platform": "web",
+   "figmaNode": "26177:5624",
+   "spec": "references/dga-live/web/skeleton.md",
+   "data": "references/dga-live/data/web/skeleton.json",
+   "variants": 7,
+   "variantsExported": 7,
+   "variantAxes": {
+    "Size": [
+     "240px",
+     "170px",
+     "120px",
+     "80px",
+     "64px",
+     "48px",
+     "24px"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 7,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Skeleton Rectangle",
+   "kind": "component-set",
+   "page": "Skeleton",
+   "platform": "web",
+   "figmaNode": "26177:5878",
+   "spec": "references/dga-live/web/skeleton.md",
+   "data": "references/dga-live/data/web/skeleton.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "Size": [
+     "Large",
+     "Medium",
+     "Small"
+    ],
+    "width": [
+     "Long",
+     "Short"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 6,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Skeleton Circle",
+   "kind": "component-set",
+   "page": "Skeleton",
+   "platform": "web",
+   "figmaNode": "26177:5921",
+   "spec": "references/dga-live/web/skeleton.md",
+   "data": "references/dga-live/data/web/skeleton.json",
+   "variants": 7,
+   "variantsExported": 7,
+   "variantAxes": {
+    "Size": [
+     "240px",
+     "170px",
+     "120px",
+     "80px",
+     "64px",
+     "48px",
+     "24px"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 7,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Skeleton Line",
+   "kind": "component-set",
+   "page": "Skeleton",
+   "platform": "web",
+   "figmaNode": "26177:5977",
+   "spec": "references/dga-live/web/skeleton.md",
+   "data": "references/dga-live/data/web/skeleton.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "Size": [
+     "Large",
+     "Small"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 2,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Slideout Menu",
+   "kind": "component-set",
+   "page": "Slideout Menu",
+   "platform": "web",
+   "figmaNode": "23360:17219",
+   "spec": "references/dga-live/web/slideout-menu.md",
+   "data": "references/dga-live/data/web/slideout-menu.json",
+   "variants": 8,
+   "variantsExported": 8,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Background Color": [
+     "White",
+     "Gray"
+    ],
+    "Style": [
+     "Default",
+     "Custom Style"
+    ]
+   },
+   "otherProps": {
+    "Nav Header": "BOOLEAN=true",
+    "Scroll Bar": "BOOLEAN=true",
+    "Border": "BOOLEAN=true",
+    "Swap Custom Content": "INSTANCE_SWAP=30150:55097",
+    "Show Divider": "BOOLEAN=true",
+    "Show Actions": "BOOLEAN=true"
+   },
+   "motionRules": 84,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Slideout Menu Header",
+   "kind": "component-set",
+   "page": "Slideout Menu",
+   "platform": "web",
+   "figmaNode": "23521:31454",
+   "spec": "references/dga-live/web/slideout-menu.md",
+   "data": "references/dga-live/data/web/slideout-menu.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Show Featured icon": "BOOLEAN=true",
+    "Title Text": "TEXT=Title",
+    "Description Text": "TEXT=Description gose here.",
+    "Show Divider": "BOOLEAN=false",
+    "Title AR": "TEXT=عنوان",
+    "Description AR": "TEXT=هنا يوضع الوصف.",
+    "Show Description": "BOOLEAN=true"
+   },
+   "motionRules": 2,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Slider",
+   "kind": "component-set",
+   "page": "Slider",
+   "platform": "web",
+   "figmaNode": "18046:29577",
+   "spec": "references/dga-live/web/slider.md",
+   "data": "references/dga-live/data/web/slider.json",
+   "variants": 24,
+   "variantsExported": 24,
+   "variantAxes": {
+    "Size": [
+     "Small",
+     "Medium"
+    ],
+    "Persentage": [
+     "0",
+     "20",
+     "50",
+     "100",
+     "0 - 50",
+     "20 - 70"
+    ],
+    "Range": [
+     "No",
+     "Yes"
+    ],
+    "RTL": [
+     "No",
+     "Yes"
+    ]
+   },
+   "otherProps": {
+    "Show Lable": "BOOLEAN=true",
+    "Show Helper Text": "BOOLEAN=true",
+    "Helper Text": "BOOLEAN=true"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Structured List Header Cell",
+   "kind": "component-set",
+   "page": "Structured List",
+   "platform": "web",
+   "figmaNode": "9192:5451",
+   "spec": "references/dga-live/web/structured-list.md",
+   "data": "references/dga-live/data/web/structured-list.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "No",
+     "Yes"
+    ]
+   },
+   "otherProps": {
+    "Column divider": "BOOLEAN=true",
+    "Label EN": "TEXT=Row",
+    "Icon": "BOOLEAN=false",
+    "Help Icon": "BOOLEAN=false",
+    "Row Divider": "BOOLEAN=true",
+    "Label AR": "TEXT=عمود"
+   },
+   "motionRules": 6,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Structured List Row Cell",
+   "kind": "component-set",
+   "page": "Structured List",
+   "platform": "web",
+   "figmaNode": "9192:5705",
+   "spec": "references/dga-live/web/structured-list.md",
+   "data": "references/dga-live/data/web/structured-list.json",
+   "variants": 36,
+   "variantsExported": 36,
+   "variantAxes": {
+    "RTL": [
+     "No",
+     "Yes"
+    ],
+    "State": [
+     "Default",
+     "Default (Selectable)",
+     "Hovered (Selectable)",
+     "Focused (Selectable)",
+     "Disabled (Selectable)"
+    ],
+    "Compact": [
+     "No",
+     "Yes"
+    ],
+    "Selectable": [
+     "No",
+     "Yes"
+    ],
+    "Selected": [
+     "No",
+     "Yes"
+    ]
+   },
+   "otherProps": {
+    "Column Divider": "BOOLEAN=true",
+    "Label EN": "TEXT=Row",
+    "Row Divider": "BOOLEAN=true",
+    "Lable AR": "TEXT=صف"
+   },
+   "motionRules": 45,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Structured List Header",
+   "kind": "component-set",
+   "page": "Structured List",
+   "platform": "web",
+   "figmaNode": "9261:6628",
+   "spec": "references/dga-live/web/structured-list.md",
+   "data": "references/dga-live/data/web/structured-list.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "No",
+     "Yes"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 18,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Structured List Row",
+   "kind": "component-set",
+   "page": "Structured List",
+   "platform": "web",
+   "figmaNode": "9261:6903",
+   "spec": "references/dga-live/web/structured-list.md",
+   "data": "references/dga-live/data/web/structured-list.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "No",
+     "Yes"
+    ],
+    "Compact": [
+     "No",
+     "Yes"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Structured List",
+   "kind": "component-set",
+   "page": "Structured List",
+   "platform": "web",
+   "figmaNode": "9261:7435",
+   "spec": "references/dga-live/web/structured-list.md",
+   "data": "references/dga-live/data/web/structured-list.json",
+   "variants": 64,
+   "variantsExported": 64,
+   "variantAxes": {
+    "RTL": [
+     "Yes",
+     "No"
+    ],
+    "Compact": [
+     "No",
+     "Yes"
+    ],
+    "Contained": [
+     "No",
+     "Yes"
+    ],
+    "Row divider": [
+     "Yes",
+     "No"
+    ],
+    "Col divider": [
+     "Yes",
+     "No"
+    ],
+    "Selectable": [
+     "No",
+     "Yes"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 1632,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Switch",
+   "kind": "component-set",
+   "page": "Switch",
+   "platform": "web",
+   "figmaNode": "30150:69895",
+   "spec": "references/dga-live/web/switch.md",
+   "data": "references/dga-live/data/web/switch.json",
+   "variants": 20,
+   "variantsExported": 20,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ],
+    "On": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=false"
+   },
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Switch Label",
+   "kind": "component-set",
+   "page": "Switch",
+   "platform": "web",
+   "figmaNode": "30150:69998",
+   "spec": "references/dga-live/web/switch.md",
+   "data": "references/dga-live/data/web/switch.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Trail switch": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Helper Text": "BOOLEAN=true",
+    "Alert message": "BOOLEAN=true",
+    "Label EN": "TEXT=Switch Label",
+    "Helper Text EN": "TEXT=When a selection needs a furth",
+    "Alert Message EN": "TEXT=Error/Warning message",
+    "Label AR": "TEXT=عنوان المفتاح",
+    "Helper Text AR": "TEXT=يكتب المحتوى الإضافي هنا في حا",
+    "Alert Message AR": "TEXT=رسالة خطأ أو تحذير"
+   },
+   "motionRules": 4,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Table Row Cell",
+   "kind": "component-set",
+   "page": "Table",
+   "platform": "web",
+   "figmaNode": "5698:40125",
+   "spec": "references/dga-live/web/table.md",
+   "data": "references/dga-live/data/web/table.json",
+   "variants": 44,
+   "variantsExported": 44,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Type": [
+     "Default",
+     "Link",
+     "Actions",
+     "Input field",
+     "Badge",
+     "Status",
+     "Avatar/Image",
+     "Checkbox",
+     "Switch",
+     "Feedback icon",
+     "Custom"
+    ],
+    "Compact": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Column Divider": "BOOLEAN=true",
+    "Helper Text": "BOOLEAN=false",
+    "Avatar/image": "BOOLEAN=false",
+    "2nd action": "BOOLEAN=true",
+    "3rd action": "BOOLEAN=true",
+    "Lead Text EN": "TEXT=Cell",
+    "Helper text": "TEXT=helper text",
+    "Lead Text AR": "TEXT=خلية",
+    "🔁 Swap Content": "INSTANCE_SWAP=5698:40274"
+   },
+   "motionRules": 36,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Table Header Cell",
+   "kind": "component-set",
+   "page": "Table",
+   "platform": "web",
+   "figmaNode": "5698:40230",
+   "spec": "references/dga-live/web/table.md",
+   "data": "references/dga-live/data/web/table.json",
+   "variants": 12,
+   "variantsExported": 12,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Type": [
+     "Default",
+     "Actions",
+     "Checkbox",
+     "Custom",
+     "Icon",
+     "Filter"
+    ]
+   },
+   "otherProps": {
+    "Column Divider": "BOOLEAN=true",
+    "Label EN": "TEXT=Header",
+    "Icon": "BOOLEAN=false",
+    "🔁 Swap Icon": "INSTANCE_SWAP=5698:2327",
+    "Sort": "BOOLEAN=false",
+    "Help Icon": "BOOLEAN=false",
+    "Filter": "BOOLEAN=false",
+    "Label AR": "TEXT=عنوان العمود",
+    "🔁 Swap Content": "INSTANCE_SWAP=5698:40274"
+   },
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Cell swap",
+   "kind": "single-component",
+   "page": "Table",
+   "platform": "web",
+   "figmaNode": "5698:40274",
+   "spec": "references/dga-live/web/table.md",
+   "data": "references/dga-live/data/web/table.json",
+   "variants": 1,
+   "variantsExported": 1,
+   "variantAxes": {},
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Table Header Cell - Sort",
+   "kind": "component-set",
+   "page": "Table",
+   "platform": "web",
+   "figmaNode": "5698:40813",
+   "spec": "references/dga-live/web/table.md",
+   "data": "references/dga-live/data/web/table.json",
+   "variants": 15,
+   "variantsExported": 15,
+   "variantAxes": {
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ],
+    "Sort": [
+     "Off",
+     "Down",
+     "Up"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 9,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Table Header Cell - Filter",
+   "kind": "component-set",
+   "page": "Table",
+   "platform": "web",
+   "figmaNode": "5894:21746",
+   "spec": "references/dga-live/web/table.md",
+   "data": "references/dga-live/data/web/table.json",
+   "variants": 10,
+   "variantsExported": 10,
+   "variantAxes": {
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ],
+    "Active": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 6,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Table Row",
+   "kind": "component-set",
+   "page": "Table",
+   "platform": "web",
+   "figmaNode": "5698:40844",
+   "spec": "references/dga-live/web/table.md",
+   "data": "references/dga-live/data/web/table.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Compact": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Alt-bg": "BOOLEAN=false",
+    "Hovered": "BOOLEAN=false",
+    "Selected": "BOOLEAN=false",
+    "Row Divider": "BOOLEAN=true"
+   },
+   "motionRules": 20,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Table",
+   "kind": "component-set",
+   "page": "Table",
+   "platform": "web",
+   "figmaNode": "5698:40875",
+   "spec": "references/dga-live/web/table.md",
+   "data": "references/dga-live/data/web/table.json",
+   "variants": 16,
+   "variantsExported": 16,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Alternating rows": [
+     "True",
+     "False"
+    ],
+    "Compact": [
+     "False",
+     "True"
+    ],
+    "Contained": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 1568,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Table Header",
+   "kind": "component-set",
+   "page": "Table",
+   "platform": "web",
+   "figmaNode": "5898:27389",
+   "spec": "references/dga-live/web/table.md",
+   "data": "references/dga-live/data/web/table.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 46,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Vertical Tab",
+   "kind": "component-set",
+   "page": "Tabs",
+   "platform": "web",
+   "figmaNode": "418:99793",
+   "spec": "references/dga-live/web/tabs.md",
+   "data": "references/dga-live/data/web/tabs.json",
+   "variants": 60,
+   "variantsExported": 60,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ],
+    "Size": [
+     "Small",
+     "Medium",
+     "Large"
+    ],
+    "Selected": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=true",
+    "Text AR": "TEXT=تبويب",
+    "Text EN": "TEXT=Text",
+    "🔁 Swap Icon": "INSTANCE_SWAP=13758:241572"
+   },
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Vertical Tab List",
+   "kind": "component-set",
+   "page": "Tabs",
+   "platform": "web",
+   "figmaNode": "418:100259",
+   "spec": "references/dga-live/web/tabs.md",
+   "data": "references/dga-live/data/web/tabs.json",
+   "variants": 12,
+   "variantsExported": 12,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Size": [
+     "Small",
+     "Medium",
+     "Large"
+    ],
+    "Tab Icons": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 48,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Horizontal Tab",
+   "kind": "component-set",
+   "page": "Tabs",
+   "platform": "web",
+   "figmaNode": "30150:125017",
+   "spec": "references/dga-live/web/tabs.md",
+   "data": "references/dga-live/data/web/tabs.json",
+   "variants": 64,
+   "variantsExported": 64,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Disabled",
+     "Closed",
+     "Open"
+    ],
+    "Size": [
+     "Small",
+     "Medium",
+     "Large"
+    ],
+    "Selected": [
+     "False",
+     "True"
+    ],
+    "More Tab": [
+     "Yes",
+     "No"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=true",
+    "Text AR": "TEXT=تبويب",
+    "Text EN": "TEXT=Text",
+    "🔁 Swap Icon": "INSTANCE_SWAP=13758:241572"
+   },
+   "motionRules": 18,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Horizontal Tab List",
+   "kind": "component-set",
+   "page": "Tabs",
+   "platform": "web",
+   "figmaNode": "30150:125364",
+   "spec": "references/dga-live/web/tabs.md",
+   "data": "references/dga-live/data/web/tabs.json",
+   "variants": 10,
+   "variantsExported": 10,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Size": [
+     "Small",
+     "Medium",
+     "Large"
+    ],
+    "Tab Icons": [
+     "True",
+     "False"
+    ],
+    "Flush": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Divider": "BOOLEAN=true"
+   },
+   "motionRules": 58,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Tag",
+   "kind": "component-set",
+   "page": "Tags",
+   "platform": "web",
+   "figmaNode": "421:110968",
+   "spec": "references/dga-live/web/tags.md",
+   "data": "references/dga-live/data/web/tags.json",
+   "variants": 288,
+   "variantsExported": 288,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Medium",
+     "Small",
+     "x Small"
+    ],
+    "Style": [
+     "Neutral",
+     "Success",
+     "Info",
+     "Warning",
+     "Error",
+     "On-Color"
+    ],
+    "Outline": [
+     "False",
+     "True"
+    ],
+    "Rounded": [
+     "False",
+     "True"
+    ],
+    "Icon only": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "🔁 Swap Lead Icon": "INSTANCE_SWAP=13758:242431",
+    "Lead icon": "BOOLEAN=true",
+    "Trail icon": "BOOLEAN=false",
+    "Label EN": "TEXT=Label",
+    "Label AR": "TEXT=وسم",
+    "🔁 Swap Trail Icon": "INSTANCE_SWAP=13758:242431"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Status Tag",
+   "kind": "component-set",
+   "page": "Tags",
+   "platform": "web",
+   "figmaNode": "5698:52957",
+   "spec": "references/dga-live/web/tags.md",
+   "data": "references/dga-live/data/web/tags.json",
+   "variants": 90,
+   "variantsExported": 90,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Style": [
+     "Neutral",
+     "Green",
+     "Blue",
+     "Yellow",
+     "Red"
+    ],
+    "Status": [
+     "Inverted",
+     "Subtle",
+     "Ghost"
+    ],
+    "Size": [
+     "Small",
+     "x Small",
+     "Medium"
+    ]
+   },
+   "otherProps": {
+    "Label EN": "TEXT=Status",
+    "Label AR": "TEXT=حالة"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Text Input",
+   "kind": "component-set",
+   "page": "Text input",
+   "platform": "web",
+   "figmaNode": "30150:130250",
+   "spec": "references/dga-live/web/text-input.md",
+   "data": "references/dga-live/data/web/text-input.json",
+   "variants": 288,
+   "variantsExported": 288,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ],
+    "Filled": [
+     "False",
+     "True"
+    ],
+    "Error": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Large",
+     "Medium"
+    ],
+    "Style": [
+     "Default",
+     "Filled lighter",
+     "Filled darker"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=false",
+    "🔁 Swap Helper Icon": "INSTANCE_SWAP=31864:189863",
+    "Prefix": "BOOLEAN=false",
+    "Suffix": "BOOLEAN=false",
+    "Text ENG": "TEXT=Entered text",
+    "Text AR": "TEXT=نص تلميحي",
+    "Show label": "BOOLEAN=true",
+    "Show Helper Text": "BOOLEAN=false",
+    "Helper Text Eng": "TEXT=Help Text",
+    "Helper text AR": "TEXT=نص مساعد",
+    "🔁 Swap Icon": "INSTANCE_SWAP=14313:61520"
+   },
+   "motionRules": 659,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Label",
+   "kind": "component-set",
+   "page": "Text input",
+   "platform": "web",
+   "figmaNode": "30150:134187",
+   "spec": "references/dga-live/web/text-input.md",
+   "data": "references/dga-live/data/web/text-input.json",
+   "variants": 16,
+   "variantsExported": 16,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Type": [
+     "Regular (Default)",
+     "Semibold"
+    ],
+    "Size": [
+     "Medium",
+     "Large"
+    ],
+    "Disabled": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Text AR": "TEXT=عنوان",
+    "Required": "BOOLEAN=true",
+    "Text": "TEXT=Label"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Input Prefix-Suffix",
+   "kind": "component-set",
+   "page": "Text input",
+   "platform": "web",
+   "figmaNode": "30150:134236",
+   "spec": "references/dga-live/web/text-input.md",
+   "data": "references/dga-live/data/web/text-input.json",
+   "variants": 64,
+   "variantsExported": 64,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Type": [
+     "Dropdown",
+     "Text"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Selected",
+     "Focused",
+     "Disabled"
+    ],
+    "Style": [
+     "Solid",
+     "Subtle"
+    ],
+    "Size": [
+     "Large",
+     "Medium"
+    ]
+   },
+   "otherProps": {
+    "🔁 Icon": "INSTANCE_SWAP=13758:241749",
+    "Icon": "BOOLEAN=true",
+    "Text EN": "TEXT=Text",
+    "Text AR": "TEXT=نص"
+   },
+   "motionRules": 40,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Textarea",
+   "kind": "component-set",
+   "page": "Textarea",
+   "platform": "web",
+   "figmaNode": "5462:417368",
+   "spec": "references/dga-live/web/textarea.md",
+   "data": "references/dga-live/data/web/textarea.json",
+   "variants": 144,
+   "variantsExported": 144,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ],
+    "Filled": [
+     "False",
+     "True"
+    ],
+    "Error": [
+     "False",
+     "True"
+    ],
+    "Style": [
+     "Default",
+     "Filled lighter",
+     "Filled darker"
+    ]
+   },
+   "otherProps": {
+    "Scroll Bar": "BOOLEAN=true",
+    "Resize": "BOOLEAN=true",
+    "Show label": "BOOLEAN=true",
+    "Show Helper Text": "BOOLEAN=false",
+    "🔁 Swap Icon": "INSTANCE_SWAP=31864:189863"
+   },
+   "motionRules": 96,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Textarea-Scrollbar",
+   "kind": "component-set",
+   "page": "Textarea",
+   "platform": "web",
+   "figmaNode": "11549:106900",
+   "spec": "references/dga-live/web/textarea.md",
+   "data": "references/dga-live/data/web/textarea.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "Ar",
+     "En"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Tooltip",
+   "kind": "component-set",
+   "page": "Tooltip",
+   "platform": "web",
+   "figmaNode": "30150:139266",
+   "spec": "references/dga-live/web/tooltip.md",
+   "data": "references/dga-live/data/web/tooltip.json",
+   "variants": 52,
+   "variantsExported": 52,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Inverted": [
+     "True",
+     "False"
+    ],
+    "Beak placement": [
+     "None",
+     "Top",
+     "Bottom",
+     "Left",
+     "Right"
+    ],
+    "Beak Alignment": [
+     "Start",
+     "Center",
+     "End"
+    ]
+   },
+   "otherProps": {
+    "Title EN": "TEXT=Tooltip title",
+    "Content EN": "TEXT=Max width of tooltips is 240px",
+    "Title": "BOOLEAN=true",
+    "Icon": "BOOLEAN=true",
+    "Title AR": "TEXT=عنوان التلميح",
+    "Content AR": "TEXT=أقصى عرض للتلميحات هو 240px - "
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Help Icon",
+   "kind": "component-set",
+   "page": "Tooltip",
+   "platform": "web",
+   "figmaNode": "30150:139675",
+   "spec": "references/dga-live/web/tooltip.md",
+   "data": "references/dga-live/data/web/tooltip.json",
+   "variants": 48,
+   "variantsExported": 48,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Open": [
+     "False",
+     "True"
+    ],
+    "Placement": [
+     "Top",
+     "Bottom",
+     "Left",
+     "Right"
+    ],
+    "Alignment": [
+     "Start",
+     "Center",
+     "End"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 24,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Footer",
+   "kind": "component-set",
+   "page": "UI Shell - Footer",
+   "platform": "web",
+   "figmaNode": "30150:165937",
+   "spec": "references/dga-live/web/ui-shell-footer.md",
+   "data": "references/dga-live/data/web/ui-shell-footer.json",
+   "variants": 8,
+   "variantsExported": 8,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Background Color": [
+     "Default",
+     "Dark green"
+    ],
+    "Breakpoint": [
+     "<600",
+     "600+"
+    ]
+   },
+   "otherProps": {
+    "Nav links": "BOOLEAN=true"
+   },
+   "motionRules": 324,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Nav Drawer Item",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Drawer",
+   "platform": "web",
+   "figmaNode": "30150:160274",
+   "spec": "references/dga-live/web/ui-shell-nav-drawer.md",
+   "data": "references/dga-live/data/web/ui-shell-nav-drawer.json",
+   "variants": 90,
+   "variantsExported": 90,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Selected",
+     "Disabled"
+    ],
+    "Type": [
+     "Link",
+     "Parent (Sub-menu)",
+     "Divider"
+    ],
+    "On Color": [
+     "True",
+     "False"
+    ],
+    "Level": [
+     "Level 2",
+     "Level 1"
+    ],
+    "Expanded": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=true",
+    "External Link": "BOOLEAN=false",
+    "Text EN": "TEXT=Link",
+    "🔁 Swap Icon": "INSTANCE_SWAP=13758:241572",
+    "Text AR": "TEXT=رابط",
+    "Badge": "BOOLEAN=true"
+   },
+   "motionRules": 32,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Nav Drawer",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Drawer",
+   "platform": "web",
+   "figmaNode": "30150:160799",
+   "spec": "references/dga-live/web/ui-shell-nav-drawer.md",
+   "data": "references/dga-live/data/web/ui-shell-nav-drawer.json",
+   "variants": 12,
+   "variantsExported": 12,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Background Color": [
+     "Green",
+     "White",
+     "Gray"
+    ],
+    "Overlay": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Nav Header": "BOOLEAN=true",
+    "Scroll Bar": "BOOLEAN=false",
+    "Border": "BOOLEAN=true",
+    "Swap Custom Content": "INSTANCE_SWAP=15249:99491",
+    "Custom Content": "BOOLEAN=false"
+   },
+   "motionRules": 228,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Nav Drawer Header",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Drawer",
+   "platform": "web",
+   "figmaNode": "30150:161144",
+   "spec": "references/dga-live/web/ui-shell-nav-drawer.md",
+   "data": "references/dga-live/data/web/ui-shell-nav-drawer.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "yes",
+     "no"
+    ],
+    "Background": [
+     "Green",
+     "Gray"
+    ]
+   },
+   "otherProps": {
+    "Logo": "BOOLEAN=true",
+    "Divider": "BOOLEAN=false"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Header Sub-menu Item",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Header",
+   "platform": "web",
+   "figmaNode": "30150:148183",
+   "spec": "references/dga-live/web/ui-shell-nav-header.md",
+   "data": "references/dga-live/data/web/ui-shell-nav-header.json",
+   "variants": 16,
+   "variantsExported": 16,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused"
+    ],
+    "On-color": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=true",
+    "Helper Text": "BOOLEAN=true",
+    "Lead Text EN": "TEXT=Menu Item Label",
+    "Helper Text EN": "TEXT=Menu item helper text",
+    "Lead Text AR": "TEXT=عنوان عنصر القائمة",
+    "Helper Text AR": "TEXT=محتوى مساند لعنصر الوصول",
+    "Tag": "BOOLEAN=false"
+   },
+   "motionRules": 8,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Header Menu Item",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Header",
+   "platform": "web",
+   "figmaNode": "30150:148312",
+   "spec": "references/dga-live/web/ui-shell-nav-header.md",
+   "data": "references/dga-live/data/web/ui-shell-nav-header.json",
+   "variants": 20,
+   "variantsExported": 20,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ],
+    "Selected": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=true",
+    "🔁 Swap Icon": "INSTANCE_SWAP=13758:242356",
+    "Text AR": "TEXT=تبويب",
+    "Text EN": "TEXT=Link",
+    "Sub-menu": "BOOLEAN=true",
+    "Chevron up/down": "INSTANCE_SWAP=13758:241815"
+   },
+   "motionRules": 14,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Header Action",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Header",
+   "platform": "web",
+   "figmaNode": "30150:148445",
+   "spec": "references/dga-live/web/ui-shell-nav-header.md",
+   "data": "references/dga-live/data/web/ui-shell-nav-header.json",
+   "variants": 60,
+   "variantsExported": 60,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ],
+    "Selected": [
+     "True",
+     "False"
+    ],
+    "Icon position": [
+     "Inline",
+     "Top"
+    ],
+    "Icon only": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=true",
+    "🔁 Swap Icon": "INSTANCE_SWAP=13758:242356",
+    "Text AR": "TEXT=إجراء",
+    "Text EN": "TEXT=Action"
+   },
+   "motionRules": 42,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Item Icon",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Header",
+   "platform": "web",
+   "figmaNode": "30150:148742",
+   "spec": "references/dga-live/web/ui-shell-nav-header.md",
+   "data": "references/dga-live/data/web/ui-shell-nav-header.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "Contained": [
+     "True",
+     "False"
+    ],
+    "On-color": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "🔁 Swap icon": "INSTANCE_SWAP=13758:241724"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Nav Header",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Header",
+   "platform": "web",
+   "figmaNode": "30150:148751",
+   "spec": "references/dga-live/web/ui-shell-nav-header.md",
+   "data": "references/dga-live/data/web/ui-shell-nav-header.json",
+   "variants": 8,
+   "variantsExported": 8,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Breakpoint": [
+     "<600",
+     "600>960",
+     ">960"
+    ],
+    "Full-width": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Menu items": "BOOLEAN=true",
+    "Actions": "BOOLEAN=true",
+    "Logo EN": "INSTANCE_SWAP=30150:149722",
+    "Logo AR": "INSTANCE_SWAP=30150:149719"
+   },
+   "motionRules": 51,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Header Menu",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Header",
+   "platform": "web",
+   "figmaNode": "30150:148860",
+   "spec": "references/dga-live/web/ui-shell-nav-header.md",
+   "data": "references/dga-live/data/web/ui-shell-nav-header.json",
+   "variants": 8,
+   "variantsExported": 8,
+   "variantAxes": {
+    "Opened": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 10,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Nav Header Sub-Menu",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Header",
+   "platform": "web",
+   "figmaNode": "30150:148877",
+   "spec": "references/dga-live/web/ui-shell-nav-header.md",
+   "data": "references/dga-live/data/web/ui-shell-nav-header.json",
+   "variants": 24,
+   "variantsExported": 24,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Full width": [
+     "True",
+     "False"
+    ],
+    "Background": [
+     "Default",
+     "Dark green"
+    ],
+    "Link style": [
+     "Text only",
+     "Simple icon",
+     "Boxed icon"
+    ]
+   },
+   "otherProps": {
+    "2nd col": "BOOLEAN=true",
+    "3rd col": "BOOLEAN=true",
+    "4th col": "BOOLEAN=true"
+   },
+   "motionRules": 384,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Logo Placeholder",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Header",
+   "platform": "web",
+   "figmaNode": "30150:149694",
+   "spec": "references/dga-live/web/ui-shell-nav-header.md",
+   "data": "references/dga-live/data/web/ui-shell-nav-header.json",
+   "variants": 12,
+   "variantsExported": 12,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Size": [
+     "Large",
+     "Medium",
+     "Small"
+    ],
+    "Logo Position": [
+     "Side",
+     "Top"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Second Nav Header",
+   "kind": "component-set",
+   "page": "UI Shell - Second Level Nav Header",
+   "platform": "web",
+   "figmaNode": "18800:8281",
+   "spec": "references/dga-live/web/ui-shell-second-level-nav-header.md",
+   "data": "references/dga-live/data/web/ui-shell-second-level-nav-header.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "No",
+     "Yes"
+    ],
+    "Style": [
+     "Gray",
+     "Primary"
+    ]
+   },
+   "otherProps": {
+    "Show Action 3": "BOOLEAN=true",
+    "Show Divider": "BOOLEAN=true",
+    "Show Item 3": "BOOLEAN=true",
+    "Show Item 2": "BOOLEAN=true",
+    "Show Content": "BOOLEAN=true",
+    "Show Actions": "BOOLEAN=true",
+    "Show Action 2": "BOOLEAN=true",
+    "Show Action 4": "BOOLEAN=true",
+    "Show Item 4": "BOOLEAN=true"
+   },
+   "motionRules": 16,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "sub-header-Item",
+   "kind": "component-set",
+   "page": "UI Shell - Second Level Nav Header",
+   "platform": "web",
+   "figmaNode": "18841:25963",
+   "spec": "references/dga-live/web/ui-shell-second-level-nav-header.md",
+   "data": "references/dga-live/data/web/ui-shell-second-level-nav-header.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "Yes",
+     "No"
+    ],
+    "Style": [
+     "Default",
+     "On-color"
+    ]
+   },
+   "otherProps": {
+    "Swap icon ": "INSTANCE_SWAP=18738:4314",
+    "Text EN": "TEXT=Cloudy",
+    "Text AR": "TEXT=غائم"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "TOC Item",
+   "kind": "component-set",
+   "page": "UI Shell - Table of Content",
+   "platform": "web",
+   "figmaNode": "2962:37761",
+   "spec": "references/dga-live/web/ui-shell-table-of-content.md",
+   "data": "references/dga-live/data/web/ui-shell-table-of-content.json",
+   "variants": 48,
+   "variantsExported": 48,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Hovered",
+     "Pressed",
+     "Focused"
+    ],
+    "Selected": [
+     "True",
+     "False"
+    ],
+    "Level": [
+     "Level 1 (H2)",
+     "Level 2 (H3)",
+     "Level 3 (H4)"
+    ]
+   },
+   "otherProps": {
+    "Text AR": "TEXT=قسم صفحة",
+    "Text EN": "TEXT=Page Section"
+   },
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "TOC",
+   "kind": "component-set",
+   "page": "UI Shell - Table of Content",
+   "platform": "web",
+   "figmaNode": "2962:38090",
+   "spec": "references/dga-live/web/ui-shell-table-of-content.md",
+   "data": "references/dga-live/data/web/ui-shell-table-of-content.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 38,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Accordion",
+   "kind": "component-set",
+   "page": "Accordions",
+   "platform": "mobile",
+   "figmaNode": "1147:60874",
+   "spec": "references/dga-live/mobile/accordions.md",
+   "data": "references/dga-live/data/mobile/accordions.json",
+   "variants": 192,
+   "variantsExported": 192,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Large",
+     "Medium",
+     "Small"
+    ],
+    "Icon alignment": [
+     "Leading",
+     "Trailing"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ],
+    "Expanded": [
+     "False",
+     "True"
+    ],
+    "Flush": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Title EN": "TEXT=Accordion Title",
+    "Title AR": "TEXT=عنوان الأكورديون"
+   },
+   "motionRules": 120,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Accordion list",
+   "kind": "component-set",
+   "page": "Accordions",
+   "platform": "mobile",
+   "figmaNode": "1188:65307",
+   "spec": "references/dga-live/mobile/accordions.md",
+   "data": "references/dga-live/data/mobile/accordions.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Avatar",
+   "kind": "component-set",
+   "page": "Avatar",
+   "platform": "mobile",
+   "figmaNode": "5699:53529",
+   "spec": "references/dga-live/mobile/avatar.md",
+   "data": "references/dga-live/data/mobile/avatar.json",
+   "variants": 42,
+   "variantsExported": 42,
+   "variantAxes": {
+    "Type": [
+     "Image",
+     "Initials",
+     "Icon"
+    ],
+    "Square": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "24px",
+     "32px",
+     "40px",
+     "48px",
+     "64px",
+     "80px",
+     "120px"
+    ]
+   },
+   "otherProps": {
+    "Border": "BOOLEAN=true",
+    "Text": "TEXT=AB"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Avatar Group",
+   "kind": "component-set",
+   "page": "Avatar",
+   "platform": "mobile",
+   "figmaNode": "5699:53727",
+   "spec": "references/dga-live/mobile/avatar.md",
+   "data": "references/dga-live/data/mobile/avatar.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "Stacked": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Banner",
+   "kind": "component-set",
+   "page": "Banner",
+   "platform": "mobile",
+   "figmaNode": "2551:52916",
+   "spec": "references/dga-live/mobile/banner.md",
+   "data": "references/dga-live/data/mobile/banner.json",
+   "variants": 10,
+   "variantsExported": 10,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Style": [
+     "Neutral",
+     "Critical",
+     "Warning",
+     "Success",
+     "Info"
+    ]
+   },
+   "otherProps": {
+    "Lead Text": "BOOLEAN=true",
+    "Link": "BOOLEAN=false",
+    "Dismissible": "BOOLEAN=true",
+    "Icon": "BOOLEAN=true",
+    "Helper Text EN": "TEXT=This is a very important banne",
+    "Helper Text AR": "TEXT=رسالة لائحة رئيسية مهمة جداً ت",
+    "Lead Text AR": "TEXT=مهم:",
+    "Lead Text EN": "TEXT=Important:",
+    "Button": "BOOLEAN=false"
+   },
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Button",
+   "kind": "component-set",
+   "page": "Buttons",
+   "platform": "mobile",
+   "figmaNode": "407:510376",
+   "spec": "references/dga-live/mobile/buttons.md",
+   "data": "references/dga-live/data/mobile/buttons.json",
+   "variants": 960,
+   "variantsExported": 960,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Large",
+     "Medium",
+     "Small"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Selected",
+     "Focused",
+     "Disabled"
+    ],
+    "Style": [
+     "Primary-Neutral",
+     "Primary-Brand",
+     "Secondary-Solid",
+     "Secondary-Outline",
+     "Subtle",
+     "Transparent"
+    ],
+    "Icon only": [
+     "False",
+     "True"
+    ],
+    "On-color": [
+     "False",
+     "True"
+    ],
+    "Destructive": [
+     "NO",
+     "YES"
+    ]
+   },
+   "otherProps": {
+    "🔁 Lead icon": "INSTANCE_SWAP=10909:60605",
+    "🔁 Trail icon": "INSTANCE_SWAP=10750:63767",
+    "Trail icon": "BOOLEAN=false",
+    "Lead icon": "BOOLEAN=true",
+    "Text EN": "TEXT=Button",
+    "Text AR": "TEXT=إجراء"
+   },
+   "motionRules": 144,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Fab_Button",
+   "kind": "component-set",
+   "page": "Buttons",
+   "platform": "mobile",
+   "figmaNode": "8379:70060",
+   "spec": "references/dga-live/mobile/buttons.md",
+   "data": "references/dga-live/data/mobile/buttons.json",
+   "variants": 120,
+   "variantsExported": 120,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Selected",
+     "Focused",
+     "Disabled"
+    ],
+    "Style": [
+     "Primary-Neutral",
+     "Primary-Brand",
+     "Secondary-Solid"
+    ],
+    "Icon only": [
+     "False",
+     "True"
+    ],
+    "On-color": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "🔁 Lead icon": "INSTANCE_SWAP=11214:99622",
+    "Lead icon": "BOOLEAN=true",
+    "Text EN": "TEXT=Button",
+    "Text AR": "TEXT=إجراء"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Button-menu",
+   "kind": "component-set",
+   "page": "Buttons",
+   "platform": "mobile",
+   "figmaNode": "411:4377",
+   "spec": "references/dga-live/mobile/buttons.md",
+   "data": "references/dga-live/data/mobile/buttons.json",
+   "variants": 360,
+   "variantsExported": 360,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Large",
+     "Medium",
+     "Small"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Selected",
+     "Focused",
+     "Disabled"
+    ],
+    "Style": [
+     "Primary-Neutral",
+     "Primary-Brand",
+     "Secondary-Solid",
+     "Secondary-Outline",
+     "Subtle",
+     "Transparent"
+    ],
+    "Icon only": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "🔁 Lead icon": "INSTANCE_SWAP=10750:63767",
+    "Lead icon": "BOOLEAN=false",
+    "Text EN": "TEXT=Button",
+    "Text AR": "TEXT=إجراء"
+   },
+   "motionRules": 72,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Button-Close",
+   "kind": "component-set",
+   "page": "Buttons",
+   "platform": "mobile",
+   "figmaNode": "2763:420129",
+   "spec": "references/dga-live/mobile/buttons.md",
+   "data": "references/dga-live/data/mobile/buttons.json",
+   "variants": 24,
+   "variantsExported": 24,
+   "variantAxes": {
+    "Size": [
+     "Small",
+     "Medium",
+     "Large",
+     "x Small"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused"
+    ],
+    "On-color": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 8,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Card",
+   "kind": "component-set",
+   "page": "Card",
+   "platform": "mobile",
+   "figmaNode": "11370:26270",
+   "spec": "references/dga-live/mobile/card.md",
+   "data": "references/dga-live/data/mobile/card.json",
+   "variants": 102,
+   "variantsExported": 102,
+   "variantAxes": {
+    "RTL": [
+     "no",
+     "yes"
+    ],
+    "Type": [
+     "Default",
+     "Expanded",
+     "Selectable"
+    ],
+    "State": [
+     "Default",
+     "Hover",
+     "Focused",
+     "Disabled",
+     "Default (Expanded)",
+     "Hover (Expanded)",
+     "Focused (Expanded)",
+     "Disabled (Expanded)",
+     "Default (Selected)",
+     "Hover (Selected)",
+     "Focused (Selected)",
+     "Disabled (Selected)"
+    ],
+    "Effect": [
+     "With Sahdow",
+     "No Shadow",
+     "Stroke"
+    ]
+   },
+   "otherProps": {
+    "Secondary Action": "BOOLEAN=true",
+    "Show Tags": "BOOLEAN=false",
+    "Show Rating": "BOOLEAN=false",
+    "Description AR": "TEXT=نص إضافي لمحتوى البطاقة",
+    "Title AR": "TEXT=عنوان البطاقة",
+    "Featured icon": "BOOLEAN=true",
+    "Show Title": "BOOLEAN=true",
+    "Title EN": "TEXT=Card Title",
+    "Primary Action": "BOOLEAN=true",
+    "Show Description ": "BOOLEAN=true",
+    "🔁 Swap Icon": "INSTANCE_SWAP=10750:58068",
+    "Image": "BOOLEAN=false",
+    "Custom Component": "BOOLEAN=false",
+    "Description EN": "TEXT=Card content placeholder text ",
+    "🔁 Content Swap": "INSTANCE_SWAP=1823:28658"
+   },
+   "motionRules": 249,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Checkbox",
+   "kind": "component-set",
+   "page": "Checkbox",
+   "platform": "mobile",
+   "figmaNode": "5894:19766",
+   "spec": "references/dga-live/mobile/checkbox.md",
+   "data": "references/dga-live/data/mobile/checkbox.json",
+   "variants": 90,
+   "variantsExported": 90,
+   "variantAxes": {
+    "Checked": [
+     "True",
+     "False"
+    ],
+    "Indeterminate": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ],
+    "Size": [
+     "Medium",
+     "Small",
+     "x Small"
+    ],
+    "Style": [
+     "Brand",
+     "Neutral"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 6,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_CheckboxBase1",
+   "kind": "component-set",
+   "page": "Checkbox",
+   "platform": "mobile",
+   "figmaNode": "5894:19902",
+   "spec": "references/dga-live/mobile/checkbox.md",
+   "data": "references/dga-live/data/mobile/checkbox.json",
+   "variants": 3,
+   "variantsExported": 3,
+   "variantAxes": {
+    "Status": [
+     "Unchecked",
+     "Checked",
+     "Indeterminate"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Checkbox Label",
+   "kind": "component-set",
+   "page": "Checkbox",
+   "platform": "mobile",
+   "figmaNode": "5894:20227",
+   "spec": "references/dga-live/mobile/checkbox.md",
+   "data": "references/dga-live/data/mobile/checkbox.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {
+    "Helper Text": "BOOLEAN=true",
+    "Alert message": "BOOLEAN=true",
+    "Label EN": "TEXT=Checkbox Label",
+    "Helper Text EN": "TEXT=When a selection needs a furth",
+    "Alert Message EN": "TEXT=Error/Warning message",
+    "Label AR": "TEXT=عنوان اختيار متعدد",
+    "Helper Text AR": "TEXT=يكتب المحتوى الإضافي هنا في حا",
+    "Alert Message AR": "TEXT=رسالة خطأ أو تحذير",
+    "Hitbox focus ring": "BOOLEAN=false"
+   },
+   "motionRules": 2,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Content Switcher Item",
+   "kind": "component-set",
+   "page": "Content switcher",
+   "platform": "mobile",
+   "figmaNode": "8417:149954",
+   "spec": "references/dga-live/mobile/content-switcher.md",
+   "data": "references/dga-live/data/mobile/content-switcher.json",
+   "variants": 36,
+   "variantsExported": 36,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Item Type": [
+     "Last",
+     "Mid",
+     "First"
+    ],
+    "State": [
+     "Normal",
+     "Pressed",
+     "Selected"
+    ],
+    "OnColor": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Text En": "TEXT=Item",
+    "Text AR": "TEXT=عنصر"
+   },
+   "motionRules": 24,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Content Switcher",
+   "kind": "component-set",
+   "page": "Content switcher",
+   "platform": "mobile",
+   "figmaNode": "8418:155970",
+   "spec": "references/dga-live/mobile/content-switcher.md",
+   "data": "references/dga-live/data/mobile/content-switcher.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "OnColor": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "3rd Item": "BOOLEAN=true",
+    "2nd item": "BOOLEAN=true"
+   },
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Date cell",
+   "kind": "component-set",
+   "page": "Date Picker",
+   "platform": "mobile",
+   "figmaNode": "5928:1820",
+   "spec": "references/dga-live/mobile/date-picker.md",
+   "data": "references/dga-live/data/mobile/date-picker.json",
+   "variants": 26,
+   "variantsExported": 26,
+   "variantAxes": {
+    "Selected": [
+     "False",
+     "True"
+    ],
+    "Today": [
+     "False",
+     "True"
+    ],
+    "Nex/Prev": [
+     "False",
+     "True",
+     "End",
+     "Start"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Disabled"
+    ],
+    "Null": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Range-left": "BOOLEAN=false",
+    "Range-right": "BOOLEAN=true",
+    "Extra-left": "BOOLEAN=true",
+    "Extra-right": "BOOLEAN=true",
+    "Mid-Range": "BOOLEAN=true",
+    "Date": "TEXT=21",
+    "Secondary Date": "TEXT=1/9",
+    "2ndry Date": "BOOLEAN=false"
+   },
+   "motionRules": 4,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Date Picker ",
+   "kind": "component-set",
+   "page": "Date Picker",
+   "platform": "mobile",
+   "figmaNode": "5928:2080",
+   "spec": "references/dga-live/mobile/date-picker.md",
+   "data": "references/dga-live/data/mobile/date-picker.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Type": [
+     "Range",
+     "Select date"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 164,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Date field",
+   "kind": "component-set",
+   "page": "Date Picker",
+   "platform": "mobile",
+   "figmaNode": "11287:55452",
+   "spec": "references/dga-live/mobile/date-picker.md",
+   "data": "references/dga-live/data/mobile/date-picker.json",
+   "variants": 40,
+   "variantsExported": 40,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ],
+    "Filled": [
+     "False",
+     "True"
+    ],
+    "Error": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Large"
+    ],
+    "Style": [
+     "Default"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=false",
+    "Prefix": "BOOLEAN=false",
+    "Suffix": "BOOLEAN=false",
+    "Text": "TEXT=DD/MM/YY",
+    "Text AR": "TEXT=يوم/شهر/سنة",
+    "Show Helper Text": "BOOLEAN=false",
+    "Helper text AR": "TEXT=نص مساعد",
+    "🔁 Icon Swap": "INSTANCE_SWAP=11089:90347",
+    "Helper Text Eng": "TEXT=Help Text"
+   },
+   "motionRules": 24,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Dropdown List Item",
+   "kind": "component-set",
+   "page": "Dropdown Input",
+   "platform": "mobile",
+   "figmaNode": "3262:27949",
+   "spec": "references/dga-live/mobile/dropdown-input.md",
+   "data": "references/dga-live/data/mobile/dropdown-input.json",
+   "variants": 18,
+   "variantsExported": 18,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ],
+    "Type": [
+     "Single Select",
+     "Multi Select",
+     "Group label"
+    ]
+   },
+   "otherProps": {
+    "Selected": "BOOLEAN=true",
+    "Text EN": "TEXT=Option",
+    "Divider": "BOOLEAN=false",
+    "Text AR": "TEXT=إختيار"
+   },
+   "motionRules": 4,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Dropdown Input",
+   "kind": "component-set",
+   "page": "Dropdown Input",
+   "platform": "mobile",
+   "figmaNode": "3534:49934",
+   "spec": "references/dga-live/mobile/dropdown-input.md",
+   "data": "references/dga-live/data/mobile/dropdown-input.json",
+   "variants": 120,
+   "variantsExported": 120,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Filled": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ],
+    "Error": [
+     "False",
+     "True"
+    ],
+    "Style": [
+     "Default",
+     "Filled lighter",
+     "Filled darker"
+    ]
+   },
+   "otherProps": {
+    "Scroll Bar": "BOOLEAN=false",
+    "Multi-section": "BOOLEAN=false",
+    "Icon": "BOOLEAN=false",
+    "Clear": "BOOLEAN=false",
+    "Type Cursor": "BOOLEAN=false",
+    "Leading Icon": "INSTANCE_SWAP=10750:73533",
+    "Show Helper text": "BOOLEAN=false",
+    "🔁 Swap Icon": "INSTANCE_SWAP=11089:90351",
+    "Show label": "BOOLEAN=true",
+    "Helper Text AR": "TEXT=نص مساعد",
+    "Helper Text Eng": "TEXT=Help Text"
+   },
+   "motionRules": 456,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_Drop Zone",
+   "kind": "component-set",
+   "page": "File upload",
+   "platform": "mobile",
+   "figmaNode": "5698:34485",
+   "spec": "references/dga-live/mobile/file-upload.md",
+   "data": "references/dga-live/data/mobile/file-upload.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Drag+hover",
+     "Disabled"
+    ]
+   },
+   "otherProps": {
+    "Button": "BOOLEAN=true",
+    "Helper Text": "BOOLEAN=true"
+   },
+   "motionRules": 2,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_File",
+   "kind": "component-set",
+   "page": "File upload",
+   "platform": "mobile",
+   "figmaNode": "5698:34504",
+   "spec": "references/dga-live/mobile/file-upload.md",
+   "data": "references/dga-live/data/mobile/file-upload.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Uploaded",
+     "Loading",
+     "Error"
+    ]
+   },
+   "otherProps": {
+    "File Name": "TEXT=File-name.csv",
+    "Error Message": "TEXT=Here goes the helper text.",
+    "File Name AR": "TEXT=اسم الملف.csv",
+    "Error Message AR": "TEXT=تكتب هنا رسالة المساعدة."
+   },
+   "motionRules": 4,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "File Upload / Multiple",
+   "kind": "component-set",
+   "page": "File upload",
+   "platform": "mobile",
+   "figmaNode": "10746:17644",
+   "spec": "references/dga-live/mobile/file-upload.md",
+   "data": "references/dga-live/data/mobile/file-upload.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "File 2": "BOOLEAN=true",
+    "File 3": "BOOLEAN=true",
+    "Uploaded": "BOOLEAN=true"
+   },
+   "motionRules": 2,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "File Upload / Single",
+   "kind": "component-set",
+   "page": "File upload",
+   "platform": "mobile",
+   "figmaNode": "11261:13363",
+   "spec": "references/dga-live/mobile/file-upload.md",
+   "data": "references/dga-live/data/mobile/file-upload.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Disabled",
+     "Uploaded"
+    ]
+   },
+   "otherProps": {
+    "Show Helper Text": "BOOLEAN=true",
+    "Helper Text ": "TEXT=Maximum file size allowed is 2"
+   },
+   "motionRules": 2,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Inline Alert",
+   "kind": "component-set",
+   "page": "Inline Alert",
+   "platform": "mobile",
+   "figmaNode": "1730:46048",
+   "spec": "references/dga-live/mobile/inline-alert.md",
+   "data": "references/dga-live/data/mobile/inline-alert.json",
+   "variants": 20,
+   "variantsExported": 20,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Type": [
+     "Neutral",
+     "Info",
+     "Destructive",
+     "Warning",
+     "Success"
+    ],
+    "Background": [
+     "White",
+     "Color"
+    ]
+   },
+   "otherProps": {
+    "Actions": "BOOLEAN=true",
+    "Helper text": "BOOLEAN=true",
+    "Close Button": "BOOLEAN=true",
+    "Lead Text EN": "TEXT=Alert message title ",
+    "Helper Text EN": "TEXT=When a Notification/Alert need",
+    "Lead Text AR": "TEXT=عنوان رسالة الاشعار أو التنبيه",
+    "Helper Text AR": "TEXT=يكتب المحتوى الإضافي هنا في حا"
+   },
+   "motionRules": 60,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Link",
+   "kind": "component-set",
+   "page": "Link",
+   "platform": "mobile",
+   "figmaNode": "2508:25804",
+   "spec": "references/dga-live/mobile/link.md",
+   "data": "references/dga-live/data/mobile/link.json",
+   "variants": 120,
+   "variantsExported": 120,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Medium (16px)",
+     "Small (14px)"
+    ],
+    "Style": [
+     "Neutral",
+     "Brand",
+     "On-color"
+    ],
+    "Inline": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused",
+     "Visited",
+     "Disabled"
+    ]
+   },
+   "otherProps": {
+    "Link Text EN": "TEXT=Link",
+    "Link Text AR": "TEXT=رابط",
+    "Icon": "BOOLEAN=true",
+    "🔁 Icon Swap": "INSTANCE_SWAP=10750:66278"
+   },
+   "motionRules": 24,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "List_item",
+   "kind": "component-set",
+   "page": "List",
+   "platform": "mobile",
+   "figmaNode": "8407:121384",
+   "spec": "references/dga-live/mobile/list.md",
+   "data": "references/dga-live/data/mobile/list.json",
+   "variants": 10,
+   "variantsExported": 10,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focus",
+     "Disabled",
+     "Selected"
+    ]
+   },
+   "otherProps": {
+    "Title EN": "TEXT=Title",
+    "Action": "INSTANCE_SWAP=5403:403566",
+    "Description EN": "TEXT=Desctription goes here",
+    "Show Icon": "BOOLEAN=true",
+    "Show Description": "BOOLEAN=true",
+    "Title AR": "TEXT=عنوان",
+    "Description AR": "TEXT=الوصف يكون هنا",
+    "Action AR": "INSTANCE_SWAP=5403:403580",
+    "🔁 Swap Icon": "INSTANCE_SWAP=10750:67602",
+    "Show Switch": "BOOLEAN=true"
+   },
+   "motionRules": 11,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Menu list item",
+   "kind": "component-set",
+   "page": "Menu",
+   "platform": "mobile",
+   "figmaNode": "5822:20178",
+   "spec": "references/dga-live/mobile/menu.md",
+   "data": "references/dga-live/data/mobile/menu.json",
+   "variants": 48,
+   "variantsExported": 48,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Trail element": [
+     "None",
+     "Text",
+     "Button",
+     "Tag",
+     "Switch",
+     "Icon"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ]
+   },
+   "otherProps": {
+    "Lead Icon": "BOOLEAN=true",
+    "🔁 Lead icon": "INSTANCE_SWAP=10750:73533",
+    "Trail text": "BOOLEAN=true",
+    "Label EN": "TEXT=Item Lebel",
+    "trail text": "TEXT=+99",
+    "🔁 Trail Icon": "INSTANCE_SWAP=3463:404964",
+    "Label AR": "TEXT=نص العنصر"
+   },
+   "motionRules": 22,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Menu",
+   "kind": "component-set",
+   "page": "Menu",
+   "platform": "mobile",
+   "figmaNode": "5995:7640",
+   "spec": "references/dga-live/mobile/menu.md",
+   "data": "references/dga-live/data/mobile/menu.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 22,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Toggle",
+   "kind": "component-set",
+   "page": "Menu",
+   "platform": "mobile",
+   "figmaNode": "10464:41581",
+   "spec": "references/dga-live/mobile/menu.md",
+   "data": "references/dga-live/data/mobile/menu.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "State": [
+     "Off",
+     "On"
+    ],
+    "Mode": [
+     "Dark",
+     "Light"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Modal",
+   "kind": "component-set",
+   "page": "Modals",
+   "platform": "mobile",
+   "figmaNode": "1823:27452",
+   "spec": "references/dga-live/mobile/modals.md",
+   "data": "references/dga-live/data/mobile/modals.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Mobile": [
+     "False"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Modal Header",
+   "kind": "component-set",
+   "page": "Modals",
+   "platform": "mobile",
+   "figmaNode": "1823:27407",
+   "spec": "references/dga-live/mobile/modals.md",
+   "data": "references/dga-live/data/mobile/modals.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Actions": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Title EN": "TEXT=Title goes here",
+    "Title AR": "TEXT=عنوان الرسالة يُكتب هنا"
+   },
+   "motionRules": 5,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Modal Actions",
+   "kind": "component-set",
+   "page": "Modals",
+   "platform": "mobile",
+   "figmaNode": "1823:26717",
+   "spec": "references/dga-live/mobile/modals.md",
+   "data": "references/dga-live/data/mobile/modals.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Stack": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Secondary Action": "BOOLEAN=true",
+    "Tertiary Action": "BOOLEAN=true"
+   },
+   "motionRules": 10,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Modal Body",
+   "kind": "component-set",
+   "page": "Modals",
+   "platform": "mobile",
+   "figmaNode": "1823:28654",
+   "spec": "references/dga-live/mobile/modals.md",
+   "data": "references/dga-live/data/mobile/modals.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Center Align": [
+     "False",
+     "True"
+    ],
+    "Content": [
+     "Text",
+     "Placeholder"
+    ]
+   },
+   "otherProps": {
+    "🔁 Content Swap": "INSTANCE_SWAP=1823:28658"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Swap Placeholder",
+   "kind": "single-component",
+   "page": "Modals",
+   "platform": "mobile",
+   "figmaNode": "1823:28658",
+   "spec": "references/dga-live/mobile/modals.md",
+   "data": "references/dga-live/data/mobile/modals.json",
+   "variants": 1,
+   "variantsExported": 1,
+   "variantAxes": {},
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Notification Toast",
+   "kind": "component-set",
+   "page": "Notification Toast",
+   "platform": "mobile",
+   "figmaNode": "1730:37567",
+   "spec": "references/dga-live/mobile/notification-toast.md",
+   "data": "references/dga-live/data/mobile/notification-toast.json",
+   "variants": 10,
+   "variantsExported": 10,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Type": [
+     "Neutral",
+     "Info",
+     "Critical/Error",
+     "Warning",
+     "Success"
+    ]
+   },
+   "otherProps": {
+    "Actions": "BOOLEAN=true",
+    "Helper Text": "BOOLEAN=true",
+    "Close Button": "BOOLEAN=true",
+    "Lead Text EN": "TEXT=Alert message title ",
+    "Helper Text EN": "TEXT=When a Notification/Alert need",
+    "Lead Text AR": "TEXT=عنوان رسالة الاشعار أو التنبيه",
+    "Helper Text AR": "TEXT=يكتب المحتوى الإضافي هنا في حا"
+   },
+   "motionRules": 30,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Pagination",
+   "kind": "component-set",
+   "page": "Pagination",
+   "platform": "mobile",
+   "figmaNode": "8414:143999",
+   "spec": "references/dga-live/mobile/pagination.md",
+   "data": "references/dga-live/data/mobile/pagination.json",
+   "variants": 3,
+   "variantsExported": 3,
+   "variantAxes": {
+    "Size": [
+     "Small",
+     "Large",
+     "Meduim"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 21,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_PaginationItem",
+   "kind": "component-set",
+   "page": "Pagination",
+   "platform": "mobile",
+   "figmaNode": "8414:144025",
+   "spec": "references/dga-live/mobile/pagination.md",
+   "data": "references/dga-live/data/mobile/pagination.json",
+   "variants": 18,
+   "variantsExported": 18,
+   "variantAxes": {
+    "State": [
+     "Default",
+     "Current Page",
+     "Focsed",
+     "Opened"
+    ],
+    "Overflow": [
+     "no",
+     "yes"
+    ],
+    "Size": [
+     "Meduim",
+     "Large",
+     "Small"
+    ]
+   },
+   "otherProps": {
+    "Number": "TEXT=1"
+   },
+   "motionRules": 45,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_StepperBase",
+   "kind": "component-set",
+   "page": "Progress indicator",
+   "platform": "mobile",
+   "figmaNode": "5515:24011",
+   "spec": "references/dga-live/mobile/progress-indicator.md",
+   "data": "references/dga-live/data/mobile/progress-indicator.json",
+   "variants": 8,
+   "variantsExported": 8,
+   "variantAxes": {
+    "Status": [
+     "Current",
+     "Upcomming",
+     "Completed"
+    ],
+    "Focused": [
+     "no",
+     "yes"
+    ],
+    "Style": [
+     "Cricles",
+     "dot"
+    ]
+   },
+   "otherProps": {
+    "Step Number": "TEXT=1"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Stepper",
+   "kind": "component-set",
+   "page": "Progress indicator",
+   "platform": "mobile",
+   "figmaNode": "5522:8665",
+   "spec": "references/dga-live/mobile/progress-indicator.md",
+   "data": "references/dga-live/data/mobile/progress-indicator.json",
+   "variants": 20,
+   "variantsExported": 20,
+   "variantAxes": {
+    "RTL": [
+     "no",
+     "yes"
+    ],
+    "Alignment": [
+     "Horizontal",
+     "Vertical"
+    ],
+    "State": [
+     "Current",
+     "Completed",
+     "Upcomming"
+    ],
+    "Focused": [
+     "no",
+     "yes"
+    ]
+   },
+   "otherProps": {
+    "Next Step": "BOOLEAN=true",
+    "Step Name": "TEXT=Step One",
+    "Show Step Name": "BOOLEAN=true",
+    "Step Description": "TEXT=this is step description",
+    "Show Description": "BOOLEAN=true"
+   },
+   "motionRules": 10,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_RadioBase",
+   "kind": "component-set",
+   "page": "Radio",
+   "platform": "mobile",
+   "figmaNode": "1870:39308",
+   "spec": "references/dga-live/mobile/radio.md",
+   "data": "references/dga-live/data/mobile/radio.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "Selected": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Radio label",
+   "kind": "component-set",
+   "page": "Radio",
+   "platform": "mobile",
+   "figmaNode": "10695:105357",
+   "spec": "references/dga-live/mobile/radio.md",
+   "data": "references/dga-live/data/mobile/radio.json",
+   "variants": 2,
+   "variantsExported": 2,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Label EN": "TEXT=Radio Label",
+    "Label AR": "TEXT=عنوان اختيار مفرد",
+    "Helper Text EN": "TEXT=When a selection needs a furth",
+    "Helper Text AR": "TEXT=يكتب المحتوى الإضافي هنا في حا",
+    "Show Alert message": "BOOLEAN=true",
+    "Alert Message EN": "TEXT=Error/Warning message",
+    "Alert Message AR": "TEXT=رسالة خطأ أو تحذير"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Radio",
+   "kind": "component-set",
+   "page": "Radio",
+   "platform": "mobile",
+   "figmaNode": "10695:104300",
+   "spec": "references/dga-live/mobile/radio.md",
+   "data": "references/dga-live/data/mobile/radio.json",
+   "variants": 20,
+   "variantsExported": 20,
+   "variantAxes": {
+    "Selected": [
+     "False",
+     "True"
+    ],
+    "Style": [
+     "Neutral",
+     "Brand"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "_RatingStar",
+   "kind": "component-set",
+   "page": "Rating",
+   "platform": "mobile",
+   "figmaNode": "8421:158261",
+   "spec": "references/dga-live/mobile/rating.md",
+   "data": "references/dga-live/data/mobile/rating.json",
+   "variants": 24,
+   "variantsExported": 24,
+   "variantAxes": {
+    "Size": [
+     "Large",
+     "Medium",
+     "Small"
+    ],
+    "State": [
+     "Normal",
+     "Pressed",
+     "Selected",
+     "Half"
+    ],
+    "Style": [
+     "Default",
+     "Brand"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Rating",
+   "kind": "component-set",
+   "page": "Rating",
+   "platform": "mobile",
+   "figmaNode": "8422:3244",
+   "spec": "references/dga-live/mobile/rating.md",
+   "data": "references/dga-live/data/mobile/rating.json",
+   "variants": 6,
+   "variantsExported": 6,
+   "variantAxes": {
+    "Size": [
+     "Large",
+     "Meduim",
+     "Small"
+    ],
+    "Brand": [
+     "No",
+     "Yes"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 6,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Spinner",
+   "kind": "component-set",
+   "page": "Spinner",
+   "platform": "mobile",
+   "figmaNode": "5698:11136",
+   "spec": "references/dga-live/mobile/spinner.md",
+   "data": "references/dga-live/data/mobile/spinner.json",
+   "variants": 84,
+   "variantsExported": 84,
+   "variantAxes": {
+    "Size": [
+     "tiny",
+     "x-small",
+     "small",
+     "medium",
+     "large",
+     "x-large",
+     "huge"
+    ],
+    "Style": [
+     "Neutral",
+     "On-color",
+     "Brand"
+    ],
+    "Indicator": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 84,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Switch",
+   "kind": "component-set",
+   "page": "Switch",
+   "platform": "mobile",
+   "figmaNode": "5403:403565",
+   "spec": "references/dga-live/mobile/switch.md",
+   "data": "references/dga-live/data/mobile/switch.json",
+   "variants": 12,
+   "variantsExported": 12,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Disabled"
+    ],
+    "On": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=false"
+   },
+   "motionRules": 8,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Switch Label",
+   "kind": "component-set",
+   "page": "Switch",
+   "platform": "mobile",
+   "figmaNode": "5422:406913",
+   "spec": "references/dga-live/mobile/switch.md",
+   "data": "references/dga-live/data/mobile/switch.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Trail switch": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Helper Text": "BOOLEAN=true",
+    "Alert message": "BOOLEAN=true",
+    "Label EN": "TEXT=Switch Label",
+    "Helper Text EN": "TEXT=When a selection needs a furth",
+    "Alert Message EN": "TEXT=Error/Warning message",
+    "Label AR": "TEXT=عنوان المفتاح",
+    "Helper Text AR": "TEXT=يكتب المحتوى الإضافي هنا في حا",
+    "Alert Message AR": "TEXT=رسالة خطأ أو تحذير"
+   },
+   "motionRules": 4,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Horizontal Tab",
+   "kind": "component-set",
+   "page": "Tabs",
+   "platform": "mobile",
+   "figmaNode": "417:98153",
+   "spec": "references/dga-live/mobile/tabs.md",
+   "data": "references/dga-live/data/mobile/tabs.json",
+   "variants": 48,
+   "variantsExported": 48,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Small",
+     "Medium",
+     "Large"
+    ],
+    "Selected": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=true",
+    "🔁 Icon swap": "INSTANCE_SWAP=10750:75655",
+    "Text AR": "TEXT=تبويب",
+    "Text EN": "TEXT=Text"
+   },
+   "motionRules": 4,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Vertical Tab",
+   "kind": "component-set",
+   "page": "Tabs",
+   "platform": "mobile",
+   "figmaNode": "418:99793",
+   "spec": "references/dga-live/mobile/tabs.md",
+   "data": "references/dga-live/data/mobile/tabs.json",
+   "variants": 48,
+   "variantsExported": 48,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Small",
+     "Medium",
+     "Large"
+    ],
+    "Selected": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused",
+     "Disabled"
+    ]
+   },
+   "otherProps": {
+    "🔁 Icon swap": "INSTANCE_SWAP=10750:75655",
+    "Text AR": "TEXT=تبويب",
+    "Text EN": "TEXT=Text",
+    "Icon": "BOOLEAN=true"
+   },
+   "motionRules": 4,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Horizontal Tab List",
+   "kind": "component-set",
+   "page": "Tabs",
+   "platform": "mobile",
+   "figmaNode": "418:99386",
+   "spec": "references/dga-live/mobile/tabs.md",
+   "data": "references/dga-live/data/mobile/tabs.json",
+   "variants": 10,
+   "variantsExported": 10,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Medium",
+     "Small",
+     "Large"
+    ],
+    "Tab Icons": [
+     "False",
+     "True"
+    ],
+    "Flush": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Divider": "BOOLEAN=true"
+   },
+   "motionRules": 32,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Vertical Tab List",
+   "kind": "component-set",
+   "page": "Tabs",
+   "platform": "mobile",
+   "figmaNode": "418:100259",
+   "spec": "references/dga-live/mobile/tabs.md",
+   "data": "references/dga-live/data/mobile/tabs.json",
+   "variants": 12,
+   "variantsExported": 12,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Medium",
+     "Small",
+     "Large"
+    ],
+    "Tab icons": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 32,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Tag",
+   "kind": "component-set",
+   "page": "Tags",
+   "platform": "mobile",
+   "figmaNode": "421:110968",
+   "spec": "references/dga-live/mobile/tags.md",
+   "data": "references/dga-live/data/mobile/tags.json",
+   "variants": 288,
+   "variantsExported": 288,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Size": [
+     "Medium",
+     "Small",
+     "x Small"
+    ],
+    "Color": [
+     "Gray",
+     "Brand/Success",
+     "Destructive",
+     "Warning",
+     "On-color",
+     "Info"
+    ],
+    "Outline": [
+     "False",
+     "True"
+    ],
+    "Rounded": [
+     "False",
+     "True"
+    ],
+    "Icon only": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "🔁 Lead icon": "INSTANCE_SWAP=10750:62197",
+    "🔁 Tail icon": "INSTANCE_SWAP=10750:62197",
+    "Lead icon": "BOOLEAN=false",
+    "Tail icon": "BOOLEAN=false",
+    "Label EN": "TEXT=Label",
+    "Label AR": "TEXT=وسم"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Status Badge",
+   "kind": "component-set",
+   "page": "Tags",
+   "platform": "mobile",
+   "figmaNode": "10381:52385",
+   "spec": "references/dga-live/mobile/tags.md",
+   "data": "references/dga-live/data/mobile/tags.json",
+   "variants": 90,
+   "variantsExported": 90,
+   "variantAxes": {
+    "Size": [
+     "Medium",
+     "Small",
+     "x Small"
+    ],
+    "Status": [
+     "Neutral",
+     "Green",
+     "Blue",
+     "Yellow",
+     "Red"
+    ],
+    "Style": [
+     "Inverted",
+     "Subtle",
+     "Ghost"
+    ],
+    "RTL": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Label EN": "TEXT=Status",
+    "Label AR": "TEXT=حالة"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Text Input",
+   "kind": "component-set",
+   "page": "Text input",
+   "platform": "mobile",
+   "figmaNode": "3149:54894",
+   "spec": "references/dga-live/mobile/text-input.md",
+   "data": "references/dga-live/data/mobile/text-input.json",
+   "variants": 40,
+   "variantsExported": 40,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ],
+    "Filled": [
+     "False",
+     "True"
+    ],
+    "Error": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=false",
+    "🔁 Icon Swap": "INSTANCE_SWAP=10750:71181",
+    "Feedback icon": "BOOLEAN=false",
+    "Prefix": "BOOLEAN=false",
+    "Suffix": "BOOLEAN=false",
+    "Show Helper Text": "BOOLEAN=true",
+    "Show label": "BOOLEAN=true",
+    "Text AR": "TEXT=نص تلميحي",
+    "Text ENG": "TEXT=Entered text",
+    "Helper Text EN": "TEXT=Help Text",
+    "Helper text AR": "TEXT=نص مساعد",
+    "Swap Helper text": "INSTANCE_SWAP=11089:90351"
+   },
+   "motionRules": 24,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Label",
+   "kind": "component-set",
+   "page": "Text input",
+   "platform": "mobile",
+   "figmaNode": "11167:3331",
+   "spec": "references/dga-live/mobile/text-input.md",
+   "data": "references/dga-live/data/mobile/text-input.json",
+   "variants": 16,
+   "variantsExported": 16,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Type": [
+     "Regular (Default)",
+     "Semibold"
+    ],
+    "Size": [
+     "Medium",
+     "Large"
+    ],
+    "Disabled": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Text AR": "TEXT=عنوان",
+    "Required": "BOOLEAN=true",
+    "Text": "TEXT=Label"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Input Prefix-Suffix",
+   "kind": "component-set",
+   "page": "Text input",
+   "platform": "mobile",
+   "figmaNode": "3149:63531",
+   "spec": "references/dga-live/mobile/text-input.md",
+   "data": "references/dga-live/data/mobile/text-input.json",
+   "variants": 56,
+   "variantsExported": 56,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Type": [
+     "Dropdown",
+     "Text"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Selected",
+     "Focused",
+     "Disabled"
+    ],
+    "Style": [
+     "Solid",
+     "Subtle"
+    ],
+    "Size": [
+     "Large",
+     "Medium"
+    ]
+   },
+   "otherProps": {
+    "🔁 Icon": "INSTANCE_SWAP=10750:73533",
+    "Icon": "BOOLEAN=true",
+    "Text EN": "TEXT=Text",
+    "Text AR": "TEXT=نص"
+   },
+   "motionRules": 32,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Textarea",
+   "kind": "component-set",
+   "page": "Textarea",
+   "platform": "mobile",
+   "figmaNode": "5462:417368",
+   "spec": "references/dga-live/mobile/textarea.md",
+   "data": "references/dga-live/data/mobile/textarea.json",
+   "variants": 120,
+   "variantsExported": 120,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused",
+     "Read-only",
+     "Disabled"
+    ],
+    "Filled": [
+     "False",
+     "True"
+    ],
+    "Error": [
+     "False",
+     "True"
+    ],
+    "Style": [
+     "Default",
+     "Filled lighter",
+     "Filled darker"
+    ]
+   },
+   "otherProps": {
+    "Scroll Bar": "BOOLEAN=true",
+    "Resize": "BOOLEAN=true",
+    "Show Helper Text": "BOOLEAN=false",
+    "Show label": "BOOLEAN=true",
+    " Text EN": "TEXT=Entered text",
+    " Text AR": "TEXT=نص تلميحي",
+    "Helper text AR": "TEXT=نص مساعد",
+    "Helper Text EN": "TEXT=Help Text"
+   },
+   "motionRules": 72,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": ".Resize handler",
+   "kind": "single-component",
+   "page": "Textarea",
+   "platform": "mobile",
+   "figmaNode": "5462:422062",
+   "spec": "references/dga-live/mobile/textarea.md",
+   "data": "references/dga-live/data/mobile/textarea.json",
+   "variants": 1,
+   "variantsExported": 1,
+   "variantAxes": {},
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Tooltip",
+   "kind": "component-set",
+   "page": "Tooltip",
+   "platform": "mobile",
+   "figmaNode": "5666:4260",
+   "spec": "references/dga-live/mobile/tooltip.md",
+   "data": "references/dga-live/data/mobile/tooltip.json",
+   "variants": 52,
+   "variantsExported": 52,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Inverted": [
+     "True",
+     "False"
+    ],
+    "Beak placement": [
+     "None",
+     "Top",
+     "Bottom",
+     "Left",
+     "Right"
+    ],
+    "Beak Alignment": [
+     "Start",
+     "Center",
+     "End"
+    ]
+   },
+   "otherProps": {
+    "Title EN": "TEXT=Tooltip title",
+    "Content EN": "TEXT=Max width of tooltips is 240px",
+    "Title": "BOOLEAN=true",
+    "Icon": "BOOLEAN=true",
+    "Title AR": "TEXT=عنوان أداة المساعدة",
+    "Content AR": "TEXT=أقصى عرض لأداة المساعدة هو 240"
+   },
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Help Icon",
+   "kind": "component-set",
+   "page": "Tooltip",
+   "platform": "mobile",
+   "figmaNode": "5666:4465",
+   "spec": "references/dga-live/mobile/tooltip.md",
+   "data": "references/dga-live/data/mobile/tooltip.json",
+   "variants": 24,
+   "variantsExported": 24,
+   "variantAxes": {
+    "Open": [
+     "False",
+     "True"
+    ],
+    "Placement": [
+     "Top",
+     "Bottom",
+     "Left",
+     "Right"
+    ],
+    "Alignment": [
+     "Start",
+     "Center",
+     "End"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 12,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Nav Drawer Item",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Drawer",
+   "platform": "mobile",
+   "figmaNode": "538:296381",
+   "spec": "references/dga-live/mobile/ui-shell-nav-drawer.md",
+   "data": "references/dga-live/data/mobile/ui-shell-nav-drawer.json",
+   "variants": 74,
+   "variantsExported": 74,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "On Color": [
+     "False",
+     "True"
+    ],
+    "Type": [
+     "Link",
+     "Parent (Sub-menu)",
+     "Divider"
+    ],
+    "Level": [
+     "Level 2",
+     "Level 1"
+    ],
+    "State": [
+     "Default",
+     "Pressed",
+     "Focused",
+     "Selected",
+     "Disabled"
+    ],
+    "Expanded": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Icon": "BOOLEAN=true",
+    "External Link": "BOOLEAN=false",
+    "Text EN": "TEXT=Link",
+    "🔁 Icon swap": "INSTANCE_SWAP=10750:75655",
+    "Text AR": "TEXT=رابط",
+    "Tag": "BOOLEAN=true"
+   },
+   "motionRules": 16,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Nav Drawer",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Drawer",
+   "platform": "mobile",
+   "figmaNode": "1679:30950",
+   "spec": "references/dga-live/mobile/ui-shell-nav-drawer.md",
+   "data": "references/dga-live/data/mobile/ui-shell-nav-drawer.json",
+   "variants": 8,
+   "variantsExported": 8,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Background": [
+     "Green",
+     "White"
+    ],
+    "Overlay": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Scroll bar": "BOOLEAN=false",
+    "Border": "BOOLEAN=true",
+    "Header": "BOOLEAN=true"
+   },
+   "motionRules": 184,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "User section",
+   "kind": "component-set",
+   "page": "UI Shell - Nav Drawer",
+   "platform": "mobile",
+   "figmaNode": "8412:136892",
+   "spec": "references/dga-live/mobile/ui-shell-nav-drawer.md",
+   "data": "references/dga-live/data/mobile/ui-shell-nav-drawer.json",
+   "variants": 4,
+   "variantsExported": 4,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "OnColor": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Title EN": "TEXT=Username",
+    "Description EN": "TEXT=phone number or status etc",
+    "Title AR": "TEXT=الاسم",
+    "Description AR": "TEXT=رقم الهاتف، الحالة الخ"
+   },
+   "motionRules": 2,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Top Bar",
+   "kind": "component-set",
+   "page": "UI Shell - Navigation Bar",
+   "platform": "mobile",
+   "figmaNode": "8335:15376",
+   "spec": "references/dga-live/mobile/ui-shell-navigation-bar.md",
+   "data": "references/dga-live/data/mobile/ui-shell-navigation-bar.json",
+   "variants": 10,
+   "variantsExported": 10,
+   "variantAxes": {
+    "RTL": [
+     "True",
+     "False"
+    ],
+    "Style": [
+     "Three Actions",
+     "Two Actions",
+     "Text Actions",
+     "Title",
+     "Logo"
+    ],
+    "Usage": [
+     "Internal Top Bar",
+     "Main Top Bar"
+    ]
+   },
+   "otherProps": {
+    "Show Info Text": "BOOLEAN=true",
+    "Title EN": "TEXT=Title",
+    "Info Text EN": "TEXT=Info Text if needed",
+    "Title AR": "TEXT=عنوان",
+    "Info Text AR": "TEXT=يكون وصف الشاشة هنا"
+   },
+   "motionRules": 27,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Tab Item",
+   "kind": "component-set",
+   "page": "UI Shell - Tab Bar",
+   "platform": "mobile",
+   "figmaNode": "8332:24169",
+   "spec": "references/dga-live/mobile/ui-shell-tab-bar.md",
+   "data": "references/dga-live/data/mobile/ui-shell-tab-bar.json",
+   "variants": 12,
+   "variantsExported": 12,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "State": [
+     "Normal",
+     "Pressed",
+     "Selected"
+    ],
+    "Type": [
+     "Tab Bar Item"
+    ],
+    "OnColor": [
+     "False",
+     "True"
+    ]
+   },
+   "otherProps": {
+    "Show Tag": "BOOLEAN=false",
+    "Text EN": "TEXT=Tab 1",
+    "Icon": "INSTANCE_SWAP=10750:75655",
+    "Text AR": "TEXT=تبويب 1"
+   },
+   "motionRules": 8,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Tab Bar",
+   "kind": "component-set",
+   "page": "UI Shell - Tab Bar",
+   "platform": "mobile",
+   "figmaNode": "8332:24453",
+   "spec": "references/dga-live/mobile/ui-shell-tab-bar.md",
+   "data": "references/dga-live/data/mobile/ui-shell-tab-bar.json",
+   "variants": 24,
+   "variantsExported": 24,
+   "variantAxes": {
+    "RTL": [
+     "False",
+     "True"
+    ],
+    "Type": [
+     "No Selected",
+     "Tab 1",
+     "Tab 2",
+     "Tab 3",
+     "Tab 4",
+     "Tab 5"
+    ],
+    "OnColor": [
+     "True",
+     "False"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 100,
+   "status": "extracted-from-figma-2026-10-17"
+  },
+  {
+   "name": "Positioned",
+   "kind": "component-set",
+   "page": "UI Shell - Tab Bar",
+   "platform": "mobile",
+   "figmaNode": "8332:25792",
+   "spec": "references/dga-live/mobile/ui-shell-tab-bar.md",
+   "data": "references/dga-live/data/mobile/ui-shell-tab-bar.json",
+   "variants": 3,
+   "variantsExported": 3,
+   "variantAxes": {
+    "Type": [
+     "Small",
+     "Large",
+     "Large with max digits"
+    ]
+   },
+   "otherProps": {},
+   "motionRules": 0,
+   "status": "extracted-from-figma-2026-10-17"
+  }
+ ]
+}

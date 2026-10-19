@@ -1,0 +1,715 @@
+{
+ "schema": "dga-skills/packages@1",
+ "updated": "2026-10-17",
+ "rule": "Use only props/events listed in registry/packages/platformscode-core@<installed version>.json. Unknown version → run tools/extract_package_api.py first. Never claim official DGA status for these packages (NOT VERIFIED).",
+ "packages": {
+  "@platformscode/core": {
+   "role": "Stencil web components (custom elements) — the real implementation",
+   "license": "MIT",
+   "officialPublisher": "NOT VERIFIED (npm maintainers @azmx.sa)",
+   "versions": {
+    "0.0.52": {
+     "api": "registry/packages/platformscode-core@0.0.52.json",
+     "components": 123,
+     "validated": "Button (196-record baseline), Button+Dropdown+icons in React, Angular (custom elements), vanilla, ExB-simulation",
+     "status": "VALIDATED-WITH-DEFECTS"
+    },
+    "0.0.53": {
+     "api": "registry/packages/platformscode-core@0.0.53.json",
+     "components": 181,
+     "validated": "loader smoke test only (baseline F10); Button/Dropdown/Icon APIs identical to 0.0.52 except Dropdown adds name, required",
+     "status": "API-EXTRACTED"
+    },
+    "0.0.17": {
+     "api": "registry/packages/platformscode-core@0.0.17.json",
+     "components": 199,
+     "validated": "API extracted only; peer of platformscode-new-angular@2.0.0",
+     "status": "API-EXTRACTED",
+     "notes": [
+      "dependency @hugeicons/react-pro ^0.3.2",
+      "dga-huge-icon fetched icons from hugeicons-cdn.vercel.app",
+      "dga-icon has no flipRtl/src/name props"
+     ]
+    }
+   }
+  },
+  "platformscode-new-react": {
+   "role": "React wrappers (@stencil/react-output-target)",
+   "license": "ISC",
+   "officialPublisher": "NOT VERIFIED",
+   "versions": {
+    "0.1.45": {
+     "core": "0.0.52 (exact pin)",
+     "events": "React prop = on + Stencil event name (onOnClick)",
+     "children": "ignored by Button/ButtonV2/Dropdown — use label",
+     "bundle": "imports all 123 components + global core.css (~4.1 MB JS)",
+     "status": "VALIDATED-WITH-DEFECTS"
+    }
+   }
+  },
+  "platformscode-new-angular": {
+   "role": "Angular wrappers",
+   "license": "ISC",
+   "officialPublisher": "NOT VERIFIED",
+   "versions": {
+    "2.0.0": {
+     "peer": {
+      "@angular/core": "^19.0.0",
+      "@platformscode/core": "0.0.17"
+     },
+     "status": "NOT RECOMMENDED",
+     "why": [
+      "npm ERESOLVE with @platformscode/core@0.0.52",
+      "DgaButton wrapper exposes only variant/size/disabled/text — 'text' is not a prop of dga-button in core 0.0.17 or 0.0.52 (label is)",
+      "module does not define the custom elements; logs status to console on startup"
+     ],
+     "instead": "Angular 19 + @platformscode/core@0.0.52 custom elements with CUSTOM_ELEMENTS_SCHEMA + lib/angular (tested)"
+    }
+   }
+  },
+  "@platformscode/react": {
+   "versions": {
+    "0.1.18": {
+     "core": "0.0.53",
+     "status": "NOT TESTED"
+    }
+   }
+  },
+  "@platformscode/icons": {
+   "role": "PRIMARY icons (D1)",
+   "license": "UNLICENSED (field) — redistribution terms UNKNOWN",
+   "versions": {
+    "0.0.11": {
+     "svgs": 8757,
+     "exports": "camelCase svg-data data URLs (raw;utf8, svg)",
+     "import": "named imports from the package index work in Vite and Angular (tree-shaken)",
+     "status": "VALIDATED"
+    }
+   }
+  },
+  "@hugeicons/core-free-icons": {
+   "role": "FALLBACK icons (D2)",
+   "license": "MIT",
+   "officialDgaMandate": "NOT VERIFIED",
+   "versions": {
+    "4.3.5": {
+     "styles": "stroke-rounded only",
+     "import": "prefer deep default imports: import Tick02Icon from '@hugeicons/core-free-icons/Tick02Icon' (index import ran esbuild out of memory in the Angular build)",
+     "status": "VALIDATED"
+    }
+   }
+  }
+ },
+ "componentApi": {
+  "DgaButton": {
+   "tag": "dga-button",
+   "figma": "Button 407:510376",
+   "props": "variant size label disabled type iconOnly iconType iconProps leadIcon leadIconType leadIconProps trailIcon trailIconType trailIconProps onColor sx btnId",
+   "events": "onClick (React onOnClick)",
+   "figmaVariantMap": {
+    "Primary": "primary-brand",
+    "Neutral": "primary-neutral",
+    "Secondary-Solid": "secondary",
+    "Secondary-Outline": "secondary-outline",
+    "Subtle": "subtle",
+    "Transparent": "transparent"
+   },
+   "notSupported": [
+    "State=Selected",
+    "children text",
+    "aria-label prop"
+   ]
+  },
+  "DgaButtonV2": {
+   "tag": "dga-button-v2",
+   "props": "variant size label disabled destructive type iconOnly leadIcon leadIconProps trailIcon trailIconProps onColor btnId",
+   "figmaVariantMap": {
+    "Primary": "primary",
+    "Neutral": "neutral",
+    "Secondary-Solid": "secondary-solid",
+    "Secondary-Outline": "secondary-outline",
+    "Subtle": "subtle",
+    "Transparent": "transparent"
+   },
+   "notSupported": [
+    "State=Selected"
+   ]
+  },
+  "DgaDropdown": {
+   "tag": "dga-dropdown",
+   "figma": "Dropdown Input (web/dropdown-input.md)",
+   "props": "label placeholder options optionLabel(name) trackBy(value) value multiSelect size(md|lg) variant(default|lighter|darker) error disabled readonly leadingIcon onChange getSelectedOptions sx extraClass id",
+   "notes": [
+    "onChange is a PROP callback (value) not a DOM event",
+    "options objects need {name, value} by default"
+   ]
+  },
+  "DgaIcon": {
+   "tag": "dga-icon",
+   "props": "name variant(stroke|solid…) type(rounded|sharp|standard) size color flipRtl src icon lazy sanitize",
+   "notes": [
+    "lookup: window.GDSIcons.map (addIcons) then getAssetPath('assets/svg/<name>-<variant>.svg')",
+    "data URLs must be raw 'data:image/svg+xml;utf8,<svg…>' (URI-encoded fails)",
+    "arrow/chevron names auto-mirror in RTL unless flipRtl:false"
+   ]
+  }
+ },
+ "defects": [
+  {
+   "id": "PKG-BTN-01",
+   "component": "DgaButton/V2",
+   "severity": "High",
+   "summary": "Secondary(-Solid) Hovered/Pressed background transparent (CSS var typo '-hoverd', missing '-default-selected')",
+   "evidence": "",
+   "workaround": "none in lib (do not restyle); report as DEVIATION",
+   "fixed": false
+  },
+  {
+   "id": "PKG-BTN-02",
+   "component": "DgaButton/V2",
+   "severity": "Medium",
+   "summary": "Pressed uses Selected tokens",
+   "evidence": "Pressed measured #14573a (selected) vs Figma #104631 (pressed)",
+   "fixed": false
+  },
+  {
+   "id": "PKG-BTN-03",
+   "component": "DgaButton/V2",
+   "severity": "Medium",
+   "summary": "No Selected state / aria-pressed API",
+   "evidence": "",
+   "fixed": false
+  },
+  {
+   "id": "PKG-BTN-04",
+   "component": "DgaButton",
+   "severity": "Medium",
+   "summary": "Secondary-Outline default border #e5e7eb (Figma #d2d6db)",
+   "evidence": "measured #e5e7eb on Secondary-Outline Default (Large + Medium)",
+   "fixed": false
+  },
+  {
+   "id": "PKG-BTN-05",
+   "component": "DgaButton",
+   "severity": "Medium",
+   "summary": "Primary Focused lacks inner white ring",
+   "evidence": "On-color=True Focused ring measured #161616 vs Figma Border/border-white",
+   "fixed": false
+  },
+  {
+   "id": "PKG-BTN-06",
+   "component": "DgaButton",
+   "severity": "Low",
+   "summary": "v1 label line-height normal",
+   "evidence": "",
+   "fixed": false
+  },
+  {
+   "id": "PKG-BTN-07",
+   "component": "DgaButton/V2",
+   "severity": "Medium",
+   "summary": "Icon-only without label → English 'Button with icon'",
+   "evidence": "icon audit IA-icononly-nolabel",
+   "workaround": "lib DgaIconButton / requireAccessibleName (label required) — verified in React/Angular/vanilla",
+   "fixed": false
+  },
+  {
+   "id": "PKG-BTN-08",
+   "component": "DgaButton",
+   "severity": "Medium",
+   "summary": "Children text dropped (no slot)",
+   "evidence": "",
+   "workaround": "use label; validateProps warns",
+   "fixed": false
+  },
+  {
+   "id": "PKG-BTN-09",
+   "component": "DgaButton",
+   "severity": "Low",
+   "summary": "Redundant role=button",
+   "evidence": "",
+   "fixed": false
+  },
+  {
+   "id": "PKG-REACT-01",
+   "component": "platformscode-new-react",
+   "severity": "Medium",
+   "summary": "~4.1 MB bundle (imports all components) + global core.css",
+   "evidence": "React build 4,114 kB",
+   "fixed": false
+  },
+  {
+   "id": "PKG-CORE-01",
+   "component": "dependency tree",
+   "severity": "Medium",
+   "summary": "two @platformscode/core copies when the app pins a different version than platformscode-new-react",
+   "evidence": "",
+   "workaround": "pin core to 0.0.52 with platformscode-new-react@0.1.45",
+   "fixed": false
+  },
+  {
+   "id": "PKG-ICON-01",
+   "component": "dga-icon",
+   "severity": "High (setup)",
+   "summary": "icons need addIcons registration or an asset path; loader has no setAssetPath → 'Invalid base URL'",
+   "evidence": "icon audit §3",
+   "workaround": "lib createIconRegistry (central addIcons)",
+   "fixed": false
+  },
+  {
+   "id": "PKG-ICON-02",
+   "component": "dga-icon",
+   "severity": "Medium",
+   "summary": "arrow/chevron auto-mirroring via :host-context([dir=rtl]) — contradicts Figma Button and leaks into nested LTR",
+   "evidence": "icon audit IM-*",
+   "workaround": "iconProps(...) sets flipRtl:false (MIRROR-* PASS in 3 frameworks)",
+   "fixed": false
+  },
+  {
+   "id": "PKG-ICON-03",
+   "component": "dga-icon",
+   "severity": "Low",
+   "summary": "URI-encoded data URLs fail ('Could not parse svg'); only raw ';utf8,<svg…>' works",
+   "evidence": "React probe (first run)",
+   "workaround": "lib hugeiconToDataUrl emits raw SVG | lib/core/icons.js validateIconData now refuses encoded/unsafe payloads before addIcons and falls back to Hugeicons Free (stroke) with an explicit fallbackBecause reason; auditRenderedIcons finds empty dga-icon boxes.",
+   "fixed": false
+  },
+  {
+   "id": "PKG-ICON-04",
+   "component": "dga-icon (in dga-dropdown)",
+   "severity": "Serious (axe)",
+   "summary": "dga-icon renders role=img without an accessible name (axe role-img-alt serious) — dropdown chevrons; every page shows 6–19 nodes (nav header, digital signature, cards, inline alert)",
+   "evidence": "A11Y-axe FAIL in React, Angular, vanilla; AXE row on every page",
+   "workaround": "page-authored icons: aria-hidden or a label; package-internal icons cannot be fixed from outside; DGA Exact NOT compliant while present",
+   "fixed": false
+  },
+  {
+   "id": "PKG-DD-01",
+   "component": "dga-dropdown",
+   "severity": "Medium",
+   "summary": "host dir is copied from document.documentElement — a dropdown inside dir=ltr in an RTL page renders RTL",
+   "evidence": "source: h(Host,{dir: document.documentElement.getAttribute('dir')}); DD-chevron-ltr FAIL (innerDir rtl) in 3 frameworks",
+   "workaround": "OPT-IN compat layer lib/core/dropdown-a11y.js (enhanceDropdownA11y / useDropdownA11y / createAccessibleDgaDropdown): adds aria-haspopup/aria-expanded/listbox roles, ArrowDown/Up/Home/End/Escape handling and nested-dir correction from outside the package (attributes + listeners on the open shadow root, no restyle, no node_modules patch). Scoped to core 0.0.52 anatomy, self-disables otherwise. Measured: DDX-* 7/7 PASS in React + vanilla. The vendor defect itself stays open (DD-* rows still FAIL on the raw element).",
+   "fixed": false
+  },
+  {
+   "id": "PKG-DD-02",
+   "component": "dga-dropdown",
+   "severity": "Medium (a11y)",
+   "summary": "trigger has no aria-expanded / aria-haspopup",
+   "evidence": "DD-aria-* FAIL in 3 frameworks",
+   "fixed": false,
+   "workaround": "OPT-IN compat layer lib/core/dropdown-a11y.js (enhanceDropdownA11y / useDropdownA11y / createAccessibleDgaDropdown): adds aria-haspopup/aria-expanded/listbox roles, ArrowDown/Up/Home/End/Escape handling and nested-dir correction from outside the package (attributes + listeners on the open shadow root, no restyle, no node_modules patch). Scoped to core 0.0.52 anatomy, self-disables otherwise. Measured: DDX-* 7/7 PASS in React + vanilla. The vendor defect itself stays open (DD-* rows still FAIL on the raw element)."
+  },
+  {
+   "id": "PKG-DD-03",
+   "component": "dga-dropdown",
+   "severity": "High (a11y)",
+   "summary": "no arrow-key navigation (ArrowDown does not move into options; no keydown handler in source)",
+   "evidence": "DD-key-arrows / DD-key-select FAIL in 3 frameworks",
+   "fixed": false,
+   "workaround": "OPT-IN compat layer lib/core/dropdown-a11y.js (enhanceDropdownA11y / useDropdownA11y / createAccessibleDgaDropdown): adds aria-haspopup/aria-expanded/listbox roles, ArrowDown/Up/Home/End/Escape handling and nested-dir correction from outside the package (attributes + listeners on the open shadow root, no restyle, no node_modules patch). Scoped to core 0.0.52 anatomy, self-disables otherwise. Measured: DDX-* 7/7 PASS in React + vanilla. The vendor defect itself stays open (DD-* rows still FAIL on the raw element)."
+  },
+  {
+   "id": "PKG-DD-04",
+   "component": "dga-dropdown",
+   "severity": "Medium (a11y)",
+   "summary": "Escape does not close the open list",
+   "evidence": "DD-key-escape FAIL in 3 frameworks",
+   "fixed": false,
+   "workaround": "OPT-IN compat layer lib/core/dropdown-a11y.js (enhanceDropdownA11y / useDropdownA11y / createAccessibleDgaDropdown): adds aria-haspopup/aria-expanded/listbox roles, ArrowDown/Up/Home/End/Escape handling and nested-dir correction from outside the package (attributes + listeners on the open shadow root, no restyle, no node_modules patch). Scoped to core 0.0.52 anatomy, self-disables otherwise. Measured: DDX-* 7/7 PASS in React + vanilla. The vendor defect itself stays open (DD-* rows still FAIL on the raw element)."
+  },
+  {
+   "id": "PKG-NG-01",
+   "component": "platformscode-new-angular@2.0.0",
+   "severity": "High",
+   "summary": "peer @platformscode/core 0.0.17 → ERESOLVE with 0.0.52; wrapper inputs do not match core API ('text' vs label); elements not defined by the module",
+   "evidence": "package source",
+   "workaround": "use core custom elements directly (lib/angular)",
+   "fixed": false
+  },
+  {
+   "id": "ENV-HUGE-01",
+   "component": "@hugeicons/core-free-icons index import",
+   "severity": "Medium (build)",
+   "summary": "importing named icons from the package index made esbuild run out of memory (5 GB) in the Angular build",
+   "evidence": "dmesg OOM kill during ng build; fixed by deep default imports (build 12-14 s)",
+   "workaround": "deep default imports",
+   "fixed": "n/a (usage rule)"
+  },
+  {
+   "id": "PKG-FOOTER-01",
+   "component": "DgaFooter",
+   "severity": "Medium",
+   "summary": ":host { width: fit-content } — footer does not fill the page unless the host is sized by the page",
+   "evidence": "",
+   "workaround": "host-level CSS only:.ah-footer > dga-footer { width: 100% } (lib/patterns/patterns.css); no inner restyle",
+   "fixed": false
+  },
+  {
+   "id": "PKG-FOOTER-02",
+   "component": "DgaFooter",
+   "severity": "High",
+   "summary": "section.footer-content has a 434px minimum width → horizontal page scroll at 390px in LTR (RTL clips it) — 5.0.2: also in RTL once groupLinks render (NavLinks=true): 25px page scroll at 390",
+   "evidence": "R1/N2 ltr@390 on every template",
+   "workaround": "host-level:.ah-footer { max-width:100%; overflow-x:auto } ≤480px (the footer band scrolls, not the page); content stays reachable",
+   "fixed": false
+  },
+  {
+   "id": "PKG-FOOTER-03",
+   "component": "DgaFooter",
+   "severity": "Medium",
+   "summary": "mainImage renders an <img>/link with no alt / accessible-name prop",
+   "evidence": "",
+   "workaround": "pass a logo only together with a descriptive mainLinkTilte; otherwise omit the image",
+   "fixed": false
+  },
+  {
+   "id": "PKG-LINK-01",
+   "component": "DgaLink",
+   "severity": "Medium",
+   "summary": "iconType / icon prop printed as raw text instead of rendering an icon",
+   "evidence": "(component probe)",
+   "workaround": "icon={false}; put icons outside the link",
+   "fixed": false
+  },
+  {
+   "id": "PKG-METRIC-01",
+   "component": "DgaMetric",
+   "severity": "Medium",
+   "summary": "featuredIcon prop printed as raw text",
+   "evidence": "",
+   "workaround": "showFeaturedIcon={false}",
+   "fixed": false
+  },
+  {
+   "id": "PKG-METRIC-02",
+   "component": "DgaMetric",
+   "severity": "High",
+   "summary": "change indicator value is hard-coded: Math.abs(100) + '%' — always shows '100%' with a trend arrow regardless of data",
+   "evidence": "(dist/components/dga-metric.js)",
+   "workaround": "showInfo={false} so no invented trend is displayed; also min-width 360px on the host — use grid minmax(min(100%,360px),1fr)",
+   "fixed": false
+  },
+  {
+   "id": "PKG-SEARCH-01",
+   "component": "DgaSearchBox",
+   "severity": "Critical (a11y)",
+   "summary": "search button (.dga-search-box__search-btn) has no accessible name → axe button-name critical",
+   "evidence": "AXE on every page with a search box",
+   "workaround": "none from outside the shadow root; DGA Exact cannot be claimed while present",
+   "fixed": false
+  },
+  {
+   "id": "PKG-NAV-01",
+   "component": "DgaNavHeader / DgaNavHeaderMenu / DgaNavHeaderLink",
+   "severity": "Serious (a11y)",
+   "summary": "menu list markup: <li> rendered by dga-nav-header-link is not a direct child of the <ul> (custom element in between) → axe list / listitem serious",
+   "evidence": "",
+   "workaround": "none from outside the components",
+   "fixed": false
+  },
+  {
+   "id": "PKG-CARD-01",
+   "component": "DgaCard",
+   "severity": "Low",
+   "summary": "card title heading level is fixed (h4) — cannot follow the page outline",
+   "evidence": "",
+   "workaround": "keep an h2/h3 above each card grid (SectionHeading) so the outline has no skips",
+   "fixed": false
+  },
+  {
+   "id": "PKG-CARD-02",
+   "component": "DgaCard",
+   "severity": "Medium",
+   "summary": "host shrink-wraps to content width (Figma Card = fill container)",
+   "evidence": "390px screenshots before fix",
+   "workaround": "host-level CSS:.ah-cards dga-card { display:block; width:100% }",
+   "fixed": false
+  },
+  {
+   "id": "PKG-DIGSIG-01",
+   "component": "DgaDigitalSignature",
+   "severity": "Serious (a11y)",
+   "summary": "LTR variant link text (.digital_link) fails colour contrast (axe color-contrast serious); dga-icon inside has role=img without a name",
+   "evidence": "AXE ltr on every page",
+   "workaround": "none from outside",
+   "fixed": false
+  },
+  {
+   "id": "PKG-TEXTAREA-01",
+   "component": "DgaTextarea",
+   "severity": "Critical (a11y)",
+   "summary": "label rendered without for/id association to the <textarea> (shadow DOM) → axe label critical",
+   "evidence": "form-exact",
+   "workaround": "none from outside the shadow root",
+   "fixed": false
+  },
+  {
+   "id": "PKG-ALERT-01",
+   "component": "DgaInlineAlert",
+   "severity": "Critical (a11y)",
+   "summary": "close button (.dga-btn--close) has no accessible name → axe button-name critical",
+   "evidence": "service-exact",
+   "workaround": "hide the close button when the alert is informational (if the prop exists in the project's version) or accept the DEVIATION",
+   "fixed": false
+  },
+  {
+   "id": "PKG-ALERT-02",
+   "component": "DgaInlineAlert / DgaList",
+   "severity": "Low",
+   "summary": "title heading levels are fixed (inline alert h4, list title h3)",
+   "evidence": "",
+   "workaround": "keep an h2 above them so the outline stays h1→h2→h3→h4",
+   "fixed": false
+  },
+  {
+   "id": "PKG-RADIO-01",
+   "component": "DgaRadioButton",
+   "severity": "Low",
+   "summary": "radio border colour #6c727e is not in dga-tokens.json/css (package light DOM)",
+   "evidence": "E3 package-owned list",
+   "workaround": "none; counted separately from page-authored colours",
+   "fixed": false
+  },
+  {
+   "id": "PKG-ACCORDION-01",
+   "component": "DgaAccordion",
+   "severity": "Low",
+   "summary": "header row 60px vs Figma Accordion Large header 56px",
+   "evidence": "E6 faq-exact",
+   "workaround": "none; DEVIATION",
+   "fixed": false
+  },
+  {
+   "id": "PKG-ACCORDION-02",
+   "component": "DgaAccordion",
+   "severity": "Medium",
+   "summary": "defaultExpanded item: body max-height computed before layout (48px) is smaller than the content (56px) → clipped text (reproduced in vanilla + Angular, not in React)",
+   "evidence": "R1 faq-exact vanilla/angular clipped=1",
+   "workaround": "toggle the item after componentOnReady instead of defaultExpanded, or accept the clip; not a CSS recreation",
+   "fixed": false
+  },
+  {
+   "id": "PKG-ALERT-03",
+   "component": "dga-inline-alert",
+   "severity": "medium",
+   "summary": "`title` prop is declared in the component API (string, optional) but never rendered; the visible heading (h4.alert__title) is `leadText` and the body is `helperText`",
+   "evidence": "@platformscode/core 0.0.52 dist/components/dga-inline-alert.js — render uses this.leadText / this.helperText only; this.title is unused (found while QA LANDMARKS flagged the body text rendered as the h4)",
+   "workaround": "pass the heading as `leadText` and the body as `helperText`; never rely on `title`",
+   "fixed": false,
+   "status": "open",
+   "foundIn": "demo QA (search-error LANDMARKS gate)"
+  },
+  {
+   "id": "PKG-BUNDLE-01",
+   "component": "platformscode-new-react (all wrappers)",
+   "severity": "medium",
+   "summary": "importing a single React wrapper (e.g. DgaButtonV2) pulls the whole component set into the bundle: 4.03 MB raw / ~598 KB gzip JS for one button (React alone: 46 KB gzip). The wrapper entry registers every custom element eagerly, so tree-shaking cannot remove unused components.",
+   "evidence": "measurement: scratch Vite app React 18 + `import { DgaButtonV2 } from \"platformscode-new-react\"` → dist JS 4,032.6 kB / gzip 597.9 kB; same app without the import → gzip 45.7 kB. Vanilla apps using `@platformscode/core/components/<tag>.js` defineCustomElement per tag: 221 KB gzip.",
+   "workaround": "for strict budgets register only the used tags from `@platformscode/core/components/<tag>.js` (vanilla/Angular path) and use the custom elements directly; otherwise accept and document the vendor floor; code-split routes so the vendor chunk is cached once",
+   "fixed": false,
+   "status": "open",
+   "foundIn": "bundle budget gate (B1)"
+  },
+  {
+   "id": "PKG-ACCORDION-03",
+   "component": "dga-accordion",
+   "severity": "high",
+   "summary": "an item rendered with defaultExpanded=true can never be collapsed: componentDidRender re-assigns isOpen = defaultExpanded after every render, undoing handleAccordionClick (mouse, Enter and Space all fail)",
+   "evidence": "@platformscode/core 0.0.52 dist/components/dga-accordion.js handleAccordionClick/componentDidRender; reproduced by the keyboard gate (K1) and a mouse click on examples/government-site #/ar/faq",
+   "workaround": "do not use defaultExpanded; render all items collapsed (DEVIATION from frames that show the first item open) — also avoids PKG-ACCORDION-02",
+   "fixed": false,
+   "status": "open",
+   "foundIn": "widget keyboard gate (K1)"
+  },
+  {
+   "id": "PKG-INPUT-02",
+   "component": "dga-text-input",
+   "severity": "high",
+   "summary": "native input is not programmatically labelled (axe `label`), the `error` state does not set aria-invalid and the helper/error text is not linked with aria-describedby",
+   "evidence": "component matrix — vanilla/React/Angular on @platformscode/core 0.0.52",
+   "workaround": "add the label/description outside only if the package exposes no hook; otherwise report — do not patch shadow DOM. FormPattern shows an error summary (role=alert) so errors are still announced",
+   "fixed": false,
+   "status": "open",
+   "foundIn": "component matrix",
+   "statusIn0_0_53": "FIXED in @platformscode/core 0.0.53"
+  },
+  {
+   "id": "PKG-TABS-01",
+   "component": "dga-tabs",
+   "severity": "high",
+   "summary": "tabs render as <a> items without role=tablist/tab/aria-selected; Arrow keys do not move between tabs and Enter on a focused tab does not activate it (mouse click works)",
+   "evidence": "component matrix — vanilla/React/Angular on @platformscode/core 0.0.52",
+   "workaround": "for keyboard-critical tab UIs use a page-authored tablist following the APG pattern or link-based navigation; record as DEVIATION in Exact",
+   "fixed": false,
+   "status": "open",
+   "foundIn": "component matrix"
+  },
+  {
+   "id": "PKG-MODAL-01",
+   "component": "dga-modal",
+   "severity": "high",
+   "summary": "dialog is opened with the `open` attribute (not showModal): no focus move into the dialog, no focus trap, no accessible name (aria-labelledby), Escape does not close it",
+   "evidence": "component matrix — vanilla/React/Angular on @platformscode/core 0.0.52",
+   "workaround": "manage focus in the host app (move focus to the dialog title on open, return it on close) and close on Escape from a host keydown listener; keep it opt-in and documented",
+   "fixed": false,
+   "status": "open",
+   "foundIn": "component matrix"
+  },
+  {
+   "id": "PKG-MODAL-02",
+   "component": "dga-modal",
+   "severity": "medium",
+   "summary": "`featuredIconProps` is optional in the typings but render reads its fields → TypeError \"reading 'name'\" when omitted",
+   "evidence": "component matrix — vanilla/React/Angular on @platformscode/core 0.0.52",
+   "workaround": "always pass featuredIconProps { size, color, variant }",
+   "fixed": false,
+   "status": "open",
+   "foundIn": "component matrix",
+   "statusIn0_0_53": "FIXED in @platformscode/core 0.0.53"
+  },
+  {
+   "id": "PKG-ALERT-04",
+   "component": "dga-inline-alert",
+   "severity": "medium",
+   "summary": "no role=alert/status and no live region — the only role inside is the icon (img); alerts inserted later are not announced",
+   "evidence": "component matrix — vanilla/React/Angular on @platformscode/core 0.0.52",
+   "workaround": "wrap dynamic alerts in an aria-live region (AlertStack / FormPattern already do)",
+   "fixed": false,
+   "status": "open",
+   "foundIn": "component matrix"
+  },
+  {
+   "id": "PKG-CAROUSEL-01",
+   "component": "DgaCarousel",
+   "severity": "Medium",
+   "summary": "variant 'dots-only' never renders dots: childrenLength is read from the slides container, which dots-only does not render (always 0)",
+   "evidence": "5.0.2 Home template rebuild, package source dist/components/*.js (dga-carousel.js updateChildrenLength / render)",
+   "workaround": "use variant='dots' with real slides (one slide visible, dots below); each slide must be a full-width element",
+   "fixed": false
+  },
+  {
+   "id": "PKG-CAROUSEL-02",
+   "component": "DgaCarousel",
+   "severity": "Low",
+   "summary": "no change/slide events and no slide aria (role/label) — slide position is not announced",
+   "evidence": "5.0.2 Home template rebuild, package source dist/components/*.js",
+   "workaround": "label each slide (role=group, aria-label 'n / total') and the region (aria-roledescription); report in a11y QA (lib/core/carousel-a11y.js adds inert/aria-hidden to off-screen slides)",
+   "fixed": false
+  },
+  {
+   "id": "PKG-FOOTER-04",
+   "component": "DgaFooter",
+   "severity": "Medium",
+   "summary": "groupLinks are not rendered unless NavLinks=true (undocumented boolean)",
+   "evidence": "5.0.2 Home template rebuild, package source dist/components/*.js (dga-footer.js render)",
+   "workaround": "pass NavLinks={groups.length > 0} (SiteFooter / siteFooter do)",
+   "fixed": false
+  },
+  {
+   "id": "PKG-CARDV2-01",
+   "component": "DgaCardV2",
+   "severity": "Low",
+   "summary": "renders only the named slots card-content and card-actions; un-slotted children are not displayed; the host has a fixed 360 px width, so cards overflow a narrower grid cell",
+   "evidence": "5.0.2 Home template rebuild, package source dist/components/*.js (dga-card-v2.js render)",
+   "workaround": "slot='card-content' / slot='card-actions' on the children, and width:100% on the host inside a grid (ServiceCarousel / serviceCarousel + patterns.css do)",
+   "fixed": false
+  },
+  {
+   "id": "PKG-NAV-02",
+   "component": "DgaNavHeaderActions",
+   "severity": "High",
+   "summary": "≤600 px the actions are replaced by a '…' button whose menu lists hard-coded placeholder items ('Item 1', 'Item 2' …) — the real header actions (e.g. sign in) are unreachable on mobile",
+   "evidence": "5.0.2 Home template rebuild (QA engine run; package source dist/components)",
+   "workaround": "none from outside the component; report; offer sign-in elsewhere on mobile pages if required",
+   "fixed": false
+  },
+  {
+   "id": "PKG-CAROUSEL-03",
+   "component": "DgaCarousel",
+   "severity": "Medium",
+   "summary": "slide width is measured once (componentDidLoad / slotchange) — no resize handling; off-screen slides keep focusable controls",
+   "evidence": "5.0.2 Home template rebuild (QA engine run; package source dist/components)",
+   "workaround": "lib/core/carousel-a11y.js enhanceDgaCarousel: inert + aria-hidden on off-screen slides, re-slot on resize to trigger the component's own re-measure",
+   "fixed": false
+  },
+  {
+   "id": "PKG-FOOTER-05",
+   "component": "DgaFooter",
+   "severity": "High",
+   "summary": "bottomImages (partner / platform logos, Figma footer 'Logos') render <img> without alt and there is no alt prop — axe image-alt (critical)",
+   "evidence": "5.0.2 QA engine: image-alt 1 → 2 nodes when two logos were passed",
+   "workaround": "do not pass bottomImages until the package adds alt text; if logos are mandatory, report the deviation",
+   "fixed": false
+  },
+  {
+   "id": "PKG-CARDV2-02",
+   "component": "DgaCardV2",
+   "severity": "Medium",
+   "summary": "width / maxWidth / minWidth are copied into cardStyles once, in the constructor — before any framework sets them — so the inner card keeps its default 360 px and never fills a wider cell (and overflows a narrower one)",
+   "evidence": "5.0.2 Service / Services templates, package source dist/components/*.js",
+   "workaround": "stretchCardV2(host) (lib/core/carousel-a11y.js) sets the inner.card to 100 % after hydration; used by ServiceCard / serviceCard / CommentsCard",
+   "fixed": false
+  },
+  {
+   "id": "PKG-FILTER-01",
+   "component": "DgaFilteration",
+   "severity": "High",
+   "summary": "handleInitValue builds selectedFilters with `undefined` entries for every filter type missing from `initvalue` (typed optional) and render then calls block.items.map → TypeError; without initvalue it throws on `'checkbox' in undefined`. Supplying slider/range blocks to avoid the crash shows them as selected chips",
+   "evidence": "5.0.2 Service / Services templates, package source dist/components/*.js",
+   "workaround": "FilterMenu / filterMenu: Neutral Large DGA button + panel of dga-checkbox / dga-radio-button (Figma Filtration anatomy)",
+   "fixed": false
+  },
+  {
+   "id": "PKG-LIST-01",
+   "component": "DgaListItem",
+   "severity": "Medium",
+   "summary": "the <li> row has a fixed height of 24 px, so a step that wraps to two lines overlaps the next one (Figma lets long steps take 48 px)",
+   "evidence": "5.0.2 Service / Services templates, package source dist/components/*.js",
+   "workaround": "patterns.css:.ah-steps dga-list-item > li { height: auto }",
+   "fixed": false
+  },
+  {
+   "id": "PKG-TABS-02",
+   "component": "DgaTabs",
+   "severity": "Low",
+   "summary": "the horizontal tab list never wraps or scrolls; three medium tabs with icons overflow a 390 px viewport (horizontal page scroll in LTR)",
+   "evidence": "5.0.2 Service / Services templates, package source dist/components/*.js",
+   "workaround": "patterns.css:.ah-svc-tabs.dga-tabs-list { overflow-x: auto }",
+   "fixed": false
+  },
+  {
+   "id": "PKG-NAV-03",
+   "component": "DgaSecondNavHeader",
+   "severity": "Low",
+   "summary": "content items and actions never wrap or collapse — at < 600 px the bar overflows the viewport (the Figma mobile templates drop the Second Nav Header)",
+   "evidence": "5.0.2 Service / Services templates, package source dist/components/*.js",
+   "workaround": "patterns.css hides dga-second-nav-header below 600 px, as in the Figma mobile frames",
+   "fixed": false
+  },
+  {
+   "id": "PKG-TOKEN-01",
+   "component": "core.css tokens",
+   "severity": "Low",
+   "summary": "--colors-neutral-500 (text-secondary-paragraph) is #6c727e in core.css; the DGA Figma variable is #6c737f — page text using the token is off-palette by one step (E3)",
+   "evidence": "5.0.2 Service / Services templates, package source dist/components/*.js",
+   "workaround": "none — the token is kept (correct semantics); E3 attributes the drift",
+   "fixed": false
+  },
+  {
+   "id": "PKG-NAV-04",
+   "component": "DgaNavHeaderMain",
+   "severity": "Medium",
+   "summary": "the logos and actions slots are stretched to equal widths so the menu is centred — a wide gap opens between the logo and the first menu item; Figma (Header Content = SPACE_BETWEEN [Logo & Menu Items, gap 16] … [Actions]) and live DGA-aligned portals keep the menu next to the logo and push the actions to the far end",
+   "evidence": "header screenshot vs a live DGA-aligned portal; measured: dga-nav-header-logos 421 px wide around a 160 px logo at 1440 (core 0.0.52)",
+   "workaround": "patterns.css: logos/menu hug their content, actions margin-inline-start:auto (light-DOM host rules, no package patch)",
+   "fixed": false
+  }
+ ],
+ "frameworkPitfalls": [
+  "Angular: camelCase DGA props must be PROPERTY bindings ([leadIconType]=\"'x'\"); a static attribute leadIconType=\"x\" does not reach the Stencil prop (observed: angular-results-run1-static-attribute-pitfall.json)",
+  "React 18 / ExB: JSX on custom elements sets attributes — objects/arrays (leadIconProps, options) must be set as DOM properties (lib/exb DgaElement); platformscode-new-react wrappers already do this",
+  "Stencil events: listen to 'onClick' (DOM event name) — React wrapper prop onOnClick"
+ ]
+}

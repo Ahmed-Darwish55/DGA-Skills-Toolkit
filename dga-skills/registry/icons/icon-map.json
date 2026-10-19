@@ -1,0 +1,2673 @@
+{
+ "generated": "2026-10-17",
+ "sources": {
+  "figma": "references/dga-live/data (instances named \"<icon> / Style=…, Type=…\" from library \"PC 1.0 Icons\")",
+  "primary": "@platformscode/icons@0.0.11 (license field: UNLICENSED)",
+  "fallback": "@hugeicons/core-free-icons@4.3.5 (license: MIT)"
+ },
+ "policy": "rules/policies.md D1/D2: primary @platformscode/icons; fallback Hugeicons Free only when the primary key is missing or the project opts in; Pro icons never bundled. Hugeicons as official DGA library: NOT VERIFIED.",
+ "counts": {
+  "total": 79,
+  "both": 76,
+  "platformscode-only": 2,
+  "missing": 1,
+  "hugeicons-free-only": 0
+ },
+ "icons": [
+  {
+   "figmaName": "alert-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 258,
+   "components": [
+    "templates/about-entity",
+    "templates/chatbot",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/cookies-banner",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/feedback-section",
+    "templates/form",
+    "templates/founding-day",
+    "templates/hajj",
+    "templates/help-support",
+    "templates/home-page",
+    "templates/life-journeys",
+    "templates/page-not-found",
+    "templates/rating-section",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map",
+    "web/card",
+    "web/chip",
+    "web/filtration",
+    "web/menu",
+    "web/table",
+    "web/tags",
+    "web/ui-shell-nav-drawer",
+    "web/ui-shell-nav-header"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "alert02Stroke",
+    "registryName": "alert-02",
+    "svg": "dist/svg/alert-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Alert02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.319 (aligned 0.502), hugeicons 0.44 (aligned 0.675); Figma source instance 20px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "arrow-right-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 153,
+   "components": [
+    "mobile/buttons",
+    "mobile/card",
+    "mobile/file-upload",
+    "mobile/inline-alert",
+    "mobile/modals",
+    "mobile/notification-toast",
+    "mobile/ui-shell-navigation-bar",
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/cookies-banner",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/feedback-section",
+    "templates/form",
+    "templates/hajj",
+    "templates/home-page",
+    "templates/life-journeys",
+    "templates/national-day",
+    "templates/page-not-found",
+    "templates/rating-section",
+    "templates/search-page",
+    "templates/service-page",
+    "web/buttons",
+    "web/card",
+    "web/date-picker",
+    "web/file-upload",
+    "web/filtration",
+    "web/inline-alert",
+    "web/modals",
+    "web/notification",
+    "web/notification-toast",
+    "web/slideout-menu",
+    "web/table",
+    "web/ui-shell-nav-header"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "arrowRight02Stroke",
+    "registryName": "arrow-right-02",
+    "svg": "dist/svg/arrow-right-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "ArrowRight02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.559 (aligned 0.804), hugeicons 0.646 (aligned 0.789); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "add-circle",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 153,
+   "components": [
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/cookies-banner",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/feedback-section",
+    "templates/form",
+    "templates/founding-day",
+    "templates/hajj",
+    "templates/home-page",
+    "templates/life-journeys",
+    "templates/national-day",
+    "templates/page-not-found",
+    "templates/rating-section",
+    "templates/service-page",
+    "web/buttons",
+    "web/card",
+    "web/date-picker",
+    "web/file-upload",
+    "web/filtration",
+    "web/inline-alert",
+    "web/modals",
+    "web/notification",
+    "web/notification-toast",
+    "web/slideout-menu"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "addCircleStroke",
+    "registryName": "add-circle",
+    "svg": "dist/svg/add-circle-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "AddCircleIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.967 (aligned 0.978), hugeicons 0.941 (aligned 0.812); Figma source instance 16px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "information-circle",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 117,
+   "components": [
+    "templates/about-entity",
+    "templates/chatbot",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/cookies-banner",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/feedback-section",
+    "templates/form",
+    "templates/founding-day",
+    "templates/help-support",
+    "templates/life-journeys",
+    "templates/page-not-found",
+    "templates/rating-section",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map",
+    "web/modals",
+    "web/notification-toast"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "informationCircleStroke",
+    "registryName": "information-circle",
+    "svg": "dist/svg/information-circle-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "InformationCircleIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.923 (aligned 0.933), hugeicons 0.89 (aligned 0.744); Figma source instance 20px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "arrow-down-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 111,
+   "components": [
+    "mobile/accordions",
+    "mobile/buttons",
+    "mobile/dropdown-input",
+    "mobile/text-input",
+    "mobile/ui-shell-nav-drawer",
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/form",
+    "templates/founding-day",
+    "templates/help-support",
+    "templates/page-not-found",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map",
+    "web/accordions",
+    "web/buttons",
+    "web/code-snippet",
+    "web/date-picker",
+    "web/digital-stamp",
+    "web/filtration",
+    "web/text-input",
+    "web/ui-shell-nav-drawer",
+    "web/ui-shell-nav-header"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "arrowDown01Stroke",
+    "registryName": "arrow-down-01",
+    "svg": "dist/svg/arrow-down-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "ArrowDown01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.664 (aligned 0.75), hugeicons 0.991 (aligned 0.995); Figma source instance 16px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "tick-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 92,
+   "components": [
+    "mobile/card",
+    "mobile/menu",
+    "mobile/progress-indicator",
+    "mobile/tags",
+    "mobile/ui-shell-nav-drawer",
+    "web/date-picker",
+    "web/dropdown-input",
+    "web/filtration",
+    "web/menu",
+    "web/progress-indicator"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "tick02Stroke",
+    "registryName": "tick-02",
+    "svg": "dist/svg/tick-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Tick02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.654 (aligned 0.798), hugeicons 1 (aligned 1); Figma source instance 20px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "search-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 78,
+   "components": [
+    "mobile/ui-shell-tab-bar",
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/feedback-section",
+    "templates/form",
+    "templates/founding-day",
+    "templates/help-support",
+    "templates/life-journeys",
+    "templates/national-day",
+    "templates/page-not-found",
+    "templates/rating-section",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map",
+    "web/filtration",
+    "web/search-box",
+    "web/text-input"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "search01Stroke",
+    "registryName": "search-01",
+    "svg": "dist/svg/search-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Search01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.239 (aligned 0.858), hugeicons 0.232 (aligned 0.855); Figma source instance 20px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "user",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 75,
+   "components": [
+    "mobile/avatar",
+    "mobile/text-input",
+    "mobile/ui-shell-tab-bar",
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/feedback-section",
+    "templates/form",
+    "templates/founding-day",
+    "templates/help-support",
+    "templates/life-journeys",
+    "templates/national-day",
+    "templates/page-not-found",
+    "templates/rating-section",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map",
+    "web/avatar"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "userStroke",
+    "registryName": "user",
+    "svg": "dist/svg/user-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "UserIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.165 (aligned 0.558), hugeicons 0.397 (aligned 0.645); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "translation",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 65,
+   "components": [
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/feedback-section",
+    "templates/form",
+    "templates/founding-day",
+    "templates/help-support",
+    "templates/life-journeys",
+    "templates/national-day",
+    "templates/page-not-found",
+    "templates/rating-section",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "translationStroke",
+    "registryName": "translation",
+    "svg": "dist/svg/translation-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "TranslationIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "calendar-04",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 49,
+   "components": [
+    "mobile/date-picker",
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/form",
+    "templates/help-support",
+    "templates/page-not-found",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map",
+    "web/date-picker",
+    "web/ui-shell-second-level-nav-header"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "calendar04Stroke",
+    "registryName": "calendar-04",
+    "svg": "dist/svg/calendar-04-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Calendar04Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.387 (aligned 0.572), hugeicons 0.381 (aligned 0.609); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "home-05",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 48,
+   "components": [
+    "templates/e-participation",
+    "templates/faq",
+    "web/code-snippet",
+    "web/tabs",
+    "web/ui-shell-nav-drawer"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "home05Stroke",
+    "registryName": "home-05",
+    "svg": "dist/svg/home-05-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Home05Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.495 (aligned 0.681), hugeicons 0.424 (aligned 0.502); Figma source instance 16px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "mic-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 48,
+   "components": [
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/form",
+    "templates/help-support",
+    "templates/page-not-found",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map",
+    "web/search-box",
+    "web/ui-shell-second-level-nav-header"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "mic01Stroke",
+    "registryName": "mic-01",
+    "svg": "dist/svg/mic-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Mic01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.266 (aligned 0.58), hugeicons 0.591 (aligned 0.703); Figma source instance 20px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "cloud",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 48,
+   "components": [
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/form",
+    "templates/help-support",
+    "templates/page-not-found",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map",
+    "web/ui-shell-second-level-nav-header"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "cloudStroke",
+    "registryName": "cloud",
+    "svg": "dist/svg/cloud-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "CloudIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.343 (aligned 0.809), hugeicons 0.98 (aligned 0.99); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "location-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 47,
+   "components": [
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/form",
+    "templates/help-support",
+    "templates/page-not-found",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map",
+    "web/ui-shell-second-level-nav-header"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "location01Stroke",
+    "registryName": "location-01",
+    "svg": "dist/svg/location-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Location01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.238 (aligned 0.59), hugeicons 0.955 (aligned 0.899); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "zoom-out-area",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 47,
+   "components": [
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/form",
+    "templates/help-support",
+    "templates/page-not-found",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map",
+    "web/ui-shell-second-level-nav-header"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "zoomOutAreaStroke",
+    "registryName": "zoom-out-area",
+    "svg": "dist/svg/zoom-out-area-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "ZoomOutAreaIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.206 (aligned 0.417), hugeicons 0.367 (aligned 0.802); Figma source instance 20px",
+    "shapeClass": {
+     "platformscode": "DIFFERENT DRAWING (aligned <0.5)",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "zoom-in-area",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 47,
+   "components": [
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/form",
+    "templates/help-support",
+    "templates/page-not-found",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map",
+    "web/ui-shell-second-level-nav-header"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "zoomInAreaStroke",
+    "registryName": "zoom-in-area",
+    "svg": "dist/svg/zoom-in-area-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "ZoomInAreaIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.216 (aligned 0.44), hugeicons 0.344 (aligned 0.777); Figma source instance 20px",
+    "shapeClass": {
+     "platformscode": "DIFFERENT DRAWING (aligned <0.5)",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "view",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 47,
+   "components": [
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/form",
+    "templates/help-support",
+    "templates/page-not-found",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map",
+    "web/ui-shell-second-level-nav-header"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "viewStroke",
+    "registryName": "view",
+    "svg": "dist/svg/view-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "ViewIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.08 (aligned 0.552), hugeicons 0.967 (aligned 0.989); Figma source instance 20px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "arrow-right-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 36,
+   "components": [
+    "mobile/pagination",
+    "templates/about-entity",
+    "templates/e-participation",
+    "templates/form",
+    "templates/founding-day",
+    "templates/help-support",
+    "templates/national-day",
+    "templates/search-page",
+    "web/breadcrumb",
+    "web/carousel",
+    "web/pagination"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "arrowRight01Stroke",
+    "registryName": "arrow-right-01",
+    "svg": "dist/svg/arrow-right-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "ArrowRight01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.659 (aligned 0.751), hugeicons 0.963 (aligned 0.986); Figma source instance 16px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "arrow-left-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 35,
+   "components": [
+    "mobile/pagination",
+    "templates/about-entity",
+    "templates/e-participation",
+    "templates/form",
+    "templates/founding-day",
+    "templates/help-support",
+    "templates/national-day",
+    "templates/search-page",
+    "web/pagination"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "arrowLeft01Stroke",
+    "registryName": "arrow-left-01",
+    "svg": "dist/svg/arrow-left-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "ArrowLeft01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.659 (aligned 0.747), hugeicons 0.963 (aligned 0.986); Figma source instance 16px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "filter",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 33,
+   "components": [
+    "templates/search-page",
+    "web/filtration",
+    "web/structured-list",
+    "web/table"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "filterStroke",
+    "registryName": "filter",
+    "svg": "dist/svg/filter-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "FilterIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.653 (aligned 0.668), hugeicons 0.956 (aligned 0.974); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "link-04",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 32,
+   "components": [
+    "templates/cookies-banner",
+    "templates/e-participation",
+    "templates/form",
+    "templates/life-journeys",
+    "templates/search-page",
+    "templates/service-page",
+    "web/breadcrumb",
+    "web/digital-stamp",
+    "web/link",
+    "web/notification",
+    "web/table"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "link04Stroke",
+    "registryName": "link-04",
+    "svg": "dist/svg/link-04-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Link04Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.105 (aligned 0.263), hugeicons 0.967 (aligned 0.902); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "DIFFERENT DRAWING (aligned <0.5)",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "checkmark-circle-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 27,
+   "components": [
+    "mobile/card",
+    "templates/e-participation",
+    "templates/hajj",
+    "templates/home-page",
+    "templates/service-page",
+    "web/card"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "checkmarkCircle02Stroke",
+    "registryName": "checkmark-circle-02",
+    "svg": "dist/svg/checkmark-circle-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "CheckmarkCircle02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.898 (aligned 0.929), hugeicons 0.958 (aligned 0.794); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "cancel-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 25,
+   "components": [
+    "mobile/banner",
+    "mobile/buttons",
+    "mobile/file-upload",
+    "mobile/inline-alert",
+    "mobile/modals",
+    "mobile/notification-toast",
+    "mobile/ui-shell-nav-drawer",
+    "templates/page-not-found",
+    "web/filtration"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "cancel01Stroke",
+    "registryName": "cancel-01",
+    "svg": "dist/svg/cancel-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Cancel01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.745 (aligned 0.883), hugeicons 0.848 (aligned 0.913); Figma source instance 14px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "sorting-05",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 25,
+   "components": [
+    "templates/search-page",
+    "web/structured-list",
+    "web/table"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "sorting05Stroke",
+    "registryName": "sorting-05",
+    "svg": "dist/svg/sorting-05-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Sorting05Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.454 (aligned 0.419), hugeicons 0.958 (aligned 0.98); Figma source instance 16px",
+    "shapeClass": {
+     "platformscode": "DIFFERENT DRAWING (aligned <0.5)",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "time-04",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 24,
+   "components": [
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/form",
+    "templates/help-support",
+    "templates/page-not-found",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map",
+    "web/ui-shell-second-level-nav-header"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "time04Stroke",
+    "registryName": "time-04",
+    "svg": "dist/svg/time-04-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Time04Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.755 (aligned 0.806), hugeicons 0.959 (aligned 0.802); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "time-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 23,
+   "components": [
+    "templates/about-entity",
+    "templates/contact-us",
+    "templates/content-page",
+    "templates/e-participation",
+    "templates/faq",
+    "templates/form",
+    "templates/help-support",
+    "templates/page-not-found",
+    "templates/search-page",
+    "templates/service-page",
+    "templates/site-map"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "time02Stroke",
+    "registryName": "time-02",
+    "svg": "dist/svg/time-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Time02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.809 (aligned 0.863), hugeicons 0.96 (aligned 0.798); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "file-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 22,
+   "components": [
+    "mobile/dropdown-input",
+    "mobile/menu",
+    "mobile/text-input",
+    "web/dropdown-input",
+    "web/structured-list"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "file01Stroke",
+    "registryName": "file-01",
+    "svg": "dist/svg/file-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "File01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.432 (aligned 0.536), hugeicons 0.601 (aligned 0.792); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "file-add",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 21,
+   "components": [
+    "web/date-picker",
+    "web/menu"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "fileAddStroke",
+    "registryName": "file-add",
+    "svg": "dist/svg/file-add-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "FileAddIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.177 (aligned 0.315, mirrored 0.471), hugeicons 0.492 (aligned 0.722); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "DIFFERENT DRAWING (aligned <0.5)",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "home-06",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 20,
+   "components": [
+    "mobile/tabs",
+    "mobile/ui-shell-nav-drawer",
+    "mobile/ui-shell-tab-bar"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "home06Stroke",
+    "registryName": "home-06",
+    "svg": "dist/svg/home-06-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Home06Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "mail-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 17,
+   "components": [
+    "templates/faq",
+    "templates/help-support"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "mail02Stroke",
+    "registryName": "mail-02",
+    "svg": "dist/svg/mail-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Mail02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "add-circle-half-dot",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 16,
+   "components": [
+    "mobile/buttons",
+    "mobile/card",
+    "mobile/file-upload",
+    "mobile/inline-alert",
+    "mobile/modals",
+    "mobile/notification-toast"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "addCircleHalfDotStroke",
+    "registryName": "add-circle-half-dot",
+    "svg": "dist/svg/add-circle-half-dot-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "AddCircleHalfDotIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "unavailable",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 15,
+   "components": [
+    "templates/page-not-found"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "unavailableStroke",
+    "registryName": "unavailable",
+    "svg": "dist/svg/unavailable-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "UnavailableIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "multiplication-sign",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 14,
+   "components": [
+    "templates/chatbot",
+    "templates/cookies-banner",
+    "templates/life-journeys",
+    "web/buttons",
+    "web/file-upload",
+    "web/inline-alert",
+    "web/modals",
+    "web/notification",
+    "web/notification-toast",
+    "web/slideout-menu"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "multiplicationSignStroke",
+    "registryName": "multiplication-sign",
+    "svg": "dist/svg/multiplication-sign-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "MultiplicationSignIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.869 (aligned 0.921), hugeicons 0.992 (aligned 1); Figma source instance 16px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "login-square-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 10,
+   "components": [
+    "web/ui-shell-nav-header"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "loginSquare01Stroke",
+    "registryName": "login-square-01",
+    "svg": "dist/svg/login-square-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "LoginSquare01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.705 (aligned 0.814), hugeicons 0.424 (aligned 0.473, mirrored 0.586); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "cancel-circle",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 10,
+   "components": [
+    "templates/page-not-found"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "cancelCircleStroke",
+    "registryName": "cancel-circle",
+    "svg": "dist/svg/cancel-circle-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "CancelCircleIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "cancel-square",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 10,
+   "components": [
+    "templates/page-not-found"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "cancelSquareStroke",
+    "registryName": "cancel-square",
+    "svg": "dist/svg/cancel-square-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "CancelSquareIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "cancel-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 10,
+   "components": [
+    "templates/page-not-found"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "cancel02Stroke",
+    "registryName": "cancel-02",
+    "svg": "dist/svg/cancel-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Cancel02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "search-remove",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 10,
+   "components": [
+    "templates/page-not-found"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "searchRemoveStroke",
+    "registryName": "search-remove",
+    "svg": "dist/svg/search-remove-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "SearchRemoveIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "copy-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 9,
+   "components": [
+    "templates/contact-us",
+    "templates/feedback-section",
+    "templates/rating-section",
+    "web/code-snippet"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "copy01Stroke",
+    "registryName": "copy-01",
+    "svg": "dist/svg/copy-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Copy01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.26 (aligned 0.505), hugeicons 0.375 (aligned 0.687); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "arrow-up-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 7,
+   "components": [
+    "mobile/ui-shell-nav-drawer",
+    "web/dropdown-input",
+    "web/ui-shell-nav-drawer"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "arrowUp01Stroke",
+    "registryName": "arrow-up-01",
+    "svg": "dist/svg/arrow-up-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "ArrowUp01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.664 (aligned 0.747), hugeicons 0.972 (aligned 0.989); Figma source instance 16px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "add-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 6,
+   "components": [
+    "mobile/buttons",
+    "web/filtration"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "add01Stroke",
+    "registryName": "add-01",
+    "svg": "dist/svg/add-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Add01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.683 (aligned 0.753), hugeicons 0.787 (aligned 0.937); Figma source instance 14px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "clock-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 6,
+   "components": [
+    "templates/life-journeys",
+    "templates/service-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "clock01Stroke",
+    "registryName": "clock-01",
+    "svg": "dist/svg/clock-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Clock01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "computer-phone-sync",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 6,
+   "components": [
+    "templates/life-journeys",
+    "templates/service-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "computerPhoneSyncStroke",
+    "registryName": "computer-phone-sync",
+    "svg": "dist/svg/computer-phone-sync-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "ComputerPhoneSyncIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "riyal-circular",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 6,
+   "components": [
+    "templates/life-journeys",
+    "templates/service-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "riyalCircularStroke",
+    "registryName": "riyal-circular",
+    "svg": "dist/svg/riyal-circular-stroke.svg"
+   },
+   "fallback": null,
+   "fallbackNote": "name not found in Hugeicons Free",
+   "status": "platformscode-only",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "call",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 6,
+   "components": [
+    "templates/life-journeys",
+    "templates/service-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "callStroke",
+    "registryName": "call",
+    "svg": "dist/svg/call-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "CallIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "mail-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 6,
+   "components": [
+    "templates/life-journeys",
+    "templates/service-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "mail01Stroke",
+    "registryName": "mail-01",
+    "svg": "dist/svg/mail-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Mail01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "play",
+   "figmaStyle": "Solid",
+   "figmaType": "Sharp",
+   "uses": 5,
+   "components": [
+    "templates/about-entity"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "playSolid",
+    "registryName": "play",
+    "svg": "dist/svg/play-solid.svg"
+   },
+   "fallback": null,
+   "fallbackNote": "Figma style Solid/Sharp is not in Hugeicons Free (Pro only) — not used",
+   "status": "platformscode-only",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "arrow-left-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 5,
+   "components": [
+    "templates/chatbot",
+    "templates/e-participation"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "arrowLeft02Stroke",
+    "registryName": "arrow-left-02",
+    "svg": "dist/svg/arrow-left-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "ArrowLeft02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.565 (aligned 0.768), hugeicons 0.634 (aligned 0.796); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "file-upload",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 4,
+   "components": [
+    "mobile/file-upload",
+    "web/file-upload"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "fileUploadStroke",
+    "registryName": "file-upload",
+    "svg": "dist/svg/file-upload-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "FileUploadIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.228 (aligned 0.421), hugeicons 0.6 (aligned 0.791); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "DIFFERENT DRAWING (aligned <0.5)",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "message-question",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 4,
+   "components": [
+    "templates/help-support"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "messageQuestionStroke",
+    "registryName": "message-question",
+    "svg": "dist/svg/message-question-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "MessageQuestionIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "sort-by-down-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 4,
+   "components": [
+    "templates/search-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "sortByDown02Stroke",
+    "registryName": "sort-by-down-02",
+    "svg": "dist/svg/sort-by-down-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "SortByDown02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.078 (aligned 0.324, mirrored 0.531), hugeicons 0.952 (aligned 0.974); Figma source instance 16px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "remove-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 3,
+   "components": [
+    "web/filtration"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "remove01Stroke",
+    "registryName": "remove-01",
+    "svg": "dist/svg/remove-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Remove01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.758 (aligned 1), hugeicons 0.879 (aligned 1); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "plus-sign",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 3,
+   "components": [
+    "web/floating-button",
+    "web/number-input"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "plusSignStroke",
+    "registryName": "plus-sign",
+    "svg": "dist/svg/plus-sign-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "PlusSignIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.742 (aligned 0.803), hugeicons 1 (aligned 1); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "help-circle",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 3,
+   "components": [
+    "mobile/inline-alert",
+    "mobile/notification-toast",
+    "web/inline-alert"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "helpCircleStroke",
+    "registryName": "help-circle",
+    "svg": "dist/svg/help-circle-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "HelpCircleIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.837 (aligned 0.89), hugeicons 0.886 (aligned 0.789); Figma source instance 20px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "folder-library",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 2,
+   "components": [
+    "web/buttons",
+    "web/date-picker"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "folderLibraryStroke",
+    "registryName": "folder-library",
+    "svg": "dist/svg/folder-library-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "FolderLibraryIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.264 (aligned 0.594), hugeicons 0.92 (aligned 0.914); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "arrow-up-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 2,
+   "components": [
+    "web/metric"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "arrowUp02Stroke",
+    "registryName": "arrow-up-02",
+    "svg": "dist/svg/arrow-up-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "ArrowUp02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.459 (aligned 0.677), hugeicons 0.559 (aligned 0.71); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "checkmark-square-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 2,
+   "components": [
+    "web/ui-shell-nav-header"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "checkmarkSquare02Stroke",
+    "registryName": "checkmark-square-02",
+    "svg": "dist/svg/checkmark-square-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "CheckmarkSquare02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.65 (aligned 0.778), hugeicons 0.943 (aligned 0.921); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "chatting-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 2,
+   "components": [
+    "templates/chatbot"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "chatting01Stroke",
+    "registryName": "chatting-01",
+    "svg": "dist/svg/chatting-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Chatting01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "square-lock-password",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 1,
+   "components": [
+    "web/digital-stamp"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "squareLockPasswordStroke",
+    "registryName": "square-lock-password",
+    "svg": "dist/svg/square-lock-password-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "SquareLockPasswordIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.349 (aligned 0.598), hugeicons 0.932 (aligned 0.956); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "trade-up",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 1,
+   "components": [
+    "web/metric"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "tradeUpStroke",
+    "registryName": "trade-up",
+    "svg": "dist/svg/trade-up-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "TradeUpIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.125 (aligned 0.259), hugeicons 0.935 (aligned 0.95); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "DIFFERENT DRAWING (aligned <0.5)",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "more-vertical",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 1,
+   "components": [
+    "web/metric"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "moreVerticalStroke",
+    "registryName": "more-vertical",
+    "svg": "dist/svg/more-vertical-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "MoreVerticalIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 1 (aligned 1), hugeicons 0.444 (aligned 0.714); Figma source instance 20px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "settings-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 1,
+   "components": [
+    "web/metric"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "settings01Stroke",
+    "registryName": "settings-01",
+    "svg": "dist/svg/settings-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Settings01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.355 (aligned 0.608), hugeicons 0.981 (aligned 0.996); Figma source instance 20px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "minus-sign",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 1,
+   "components": [
+    "web/number-input"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "minusSignStroke",
+    "registryName": "minus-sign",
+    "svg": "dist/svg/minus-sign-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "MinusSignIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.758 (aligned 1), hugeicons 1 (aligned 1); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "more-horizontal",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 1,
+   "components": [
+    "web/tabs"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "moreHorizontalStroke",
+    "registryName": "more-horizontal",
+    "svg": "dist/svg/more-horizontal-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "MoreHorizontalIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 1 (aligned 1), hugeicons 0.444 (aligned 0.714); Figma source instance 20px",
+    "shapeClass": {
+     "platformscode": "MATCH (aligned ≥0.8)",
+     "hugeicons": "UNCLEAR (0.5–0.8) — look at the contact sheet"
+    }
+   }
+  },
+  {
+   "figmaName": "award-05",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 1,
+   "components": [
+    "web/text-input"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "award05Stroke",
+    "registryName": "award-05",
+    "svg": "dist/svg/award-05-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Award05Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "IoU vs Figma export @48px: platformscode 0.688 (aligned 0.691), hugeicons 0.964 (aligned 0.981); Figma source instance 24px",
+    "shapeClass": {
+     "platformscode": "UNCLEAR (0.5–0.8) — look at the contact sheet",
+     "hugeicons": "MATCH (aligned ≥0.8)"
+    }
+   }
+  },
+  {
+   "figmaName": "link-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 1,
+   "components": [
+    "mobile/link"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "link02Stroke",
+    "registryName": "link-02",
+    "svg": "dist/svg/link-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Link02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "settings-error-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 1,
+   "components": [
+    "mobile/list"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "settingsError01Stroke",
+    "registryName": "settings-error-01",
+    "svg": "dist/svg/settings-error-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "SettingsError01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "bookmark-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 1,
+   "components": [
+    "mobile/ui-shell-tab-bar"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "bookmark02Stroke",
+    "registryName": "bookmark-02",
+    "svg": "dist/svg/bookmark-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Bookmark02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "more-01",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 1,
+   "components": [
+    "mobile/ui-shell-tab-bar"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "more01Stroke",
+    "registryName": "more-01",
+    "svg": "dist/svg/more-01-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "More01Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "cookie",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": 1,
+   "components": [
+    "templates/cookies-banner"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "cookieStroke",
+    "registryName": "cookie",
+    "svg": "dist/svg/cookie-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "CookieIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "cancel-circle",
+   "figmaStyle": "Bulk",
+   "figmaType": "Rounded",
+   "uses": 1,
+   "components": [
+    "templates/life-journeys"
+   ],
+   "primary": null,
+   "fallback": null,
+   "fallbackNote": "Figma style Bulk/Rounded is not in Hugeicons Free (Pro only) — not used",
+   "status": "missing",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package)",
+    "shape": "NOT VERIFIED (no Figma SVG export compared)"
+   }
+  },
+  {
+   "figmaName": "new-twitter",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": null,
+   "components": [
+    "templates/home-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "newTwitterStroke",
+    "registryName": "new-twitter",
+    "svg": "dist/svg/new-twitter-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "NewTwitterIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package, 2026-10-18)",
+    "shape": "NOT VERIFIED (from the Home template: footer social / accessibility tools / about-us figures)"
+   }
+  },
+  {
+   "figmaName": "linkedin-02",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": null,
+   "components": [
+    "templates/home-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "linkedin02Stroke",
+    "registryName": "linkedin-02",
+    "svg": "dist/svg/linkedin-02-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "Linkedin02Icon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package, 2026-10-18)",
+    "shape": "NOT VERIFIED (from the Home template: footer social / accessibility tools / about-us figures)"
+   }
+  },
+  {
+   "figmaName": "instagram",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": null,
+   "components": [
+    "templates/home-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "instagramStroke",
+    "registryName": "instagram",
+    "svg": "dist/svg/instagram-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "InstagramIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package, 2026-10-18)",
+    "shape": "NOT VERIFIED (from the Home template: footer social / accessibility tools / about-us figures)"
+   }
+  },
+  {
+   "figmaName": "sign-language-c",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": null,
+   "components": [
+    "templates/home-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "signLanguageCStroke",
+    "registryName": "sign-language-c",
+    "svg": "dist/svg/sign-language-c-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "SignLanguageCIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package, 2026-10-18)",
+    "shape": "NOT VERIFIED (from the Home template: footer social / accessibility tools / about-us figures)"
+   }
+  },
+  {
+   "figmaName": "search-add",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": null,
+   "components": [
+    "templates/home-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "searchAddStroke",
+    "registryName": "search-add",
+    "svg": "dist/svg/search-add-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "SearchAddIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package, 2026-10-18)",
+    "shape": "NOT VERIFIED (from the Home template: footer social / accessibility tools / about-us figures)"
+   }
+  },
+  {
+   "figmaName": "star",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": null,
+   "components": [
+    "templates/home-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "starStroke",
+    "registryName": "star",
+    "svg": "dist/svg/star-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "StarIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package, 2026-10-18)",
+    "shape": "NOT VERIFIED (from the Home template: footer social / accessibility tools / about-us figures)"
+   }
+  },
+  {
+   "figmaName": "give-blood",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": null,
+   "components": [
+    "templates/home-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "giveBloodStroke",
+    "registryName": "give-blood",
+    "svg": "dist/svg/give-blood-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "GiveBloodIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package, 2026-10-18)",
+    "shape": "NOT VERIFIED (from the Home template: footer social / accessibility tools / about-us figures)"
+   }
+  },
+  {
+   "figmaName": "user-group",
+   "figmaStyle": "Stroke",
+   "figmaType": "Rounded",
+   "uses": null,
+   "components": [
+    "templates/home-page"
+   ],
+   "primary": {
+    "package": "@platformscode/icons",
+    "key": "userGroupStroke",
+    "registryName": "user-group",
+    "svg": "dist/svg/user-group-stroke.svg"
+   },
+   "fallback": {
+    "package": "@hugeicons/core-free-icons",
+    "export": "UserGroupIcon",
+    "licence": "MIT"
+   },
+   "fallbackNote": null,
+   "status": "both",
+   "verification": {
+    "name": "VERIFIED (exact file/export name exists in the installed package, 2026-10-18)",
+    "shape": "NOT VERIFIED (from the Home template: footer social / accessibility tools / about-us figures)"
+   }
+  }
+ ],
+ "shapeVerification": {
+  "date": "2026-10-17",
+  "figmaExports": 48,
+  "method": "ink-mask IoU at SIZE px after paint normalisation; iouTolerant = IoU after 1px dilation of both masks",
+  "classes": "MATCH aligned ≥0.8 · UNCLEAR 0.5–0.8 · DIFFERENT DRAWING <0.5 (heuristic labels; contact sheet is the evidence)",
+  "summary": {
+   "figmaIcons": 48,
+   "primary": {
+    "n": 48,
+    "min": 0.078,
+    "median": 0.565,
+    "max": 1,
+    "ge80": 8,
+    "ge90": 4
+   },
+   "fallback": {
+    "n": 48,
+    "min": 0.232,
+    "median": 0.932,
+    "max": 1,
+    "ge80": 29,
+    "ge90": 25
+   },
+   "primaryAligned": {
+    "n": 48,
+    "ge80": 17,
+    "ge90": 8,
+    "lt50": 7
+   },
+   "fallbackAligned": {
+    "n": 48,
+    "ge80": 28,
+    "ge90": 23,
+    "lt50": 0
+   },
+   "primaryTolerant": {
+    "ge80": 14,
+    "ge90": 5,
+    "n": 48
+   },
+   "fallbackTolerant": {
+    "ge80": 30,
+    "ge90": 27,
+    "n": 48
+   }
+  },
+  "note": "Shape verification does NOT change the source policy (primary @platformscode/icons, fallback Hugeicons Free). A per-icon override is a project decision recorded in .claude/dga-skills.json, never silent."
+ }
+}

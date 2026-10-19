@@ -1,0 +1,535 @@
+{
+  "schema": "dga-skills/templates-map@1",
+  "updated": "2026-10-18",
+  "source": "references/dga-live/templates/<slug>.md (20 DGA Figma template files, extracted 2026-10-17) — section order = Figma frame structure; components = 'Library components referenced'",
+  "status_meaning": {
+    "implemented": "runnable code in lib/templates/<framework> and tested by tools/qa",
+    "mapped": "sections and components mapped to patterns; no code yet",
+    "seasonal": "campaign template — Creative mode material",
+    "skeleton generator": "tools/new_template.py emits a compilable React page/section skeleton (real DGA parts + TODO(content) markers), verified to build and render — content, QA gates and DGA Exact comparison remain the project's job"
+  },
+  "templates": [
+    {
+      "slug": "home-page",
+      "figma": "Home Page Template - Platforms Code",
+      "sections": [
+        "Digital Stamp",
+        "Nav Header",
+        "Hero (gradient primary 800→600, search)",
+        "About us",
+        "Services (cards)",
+        "Articles & News (cards)",
+        "Partners (logos)",
+        "Feedback",
+        "Footer"
+      ],
+      "patterns": [
+        "site-header",
+        "hero",
+        "section-heading",
+        "stats",
+        "card-grid",
+        "site-footer"
+      ],
+      "dga": [
+        "Button",
+        "Card",
+        "Featured icon",
+        "Carousel",
+        "Link",
+        "Digital Stamp",
+        "Footer",
+        "Nav Header"
+      ],
+      "status": {
+        "react": "implemented",
+        "vanilla": "implemented",
+        "angular": "not built (custom elements path = vanilla builder `home`, same as 404/FAQ)"
+      },
+      "notes": [
+        "Partners logo strip and Carousel not implemented (no Carousel QA yet)"
+      ],
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "service-page",
+      "figma": "Service Page Template - Platforms Code",
+      "sections": [
+        "Digital Stamp",
+        "Second Nav Header (Gray: weather · date · time · location + view / zoom-in / zoom-out / mic)",
+        "Nav Header",
+        "Service (primary-25 band; main 832: breadcrumb + H1 Display sm + Primary «بدء الخدمة», tags, description, SLA link, Tab List (icons, flush) + video + ordered steps; Service Card 416: info rows, payment, FAQ, phone, email, user manual, store buttons)",
+        "Related services (primary-25, Subtle «عرض الكل», Carousel/Dots of Card Stroke)",
+        "Comments & Suggestions (Card Stroke + Primary «تواصل معنا»)",
+        "Last modified",
+        "Rating strip + Feedback strip",
+        "Footer (dark green)"
+      ],
+      "patterns": [
+        "site-header",
+        "service-info-card",
+        "section-heading",
+        "service-carousel",
+        "rating-strip",
+        "site-footer"
+      ],
+      "dga": [
+        "Button",
+        "List item",
+        "Card",
+        "Tag",
+        "Rating",
+        "Horizontal Tab List",
+        "Breadcrumb",
+        "Inline alert"
+      ],
+      "status": {
+        "react": "implemented to the Figma frame (lib/templates/react/Service.jsx) — checked by the visual QA engine",
+        "vanilla": "implemented (lib/templates/vanilla/index.js service()) — checked by the visual QA engine",
+        "angular": "mapped"
+      },
+      "notes": [
+        "Comments & Suggestions section simplified to the feedback strip",
+        "Store download buttons not implemented"
+      ],
+      "generator": "tools/new_template.py",
+      "doc": "patterns/service-page.md"
+    },
+    {
+      "slug": "form",
+      "figma": "Form Template - Platforms Code",
+      "sections": [
+        "Digital Stamp",
+        "Second Nav Header",
+        "Nav Header",
+        "Form section (progress indicator, breadcrumb, fields, actions)",
+        "Section template",
+        "Footer"
+      ],
+      "patterns": [
+        "site-header",
+        "form",
+        "site-footer"
+      ],
+      "dga": [
+        "Text Input",
+        "Progress Indicator",
+        "Button",
+        "Breadcrumb",
+        "Radial Stepper",
+        "Rating"
+      ],
+      "status": {
+        "react": "implemented",
+        "vanilla": "builder available (formPattern), page not assembled",
+        "angular": "mapped"
+      },
+      "notes": [
+        "DgaDropdown inside the form carries PKG-DD-01…04"
+      ],
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "faq",
+      "figma": "FAQ Template - Platforms Code",
+      "sections": [
+        "Digital Stamp",
+        "Nav Header",
+        "Hero (primary-25, search)",
+        "Main (tabs, filtration, accordion list, pagination)",
+        "Contact us",
+        "Feedback",
+        "Footer"
+      ],
+      "patterns": [
+        "site-header",
+        "hero(light)",
+        "section-heading",
+        "filters",
+        "card-grid",
+        "site-footer"
+      ],
+      "dga": [
+        "Accordion",
+        "Horizontal Tab",
+        "Pagination",
+        "Filtration",
+        "Search Box",
+        "Card",
+        "Chip",
+        "Tag"
+      ],
+      "status": {
+        "react": "implemented",
+        "vanilla": "implemented",
+        "angular": "implemented (custom elements via the vanilla builder; tests/integration/angular ?page=faq)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "page-not-found",
+      "figma": "Page Not Found Template - Platforms Code",
+      "sections": [
+        "Digital Stamp",
+        "Second Nav Header",
+        "Nav Header",
+        "Error 404 (featured icon, kicker, title, text, actions)",
+        "Footer"
+      ],
+      "patterns": [
+        "site-header",
+        "error-block",
+        "site-footer"
+      ],
+      "dga": [
+        "Button",
+        "Featured icon",
+        "Footer"
+      ],
+      "status": {
+        "react": "implemented",
+        "vanilla": "implemented",
+        "angular": "implemented (custom elements)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "about-entity",
+      "figma": "About The Entity Template",
+      "sections": [
+        "Stamp",
+        "Nav",
+        "Hero",
+        "About text",
+        "Vision/Mission cards",
+        "Leadership",
+        "Statistics",
+        "Footer"
+      ],
+      "patterns": [
+        "site-header",
+        "hero",
+        "section-heading",
+        "card-grid",
+        "stats",
+        "site-footer"
+      ],
+      "status": {
+        "react": "mapped + skeleton generator (tools/new_template.py --template about-entity; rendered in demo #/ar/gen/about-entity, NOT a verified page)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "chatbot",
+      "figma": "Chatbot Template - Platforms Code",
+      "sections": [
+        "Chat window",
+        "Message list",
+        "Composer",
+        "Quick replies"
+      ],
+      "patterns": [
+        "forms (composer)",
+        "cards"
+      ],
+      "status": {
+        "react": "mapped + skeleton generator (tools/new_template.py --template chatbot; rendered in demo #/ar/gen/chatbot, NOT a verified page)"
+      },
+      "notes": [
+        "needs Chat-specific components; none in core 0.0.52 API"
+      ],
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "contact-us",
+      "figma": "Contact Us Template - Platforms Code",
+      "sections": [
+        "Stamp",
+        "Nav",
+        "Hero",
+        "Contact channels (cards)",
+        "Contact form",
+        "Map/branches",
+        "Footer"
+      ],
+      "patterns": [
+        "site-header",
+        "hero",
+        "card-grid",
+        "form",
+        "site-footer"
+      ],
+      "status": {
+        "react": "implemented (lib/templates/react/ContactPage.jsx; demo #/ar/contact)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "content-page",
+      "figma": "Content Page Template - Platforms Code",
+      "sections": [
+        "Stamp",
+        "Nav",
+        "Breadcrumb",
+        "Article (title, meta, body, table of contents)",
+        "Related",
+        "Feedback",
+        "Footer"
+      ],
+      "patterns": [
+        "site-header",
+        "section-heading",
+        "card-grid",
+        "site-footer"
+      ],
+      "dga": [
+        "Table of Content",
+        "Breadcrumb",
+        "Quote",
+        "List"
+      ],
+      "status": {
+        "react": "mapped + skeleton generator (tools/new_template.py --template content-page; rendered in demo #/ar/gen/content-page, NOT a verified page)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "cookies-banner",
+      "figma": "Cookies Banner Template - Platforms Code",
+      "sections": [
+        "Banner (text, accept/manage buttons)",
+        "Preferences modal"
+      ],
+      "patterns": [
+        "forms",
+        "modal"
+      ],
+      "dga": [
+        "Button",
+        "Modal",
+        "Switch"
+      ],
+      "status": {
+        "react": "mapped + skeleton generator (tools/new_template.py --template cookies-banner; rendered in demo #/ar/gen/cookies-banner, NOT a verified page)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "e-participation",
+      "figma": "e-Participation Template - Platofrms Code",
+      "sections": [
+        "Stamp",
+        "Nav",
+        "Hero",
+        "Participation cards",
+        "Filters",
+        "Pagination",
+        "Footer"
+      ],
+      "patterns": [
+        "site-header",
+        "hero",
+        "filters",
+        "card-grid",
+        "site-footer"
+      ],
+      "status": {
+        "react": "mapped + skeleton generator (tools/new_template.py --template e-participation; rendered in demo #/ar/gen/e-participation, NOT a verified page)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "feedback-section",
+      "figma": "Feedback Section Template - Platforms Code",
+      "sections": [
+        "Question",
+        "Yes/No buttons",
+        "Follow-up form"
+      ],
+      "patterns": [
+        "site-footer (feedback strip)",
+        "form"
+      ],
+      "status": {
+        "react": "implemented (FeedbackRating block in lib/patterns/react/Blocks.jsx + feedback strip inside SiteFooter)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "founding-day",
+      "figma": "Saudi Founding Day",
+      "sections": [
+        "Seasonal identity hero",
+        "Content sections",
+        "Footer"
+      ],
+      "patterns": [
+        "hero(creative)",
+        "section-heading",
+        "card-grid"
+      ],
+      "status": {
+        "react": "seasonal + skeleton generator (tools/new_template.py --template founding-day; rendered in demo #/ar/gen/founding-day, NOT a verified page)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "hajj",
+      "figma": "Hajj Template",
+      "sections": [
+        "Seasonal hero",
+        "Services",
+        "Guides",
+        "Footer"
+      ],
+      "patterns": [
+        "hero(creative)",
+        "card-grid"
+      ],
+      "status": {
+        "react": "seasonal + skeleton generator (tools/new_template.py --template hajj; rendered in demo #/ar/gen/hajj, NOT a verified page)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "help-support",
+      "figma": "Help & Support Template - Platforms Code",
+      "sections": [
+        "Stamp",
+        "Nav",
+        "Hero (search)",
+        "Topics (cards)",
+        "FAQ",
+        "Contact",
+        "Footer"
+      ],
+      "patterns": [
+        "site-header",
+        "hero(light)",
+        "card-grid",
+        "accordion",
+        "site-footer"
+      ],
+      "status": {
+        "react": "mapped + skeleton generator (tools/new_template.py --template help-support; rendered in demo #/ar/gen/help-support, NOT a verified page)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "life-journeys",
+      "figma": "Life Journeys Template - Platform Code",
+      "sections": [
+        "Stamp",
+        "Nav",
+        "Hero",
+        "Journey cards",
+        "Steps (progress indicator)",
+        "Footer"
+      ],
+      "patterns": [
+        "site-header",
+        "hero",
+        "card-grid",
+        "form (steps)",
+        "site-footer"
+      ],
+      "status": {
+        "react": "mapped + skeleton generator (tools/new_template.py --template life-journeys; rendered in demo #/ar/gen/life-journeys, NOT a verified page)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "national-day",
+      "figma": "Saudi National Day Template",
+      "sections": [
+        "Seasonal hero",
+        "Content",
+        "Footer"
+      ],
+      "patterns": [
+        "hero(creative)"
+      ],
+      "status": {
+        "react": "seasonal + skeleton generator (tools/new_template.py --template national-day; rendered in demo #/ar/gen/national-day, NOT a verified page)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "rating-section",
+      "figma": "Rating Section Template - Platforms Code",
+      "sections": [
+        "Rating stars",
+        "Comment",
+        "Submit"
+      ],
+      "patterns": [
+        "form"
+      ],
+      "dga": [
+        "Rating",
+        "Textarea",
+        "Button"
+      ],
+      "status": {
+        "react": "implemented (FeedbackRating block withRating + DgaRating in Service page)"
+      },
+      "generator": "tools/new_template.py"
+    },
+    {
+      "slug": "search-page",
+      "figma": "Search Page Template- Platforms Code",
+      "sections": [
+        "Stamp",
+        "Nav",
+        "Search header",
+        "Filters",
+        "Results list",
+        "Pagination",
+        "Footer"
+      ],
+      "patterns": [
+        "site-header",
+        "filters",
+        "card-grid",
+        "site-footer"
+      ],
+      "dga": [
+        "Search Box",
+        "Filtration",
+        "Pagination",
+        "Card"
+      ],
+      "status": {
+        "react": "implemented (lib/templates/react/SearchPage.jsx — states loading/empty/error/results via ?state=; demo #/ar/search)",
+        "react_services_catalogue": "implemented (lib/templates/react/Services.jsx — grid variant used as the services catalogue)",
+        "vanilla_services_catalogue": "implemented (lib/templates/vanilla/index.js services())"
+      },
+      "generator": "tools/new_template.py",
+      "doc": "patterns/services-page.md"
+    },
+    {
+      "slug": "site-map",
+      "figma": "Site Map Template - Platforms Code",
+      "sections": [
+        "Stamp",
+        "Nav",
+        "Title",
+        "Link columns",
+        "Footer"
+      ],
+      "patterns": [
+        "site-header",
+        "section-heading",
+        "site-footer"
+      ],
+      "dga": [
+        "Link",
+        "List"
+      ],
+      "status": {
+        "react": "mapped + skeleton generator (tools/new_template.py --template site-map; rendered in demo #/ar/gen/site-map, NOT a verified page)"
+      },
+      "generator": "tools/new_template.py"
+    }
+  ]
+}

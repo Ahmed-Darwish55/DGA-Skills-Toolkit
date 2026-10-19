@@ -1,0 +1,81 @@
+{
+  "schema": "dga-skills/dependencies@1",
+  "schemaNote": "@1",
+  "updated": "2026-10-17",
+  "policy": [
+    "Zero-Manual-Dependency-Setup: in Claude Code, `install.py install` runs `tools/deps.py ensure`, which installs every missing helper automatically — running the toolkit setup is the request. It is never hidden: every step is printed and recorded in <claude-dir>/dga-skills-install/dependencies-state.json; opt out with --no-deps or DGA_SKILLS_NO_AUTO_DEPS=1. `deps.py setup` keeps the per-helper y/N flow.",
+    "A helper the user turned off is reported as INSTALLED BUT DISABLED and is never turned on automatically.",
+    "Claude Desktop / Cowork / claude.ai: a skill cannot install or turn on other skills (platform limit). Helpers synced and turned on in the account are detected (skills/synced/<bucket>/manifest.json) and used automatically; anything else uses the local fallback without asking the user for manual steps.",
+    "Only the sources listed here are trusted. Before installing, tools/deps.py fetches the source, checks the marketplace name, the plugin entry and the licence, and refuses on any mismatch.",
+    "Nothing from these dependencies is copied into the DGA Skills Toolkit package. They install from their own marketplaces under their own licences.",
+    "Installing dga-skills never implies that these are installed. The local fallback rules work without them."
+  ],
+  "dependencies": [
+    {
+      "id": "frontend-design",
+      "displayName": "Frontend Design (Anthropic)",
+      "purpose": "visual personality, typography/composition direction and anti-template critique for Enhanced / Creative work",
+      "requiredFor": "optional — Creative/Enhanced art direction; DGA Exact never needs it",
+      "kind": "claude-code-plugin",
+      "publisher": "Anthropic",
+      "trust": "anthropic-official-marketplace",
+      "marketplace": { "name": "claude-plugins-official", "source": "anthropics/claude-plugins-official", "url": "https://github.com/anthropics/claude-plugins-official", "autoAddedByClaudeCode": true },
+      "plugin": "frontend-design",
+      "pluginPath": "plugins/frontend-design",
+      "skillNames": ["frontend-design:frontend-design", "frontend-design"],
+      "licence": { "spdx": "Apache-2.0", "file": "plugins/frontend-design/LICENSE", "match": "Apache License", "verified": "2026-10-17", "verifiedCommit": "ea10b213686c90bb1984b2016937310e05336cf3" },
+      "claudeCode": {
+        "commands": ["claude plugin marketplace add anthropics/claude-plugins-official", "claude plugin install frontend-design@claude-plugins-official"],
+        "inSession": "/plugin install frontend-design@claude-plugins-official"
+      },
+      "cowork": {
+        "options": [
+          "If Claude already lists an Anthropic skill named frontend-design (Customize > Skills), turn it on — nothing to install.",
+          "Otherwise: Customize > Plugins > Add marketplace (GitHub) anthropics/claude-plugins-official, then install frontend-design."
+        ],
+        "status": "Detection VERIFIED on a real Cowork session 2026-10-18 (synced skill skills/synced/<bucket>/frontend-design, source=plugin, and the public /mnt/skills/public/frontend-design). Adding it through Customize in a customer account: NOT VERIFIED from here."
+      },
+      "fallback": "rules/art-direction.md",
+      "flag": "UPSTREAM_FRONTEND_NOT_INSTALLED"
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "displayName": "UI/UX Pro Max (NextLevelBuilder)",
+      "purpose": "searchable UI/UX dataset (styles, palettes, typography, UX guidelines, GSAP presets) used as research input; never overrides DGA chrome",
+      "requiredFor": "optional — design research step of Enhanced / Creative work",
+      "kind": "claude-code-plugin",
+      "publisher": "nextlevelbuilder (third party, not reviewed by Anthropic)",
+      "trust": "third-party-reviewed-by-dga-skills",
+      "marketplace": { "name": "ui-ux-pro-max-skill", "source": "nextlevelbuilder/ui-ux-pro-max-skill", "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill", "autoAddedByClaudeCode": false },
+      "plugin": "ui-ux-pro-max",
+      "pluginPath": ".",
+      "skillNames": ["ui-ux-pro-max:ui-ux-pro-max", "ui-ux-pro-max"],
+      "runnableCheck": { "script": "**/ui-ux-pro-max/scripts/search.py", "args": ["--help"], "needs": "python3" },
+      "licence": { "spdx": "MIT", "file": "LICENSE", "match": "MIT License", "verified": "2026-10-17", "verifiedCommit": "56ea9cf174ed86786187daa9de0e6247cb0747e4", "verifiedVersion": "2.15.0" },
+      "claudeCode": {
+        "commands": ["claude plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill", "claude plugin install ui-ux-pro-max@ui-ux-pro-max-skill"],
+        "inSession": "/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill  then  /plugin install ui-ux-pro-max@ui-ux-pro-max-skill"
+      },
+      "cowork": {
+        "options": [
+          "Customize > Plugins > Add marketplace (GitHub) nextlevelbuilder/ui-ux-pro-max-skill, then install ui-ux-pro-max.",
+          "Its search scripts need Python in the session sandbox; if they cannot run, the toolkit uses its local fallback."
+        ],
+        "status": "Detection + runnable check VERIFIED on a real Cowork session 2026-10-18 (synced skill skills/synced/<bucket>/ui-ux-pro-max, source=plugin, search.py runs). Adding it through Customize in a customer account: NOT VERIFIED from here."
+      },
+      "fallback": "rules/design-intelligence.md",
+      "flag": "UPSTREAM_UIUX_NOT_INSTALLED"
+    }
+  ],
+  "projectDependencies": {
+    "note": "Installed in the user's own project with their package manager when the project needs them; never installed globally by the toolkit.",
+    "items": [
+      { "id": "@platformscode/core", "when": "any DGA UI", "licence": "MIT (package.json)" },
+      { "id": "platformscode-new-react", "when": "React projects", "licence": "ISC (package.json)" },
+      { "id": "@platformscode/icons", "when": "DGA icons (primary)", "licence": "UNLICENSED in package.json — not redistributed" },
+      { "id": "@hugeicons/core-free-icons", "when": "icon fallback", "licence": "MIT" },
+      { "id": "@playwright/test + @axe-core/playwright", "when": "visual QA (tools/qa)", "licence": "Apache-2.0 / MPL-2.0" },
+      { "id": "gsap, three", "when": "Enhanced/Creative motion or opted-in 3D only", "licence": "GSAP standard licence / MIT" }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+/* Motion showcase — Concept A. Colours/spacing/radii are DGA tokens from @platformscode/core (core.css). House values are the
+   two declarations under "house" and are reported by gate N4. One family (IBM Plex Sans Arabic, loaded by the package). */
+.ms {
+  /* house */
+  --ahmed-story-display: clamp(40px, 6vw, 72px);
+  --ahmed-story-line: 6px;
+}
+.ms-container { max-width: 1216px; margin-inline: auto; padding-inline: var(--spacing-4); }
+.ms-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.ms-hero { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); align-items: stretch; background: var(--background-sa-flag-25); min-height: 520px; }
+.ms-hero__text { display: grid; align-content: center; gap: var(--spacing-6); padding: var(--spacing-10) var(--spacing-8); max-width: 640px; justify-self: end; }
+.ms-title { margin: 0; font-size: var(--ahmed-story-display); line-height: 1.1; font-weight: 700; color: var(--text-primary-sa-flag); letter-spacing: -0.01em; }
+.ms-lead { margin: 0; font-size: 20px; line-height: 1.7; color: var(--text-primary-paragraph); max-width: 34em; }
+.ms-actions { display: flex; flex-wrap: wrap; gap: var(--spacing-3); }
+.ms-hero__visual { position: relative; min-height: 320px; background: var(--background-sa-flag-50); overflow: hidden; }
+.ms-hero__visual > canvas, .ms-hero__visual > img { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+.ms-journey { padding-block: var(--spacing-10); background: var(--background-white); }
+.ms-journey__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: var(--spacing-10); }
+.ms-journey__visual { position: sticky; top: 96px; align-self: start; padding-block: var(--spacing-8); }
+.ms-coast { width: 100%; height: auto; overflow: visible; }
+.ms-journey__visual { position: sticky; }
+.ms-coast__labels { position: relative; list-style: none; margin: var(--spacing-2) 0 0; padding: 0; height: 28px; }
+.ms-coast__labels li { position: absolute; transform: translateX(-50%); font-size: 16px; font-weight: 600; color: var(--text-primary-paragraph); }
+[dir="rtl"] .ms-coast__labels li { transform: translateX(50%); }
+.ms-coast__ghost { fill: none; stroke: var(--border-primary-light); stroke-width: 3; stroke-dasharray: 2 10; stroke-linecap: round; }
+.ms-coast__line { fill: none; stroke: var(--background-sa-flag); stroke-width: var(--ahmed-story-line); stroke-linecap: round; }
+.ms-coast__station { fill: var(--background-white); stroke: var(--background-sa-flag); stroke-width: 4; transition: r 200ms ease, fill 200ms ease; }
+.ms-coast__station.is-active { fill: var(--background-sa-flag); r: 16px; }
+
+.ms-h2 { margin: 0 0 var(--spacing-6); font-size: 32px; line-height: 1.25; color: var(--text-default); }
+.ms-phases { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--spacing-10); }
+.ms-phase { padding-inline-start: var(--spacing-6); border-inline-start: 4px solid var(--border-neutral-secondary); min-height: 32vh; display: grid; align-content: start; gap: var(--spacing-2); transition: border-color 200ms ease; }
+.ms-phase.is-active { border-inline-start-color: var(--background-sa-flag); }
+.ms-phase__when { font-size: 16px; font-weight: 600; color: var(--text-primary-sa-flag); }
+.ms-phase__title { margin: 0; font-size: 28px; line-height: 1.3; color: var(--text-default); }
+.ms-phase__text { margin: 0; font-size: 18px; line-height: 1.75; color: var(--text-primary-paragraph); max-width: 36em; }
+
+.ms-summary { padding-block: var(--spacing-10); }
+.ms-summary__list { margin: 0; padding-inline-start: var(--spacing-6); display: grid; gap: var(--spacing-4); font-size: 18px; line-height: 1.7; color: var(--text-primary-paragraph); max-width: 48em; }
+
+@media (max-width: 900px) {
+  .ms-hero { grid-template-columns: 1fr; }
+  .ms-hero__text { justify-self: stretch; padding: var(--spacing-8) var(--spacing-4); }
+  .ms-hero__visual { min-height: 240px; }
+  .ms-journey__grid { grid-template-columns: 1fr; gap: var(--spacing-6); }
+  .ms-journey__visual { position: static; padding-block: var(--spacing-3); }   /* mobile: the package header is taller than any sticky offset — keep the coastline as an overview above the list */
+  .ms-phase { min-height: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ms-coast__station, .ms-phase { transition: none; }
+}

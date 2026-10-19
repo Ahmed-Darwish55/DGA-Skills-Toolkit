@@ -1,0 +1,6 @@
+# Forms & filters — `FormPattern`, `FormSteps`, `FilterBar` / `formPattern()`
+Figma: `templates/form.md` (Form section 1440×1066: Progress Indicator, Text Inputs, actions), `web/text-input.md`, `web/dropdown-input.md`, `web/checkbox.md`, `web/radio.md`, `web/filtration.md`, `web/search-box.md`.
+Anatomy: `form.ah-form-panel` (white, border, radius lg, pad 32) → `dga-progress-indicator` steps → h2 + intro → optional `dga-inline-alert` → `.ah-form` 2-column grid (1 column ≤767) of fields → `.ah-form__actions` (`dga-button-v2 primary lg type=submit`, outline cancel).
+Fields map 1:1 to real components: text/password/number → `dga-text-input` (`label name placeholder required helperText error fullwidth`), textarea → `dga-textarea`, select → `dga-dropdown` (`options {name,value}`, `onChange` prop callback), checkbox → `dga-checkbox`, radio → `fieldset.ah-fieldset` + `dga-radio-button`.
+FilterBar: `dga-search-box` + `dga-dropdown` filters + active `dga-tag` chips + clear (`dga-button-v2 transparent sm`); `role="search"`.
+Known package defects carried: PKG-DD-01…04 (dropdown direction, ARIA, arrow keys, Escape), PKG-SEARCH-01 (search button without accessible name → axe `button-name` critical). A form page using these components **cannot be called DGA Exact compliant** until the package fixes them; report them as DEVIATION.

@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dga-skills/project-settings@2",
+  "title": "DGA Skills Toolkit per-project settings (.claude/dga-skills.json)",
+  "type": "object",
+  "required": [
+    "schema",
+    "designMode",
+    "technology",
+    "updatedAt"
+  ],
+  "properties": {
+    "schema": {
+      "enum": [
+        "dga-skills/project-settings@2"
+      ],
+      "description": "legacy ahmed-skills/project-settings@1 files are read and migrated by tools/project_settings.py; they are not valid as-is"
+    },
+    "designMode": {
+      "enum": [
+        "dga-exact",
+        "dga-enhanced",
+        "dga-creative"
+      ]
+    },
+    "technology": {
+      "enum": [
+        "react",
+        "angular",
+        "arcgis-exb",
+        "other",
+        "auto-detect"
+      ]
+    },
+    "technologyOther": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "free text when technology = other"
+    },
+    "detected": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "result of tools/project_settings.py detect (stack, versions, DGA packages, evidence files)"
+    },
+    "decidedBy": {
+      "enum": [
+        "user"
+      ],
+      "description": "settings are only saved from explicit user answers"
+    },
+    "skillVersion": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "at": {
+            "type": "string"
+          },
+          "designMode": {
+            "type": "string"
+          },
+          "technology": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "migratedFrom": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "set when the file was created from a legacy .claude/ahmed-skills.json",
+      "properties": {
+        "schema": {
+          "type": "string"
+        },
+        "file": {
+          "type": "string"
+        },
+        "at": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

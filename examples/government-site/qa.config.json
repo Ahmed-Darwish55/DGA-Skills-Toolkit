@@ -1,0 +1,316 @@
+{
+ "baseURL": "http://127.0.0.1:5187",
+ "skillDir": "../../dga-skills",
+ "out": "qa-reports/government-site",
+ "readySelector": "dga-nav-header",
+ "settleMs": 1500,
+ "tabStops": 40,
+ "viewports": [
+  1440,
+  1024,
+  768,
+  390
+ ],
+ "dirs": [
+  "rtl",
+  "ltr"
+ ],
+ "cssFiles": [
+  "src/dga-skills/patterns/patterns.css"
+ ],
+ "note": "Demo government site (hash routes). dirs are driven by the route language: rtl → #/ar, ltr → #/en (the engine's dir toggle is honoured through ?dir= fallback).",
+ "pages": [
+  {
+   "id": "home-exact",
+   "url": "/?mode=dga-exact#/{lang}/home",
+   "mode": "dga-exact",
+   "template": "home-page",
+   "patterns": [
+    "site-header",
+    "hero",
+    "section-heading",
+    "stats",
+    "card-grid",
+    "site-footer"
+   ],
+   "widgets": [
+    {
+     "id": "hero-primary",
+     "type": "button",
+     "selector": "[data-pattern=\"hero\"] dga-button-v2"
+    }
+   ]
+  },
+  {
+   "id": "home-enhanced",
+   "url": "/?mode=enhanced#/{lang}/home",
+   "mode": "enhanced",
+   "template": "home-page",
+   "patterns": [
+    "site-header",
+    "hero",
+    "section-heading",
+    "stats",
+    "card-grid",
+    "site-footer"
+   ]
+  },
+  {
+   "id": "service-exact",
+   "url": "/?mode=dga-exact#/{lang}/service",
+   "mode": "dga-exact",
+   "template": "service-page",
+   "patterns": [
+    "site-header",
+    "page-heading",
+    "list-block",
+    "feedback-rating",
+    "site-footer"
+   ]
+  },
+  {
+   "id": "form-exact",
+   "url": "/?mode=dga-exact#/{lang}/form",
+   "mode": "dga-exact",
+   "template": "form",
+   "patterns": [
+    "site-header",
+    "form",
+    "site-footer"
+   ],
+   "widgets": [
+    {
+     "id": "city-dropdown",
+     "type": "dropdown",
+     "selector": "form dga-dropdown"
+    },
+    {
+     "id": "type-radio",
+     "type": "radio",
+     "selector": "form dga-radio-button",
+     "focus": "input[type=\"radio\"]"
+    },
+    {
+     "id": "agree-checkbox",
+     "type": "checkbox",
+     "selector": "form dga-checkbox",
+     "focus": "input[type=\"checkbox\"]"
+    },
+    {
+     "id": "cancel-button",
+     "type": "button",
+     "selector": "form .ah-form__actions dga-button-v2",
+     "index": 1
+    }
+   ],
+   "forms": [
+    {
+     "id": "service-request",
+     "selector": "form",
+     "submit": ".ah-form__actions dga-button-v2",
+     "summary": "[data-qa=\"form-errors\"]"
+    }
+   ]
+  },
+  {
+   "id": "form-a11y-layer",
+   "url": "/?mode=dga-exact&a11y=dropdown#/{lang}/form",
+   "mode": "dga-exact",
+   "template": "form",
+   "patterns": [
+    "site-header",
+    "form",
+    "site-footer"
+   ],
+   "widgets": [
+    {
+     "id": "city-dropdown",
+     "type": "dropdown",
+     "selector": "form dga-dropdown"
+    }
+   ],
+   "note": "same form with the opt-in dropdown compatibility layer (data-dga-a11y-compat) — shows what the layer fixes; vendor defects remain registered"
+  },
+  {
+   "id": "faq-exact",
+   "url": "/?mode=dga-exact#/{lang}/faq",
+   "mode": "dga-exact",
+   "template": "faq",
+   "patterns": [
+    "site-header",
+    "site-footer"
+   ],
+   "widgets": [
+    {
+     "id": "faq-accordion-1",
+     "type": "accordion",
+     "selector": "dga-accordion",
+     "index": 0
+    },
+    {
+     "id": "faq-accordion-2",
+     "type": "accordion",
+     "selector": "dga-accordion",
+     "index": 1
+    }
+   ]
+  },
+  {
+   "id": "search-exact",
+   "url": "/?mode=dga-exact#/{lang}/search",
+   "mode": "dga-exact",
+   "template": "search-page",
+   "patterns": [
+    "site-header",
+    "page-heading",
+    "search-filters",
+    "card-grid",
+    "site-footer"
+   ]
+  },
+  {
+   "id": "search-empty",
+   "url": "/?mode=dga-exact&state=empty#/{lang}/search",
+   "mode": "dga-exact",
+   "template": "search-page",
+   "patterns": [
+    "site-header",
+    "state-block",
+    "site-footer"
+   ]
+  },
+  {
+   "id": "search-loading",
+   "url": "/?mode=dga-exact&state=loading#/{lang}/search",
+   "mode": "dga-exact",
+   "template": "search-page",
+   "patterns": [
+    "site-header",
+    "state-block",
+    "site-footer"
+   ]
+  },
+  {
+   "id": "search-error",
+   "url": "/?mode=dga-exact&state=error#/{lang}/search",
+   "mode": "dga-exact",
+   "template": "search-page",
+   "patterns": [
+    "site-header",
+    "state-block",
+    "site-footer"
+   ]
+  },
+  {
+   "id": "contact-exact",
+   "url": "/?mode=dga-exact#/{lang}/contact",
+   "mode": "dga-exact",
+   "template": "contact-us",
+   "patterns": [
+    "site-header",
+    "page-heading",
+    "form",
+    "site-footer"
+   ],
+   "forms": [
+    {
+     "id": "contact-form",
+     "selector": "form",
+     "submit": ".ah-form__actions dga-button-v2",
+     "summary": "[data-qa=\"form-errors\"]"
+    }
+   ]
+  },
+  {
+   "id": "not-found",
+   "url": "/?mode=dga-exact#/{lang}/nope",
+   "mode": "dga-exact",
+   "template": "page-not-found",
+   "patterns": [
+    "site-header",
+    "site-footer"
+   ]
+  }
+ ],
+ "packageDefects": [
+  {
+   "id": "PKG-FOOTER-02",
+   "match": "dga-footer"
+  },
+  {
+   "id": "PKG-SEARCH-01",
+   "match": "button-name.*dga-search-box"
+  },
+  {
+   "id": "PKG-NAV-01",
+   "match": "^(list|listitem) .*(dga-nav-header-menu|dga-nav-header-link|header-nav__menu)"
+  },
+  {
+   "id": "PKG-ICON-04",
+   "match": "role-img-alt .*dga-icon"
+  },
+  {
+   "id": "PKG-DIGSIG-01",
+   "match": "color-contrast .*digital_link"
+  },
+  {
+   "id": "PKG-BTN-02",
+   "match": "Pressed|button-background-primary-pressed"
+  },
+  {
+   "id": "PKG-BTN-05",
+   "match": "oncolor.*Focused|border-white"
+  },
+  {
+   "id": "PKG-BTN-04",
+   "match": "outline.*border-neutral-primary"
+  },
+  {
+   "id": "PKG-TEXTAREA-01",
+   "match": "^label .*textarea"
+  },
+  {
+   "id": "PKG-ALERT-01",
+   "match": "button-name .*dga-btn--close"
+  },
+  {
+   "id": "PKG-RADIO-01",
+   "match": "dga-radio"
+  },
+  {
+   "id": "PKG-ACCORDION-01",
+   "match": "accordion-lg"
+  },
+  {
+   "id": "PKG-ACCORDION-02",
+   "match": "dga-accordion-item__body"
+  },
+  {
+   "id": "PKG-DD-03",
+   "match": "dropdown.*ArrowDown"
+  },
+  {
+   "id": "PKG-DD-04",
+   "match": "dropdown.*Escape"
+  },
+  {
+   "id": "PKG-FOOTER-02",
+   "match": "zoom|dga-footer"
+  },
+  {
+   "id": "PKG-BUNDLE-01",
+   "match": "bundle .*assets/index-.*\\.js"
+  }
+ ],
+ "zoom200": true,
+ "zoomBaseWidth": 1280,
+ "bundle": {
+  "dist": "dist",
+  "budgets": {
+   "jsKB": 350,
+   "cssKB": 60,
+   "totalKB": 600
+  },
+  "note": "Toolkit default budget for a government page (gzip; total = JS + CSS + woff2 + other). The demo exceeds JS because of PKG-BUNDLE-01 (vendor floor ≈598 KB gzip for any React wrapper import) — reported, not hidden."
+ }
+}

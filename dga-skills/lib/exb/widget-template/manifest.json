@@ -1,0 +1,13 @@
+{
+  "name": "dga-skills-demo",
+  "label": "Ahmed DGA demo",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.15.0",
+  "author": "Ahmed Darwish (DGA Skills Toolkit)",
+  "description": "Real @platformscode/core custom elements inside an Experience Builder widget, with scoped DGA tokens and central icon registration.",
+  "translatedLocales": ["en", "ar"],
+  "defaultSize": { "width": 640, "height": 360 },
+  "properties": {},
+  "dependency": []
+}

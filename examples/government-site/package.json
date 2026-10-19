@@ -1,0 +1,14 @@
+{
+  "name": "dga-skills-example-government-site",
+  "private": true,
+  "type": "module",
+  "description": "DGA Skills Toolkit — QA demo of a full Arabic-first government service site (RTL + EN/LTR route) built from the shipped templates and patterns. Placeholder data; NOT an official DGA site.",
+  "scripts": { "dev": "vite --host 127.0.0.1 --port 5187 --strictPort", "build": "vite build", "preview": "vite preview --host 127.0.0.1 --port 5187 --strictPort", "qa": "node ../../dga-skills/tools/qa/run.mjs --config qa.config.json", "sync-lib": "python3 ../../dga-skills/tools/copy_lib.py --framework react --dest src/dga-skills --force --with-patterns" },
+  "dependencies": {
+    "react": "18.3.1", "react-dom": "18.3.1",
+    "platformscode-new-react": "0.1.45",
+    "@platformscode/icons": "0.0.11",
+    "@hugeicons/core-free-icons": "4.3.5"
+  },
+  "devDependencies": { "vite": "5.4.21", "@vitejs/plugin-react": "4.3.4", "@playwright/test": "1.64.1", "@axe-core/playwright": "4.10.1" }
+}
