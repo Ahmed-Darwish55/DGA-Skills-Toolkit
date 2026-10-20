@@ -47,7 +47,7 @@ python3 install.py self-check
 
 Then ask Claude for a government UI without naming the skill, for example *"Build a DGA service page for Building Permit Issuance, Arabic first"*. The first reply should ask only for the **design mode**.
 
-Requirements: Python 3.8+ for the installer. Full guide, options, upgrade and rollback: **[docs/INSTALLATION.md](docs/INSTALLATION.md)**.
+Requirements: Python 3.8 or newer for the installer. Full guide, options, upgrade and rollback: **[docs/INSTALLATION.md](docs/INSTALLATION.md)**.
 
 > [!IMPORTANT]
 > **Independent project.** DGA Skills Toolkit is not affiliated with, endorsed by, or certified by the Saudi Digital Government Authority (DGA). "DGA" names the design system it follows, the DGA Platforms Code. Results are described as *DGA-aligned*, never as *DGA-certified*.
