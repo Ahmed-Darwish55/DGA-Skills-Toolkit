@@ -1,3 +1,5 @@
+**English** | [العربية](README.ar.md)
+
 <div align="center">
 
 # DGA Skills Toolkit
@@ -6,7 +8,7 @@
 
 Version **5.0.3** · Claude Code · Claude Desktop / Cowork · React · Angular · ArcGIS Experience Builder · Web Components
 
-[Installation](#installation) · [Getting started](docs/GETTING-STARTED.md) · [Prompt examples](docs/PROMPT-EXAMPLES.md) · [Known limitations](docs/KNOWN-LIMITATIONS.md) · [العربية](README.ar.md)
+[Installation](#installation) · [Getting started](docs/GETTING-STARTED.md) · [Prompt examples](docs/PROMPT-EXAMPLES.md) · [Known limitations](docs/KNOWN-LIMITATIONS.md)
 
 </div>
 

@@ -1,3 +1,5 @@
+**English** | [العربية](CONTRIBUTING.ar.md)
+
 # Contributing
 
 DGA Skills Toolkit is maintained by Ahmed Darwish. Issues and pull requests are welcome. By contributing you agree that your contribution is released under the project's [MIT License](LICENSE).

@@ -1,3 +1,5 @@
+**English** | [العربية](TROUBLESHOOTING.ar.md)
+
 # Troubleshooting
 
 | Symptom | Cause | Fix |

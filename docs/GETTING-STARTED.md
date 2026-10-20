@@ -1,3 +1,5 @@
+**English** | [العربية](GETTING-STARTED.ar.md)
+
 # Getting started
 
 This guide takes you from a fresh install to a first page and a QA report. Install the toolkit first: [INSTALLATION.md](INSTALLATION.md).

@@ -1,3 +1,5 @@
+**English** | [العربية](TEMPLATES.ar.md)
+
 # Templates
 
 The toolkit knows all **20 page templates** of the DGA Platforms Code. Each template has a reference page in [`dga-skills/references/dga-live/templates/`](../dga-skills/references/dga-live/templates/) with its section structure, extracted from the DGA Figma Community files. The full status map is [`dga-skills/lib/templates/templates-map.json`](../dga-skills/lib/templates/templates-map.json).

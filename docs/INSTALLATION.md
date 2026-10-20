@@ -1,3 +1,5 @@
+**English** | [العربية](INSTALLATION.ar.md)
+
 # Installation
 
 DGA Skills Toolkit is one skill folder, `dga-skills/`. You can install it in two places:
@@ -7,7 +9,6 @@ DGA Skills Toolkit is one skill folder, `dga-skills/`. You can install it in two
 | **Claude Code** (terminal, IDE, desktop Code tab) | `install.py` copies the skill into your Claude profile | installed automatically from their official marketplaces |
 | **Claude Desktop / Cowork / claude.ai** | upload one ZIP in **Customize › Skills** | detected when you have turned them on in your account; never installed by the skill |
 
-Arabic versions: [Claude Code](installation/claude-code.ar.md) · [Cowork](installation/cowork.ar.md).
 
 ---
 

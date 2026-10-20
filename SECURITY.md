@@ -1,3 +1,5 @@
+**English** | [العربية](SECURITY.ar.md)
+
 # Security
 
 ## Reporting

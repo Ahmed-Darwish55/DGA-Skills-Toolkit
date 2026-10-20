@@ -1,3 +1,5 @@
+**English** | [العربية](DESIGN-MODES.ar.md)
+
 # Design modes
 
 Each UI task runs in exactly one mode. The mode is chosen by the user, saved per project in `.claude/dga-skills.json` and enforced by [`dga-skills/rules/design-modes.md`](../dga-skills/rules/design-modes.md), which is the normative text.

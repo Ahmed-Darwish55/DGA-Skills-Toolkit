@@ -350,7 +350,7 @@
    "id": "PKG-FOOTER-02",
    "component": "DgaFooter",
    "severity": "High",
-   "summary": "section.footer-content has a 434px minimum width → horizontal page scroll at 390px in LTR (RTL clips it) — 5.0.2: also in RTL once groupLinks render (NavLinks=true): 25px page scroll at 390",
+   "summary": "section.footer-content has a 434px minimum width → horizontal page scroll at 390px in LTR (RTL clips it) — also in RTL once groupLinks render (NavLinks=true): 25px page scroll at 390",
    "evidence": "R1/N2 ltr@390 on every template",
    "workaround": "host-level:.ah-footer { max-width:100%; overflow-x:auto } ≤480px (the footer band scrolls, not the page); content stays reachable",
    "fixed": false
@@ -585,7 +585,7 @@
    "component": "DgaCarousel",
    "severity": "Medium",
    "summary": "variant 'dots-only' never renders dots: childrenLength is read from the slides container, which dots-only does not render (always 0)",
-   "evidence": "5.0.2 Home template rebuild, package source dist/components/*.js (dga-carousel.js updateChildrenLength / render)",
+   "evidence": "Home template rebuild, package source dist/components/*.js (dga-carousel.js updateChildrenLength / render)",
    "workaround": "use variant='dots' with real slides (one slide visible, dots below); each slide must be a full-width element",
    "fixed": false
   },
@@ -594,7 +594,7 @@
    "component": "DgaCarousel",
    "severity": "Low",
    "summary": "no change/slide events and no slide aria (role/label) — slide position is not announced",
-   "evidence": "5.0.2 Home template rebuild, package source dist/components/*.js",
+   "evidence": "Home template rebuild, package source dist/components/*.js",
    "workaround": "label each slide (role=group, aria-label 'n / total') and the region (aria-roledescription); report in a11y QA (lib/core/carousel-a11y.js adds inert/aria-hidden to off-screen slides)",
    "fixed": false
   },
@@ -603,7 +603,7 @@
    "component": "DgaFooter",
    "severity": "Medium",
    "summary": "groupLinks are not rendered unless NavLinks=true (undocumented boolean)",
-   "evidence": "5.0.2 Home template rebuild, package source dist/components/*.js (dga-footer.js render)",
+   "evidence": "Home template rebuild, package source dist/components/*.js (dga-footer.js render)",
    "workaround": "pass NavLinks={groups.length > 0} (SiteFooter / siteFooter do)",
    "fixed": false
   },
@@ -612,7 +612,7 @@
    "component": "DgaCardV2",
    "severity": "Low",
    "summary": "renders only the named slots card-content and card-actions; un-slotted children are not displayed; the host has a fixed 360 px width, so cards overflow a narrower grid cell",
-   "evidence": "5.0.2 Home template rebuild, package source dist/components/*.js (dga-card-v2.js render)",
+   "evidence": "Home template rebuild, package source dist/components/*.js (dga-card-v2.js render)",
    "workaround": "slot='card-content' / slot='card-actions' on the children, and width:100% on the host inside a grid (ServiceCarousel / serviceCarousel + patterns.css do)",
    "fixed": false
   },
@@ -621,7 +621,7 @@
    "component": "DgaNavHeaderActions",
    "severity": "High",
    "summary": "≤600 px the actions are replaced by a '…' button whose menu lists hard-coded placeholder items ('Item 1', 'Item 2' …) — the real header actions (e.g. sign in) are unreachable on mobile",
-   "evidence": "5.0.2 Home template rebuild (QA engine run; package source dist/components)",
+   "evidence": "Home template rebuild (QA engine run; package source dist/components)",
    "workaround": "none from outside the component; report; offer sign-in elsewhere on mobile pages if required",
    "fixed": false
   },
@@ -630,7 +630,7 @@
    "component": "DgaCarousel",
    "severity": "Medium",
    "summary": "slide width is measured once (componentDidLoad / slotchange) — no resize handling; off-screen slides keep focusable controls",
-   "evidence": "5.0.2 Home template rebuild (QA engine run; package source dist/components)",
+   "evidence": "Home template rebuild (QA engine run; package source dist/components)",
    "workaround": "lib/core/carousel-a11y.js enhanceDgaCarousel: inert + aria-hidden on off-screen slides, re-slot on resize to trigger the component's own re-measure",
    "fixed": false
   },
@@ -639,7 +639,7 @@
    "component": "DgaFooter",
    "severity": "High",
    "summary": "bottomImages (partner / platform logos, Figma footer 'Logos') render <img> without alt and there is no alt prop — axe image-alt (critical)",
-   "evidence": "5.0.2 QA engine: image-alt 1 → 2 nodes when two logos were passed",
+   "evidence": "QA engine: image-alt 1 → 2 nodes when two logos were passed",
    "workaround": "do not pass bottomImages until the package adds alt text; if logos are mandatory, report the deviation",
    "fixed": false
   },
@@ -648,7 +648,7 @@
    "component": "DgaCardV2",
    "severity": "Medium",
    "summary": "width / maxWidth / minWidth are copied into cardStyles once, in the constructor — before any framework sets them — so the inner card keeps its default 360 px and never fills a wider cell (and overflows a narrower one)",
-   "evidence": "5.0.2 Service / Services templates, package source dist/components/*.js",
+   "evidence": "Service / Services templates, package source dist/components/*.js",
    "workaround": "stretchCardV2(host) (lib/core/carousel-a11y.js) sets the inner.card to 100 % after hydration; used by ServiceCard / serviceCard / CommentsCard",
    "fixed": false
   },
@@ -657,7 +657,7 @@
    "component": "DgaFilteration",
    "severity": "High",
    "summary": "handleInitValue builds selectedFilters with `undefined` entries for every filter type missing from `initvalue` (typed optional) and render then calls block.items.map → TypeError; without initvalue it throws on `'checkbox' in undefined`. Supplying slider/range blocks to avoid the crash shows them as selected chips",
-   "evidence": "5.0.2 Service / Services templates, package source dist/components/*.js",
+   "evidence": "Service / Services templates, package source dist/components/*.js",
    "workaround": "FilterMenu / filterMenu: Neutral Large DGA button + panel of dga-checkbox / dga-radio-button (Figma Filtration anatomy)",
    "fixed": false
   },
@@ -666,7 +666,7 @@
    "component": "DgaListItem",
    "severity": "Medium",
    "summary": "the <li> row has a fixed height of 24 px, so a step that wraps to two lines overlaps the next one (Figma lets long steps take 48 px)",
-   "evidence": "5.0.2 Service / Services templates, package source dist/components/*.js",
+   "evidence": "Service / Services templates, package source dist/components/*.js",
    "workaround": "patterns.css:.ah-steps dga-list-item > li { height: auto }",
    "fixed": false
   },
@@ -675,7 +675,7 @@
    "component": "DgaTabs",
    "severity": "Low",
    "summary": "the horizontal tab list never wraps or scrolls; three medium tabs with icons overflow a 390 px viewport (horizontal page scroll in LTR)",
-   "evidence": "5.0.2 Service / Services templates, package source dist/components/*.js",
+   "evidence": "Service / Services templates, package source dist/components/*.js",
    "workaround": "patterns.css:.ah-svc-tabs.dga-tabs-list { overflow-x: auto }",
    "fixed": false
   },
@@ -684,7 +684,7 @@
    "component": "DgaSecondNavHeader",
    "severity": "Low",
    "summary": "content items and actions never wrap or collapse — at < 600 px the bar overflows the viewport (the Figma mobile templates drop the Second Nav Header)",
-   "evidence": "5.0.2 Service / Services templates, package source dist/components/*.js",
+   "evidence": "Service / Services templates, package source dist/components/*.js",
    "workaround": "patterns.css hides dga-second-nav-header below 600 px, as in the Figma mobile frames",
    "fixed": false
   },
@@ -693,7 +693,7 @@
    "component": "core.css tokens",
    "severity": "Low",
    "summary": "--colors-neutral-500 (text-secondary-paragraph) is #6c727e in core.css; the DGA Figma variable is #6c737f — page text using the token is off-palette by one step (E3)",
-   "evidence": "5.0.2 Service / Services templates, package source dist/components/*.js",
+   "evidence": "Service / Services templates, package source dist/components/*.js",
    "workaround": "none — the token is kept (correct semantics); E3 attributes the drift",
    "fixed": false
   },

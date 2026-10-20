@@ -1,3 +1,5 @@
+**English** | [العربية](README.ar.md)
+
 # Documentation
 
 | Guide | What it covers |
@@ -11,4 +13,3 @@
 | [TROUBLESHOOTING.md](TROUBLESHOOTING.md) | common messages and fixes |
 | [KNOWN-LIMITATIONS.md](KNOWN-LIMITATIONS.md) | what is not confirmed yet, toolkit limits, DGA package defects |
 
-Arabic: [README.ar.md](../README.ar.md) · [التثبيت في Claude Code](installation/claude-code.ar.md) · [التثبيت في Cowork](installation/cowork.ar.md)

@@ -1,3 +1,5 @@
+**English** | [العربية](SUPPORTED-FRAMEWORKS.ar.md)
+
 # Supported frameworks and environments
 
 ## Claude hosts

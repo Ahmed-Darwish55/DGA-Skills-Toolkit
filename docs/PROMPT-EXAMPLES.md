@@ -1,3 +1,5 @@
+**English** | [العربية](PROMPT-EXAMPLES.ar.md)
+
 # Prompt examples
 
 Copy-ready prompts for testing DGA Skills Toolkit 5.0.3 in Claude Code or Claude Desktop / Cowork.
